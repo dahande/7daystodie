@@ -1,0 +1,2758 @@
+﻿<configs>
+<append xpath="/quests">
+
+<!--
+  AEC TierSize Clear Quests : aec_quest_T{X}_A{Y}_clear
+    X = AEC zombie tier (05-15) intercepte par AeclipseCustomZombieQuests.dll
+    Y = taille du POI vanilla   (1-5, A1=petit chalet, A5=skyscraper)
+  5 bases silencieuses definissent les objectifs, 55 quetes enfants surchargent recompenses + noms.
+-->
+
+<!-- BASE A1 - petit batiment -->
+<quest id="aec_base_A1">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="6"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="1"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+
+<!-- BASE A2 - maison moyenne -->
+<quest id="aec_base_A2">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="6"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="2"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+
+<!-- BASE A3 - batiment moyen -->
+<quest id="aec_base_A3">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="6"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="3"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+
+<!-- BASE A4 - grand batiment -->
+<quest id="aec_base_A4">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="6"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="4"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+
+<!-- BASE A5 - skyscraper / hopital -->
+<quest id="aec_base_A5">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="6"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="5"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+
+<!-- TEMPLATES T00 (difficulty_tier=1) -->
+<quest id="aec_base_t00_A1">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="1"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="1"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t00_A2">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="1"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="2"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t00_A3">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="1"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="3"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t00_A4">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="1"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="4"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t00_A5">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="1"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="5"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<!-- TEMPLATES T01 (difficulty_tier=2) -->
+<quest id="aec_base_t01_A1">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="2"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="1"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t01_A2">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="2"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="2"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t01_A3">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="2"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="3"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t01_A4">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="2"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="4"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t01_A5">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="2"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="5"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<!-- TEMPLATES T02 (difficulty_tier=3) -->
+<quest id="aec_base_t02_A1">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="3"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="1"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t02_A2">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="3"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="2"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t02_A3">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="3"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="3"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t02_A4">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="3"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="4"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t02_A5">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="3"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="5"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<!-- TEMPLATES T03 (difficulty_tier=4) -->
+<quest id="aec_base_t03_A1">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="4"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="1"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t03_A2">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="4"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="2"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t03_A3">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="4"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="3"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t03_A4">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="4"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="4"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t03_A5">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="4"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="5"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<!-- TEMPLATES T04 (difficulty_tier=5) -->
+<quest id="aec_base_t04_A1">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="5"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="1"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t04_A2">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="5"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="2"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t04_A3">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="5"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="3"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t04_A4">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="5"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="4"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<quest id="aec_base_t04_A5">
+<property name="name_key"             value="aec_base_name"         param1="name"/>
+<property name="offer_key"            value="aec_base_offer"        param1="offer"/>
+<property name="subtitle_key"         value="quest_clear_subtitle"/>
+<property name="description_key"      value="aec_quest_clear_desc"/>
+<property name="icon"                 value="ui_game_symbol_quest"/>
+<property name="repeatable"           value="true"/>
+<property name="category_key"         value="quest"/>
+<property name="difficulty_tier"      value="5"/>
+<property name="statement_key"        value="quest_clear_statement"/>
+<property name="response_key"         value="quest_clear_response"/>
+<property name="login_rally_reset"    value="true"/>
+<property name="reward_choices_count" value="3"/>
+<property name="extra_tags"           value=""/>
+<property name="shareable"            value="true"/>
+<property name="completiontype"       value="TurnIn"/>
+<property name="completion_key"       value="quest_clear_completion"/>
+<objective type="RandomPOIGoto">
+<property name="phase"             value="1"/>
+<property name="biome_filter_type" value="ExcludeBiome"/>
+<property name="biome_filter"      value=""/>
+<property name="nav_object"        value="quest"/>
+<property name="poi_tier"          value="5"/>
+</objective>
+<objective type="RallyPoint">
+<property name="phase"             value="2"/>
+<property name="nav_object"        value="rally"/>
+<property name="rally_marker_type" value="questRallyMarkerClear"/>
+</objective>
+<objective type="ClearSleepers">
+<property name="phase"      value="3"/>
+<property name="nav_object" value="sleeper_volume"/>
+</objective>
+<objective type="POIStayWithin">
+<property name="phase"  value="3"/>
+<property name="radius" value="25"/>
+</objective>
+<action type="UnlockPOI">
+<property name="phase" value="4"/>
+</action>
+<objective type="ReturnToNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+<objective type="InteractWithNPC">
+<property name="phase"      value="4"/>
+<property name="nav_object" value="return_to_trader"/>
+</objective>
+</quest>
+<!-- T00 -->
+<quest id="aec_quest_T00_A1_clear" template="aec_base_t00_A1">
+<property name="difficulty_tier"      value="1"/>
+<variable name="name"  value="aec_quest_T00_A1_name"/>
+<variable name="offer" value="aec_quest_T00_A1_offer"/>
+<reward type="Exp"  value="1000"/>
+<reward type="Item" id="casinoCoin" value="100"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A1" value="1"/>
+<reward type="Item" id="aecZombieHeadT00Basic" value="10"/>
+</quest>
+<quest id="aec_quest_T00_A2_clear" template="aec_base_t00_A2">
+<property name="difficulty_tier"      value="1"/>
+<variable name="name"  value="aec_quest_T00_A2_name"/>
+<variable name="offer" value="aec_quest_T00_A2_offer"/>
+<reward type="Exp"  value="2000"/>
+<reward type="Item" id="casinoCoin" value="100"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT00Basic" value="20"/>
+</quest>
+<quest id="aec_quest_T00_A3_clear" template="aec_base_t00_A3">
+<property name="difficulty_tier"      value="1"/>
+<variable name="name"  value="aec_quest_T00_A3_name"/>
+<variable name="offer" value="aec_quest_T00_A3_offer"/>
+<reward type="Exp"  value="3000"/>
+<reward type="Item" id="casinoCoin" value="100"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT00Basic" value="30"/>
+</quest>
+<quest id="aec_quest_T00_A4_clear" template="aec_base_t00_A4">
+<property name="difficulty_tier"      value="1"/>
+<variable name="name"  value="aec_quest_T00_A4_name"/>
+<variable name="offer" value="aec_quest_T00_A4_offer"/>
+<reward type="Exp"  value="4000"/>
+<reward type="Item" id="casinoCoin" value="100"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT00Basic" value="40"/>
+</quest>
+<quest id="aec_quest_T00_A5_clear" template="aec_base_t00_A5">
+<property name="difficulty_tier"      value="1"/>
+<variable name="name"  value="aec_quest_T00_A5_name"/>
+<variable name="offer" value="aec_quest_T00_A5_offer"/>
+<reward type="Exp"  value="5000"/>
+<reward type="Item" id="casinoCoin" value="100"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT00Basic" value="50"/>
+</quest>
+
+<!-- T01 -->
+<quest id="aec_quest_T01_A1_clear" template="aec_base_t01_A1">
+<property name="difficulty_tier"      value="2"/>
+<variable name="name"  value="aec_quest_T01_A1_name"/>
+<variable name="offer" value="aec_quest_T01_A1_offer"/>
+<reward type="Exp"  value="2000"/>
+<reward type="Item" id="casinoCoin" value="150"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT00A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT01Feral" value="10"/>
+</quest>
+<quest id="aec_quest_T01_A2_clear" template="aec_base_t01_A2">
+<property name="difficulty_tier"      value="2"/>
+<variable name="name"  value="aec_quest_T01_A2_name"/>
+<variable name="offer" value="aec_quest_T01_A2_offer"/>
+<reward type="Exp"  value="4000"/>
+<reward type="Item" id="casinoCoin" value="150"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT01Feral" value="20"/>
+</quest>
+<quest id="aec_quest_T01_A3_clear" template="aec_base_t01_A3">
+<property name="difficulty_tier"      value="2"/>
+<variable name="name"  value="aec_quest_T01_A3_name"/>
+<variable name="offer" value="aec_quest_T01_A3_offer"/>
+<reward type="Exp"  value="6000"/>
+<reward type="Item" id="casinoCoin" value="150"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT01Feral" value="30"/>
+</quest>
+<quest id="aec_quest_T01_A4_clear" template="aec_base_t01_A4">
+<property name="difficulty_tier"      value="2"/>
+<variable name="name"  value="aec_quest_T01_A4_name"/>
+<variable name="offer" value="aec_quest_T01_A4_offer"/>
+<reward type="Exp"  value="8000"/>
+<reward type="Item" id="casinoCoin" value="150"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT01Feral" value="40"/>
+</quest>
+<quest id="aec_quest_T01_A5_clear" template="aec_base_t01_A5">
+<property name="difficulty_tier"      value="2"/>
+<variable name="name"  value="aec_quest_T01_A5_name"/>
+<variable name="offer" value="aec_quest_T01_A5_offer"/>
+<reward type="Exp"  value="10000"/>
+<reward type="Item" id="casinoCoin" value="150"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT01Feral" value="50"/>
+</quest>
+
+<!-- T02 -->
+<quest id="aec_quest_T02_A1_clear" template="aec_base_t02_A1">
+<property name="difficulty_tier"      value="3"/>
+<variable name="name"  value="aec_quest_T02_A1_name"/>
+<variable name="offer" value="aec_quest_T02_A1_offer"/>
+<reward type="Exp"  value="4000"/>
+<reward type="Item" id="casinoCoin" value="200"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT01A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT02Radiated" value="10"/>
+</quest>
+<quest id="aec_quest_T02_A2_clear" template="aec_base_t02_A2">
+<property name="difficulty_tier"      value="3"/>
+<variable name="name"  value="aec_quest_T02_A2_name"/>
+<variable name="offer" value="aec_quest_T02_A2_offer"/>
+<reward type="Exp"  value="8000"/>
+<reward type="Item" id="casinoCoin" value="200"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT02Radiated" value="20"/>
+</quest>
+<quest id="aec_quest_T02_A3_clear" template="aec_base_t02_A3">
+<property name="difficulty_tier"      value="3"/>
+<variable name="name"  value="aec_quest_T02_A3_name"/>
+<variable name="offer" value="aec_quest_T02_A3_offer"/>
+<reward type="Exp"  value="12000"/>
+<reward type="Item" id="casinoCoin" value="200"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT02Radiated" value="30"/>
+</quest>
+<quest id="aec_quest_T02_A4_clear" template="aec_base_t02_A4">
+<property name="difficulty_tier"      value="3"/>
+<variable name="name"  value="aec_quest_T02_A4_name"/>
+<variable name="offer" value="aec_quest_T02_A4_offer"/>
+<reward type="Exp"  value="16000"/>
+<reward type="Item" id="casinoCoin" value="200"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT02Radiated" value="40"/>
+</quest>
+<quest id="aec_quest_T02_A5_clear" template="aec_base_t02_A5">
+<property name="difficulty_tier"      value="3"/>
+<variable name="name"  value="aec_quest_T02_A5_name"/>
+<variable name="offer" value="aec_quest_T02_A5_offer"/>
+<reward type="Exp"  value="20000"/>
+<reward type="Item" id="casinoCoin" value="200"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT02Radiated" value="50"/>
+</quest>
+
+<!-- T03 -->
+<quest id="aec_quest_T03_A1_clear" template="aec_base_t03_A1">
+<property name="difficulty_tier"      value="4"/>
+<variable name="name"  value="aec_quest_T03_A1_name"/>
+<variable name="offer" value="aec_quest_T03_A1_offer"/>
+<reward type="Exp"  value="6000"/>
+<reward type="Item" id="casinoCoin" value="250"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT02A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT03Charged" value="10"/>
+</quest>
+<quest id="aec_quest_T03_A2_clear" template="aec_base_t03_A2">
+<property name="difficulty_tier"      value="4"/>
+<variable name="name"  value="aec_quest_T03_A2_name"/>
+<variable name="offer" value="aec_quest_T03_A2_offer"/>
+<reward type="Exp"  value="12000"/>
+<reward type="Item" id="casinoCoin" value="250"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT03Charged" value="20"/>
+</quest>
+<quest id="aec_quest_T03_A3_clear" template="aec_base_t03_A3">
+<property name="difficulty_tier"      value="4"/>
+<variable name="name"  value="aec_quest_T03_A3_name"/>
+<variable name="offer" value="aec_quest_T03_A3_offer"/>
+<reward type="Exp"  value="18000"/>
+<reward type="Item" id="casinoCoin" value="250"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT03Charged" value="30"/>
+</quest>
+<quest id="aec_quest_T03_A4_clear" template="aec_base_t03_A4">
+<property name="difficulty_tier"      value="4"/>
+<variable name="name"  value="aec_quest_T03_A4_name"/>
+<variable name="offer" value="aec_quest_T03_A4_offer"/>
+<reward type="Exp"  value="24000"/>
+<reward type="Item" id="casinoCoin" value="250"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT03Charged" value="40"/>
+</quest>
+<quest id="aec_quest_T03_A5_clear" template="aec_base_t03_A5">
+<property name="difficulty_tier"      value="4"/>
+<variable name="name"  value="aec_quest_T03_A5_name"/>
+<variable name="offer" value="aec_quest_T03_A5_offer"/>
+<reward type="Exp"  value="30000"/>
+<reward type="Item" id="casinoCoin" value="250"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT03Charged" value="50"/>
+</quest>
+
+<!-- T04 -->
+<quest id="aec_quest_T04_A1_clear" template="aec_base_t04_A1">
+<property name="difficulty_tier"      value="5"/>
+<variable name="name"  value="aec_quest_T04_A1_name"/>
+<variable name="offer" value="aec_quest_T04_A1_offer"/>
+<reward type="Exp"  value="10000"/>
+<reward type="Item" id="casinoCoin" value="350"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT03A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT04Infernal" value="10"/>
+</quest>
+<quest id="aec_quest_T04_A2_clear" template="aec_base_t04_A2">
+<property name="difficulty_tier"      value="5"/>
+<variable name="name"  value="aec_quest_T04_A2_name"/>
+<variable name="offer" value="aec_quest_T04_A2_offer"/>
+<reward type="Exp"  value="20000"/>
+<reward type="Item" id="casinoCoin" value="350"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT04Infernal" value="20"/>
+</quest>
+<quest id="aec_quest_T04_A3_clear" template="aec_base_t04_A3">
+<property name="difficulty_tier"      value="5"/>
+<variable name="name"  value="aec_quest_T04_A3_name"/>
+<variable name="offer" value="aec_quest_T04_A3_offer"/>
+<reward type="Exp"  value="30000"/>
+<reward type="Item" id="casinoCoin" value="350"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT04Infernal" value="30"/>
+</quest>
+<quest id="aec_quest_T04_A4_clear" template="aec_base_t04_A4">
+<property name="difficulty_tier"      value="5"/>
+<variable name="name"  value="aec_quest_T04_A4_name"/>
+<variable name="offer" value="aec_quest_T04_A4_offer"/>
+<reward type="Exp"  value="40000"/>
+<reward type="Item" id="casinoCoin" value="350"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT04Infernal" value="40"/>
+</quest>
+<quest id="aec_quest_T04_A5_clear" template="aec_base_t04_A5">
+<property name="difficulty_tier"      value="5"/>
+<variable name="name"  value="aec_quest_T04_A5_name"/>
+<variable name="offer" value="aec_quest_T04_A5_offer"/>
+<reward type="Exp"  value="50000"/>
+<reward type="Item" id="casinoCoin" value="350"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT04A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT04Infernal" value="50"/>
+</quest>
+
+<!-- T05 -->
+<quest id="aec_quest_T05_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T05_A1_name"/>
+<variable name="offer" value="aec_quest_T05_A1_offer"/>
+<reward type="Exp"  value="18000"/>
+<reward type="Item" id="casinoCoin" value="500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A1" value="1"/>
+<reward type="Item" id="aecZombieHeadT05Veteran" value="10"/>
+</quest>
+<quest id="aec_quest_T05_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T05_A2_name"/>
+<variable name="offer" value="aec_quest_T05_A2_offer"/>
+<reward type="Exp"  value="36000"/>
+<reward type="Item" id="casinoCoin" value="500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT05Veteran" value="20"/>
+</quest>
+<quest id="aec_quest_T05_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T05_A3_name"/>
+<variable name="offer" value="aec_quest_T05_A3_offer"/>
+<reward type="Exp"  value="54000"/>
+<reward type="Item" id="casinoCoin" value="500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT05Veteran" value="30"/>
+</quest>
+<quest id="aec_quest_T05_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T05_A4_name"/>
+<variable name="offer" value="aec_quest_T05_A4_offer"/>
+<reward type="Exp"  value="72000"/>
+<reward type="Item" id="casinoCoin" value="500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT05Veteran" value="40"/>
+</quest>
+<quest id="aec_quest_T05_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T05_A5_name"/>
+<variable name="offer" value="aec_quest_T05_A5_offer"/>
+<reward type="Exp"  value="90000"/>
+<reward type="Item" id="casinoCoin" value="500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT05Veteran" value="50"/>
+</quest>
+
+<!-- T06 -->
+<quest id="aec_quest_T06_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T06_A1_name"/>
+<variable name="offer" value="aec_quest_T06_A1_offer"/>
+<reward type="Exp"  value="20000"/>
+<reward type="Item" id="casinoCoin" value="750"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT05A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT06Brutal" value="10"/>
+</quest>
+<quest id="aec_quest_T06_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T06_A2_name"/>
+<variable name="offer" value="aec_quest_T06_A2_offer"/>
+<reward type="Exp"  value="40000"/>
+<reward type="Item" id="casinoCoin" value="750"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT06Brutal" value="20"/>
+</quest>
+<quest id="aec_quest_T06_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T06_A3_name"/>
+<variable name="offer" value="aec_quest_T06_A3_offer"/>
+<reward type="Exp"  value="60000"/>
+<reward type="Item" id="casinoCoin" value="750"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT06Brutal" value="30"/>
+</quest>
+<quest id="aec_quest_T06_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T06_A4_name"/>
+<variable name="offer" value="aec_quest_T06_A4_offer"/>
+<reward type="Exp"  value="80000"/>
+<reward type="Item" id="casinoCoin" value="750"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT06Brutal" value="40"/>
+</quest>
+<quest id="aec_quest_T06_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T06_A5_name"/>
+<variable name="offer" value="aec_quest_T06_A5_offer"/>
+<reward type="Exp"  value="100000"/>
+<reward type="Item" id="casinoCoin" value="750"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestFood"                   ischosen="true" value="1"/>
+<reward type="LootItem" id="groupQuestResourcesT0"                              ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT06Brutal" value="50"/>
+</quest>
+
+<!-- T07 -->
+<quest id="aec_quest_T07_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T07_A1_name"/>
+<variable name="offer" value="aec_quest_T07_A1_offer"/>
+<reward type="Exp"  value="22000"/>
+<reward type="Item" id="casinoCoin" value="1000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT06A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT07Savage" value="10"/>
+</quest>
+<quest id="aec_quest_T07_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T07_A2_name"/>
+<variable name="offer" value="aec_quest_T07_A2_offer"/>
+<reward type="Exp"  value="44000"/>
+<reward type="Item" id="casinoCoin" value="1000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT07Savage" value="20"/>
+</quest>
+<quest id="aec_quest_T07_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T07_A3_name"/>
+<variable name="offer" value="aec_quest_T07_A3_offer"/>
+<reward type="Exp"  value="66000"/>
+<reward type="Item" id="casinoCoin" value="1000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT07Savage" value="30"/>
+</quest>
+<quest id="aec_quest_T07_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T07_A4_name"/>
+<variable name="offer" value="aec_quest_T07_A4_offer"/>
+<reward type="Exp"  value="88000"/>
+<reward type="Item" id="casinoCoin" value="1000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT07Savage" value="40"/>
+</quest>
+<quest id="aec_quest_T07_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T07_A5_name"/>
+<variable name="offer" value="aec_quest_T07_A5_offer"/>
+<reward type="Exp"  value="110000"/>
+<reward type="Item" id="casinoCoin" value="1000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT07Savage" value="50"/>
+</quest>
+
+<!-- T08 -->
+<quest id="aec_quest_T08_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T08_A1_name"/>
+<variable name="offer" value="aec_quest_T08_A1_offer"/>
+<reward type="Exp"  value="25000"/>
+<reward type="Item" id="casinoCoin" value="1500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT07A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT08Ravager" value="10"/>
+</quest>
+<quest id="aec_quest_T08_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T08_A2_name"/>
+<variable name="offer" value="aec_quest_T08_A2_offer"/>
+<reward type="Exp"  value="50000"/>
+<reward type="Item" id="casinoCoin" value="1500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT08Ravager" value="20"/>
+</quest>
+<quest id="aec_quest_T08_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T08_A3_name"/>
+<variable name="offer" value="aec_quest_T08_A3_offer"/>
+<reward type="Exp"  value="75000"/>
+<reward type="Item" id="casinoCoin" value="1500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT08Ravager" value="30"/>
+</quest>
+<quest id="aec_quest_T08_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T08_A4_name"/>
+<variable name="offer" value="aec_quest_T08_A4_offer"/>
+<reward type="Exp"  value="100000"/>
+<reward type="Item" id="casinoCoin" value="1500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT08Ravager" value="40"/>
+</quest>
+<quest id="aec_quest_T08_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T08_A5_name"/>
+<variable name="offer" value="aec_quest_T08_A5_offer"/>
+<reward type="Exp"  value="125000"/>
+<reward type="Item" id="casinoCoin" value="1500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="2"/>
+<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT08Ravager" value="50"/>
+</quest>
+
+<!-- T09 -->
+<quest id="aec_quest_T09_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T09_A1_name"/>
+<variable name="offer" value="aec_quest_T09_A1_offer"/>
+<reward type="Exp"  value="28000"/>
+<reward type="Item" id="casinoCoin" value="2000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT08A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT09Dread" value="10"/>
+</quest>
+<quest id="aec_quest_T09_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T09_A2_name"/>
+<variable name="offer" value="aec_quest_T09_A2_offer"/>
+<reward type="Exp"  value="56000"/>
+<reward type="Item" id="casinoCoin" value="2000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT09Dread" value="20"/>
+</quest>
+<quest id="aec_quest_T09_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T09_A3_name"/>
+<variable name="offer" value="aec_quest_T09_A3_offer"/>
+<reward type="Exp"  value="84000"/>
+<reward type="Item" id="casinoCoin" value="2000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT09Dread" value="30"/>
+</quest>
+<quest id="aec_quest_T09_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T09_A4_name"/>
+<variable name="offer" value="aec_quest_T09_A4_offer"/>
+<reward type="Exp"  value="112000"/>
+<reward type="Item" id="casinoCoin" value="2000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT09Dread" value="40"/>
+</quest>
+<quest id="aec_quest_T09_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T09_A5_name"/>
+<variable name="offer" value="aec_quest_T09_A5_offer"/>
+<reward type="Exp"  value="140000"/>
+<reward type="Item" id="casinoCoin" value="2000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT09A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT09Dread" value="50"/>
+</quest>
+
+<!-- T10 -->
+<quest id="aec_quest_T10_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T10_A1_name"/>
+<variable name="offer" value="aec_quest_T10_A1_offer"/>
+<reward type="Exp"  value="32000"/>
+<reward type="Item" id="casinoCoin" value="2500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT09A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT10A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT10Nightmare" value="10"/>
+</quest>
+<quest id="aec_quest_T10_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T10_A2_name"/>
+<variable name="offer" value="aec_quest_T10_A2_offer"/>
+<reward type="Exp"  value="64000"/>
+<reward type="Item" id="casinoCoin" value="2500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT10A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT10A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT10Nightmare" value="20"/>
+</quest>
+<quest id="aec_quest_T10_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T10_A3_name"/>
+<variable name="offer" value="aec_quest_T10_A3_offer"/>
+<reward type="Exp"  value="96000"/>
+<reward type="Item" id="casinoCoin" value="2500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT10A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT10A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT10Nightmare" value="30"/>
+</quest>
+<quest id="aec_quest_T10_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T10_A4_name"/>
+<variable name="offer" value="aec_quest_T10_A4_offer"/>
+<reward type="Exp"  value="128000"/>
+<reward type="Item" id="casinoCoin" value="2500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT10A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT10A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT10Nightmare" value="40"/>
+</quest>
+<quest id="aec_quest_T10_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T10_A5_name"/>
+<variable name="offer" value="aec_quest_T10_A5_offer"/>
+<reward type="Exp"  value="160000"/>
+<reward type="Item" id="casinoCoin" value="2500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="3"/>
+<reward type="LootItem" id="groupQuestResourcesT1,groupQuestT1SkillMagazineBundle" ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT10A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT10A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT10Nightmare" value="50"/>
+</quest>
+
+<!-- T11 -->
+<quest id="aec_quest_T11_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T11_A1_name"/>
+<variable name="offer" value="aec_quest_T11_A1_offer"/>
+<reward type="Exp"  value="38000"/>
+<reward type="Item" id="casinoCoin" value="3300"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"          ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1"    ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT10A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT11A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT11Apex" value="10"/>
+</quest>
+<quest id="aec_quest_T11_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T11_A2_name"/>
+<variable name="offer" value="aec_quest_T11_A2_offer"/>
+<reward type="Exp"  value="76000"/>
+<reward type="Item" id="casinoCoin" value="3300"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"          ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1"    ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT11A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT11A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT11Apex" value="20"/>
+</quest>
+<quest id="aec_quest_T11_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T11_A3_name"/>
+<variable name="offer" value="aec_quest_T11_A3_offer"/>
+<reward type="Exp"  value="114000"/>
+<reward type="Item" id="casinoCoin" value="3300"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"          ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1"    ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT11A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT11A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT11Apex" value="30"/>
+</quest>
+<quest id="aec_quest_T11_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T11_A4_name"/>
+<variable name="offer" value="aec_quest_T11_A4_offer"/>
+<reward type="Exp"  value="152000"/>
+<reward type="Item" id="casinoCoin" value="3300"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"          ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1"    ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT11A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT11A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT11Apex" value="40"/>
+</quest>
+<quest id="aec_quest_T11_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T11_A5_name"/>
+<variable name="offer" value="aec_quest_T11_A5_offer"/>
+<reward type="Exp"  value="190000"/>
+<reward type="Item" id="casinoCoin" value="3300"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"          ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1"    ischosen="true" value="2"/>
+<reward type="Item" id="aecQuestTokenT11A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT11A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT11Apex" value="50"/>
+</quest>
+
+<!-- T12 -->
+<quest id="aec_quest_T12_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T12_A1_name"/>
+<variable name="offer" value="aec_quest_T12_A1_offer"/>
+<reward type="Exp"  value="45000"/>
+<reward type="Item" id="casinoCoin" value="4000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT11A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT12A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT12Overlord" value="10"/>
+</quest>
+<quest id="aec_quest_T12_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T12_A2_name"/>
+<variable name="offer" value="aec_quest_T12_A2_offer"/>
+<reward type="Exp"  value="90000"/>
+<reward type="Item" id="casinoCoin" value="4000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT12A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT12A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT12Overlord" value="20"/>
+</quest>
+<quest id="aec_quest_T12_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T12_A3_name"/>
+<variable name="offer" value="aec_quest_T12_A3_offer"/>
+<reward type="Exp"  value="135000"/>
+<reward type="Item" id="casinoCoin" value="4000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT12A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT12A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT12Overlord" value="30"/>
+</quest>
+<quest id="aec_quest_T12_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T12_A4_name"/>
+<variable name="offer" value="aec_quest_T12_A4_offer"/>
+<reward type="Exp"  value="180000"/>
+<reward type="Item" id="casinoCoin" value="4000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT12A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT12A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT12Overlord" value="40"/>
+</quest>
+<quest id="aec_quest_T12_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T12_A5_name"/>
+<variable name="offer" value="aec_quest_T12_A5_offer"/>
+<reward type="Exp"  value="225000"/>
+<reward type="Item" id="casinoCoin" value="4000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="4"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT12A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT12A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT12Overlord" value="50"/>
+</quest>
+
+<!-- T13 -->
+<quest id="aec_quest_T13_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T13_A1_name"/>
+<variable name="offer" value="aec_quest_T13_A1_offer"/>
+<reward type="Exp"  value="53000"/>
+<reward type="Item" id="casinoCoin" value="5000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT12A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT13A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT13Titan" value="10"/>
+</quest>
+<quest id="aec_quest_T13_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T13_A2_name"/>
+<variable name="offer" value="aec_quest_T13_A2_offer"/>
+<reward type="Exp"  value="106000"/>
+<reward type="Item" id="casinoCoin" value="5000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT13A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT13A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT13Titan" value="20"/>
+</quest>
+<quest id="aec_quest_T13_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T13_A3_name"/>
+<variable name="offer" value="aec_quest_T13_A3_offer"/>
+<reward type="Exp"  value="159000"/>
+<reward type="Item" id="casinoCoin" value="5000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT13A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT13A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT13Titan" value="30"/>
+</quest>
+<quest id="aec_quest_T13_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T13_A4_name"/>
+<variable name="offer" value="aec_quest_T13_A4_offer"/>
+<reward type="Exp"  value="212000"/>
+<reward type="Item" id="casinoCoin" value="5000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT13A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT13A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT13Titan" value="40"/>
+</quest>
+<quest id="aec_quest_T13_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T13_A5_name"/>
+<variable name="offer" value="aec_quest_T13_A5_offer"/>
+<reward type="Exp"  value="265000"/>
+<reward type="Item" id="casinoCoin" value="5000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="3"/>
+<reward type="Item" id="aecQuestTokenT13A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT13A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT13Titan" value="50"/>
+</quest>
+
+<!-- T14 -->
+<quest id="aec_quest_T14_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T14_A1_name"/>
+<variable name="offer" value="aec_quest_T14_A1_offer"/>
+<reward type="Exp"  value="62000"/>
+<reward type="Item" id="casinoCoin" value="6000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="4"/>
+<reward type="Item" id="aecQuestTokenT13A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT14A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT14Cataclysm" value="10"/>
+</quest>
+<quest id="aec_quest_T14_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T14_A2_name"/>
+<variable name="offer" value="aec_quest_T14_A2_offer"/>
+<reward type="Exp"  value="124000"/>
+<reward type="Item" id="casinoCoin" value="6000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="4"/>
+<reward type="Item" id="aecQuestTokenT14A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT14A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT14Cataclysm" value="20"/>
+</quest>
+<quest id="aec_quest_T14_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T14_A3_name"/>
+<variable name="offer" value="aec_quest_T14_A3_offer"/>
+<reward type="Exp"  value="186000"/>
+<reward type="Item" id="casinoCoin" value="6000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="4"/>
+<reward type="Item" id="aecQuestTokenT14A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT14A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT14Cataclysm" value="30"/>
+</quest>
+<quest id="aec_quest_T14_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T14_A4_name"/>
+<variable name="offer" value="aec_quest_T14_A4_offer"/>
+<reward type="Exp"  value="248000"/>
+<reward type="Item" id="casinoCoin" value="6000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="4"/>
+<reward type="Item" id="aecQuestTokenT14A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT14A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT14Cataclysm" value="40"/>
+</quest>
+<quest id="aec_quest_T14_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T14_A5_name"/>
+<variable name="offer" value="aec_quest_T14_A5_offer"/>
+<reward type="Exp"  value="310000"/>
+<reward type="Item" id="casinoCoin" value="6000"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="5"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="4"/>
+<reward type="Item" id="aecQuestTokenT14A4" value="1"/>
+<reward type="Item" id="aecQuestTokenT14A5" value="2"/>
+<reward type="Item" id="aecZombieHeadT14Cataclysm" value="50"/>
+</quest>
+
+<!-- T15 -->
+<quest id="aec_quest_T15_A1_clear" template="aec_base_A1">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T15_A1_name"/>
+<variable name="offer" value="aec_quest_T15_A1_offer"/>
+<reward type="Exp"  value="150000"/>
+<reward type="Item" id="casinoCoin" value="7500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="5"/>
+<reward type="Item" id="aecQuestTokenT14A5" value="1"/>
+<reward type="Item" id="aecQuestTokenT15A1" value="2"/>
+<reward type="Item" id="aecZombieHeadT15Mythic" value="10"/>
+</quest>
+<quest id="aec_quest_T15_A2_clear" template="aec_base_A2">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T15_A2_name"/>
+<variable name="offer" value="aec_quest_T15_A2_offer"/>
+<reward type="Exp"  value="300000"/>
+<reward type="Item" id="casinoCoin" value="7500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="5"/>
+<reward type="Item" id="aecQuestTokenT15A1" value="1"/>
+<reward type="Item" id="aecQuestTokenT15A2" value="2"/>
+<reward type="Item" id="aecZombieHeadT15Mythic" value="20"/>
+</quest>
+<quest id="aec_quest_T15_A3_clear" template="aec_base_A3">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T15_A3_name"/>
+<variable name="offer" value="aec_quest_T15_A3_offer"/>
+<reward type="Exp"  value="450000"/>
+<reward type="Item" id="casinoCoin" value="7500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="5"/>
+<reward type="Item" id="aecQuestTokenT15A2" value="1"/>
+<reward type="Item" id="aecQuestTokenT15A3" value="2"/>
+<reward type="Item" id="aecZombieHeadT15Mythic" value="30"/>
+</quest>
+<quest id="aec_quest_T15_A4_clear" template="aec_base_A4">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T15_A4_name"/>
+<variable name="offer" value="aec_quest_T15_A4_offer"/>
+<reward type="Exp"  value="600000"/>
+<reward type="Item" id="casinoCoin" value="7500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="5"/>
+<reward type="Item" id="aecQuestTokenT15A3" value="1"/>
+<reward type="Item" id="aecQuestTokenT15A4" value="2"/>
+<reward type="Item" id="aecZombieHeadT15Mythic" value="40"/>
+</quest>
+<quest id="aec_quest_T15_A5_clear" template="aec_base_A5">
+<property name="difficulty_tier"      value="6"/>
+<variable name="name"  value="aec_quest_T15_A5_name"/>
+<variable name="offer" value="aec_quest_T15_A5_offer"/>
+<reward type="Exp"  value="750000"/>
+<reward type="Item" id="casinoCoin" value="7500"/>
+<reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods"    ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods"       ischosen="true" value="6"/>
+<reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="5"/>
+<reward type="Item" id="aecQuestTokenT15A5" value="1"/>
+<reward type="Item" id="aecZombieHeadT15Mythic" value="50"/>
+</quest>
+
+<!-- AEC EO Tutorial Chain (11 chapters) -->
+<quest id="aec_eo_tutorial_01">
+<property name="name_key" value="aec_eo_tutorial_01_name"/>
+<property name="offer_key" value="aec_eo_tutorial_01_offer"/>
+<property name="description_key" value="aec_eo_tutorial_01_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="Fetch" id="aecQuestTokenT00A1" value="1" phase="1"/>
+<reward type="Exp" value="1000"/>
+<reward type="Item" id="aecQuestTokenT00A1" value="1"/>
+<reward type="Item" id="aecEOTutorialBook02" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_02">
+<property name="name_key" value="aec_eo_tutorial_02_name"/>
+<property name="offer_key" value="aec_eo_tutorial_02_offer"/>
+<property name="description_key" value="aec_eo_tutorial_02_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="Fetch" id="aecQuestTokenT05A1" value="1" phase="1"/>
+<reward type="Exp" value="1500"/>
+<reward type="Item" id="aecQuestTokenT05A1" value="1"/>
+<reward type="Item" id="aecEOTutorialBook03" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_03">
+<property name="name_key" value="aec_eo_tutorial_03_name"/>
+<property name="offer_key" value="aec_eo_tutorial_03_offer"/>
+<property name="description_key" value="aec_eo_tutorial_03_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="EntityKill" value="3" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_03_obj_dumdum_minions"/>
+<property name="target_tags" value="AECDumdumMinion"/>
+</objective>
+<objective type="EntityKill" value="1" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_03_obj_dumdum_boss"/>
+<property name="target_tags" value="bossAECDumdum"/>
+</objective>
+<objective type="EntityKill" value="20" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_03_obj_tier05"/>
+<property name="target_tags" value="AECtier05"/>
+</objective>
+<objective type="EntityKill" value="5" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_03_obj_executioner_minions"/>
+<property name="target_tags" value="executionerMinion"/>
+</objective>
+<reward type="Exp" value="2500"/>
+<reward type="Item" id="aecEOTutorialBook04" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_04">
+<property name="name_key" value="aec_eo_tutorial_04_name"/>
+<property name="offer_key" value="aec_eo_tutorial_04_offer"/>
+<property name="description_key" value="aec_eo_tutorial_04_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="Craft" id="aecExtremeModCraftingTable" value="1" phase="1"/>
+<reward type="Exp" value="3000"/>
+<reward type="Item" id="aecEOTutorialBook05" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_05">
+<property name="name_key" value="aec_eo_tutorial_05_name"/>
+<property name="offer_key" value="aec_eo_tutorial_05_offer"/>
+<property name="description_key" value="aec_eo_tutorial_05_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="Craft" id="modAECMutatorEmpty" value="1" phase="1"/>
+<reward type="Exp" value="3500"/>
+<reward type="Item" id="aecEOTutorialBook06" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_06">
+<property name="name_key" value="aec_eo_tutorial_06_name"/>
+<property name="offer_key" value="aec_eo_tutorial_06_offer"/>
+<property name="description_key" value="aec_eo_tutorial_06_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="EntityKill" value="10" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_06_obj_headless_minions"/>
+<property name="target_tags" value="headless,minion"/>
+</objective>
+<reward type="Exp" value="4500"/>
+<reward type="Item" id="aecEOTutorialBook07" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_07">
+<property name="name_key" value="aec_eo_tutorial_07_name"/>
+<property name="offer_key" value="aec_eo_tutorial_07_offer"/>
+<property name="description_key" value="aec_eo_tutorial_07_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="Craft" id="modAECMutatorPower01" value="1" phase="1"/>
+<reward type="Exp" value="5000"/>
+<reward type="Item" id="aecEOTutorialBook08" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_08">
+<property name="name_key" value="aec_eo_tutorial_08_name"/>
+<property name="offer_key" value="aec_eo_tutorial_08_offer"/>
+<property name="description_key" value="aec_eo_tutorial_08_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="EntityKill" value="25" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_08_obj_tier05"/>
+<property name="target_tags" value="AECtier05"/>
+</objective>
+<objective type="EntityKill" value="8" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_08_obj_executioner_t06"/>
+<property name="target_tags" value="executionerMinion,AECTier06"/>
+</objective>
+<reward type="Exp" value="6500"/>
+<reward type="Item" id="aecEOTutorialBook09" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_09">
+<property name="name_key" value="aec_eo_tutorial_09_name"/>
+<property name="offer_key" value="aec_eo_tutorial_09_offer"/>
+<property name="description_key" value="aec_eo_tutorial_09_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="Craft" id="modAECMutatorPower02" value="1" phase="1"/>
+<reward type="Exp" value="7000"/>
+<reward type="Item" id="aecEOTutorialBook10" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_10">
+<property name="name_key" value="aec_eo_tutorial_10_name"/>
+<property name="offer_key" value="aec_eo_tutorial_10_offer"/>
+<property name="description_key" value="aec_eo_tutorial_10_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="EntityKill" value="6" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_10_obj_headless_t06"/>
+<property name="target_tags" value="headless,minion,AECTier06"/>
+</objective>
+<objective type="EntityKill" value="6" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_10_obj_doomlord_t06"/>
+<property name="target_tags" value="doomlord,minion,AECTier06"/>
+</objective>
+<objective type="EntityKill" value="6" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_10_obj_witch_t06"/>
+<property name="target_tags" value="witch,minion,AECTier06"/>
+</objective>
+<objective type="EntityKill" value="30" phase="1">
+<property name="objective_name_key" value="aec_eo_tutorial_10_obj_tier05"/>
+<property name="target_tags" value="AECtier05"/>
+</objective>
+<reward type="Exp" value="9000"/>
+<reward type="Item" id="aecEOTutorialBook11" value="1"/>
+</quest>
+<quest id="aec_eo_tutorial_11">
+<property name="name_key" value="aec_eo_tutorial_11_name"/>
+<property name="offer_key" value="aec_eo_tutorial_11_offer"/>
+<property name="description_key" value="aec_eo_tutorial_11_desc"/>
+<property name="subtitle_key" value="quest_tutorial"/>
+<property name="icon" value="challengeQuestMaster"/>
+<property name="repeatable" value="false"/>
+<property name="shareable" value="false"/>
+<property name="category_key" value="quest"/>
+<objective type="Craft" id="aecHeadConverter" value="1" phase="1"/>
+<reward type="Exp" value="12000"/>
+<reward type="Item" id="casinoCoin" value="2500"/>
+</quest>
+
+</append>
+
+<append xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+<reward type="Item" id="aecEOTutorialBook01" value="1"/>
+</append>
+
+</configs>

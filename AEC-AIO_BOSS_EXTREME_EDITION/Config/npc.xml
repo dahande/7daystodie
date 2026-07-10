@@ -1,0 +1,18 @@
+<Config>
+	<append xpath="/npc">
+		<npc_info
+			id="aecquestgiver"
+			name="AEC Huntmaster"
+			name_key="npcAecQuestGiver"
+			faction="whiteriver"
+			portrait="npc_hugh"
+			greeting_type="nearby"
+			stance="Neutral"
+			trader_id="91"
+			dialog_id="aecQuestGiverDialog"
+			localization_id="npcAecQuestGiver"
+			dms_section_type="TraderHugh"
+			quest_list="trader_aec_quests"
+		/>
+	</append>
+</Config>

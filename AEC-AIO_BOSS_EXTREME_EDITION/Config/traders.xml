@@ -1,0 +1,276 @@
+﻿<configs>
+	<!-- === AEC-AIO BOSS === -->
+
+<!-- === AEC-Doomlord_Boss === -->
+
+<append xpath="/traders/trader_item_groups">
+<trader_item_group name="aecContractsPool">
+	<item name="itemAECApexCollapseContract" count="1"/>
+	<item name="itemAECBroodAndGallowsContract" count="1"/>
+	<item name="itemAECAllInOneHuntContract" count="1"/>
+	<item name="itemAECMinionsArmyContract_100waveshardchallenge" count="1"/>
+	<item name="itemAECMinionsArmyContract_100wavesextremechallenge" count="1"/>
+	<item name="itemAECDoomlordContract_Demo" count="1"/>
+	<item name="itemAECDoomlordContract_FireTeam" count="1"/>
+	<item name="itemAECDoomlordContract_Frontline" count="1"/>
+	<item name="itemAECDoomlordContract_Grenadier" count="1"/>
+	<item name="itemAECDoomlordContract_GrenadierPOI" count="1"/>
+	<item name="itemAECDoomlordContract_Hunt" count="1"/>
+	<item name="itemAECDoomlordContract_Knife" count="1"/>
+	<item name="itemAECHeadlessContract_100waveschallenge_gorylegion" count="1"/>
+	<item name="itemAECDoomlordContract_KnifeWild" count="1"/>
+	<item name="itemAECDoomlordContract_LastAssault" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_minion" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_minion02" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_minion03" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_minion04" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_minion05" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_minion06" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_minion07" count="1"/>
+	<item name="itemAECDoomlordContract_100waveschallenge_combinedarms" count="1"/>
+	<item name="itemAECDumdumContract_100waveschallenge_minion" count="1"/>
+	<item name="itemAECDoomlordContract_Magnum" count="1"/>
+	<item name="itemAECDoomlordContract_MagnumWild" count="1"/>
+	<item name="itemAECDoomlordContract_Minion" count="1"/>
+	<item name="itemAECDoomlordContract_MinionPOI" count="1"/>
+	<item name="itemAECDoomlordContract_Overwatch" count="1"/>
+	<item name="itemAECDoomlordContract_Pistol" count="1"/>
+	<item name="itemAECDoomlordContract_PistolPOI" count="1"/>
+	<item name="itemAECDoomlordContract_Rocket" count="1"/>
+	<item name="itemAECDoomlordContract_RocketPOI" count="1"/>
+	<item name="itemAECDoomlordContract_Shotgun" count="1"/>
+	<item name="itemAECDoomlordContract_ShotgunWild" count="1"/>
+	<item name="itemAECDoomlordContract_Siege" count="1"/>
+	<item name="itemAECDoomlordContract_Sniper" count="1"/>
+	<item name="itemAECDoomlordContract_SniperPOI" count="1"/>
+	<item name="itemAECDoomlordMinionAssaultContract" count="1"/>
+	<item name="itemAECDoomlordMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECDoomlordMinionPatrolContract" count="1"/>
+	<item name="itemAECDoomlordMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECDruidDefenseHuntContract" count="1"/>
+	<item name="itemAECDruidDefenseWaveContract" count="1"/>
+	<item name="itemAECDruidGauntletContract" count="1"/>
+	<item name="itemAECDruidContract_100waveschallenge_wildmenagerie" count="1"/>
+	<item name="itemAECDruidHuntContract" count="1"/>
+	<item name="itemAECDruidMinionAssaultContract" count="1"/>
+	<item name="itemAECDruidMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECDruidMinionPatrolContract" count="1"/>
+	<item name="itemAECDruidMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECDruidWaveContract" count="1"/>
+	<item name="itemAECDumdumContract" count="1"/>
+	<item name="itemAECDumdumDefenseHuntContract" count="1"/>
+	<item name="itemAECDumdumDefenseWaveContract" count="1"/>
+	<item name="itemAECDumdumMinionAssaultContract" count="1"/>
+	<item name="itemAECDumdumMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECDumdumMinionPatrolContract" count="1"/>
+	<item name="itemAECDumdumMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECDumdumTwinsContract" count="1"/>
+	<item name="itemAECDumdumWaveContract" count="1"/>
+	<item name="itemAECElderCataclysmContract" count="1"/>
+	<item name="itemAECElectricDemonDefenseContract" count="1"/>
+	<item name="itemAECElectricDemonHuntContract" count="1"/>
+	<item name="itemAECElectricDemonTrioContract" count="1"/>
+	<item name="itemAECExecutionerDefenseHuntContract" count="1"/>
+	<item name="itemAECExecutionerDefenseWaveContract" count="1"/>
+	<item name="itemAECExecutionerHuntContract" count="1"/>
+	<item name="itemAECExecutionerMinionAssaultContract" count="1"/>
+	<item name="itemAECExecutionerMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECExecutionerMinionPatrolContract" count="1"/>
+	<item name="itemAECExecutionerMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECExecutionerWaveContract" count="1"/>
+	<item name="itemAECExplosiveEagleDefenseContract" count="1"/>
+	<item name="itemAECExplosiveEagleHuntContract" count="1"/>
+	<item name="itemAECFivefoldCataclysmContract" count="1"/>
+	<item name="itemAECGhostBrokenVigilContract" count="1"/>
+	<item name="itemAECGhostCarnivalDeadContract" count="1"/>
+	<item name="itemAECGhostDeadShiftContract" count="1"/>
+	<item name="itemAECGhostEchoVolleyContract" count="1"/>
+	<item name="itemAECGhostGraveyardWatchContract" count="1"/>
+	<item name="itemAECGhostHauntedGroundsContract" count="1"/>
+	<item name="itemAECGhostHauntedSiegeContract" count="1"/>
+	<item name="itemAECGhostHollowParadeContract" count="1"/>
+	<item name="itemAECGhostHollowPatrolContract" count="1"/>
+	<item name="itemAECGhostHuntContract" count="1"/>
+	<item name="itemAECGhostLanternBreachContract" count="1"/>
+	<item name="itemAECGhostLanternMarchContract" count="1"/>
+	<item name="itemAECGhostLostProcessionContract" count="1"/>
+	<item name="itemAECGhostMidnightCarnivalContract" count="1"/>
+	<item name="itemAECGhostMinionAssaultContract" count="1"/>
+	<item name="itemAECGhostMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECGhostMinionPatrolContract" count="1"/>
+	<item name="itemAECGhostMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECGhostNightDefenseContract" count="1"/>
+	<item name="itemAECGhostPhantomCourtContract" count="1"/>
+	<item name="itemAECGhostRestlessRushContract" count="1"/>
+	<item name="itemAECGhostShriekingStonesContract" count="1"/>
+	<item name="itemAECGhostStalkContract" count="1"/>
+	<item name="itemAECGhostContract_100waveschallenge_phantommosaic" count="1"/>
+	<item name="itemAECGhostWardContract" count="1"/>
+	<item name="itemAECHeadlessMinionPatrolContract" count="1"/>
+	<item name="itemAECHeadlessMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECHeadlessGhostMinionPatrolContract" count="1"/>
+	<item name="itemAECHeadlessMinionAssaultContract" count="1"/>
+	<item name="itemAECHeadlessMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECHeadlessGhostMinionAssaultContract" count="1"/>
+	<item name="itemAECHeadlessBloodyMarchContract" count="1"/>
+	<item name="itemAECHeadlessBloodBreachContract" count="1"/>
+	<item name="itemAECHeadlessShatteredParadeContract" count="1"/>
+	<item name="itemAECHeadlessHuntContract" count="1"/>
+	<item name="itemAECHeadlessDefenseContract" count="1"/>
+	<item name="itemAECHeadlessDoubleBreakContract" count="1"/>
+	<item name="itemAECHeadlessGhostCourtContract" count="1"/>
+	<item name="itemAECBloodBroodAndGallowsContract" count="1"/>
+	<item name="itemAECHammerGuardianDefenseContract" count="1"/>
+	<item name="itemAECHammerGuardianHuntContract" count="1"/>
+	<item name="itemAECHammerGuardianMinionAssaultContract" count="1"/>
+	<item name="itemAECHammerGuardianMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECHammerGuardianMinionDefenseContract" count="1"/>
+	<item name="itemAECHammerGuardianMinionHordeContract" count="1"/>
+	<item name="itemAECHammerGuardianMinionPatrolContract" count="1"/>
+	<item name="itemAECHammerGuardianMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECSheriffDefenseContract" count="1"/>
+	<item name="itemAECSheriffHuntContract" count="1"/>
+	<item name="itemAECSheriffMinionDefenseContract" count="1"/>
+	<item name="itemAECSheriffMinionHordeContract" count="1"/>
+	<item name="itemAECHellskyliDefenseContract" count="1"/>
+	<item name="itemAECHellskyliHuntContract" count="1"/>
+	<item name="itemAECKamikazeDefenseContract" count="1"/>
+	<item name="itemAECKamikazeHuntContract" count="1"/>
+	<item name="itemAECKingsOfTheBrokenSkyContract" count="1"/>
+	<item name="itemAECLastMarchOfTheDamnedContract" count="1"/>
+	<item name="itemAECMechanicianDefenseHuntContract" count="1"/>
+	<item name="itemAECMechanicianDefenseWaveContract" count="1"/>
+	<item name="itemAECMechanicianHuntContract" count="1"/>
+	<item name="itemAECMechanicianMinionAssaultContract" count="1"/>
+	<item name="itemAECMechanicianMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECMechanicianMinionPatrolContract" count="1"/>
+	<item name="itemAECMechanicianMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECMechanicianWaveContract" count="1"/>
+	<item name="itemAECMykirDefenseContract" count="1"/>
+	<item name="itemAECMykirHuntContract" count="1"/>
+	<item name="itemAECPartyBeachDefenseContract" count="1"/>
+	<item name="itemAECPartyBeachHuntContract" count="1"/>
+	<item name="itemAECRedWeddingContract" count="1"/>
+	<item name="itemAECRockbreakerDefenseContract" count="1"/>
+	<item name="itemAECRockbreakerDoubleContract" count="1"/>
+	<item name="itemAECRockbreakerHuntContract" count="1"/>
+	<item name="itemAECSingerieAlphaHuntContract" count="1"/>
+	<item name="itemAECSingerieApeSiegeContract" count="1"/>
+	<item name="itemAECSingerieJungleDefenseContract" count="1"/>
+	<item name="itemAECSingerieJungleHuntContract" count="1"/>
+	<item name="itemAECSingerieMinionAssaultContract" count="1"/>
+	<item name="itemAECSingerieMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECSingerieMinionPatrolContract" count="1"/>
+	<item name="itemAECSingerieMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECSingeriePrimalPackContract" count="1"/>
+	<item name="itemAECSingerieStoneBarrageContract" count="1"/>
+	<item name="itemAECSingerieTheBrothersContract" count="1"/>
+	<item name="itemAECSingerieContract_100waveschallenge_primalstampede" count="1"/>
+	<item name="itemAECSirenHeadDefenseContract" count="1"/>
+	<item name="itemAECSirenHeadHuntContract" count="1"/>
+	<item name="itemAECTheCovenBelowContract" count="1"/>
+	<item name="itemAECTheFalseApocalypseContract" count="1"/>
+	<item name="itemAECTheIronFuneralContract" count="1"/>
+	<item name="itemAECWitchContract_Coven" count="1"/>
+	<item name="itemAECWitchContract_CrouchDefense" count="1"/>
+	<item name="itemAECWitchContract_CrouchHorde" count="1"/>
+	<item name="itemAECWitchContract_Cursed" count="1"/>
+	<item name="itemAECWitchContract_Hunt" count="1"/>
+	<item name="itemAECWitchContract_Ritual" count="1"/>
+	<item name="itemAECWitchContract_100waveschallenge_infernalswarm" count="1"/>
+	<item name="itemAECWitchContract_SpiderDefense" count="1"/>
+	<item name="itemAECWitchContract_SpiderHorde" count="1"/>
+	<item name="itemAECWitchMinionAssaultContract" count="1"/>
+	<item name="itemAECWitchMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECWitchMinionPatrolContract" count="1"/>
+	<item name="itemAECWitchMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECMushroomMinionPatrolContract" count="1"/>
+	<item name="itemAECMushroomMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECMushroomMinionAssaultContract" count="1"/>
+	<item name="itemAECMushroomMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECMushroomMinionContract" count="1"/>
+	<item name="itemAECMushroomHordeMinionPOIContract" count="1"/>
+	<item name="itemAECMushroomHuntContract" count="1"/>
+	<item name="itemAECMushroomHuntPOIContract" count="1"/>
+	<item name="itemAECArcherMinionPatrolContract" count="1"/>
+	<item name="itemAECArcherMinionPatrolPOIContract" count="1"/>
+	<item name="itemAECDoomlordArcherMinionPatrolContract" count="1"/>
+	<item name="itemAECArcherMinionAssaultContract" count="1"/>
+	<item name="itemAECArcherMinionAssaultPOIContract" count="1"/>
+	<item name="itemAECDoomlordArcherMinionAssaultContract" count="1"/>
+	<item name="itemAECArcherHordeContract" count="1"/>
+	<item name="itemAECArcherHordePOIContract" count="1"/>
+	<item name="itemAECDoomlordArcherHordeContract" count="1"/>
+	<item name="itemAECDoomlordArcherWarbandContract" count="1"/>
+	<item name="itemAECDoomlordArcherWarbandPOIContract" count="1"/>
+	<item name="itemAECArcherHuntContract" count="1"/>
+	<item name="itemAECArcherSiegeContract" count="1"/>
+	<item name="itemAECArcherContract_100waveschallenge_deadeyegauntlet" count="1"/>
+	<item name="itemAECDoomlordArcherLastStandContract" count="1"/>
+</trader_item_group>
+</append>
+	<append xpath="/traders">
+<trader_info id="91" reset_interval="1" override_buy_markup="1">
+<trader_items count="all">
+	<item group="aecContractsPool" count="25,50"/>
+</trader_items>
+</trader_info>
+</append>
+
+
+
+
+
+
+	<!-- === AEC Quest Relay === -->
+
+	<append xpath="/traders/trader_info[@id='91']/trader_items[1]">
+		<item name="aecAIOBossDiscordNote" count="1" prob="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='1']/trader_items[1]">
+		<item name="aecQuestRelay" count="1" prob=".2"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='2']/trader_items[1]">
+		<item name="aecQuestRelay" count="1" prob=".2"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='6']/trader_items[1]">
+		<item name="aecQuestRelay" count="1" prob=".2"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='7']/trader_items[1]">
+		<item name="aecQuestRelay" count="1" prob=".2"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='8']/trader_items[1]">
+		<item name="aecQuestRelay" count="1" prob=".2"/>
+	</append>
+
+<!-- === AEC Trader Stage Templates (GS gates) === -->
+<append xpath="/traders/traderstage_templates">
+<traderstage_template name="aecContractStar1">
+<entry min="0" max="999999" quality="0"/>
+</traderstage_template>
+<traderstage_template name="aecContractStar2">
+<entry min="10" max="999999" quality="0"/>
+</traderstage_template>
+<traderstage_template name="aecContractStar3">
+<entry min="20" max="999999" quality="0"/>
+</traderstage_template>
+<traderstage_template name="aecContractStar4">
+<entry min="35" max="999999" quality="0"/>
+</traderstage_template>
+<traderstage_template name="aecContractStar5">
+<entry min="50" max="999999" quality="0"/>
+</traderstage_template>
+<traderstage_template name="aecContractStar6">
+<entry min="75" max="999999" quality="0"/>
+</traderstage_template>
+<traderstage_template name="aecContractStar7">
+<entry min="100" max="999999" quality="0"/>
+</traderstage_template>
+<traderstage_template name="aecContractStar9">
+<entry min="250" max="999999" quality="0"/>
+</traderstage_template>
+</append>
+
+</configs>
+

@@ -1,0 +1,1 @@
+You can put this dll in the root folder of AEC ENDGAME OVERHAUL to disable AEC spawning methods in pine forest biome, but AEC quests won't work in this biome

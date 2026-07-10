@@ -1,0 +1,61 @@
+<config>
+	<!-- === AEC-AIO BOSS === -->
+
+<append xpath="/blocks">
+
+		<block name="aecQuestRelay1star">
+			<property name="Extends" value="aecQuestRelay"/>
+			<property name="DescriptionKey" value="aecQuestRelay1starDesc"/>
+			<property name="ActivateEvent" value="eventAECQuestRelayActivate1star"/>
+			<property name="CustomIconTint" value="FFD700"/>
+			<property name="TintColor" value="FFD700"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="PickupTarget" value="aecQuestRelay1star"/>
+			<drop event="Destroy" name="aecQuestRelay1star" count="1" prob="1"/>
+		</block>
+
+		<block name="aecQuestRelay2star">
+			<property name="Extends" value="aecQuestRelay"/>
+			<property name="DescriptionKey" value="aecQuestRelay2starDesc"/>
+			<property name="ActivateEvent" value="eventAECQuestRelayActivate2star"/>
+			<property name="CustomIconTint" value="FF8C00"/>
+			<property name="TintColor" value="FF8C00"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="PickupTarget" value="aecQuestRelay2star"/>
+			<drop event="Destroy" name="aecQuestRelay2star" count="1" prob="1"/>
+		</block>
+
+		<block name="aecQuestRelay3star">
+			<property name="Extends" value="aecQuestRelay"/>
+			<property name="DescriptionKey" value="aecQuestRelay3starDesc"/>
+			<property name="ActivateEvent" value="eventAECQuestRelayActivate3star"/>
+			<property name="CustomIconTint" value="00BFFF"/>
+			<property name="TintColor" value="00BFFF"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="PickupTarget" value="aecQuestRelay3star"/>
+			<drop event="Destroy" name="aecQuestRelay3star" count="1" prob="1"/>
+		</block>
+
+		<block name="aecQuestRelay4star">
+			<property name="Extends" value="aecQuestRelay"/>
+			<property name="DescriptionKey" value="aecQuestRelay4starDesc"/>
+			<property name="ActivateEvent" value="eventAECQuestRelayActivate4star"/>
+			<property name="CustomIconTint" value="9400D3"/>
+			<property name="TintColor" value="9400D3"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="PickupTarget" value="aecQuestRelay4star"/>
+			<drop event="Destroy" name="aecQuestRelay4star" count="1" prob="1"/>
+		</block>
+
+		<block name="aecQuestRelay5star">
+			<property name="Extends" value="aecQuestRelay"/>
+			<property name="DescriptionKey" value="aecQuestRelay5starDesc"/>
+			<property name="ActivateEvent" value="eventAECQuestRelayActivate5star"/>
+			<property name="CustomIconTint" value="FF1493"/>
+			<property name="TintColor" value="FF1493"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="PickupTarget" value="aecQuestRelay5star"/>
+			<drop event="Destroy" name="aecQuestRelay5star" count="1" prob="1"/>
+		</block>
+	</append>
+</config>

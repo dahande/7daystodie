@@ -1,0 +1,63 @@
+﻿<configs>
+	<append xpath="/entity_classes">
+		<entity_class name="AECQuestGiverNPC1star" extends="npcTraderTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,npc,human,trader,aecQuestGiver"/>
+			<property name="Mesh" value="@:Entities/Traders/Prefabs/TraderHugh.prefab"/>
+			<property name="NPCID" value="aecquestgiver1star"/>
+			<property name="Buffs" value="buffAECQuestGiverDroneVisual"/>
+			<property name="DanceType" value="1"/>
+			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="buffAECQuestGiverDroneVisual"/>
+			</effect_group>
+		</entity_class>
+
+		<entity_class name="AECQuestGiverNPC2star" extends="npcTraderTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,npc,human,trader,aecQuestGiver"/>
+			<property name="Mesh" value="@:Entities/Traders/Prefabs/TraderHugh.prefab"/>
+			<property name="NPCID" value="aecquestgiver2star"/>
+			<property name="Buffs" value="buffAECQuestGiverDroneVisual"/>
+			<property name="DanceType" value="1"/>
+			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="buffAECQuestGiverDroneVisual"/>
+			</effect_group>
+		</entity_class>
+
+		<entity_class name="AECQuestGiverNPC3star" extends="npcTraderTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,npc,human,trader,aecQuestGiver"/>
+			<property name="Mesh" value="@:Entities/Traders/Prefabs/TraderHugh.prefab"/>
+			<property name="NPCID" value="aecquestgiver3star"/>
+			<property name="Buffs" value="buffAECQuestGiverDroneVisual"/>
+			<property name="DanceType" value="1"/>
+			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="buffAECQuestGiverDroneVisual"/>
+			</effect_group>
+		</entity_class>
+
+		<entity_class name="AECQuestGiverNPC4star" extends="npcTraderTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,npc,human,trader,aecQuestGiver"/>
+			<property name="Mesh" value="@:Entities/Traders/Prefabs/TraderHugh.prefab"/>
+			<property name="NPCID" value="aecquestgiver4star"/>
+			<property name="Buffs" value="buffAECQuestGiverDroneVisual"/>
+			<property name="DanceType" value="1"/>
+			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="buffAECQuestGiverDroneVisual"/>
+			</effect_group>
+		</entity_class>
+
+		<entity_class name="AECQuestGiverNPC5star" extends="npcTraderTemplate">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,npc,human,trader,aecQuestGiver"/>
+			<property name="Mesh" value="@:Entities/Traders/Prefabs/TraderHugh.prefab"/>
+			<property name="NPCID" value="aecquestgiver5star"/>
+			<property name="Buffs" value="buffAECQuestGiverDroneVisual"/>
+			<property name="DanceType" value="1"/>
+			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="buffAECQuestGiverDroneVisual"/>
+			</effect_group>
+		</entity_class>
+	</append>
+</configs>

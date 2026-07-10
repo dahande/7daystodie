@@ -1,0 +1,358 @@
+﻿<configs>
+<append xpath="/traders/trader_item_groups">
+<trader_item_group name="aecContractsPool1star">
+    <item name="itemAECAllInOneHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECArcherMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECArcherHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECArcherContract_100waveschallenge_deadeyegauntlet_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_Hunt_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_combinedarms_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion02_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion03_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion04_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion05_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion06_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion07_T03" count="1" prob="1" />
+    <item name="itemAECDoomlordArcherMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECDruidMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECDruidHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECDruidContract_100waveschallenge_wildmenagerie_T03" count="1" prob="1" />
+    <item name="itemAECDumdumMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECDumdumContract_T03" count="1" prob="1" />
+    <item name="itemAECDumdumContract_100waveschallenge_minion_T03" count="1" prob="1" />
+    <item name="itemAECElectricDemonHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECExecutionerMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECExecutionerHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECExplosiveEagleHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECGhostMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECGhostHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECGhostContract_100waveschallenge_phantommosaic_T03" count="1" prob="1" />
+    <item name="itemAECHammerGuardianMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECHammerGuardianHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECHeadlessMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECHeadlessHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECHeadlessContract_100waveschallenge_gorylegion_T03" count="1" prob="1" />
+    <item name="itemAECHeadlessGhostMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECHellskyliHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECKamikazeHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECMechanicianMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECMechanicianHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100wavesextremechallenge_T03" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100waveshardchallenge_T03" count="1" prob="1" />
+    <item name="itemAECMushroomMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECMushroomHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECMykirHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECPartyBeachHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECRockbreakerHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECSheriffMinionHordeContract_T03" count="1" prob="1" />
+    <item name="itemAECSheriffHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECSingerieMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECSingerieContract_100waveschallenge_primalstampede_T03" count="1" prob="1" />
+    <item name="itemAECSingerieAlphaHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECSingerieJungleHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECSirenHeadHuntContract_T03" count="1" prob="1" />
+    <item name="itemAECWitchMinionAssaultContract_T03" count="1" prob="1" />
+    <item name="itemAECWitchContract_Hunt_T03" count="1" prob="1" />
+    <item name="itemAECWitchContract_100waveschallenge_infernalswarm_T03" count="1" prob="1" />
+</trader_item_group>
+</append>
+	<append xpath="/traders">
+<trader_info id="92" reset_interval="1" override_buy_markup="10">
+<trader_items count="all">
+	<item group="aecContractsPool1star" count="10,20"/>
+</trader_items>
+</trader_info>
+</append>
+<append xpath="/traders/trader_item_groups">
+<trader_item_group name="aecContractsPool2star">
+    <item name="itemAECAllInOneHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECArcherMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECArcherHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECArcherContract_100waveschallenge_deadeyegauntlet_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_Hunt_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_combinedarms_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion02_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion03_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion04_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion05_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion06_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion07_T06" count="1" prob="1" />
+    <item name="itemAECDoomlordArcherMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECDruidMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECDruidHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECDruidContract_100waveschallenge_wildmenagerie_T06" count="1" prob="1" />
+    <item name="itemAECDumdumMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECDumdumContract_T06" count="1" prob="1" />
+    <item name="itemAECDumdumContract_100waveschallenge_minion_T06" count="1" prob="1" />
+    <item name="itemAECElectricDemonHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECExecutionerMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECExecutionerHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECExplosiveEagleHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECGhostMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECGhostHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECGhostContract_100waveschallenge_phantommosaic_T06" count="1" prob="1" />
+    <item name="itemAECHammerGuardianMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECHammerGuardianHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECHeadlessMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECHeadlessHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECHeadlessContract_100waveschallenge_gorylegion_T06" count="1" prob="1" />
+    <item name="itemAECHeadlessGhostMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECHellskyliHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECKamikazeHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECMechanicianMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECMechanicianHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100wavesextremechallenge_T06" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100waveshardchallenge_T06" count="1" prob="1" />
+    <item name="itemAECMushroomMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECMushroomHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECMykirHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECPartyBeachHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECRockbreakerHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECSheriffMinionHordeContract_T06" count="1" prob="1" />
+    <item name="itemAECSheriffHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECSingerieMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECSingerieContract_100waveschallenge_primalstampede_T06" count="1" prob="1" />
+    <item name="itemAECSingerieAlphaHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECSingerieJungleHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECSirenHeadHuntContract_T06" count="1" prob="1" />
+    <item name="itemAECWitchMinionAssaultContract_T06" count="1" prob="1" />
+    <item name="itemAECWitchContract_Hunt_T06" count="1" prob="1" />
+    <item name="itemAECWitchContract_100waveschallenge_infernalswarm_T06" count="1" prob="1" />
+</trader_item_group>
+</append>
+	<append xpath="/traders">
+<trader_info id="93" reset_interval="1" override_buy_markup="100">
+<trader_items count="all">
+	<item group="aecContractsPool2star" count="10,20"/>
+</trader_items>
+</trader_info>
+</append>
+<append xpath="/traders/trader_item_groups">
+<trader_item_group name="aecContractsPool3star">
+    <item name="itemAECAllInOneHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECArcherMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECArcherHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECArcherContract_100waveschallenge_deadeyegauntlet_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_Hunt_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_combinedarms_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion02_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion03_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion04_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion05_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion06_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion07_T09" count="1" prob="1" />
+    <item name="itemAECDoomlordArcherMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECDruidMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECDruidHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECDruidContract_100waveschallenge_wildmenagerie_T09" count="1" prob="1" />
+    <item name="itemAECDumdumMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECDumdumContract_T09" count="1" prob="1" />
+    <item name="itemAECDumdumContract_100waveschallenge_minion_T09" count="1" prob="1" />
+    <item name="itemAECElectricDemonHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECExecutionerMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECExecutionerHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECExplosiveEagleHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECGhostMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECGhostHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECGhostContract_100waveschallenge_phantommosaic_T09" count="1" prob="1" />
+    <item name="itemAECHammerGuardianMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECHammerGuardianHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECHeadlessMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECHeadlessHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECHeadlessContract_100waveschallenge_gorylegion_T09" count="1" prob="1" />
+    <item name="itemAECHeadlessGhostMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECHellskyliHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECKamikazeHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECMechanicianMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECMechanicianHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100wavesextremechallenge_T09" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100waveshardchallenge_T09" count="1" prob="1" />
+    <item name="itemAECMushroomMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECMushroomHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECMykirHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECPartyBeachHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECRockbreakerHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECSheriffMinionHordeContract_T09" count="1" prob="1" />
+    <item name="itemAECSheriffHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECSingerieMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECSingerieContract_100waveschallenge_primalstampede_T09" count="1" prob="1" />
+    <item name="itemAECSingerieAlphaHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECSingerieJungleHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECSirenHeadHuntContract_T09" count="1" prob="1" />
+    <item name="itemAECWitchMinionAssaultContract_T09" count="1" prob="1" />
+    <item name="itemAECWitchContract_Hunt_T09" count="1" prob="1" />
+    <item name="itemAECWitchContract_100waveschallenge_infernalswarm_T09" count="1" prob="1" />
+</trader_item_group>
+</append>
+	<append xpath="/traders">
+<trader_info id="94" reset_interval="1" override_buy_markup="1000">
+<trader_items count="all">
+	<item group="aecContractsPool3star" count="10,20"/>
+</trader_items>
+</trader_info>
+</append>
+<append xpath="/traders/trader_item_groups">
+<trader_item_group name="aecContractsPool4star">
+    <item name="itemAECAllInOneHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECArcherMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECArcherHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECArcherContract_100waveschallenge_deadeyegauntlet_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_Hunt_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_combinedarms_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion02_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion03_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion04_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion05_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion06_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion07_T12" count="1" prob="1" />
+    <item name="itemAECDoomlordArcherMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECDruidMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECDruidHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECDruidContract_100waveschallenge_wildmenagerie_T12" count="1" prob="1" />
+    <item name="itemAECDumdumMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECDumdumContract_T12" count="1" prob="1" />
+    <item name="itemAECDumdumContract_100waveschallenge_minion_T12" count="1" prob="1" />
+    <item name="itemAECElectricDemonHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECExecutionerMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECExecutionerHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECExplosiveEagleHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECGhostMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECGhostHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECGhostContract_100waveschallenge_phantommosaic_T12" count="1" prob="1" />
+    <item name="itemAECHammerGuardianMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECHammerGuardianHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECHeadlessMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECHeadlessHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECHeadlessContract_100waveschallenge_gorylegion_T12" count="1" prob="1" />
+    <item name="itemAECHeadlessGhostMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECHellskyliHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECKamikazeHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECMechanicianMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECMechanicianHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100wavesextremechallenge_T12" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100waveshardchallenge_T12" count="1" prob="1" />
+    <item name="itemAECMushroomMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECMushroomHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECMykirHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECPartyBeachHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECRockbreakerHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECSheriffMinionHordeContract_T12" count="1" prob="1" />
+    <item name="itemAECSheriffHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECSingerieMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECSingerieContract_100waveschallenge_primalstampede_T12" count="1" prob="1" />
+    <item name="itemAECSingerieAlphaHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECSingerieJungleHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECSirenHeadHuntContract_T12" count="1" prob="1" />
+    <item name="itemAECWitchMinionAssaultContract_T12" count="1" prob="1" />
+    <item name="itemAECWitchContract_Hunt_T12" count="1" prob="1" />
+    <item name="itemAECWitchContract_100waveschallenge_infernalswarm_T12" count="1" prob="1" />
+</trader_item_group>
+</append>
+	<append xpath="/traders">
+<trader_info id="95" reset_interval="1" override_buy_markup="10000">
+<trader_items count="all">
+	<item group="aecContractsPool4star" count="10,20"/>
+</trader_items>
+</trader_info>
+</append>
+<append xpath="/traders/trader_item_groups">
+<trader_item_group name="aecContractsPool5star">
+    <item name="itemAECAllInOneHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECArcherMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECArcherHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECArcherContract_100waveschallenge_deadeyegauntlet_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_Hunt_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_combinedarms_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion02_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion03_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion04_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion05_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion06_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordContract_100waveschallenge_minion07_T15" count="1" prob="1" />
+    <item name="itemAECDoomlordArcherMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECDruidMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECDruidHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECDruidContract_100waveschallenge_wildmenagerie_T15" count="1" prob="1" />
+    <item name="itemAECDumdumMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECDumdumContract_T15" count="1" prob="1" />
+    <item name="itemAECDumdumContract_100waveschallenge_minion_T15" count="1" prob="1" />
+    <item name="itemAECElectricDemonHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECExecutionerMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECExecutionerHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECExplosiveEagleHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECGhostMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECGhostHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECGhostContract_100waveschallenge_phantommosaic_T15" count="1" prob="1" />
+    <item name="itemAECHammerGuardianMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECHammerGuardianHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECHeadlessMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECHeadlessHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECHeadlessContract_100waveschallenge_gorylegion_T15" count="1" prob="1" />
+    <item name="itemAECHeadlessGhostMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECHellskyliHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECKamikazeHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECMechanicianMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECMechanicianHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100wavesextremechallenge_T15" count="1" prob="1" />
+    <item name="itemAECMinionsArmyContract_100waveshardchallenge_T15" count="1" prob="1" />
+    <item name="itemAECMushroomMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECMushroomHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECMykirHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECPartyBeachHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECRockbreakerHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECSheriffMinionHordeContract_T15" count="1" prob="1" />
+    <item name="itemAECSheriffHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECSingerieMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECSingerieContract_100waveschallenge_primalstampede_T15" count="1" prob="1" />
+    <item name="itemAECSingerieAlphaHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECSingerieJungleHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECSirenHeadHuntContract_T15" count="1" prob="1" />
+    <item name="itemAECWitchMinionAssaultContract_T15" count="1" prob="1" />
+    <item name="itemAECWitchContract_Hunt_T15" count="1" prob="1" />
+    <item name="itemAECWitchContract_100waveschallenge_infernalswarm_T15" count="1" prob="1" />
+</trader_item_group>
+</append>
+	<append xpath="/traders">
+<trader_info id="96" reset_interval="1" override_buy_markup="100000">
+<trader_items count="all">
+	<item group="aecContractsPool5star" count="10,20"/>
+</trader_items>
+</trader_info>
+</append>
+
+
+	<!-- === AEC Quest Relay === -->
+
+	<append xpath="/traders/trader_info[@id='92']/trader_items[1]">
+		<item name="aecAIOBossDiscordNote" count="1" prob="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='93']/trader_items[1]">
+		<item name="aecAIOBossDiscordNote" count="1" prob="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='94']/trader_items[1]">
+		<item name="aecAIOBossDiscordNote" count="1" prob="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='95']/trader_items[1]">
+		<item name="aecAIOBossDiscordNote" count="1" prob="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='96']/trader_items[1]">
+		<item name="aecAIOBossDiscordNote" count="1" prob="1"/>
+	</append>
+
+</configs>
+

@@ -1,0 +1,15 @@
+<configs>
+	<!-- === AEC-AIO BOSS === -->
+
+<append xpath="/recipes">
+
+    <recipe name="aecQuestRelay" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="40"/>
+      <ingredient name="resourceForgedIron" count="20"/>
+      <ingredient name="resourceMechanicalParts" count="8"/>
+      <ingredient name="resourceDuctTape" count="4"/>
+      <ingredient name="workbench" count="1"/>
+    </recipe>
+
+  </append>
+</configs>

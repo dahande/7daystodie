@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="aecExtremeModCraftingTable">
+      <crafting_category name="AECworkbenchMain" icon="ui_game_symbol_block_upgrade" display_name="AEC Main" />
+      <crafting_category name="AECworkbenchPower" icon="ui_game_symbol_block_upgrade" display_name="AEC Power" />
+      <crafting_category name="AECworkbenchKnockback" icon="ui_game_symbol_block_upgrade" display_name="AEC Knockback" />
+      <crafting_category name="AECworkbenchStun" icon="ui_game_symbol_block_upgrade" display_name="AEC Stun" />
+      <crafting_category name="AECworkbenchTargetArmor" icon="ui_game_symbol_block_upgrade" display_name="AEC Target Armor" />
+      <crafting_category name="AECworkbenchAiming" icon="ui_game_symbol_block_upgrade" display_name="AEC Aiming" />
+      <crafting_category name="AECworkbenchRPM" icon="ui_game_symbol_block_upgrade" display_name="AEC RPM" />
+      <crafting_category name="AECworkbenchReloadSpeed" icon="ui_game_symbol_block_upgrade" display_name="AEC Reload Speed" />
+      <crafting_category name="AECworkbenchDrum" icon="ui_game_symbol_block_upgrade" display_name="AEC Drum" />
+      <crafting_category name="AECworkbenchRange" icon="ui_game_symbol_block_upgrade" display_name="AEC Range" />
+      <crafting_category name="AECworkbenchDegradation" icon="ui_game_symbol_block_upgrade" display_name="AEC Degradation" />
+      <crafting_category name="AECworkbenchFlaming" icon="ui_game_symbol_block_upgrade" display_name="AEC Flaming" />
+      <crafting_category name="AECworkbenchShocking" icon="ui_game_symbol_block_upgrade" display_name="AEC Shocking" />
+      <crafting_category name="AECworkbenchSneakAttack" icon="ui_game_symbol_block_upgrade" display_name="AEC Sneak Attack" />
+      <crafting_category name="AECworkbenchDismemberChance" icon="ui_game_symbol_block_upgrade" display_name="AEC Dismember Chance" />
+      <crafting_category name="AECworkbenchAPM" icon="ui_game_symbol_block_upgrade" display_name="AEC APM" />
+      <crafting_category name="AECworkbenchStaminaLoss" icon="ui_game_symbol_block_upgrade" display_name="AEC Stamina Loss" />
+      <crafting_category name="AECworkbenchBlockDamage" icon="ui_game_symbol_block_upgrade" display_name="AEC Block Damage" />
+      <crafting_category name="AECworkbenchBlockHarvest" icon="ui_game_symbol_block_upgrade" display_name="AEC Block Harvest" />
+      <crafting_category name="AECworkbenchStaminaMax" icon="ui_game_symbol_block_upgrade" display_name="AEC Stamina Max" />
+      <crafting_category name="AECworkbenchStaminaRegenRun" icon="ui_game_symbol_block_upgrade" display_name="AEC Stamina Regen Run" />
+      <crafting_category name="AECworkbenchStaminaRegen" icon="ui_game_symbol_block_upgrade" display_name="AEC Stamina Regen" />
+      <crafting_category name="AECworkbenchCrouchBoost" icon="ui_game_symbol_block_upgrade" display_name="AEC Crouch Boost" />
+      <crafting_category name="AECworkbenchHealthRegen" icon="ui_game_symbol_block_upgrade" display_name="AEC Health Regen" />
+      <crafting_category name="AECworkbenchJumpBoost" icon="ui_game_symbol_block_upgrade" display_name="AEC Jump Boost" />
+      <crafting_category name="AECworkbenchRunBoost" icon="ui_game_symbol_block_upgrade" display_name="AEC Run Boost" />
+      <crafting_category name="AECworkbenchWalkBoost" icon="ui_game_symbol_block_upgrade" display_name="AEC Walk Boost" />
+      <crafting_category name="AECworkbenchXPKill" icon="ui_game_symbol_block_upgrade" display_name="AEC XP Kill" />
+      <crafting_category name="AECworkbenchUnique" icon="ui_game_symbol_block_upgrade" display_name="AEC Unique" />
+      <crafting_category name="AECworkbenchRare" icon="ui_game_symbol_block_upgrade" display_name="AEC Rare" />
+      <crafting_category name="AECworkbenchAtypical" icon="ui_game_symbol_block_upgrade" display_name="AEC Atypical" />
+      <crafting_category name="AECworkbenchLegendary" icon="ui_game_symbol_block_upgrade" display_name="AEC Legendary" />
+    </crafting_category_list>
+
+  </append>
+
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="aecHeadConverter">
+      <crafting_category name="aecHeadT05Veteran"   icon="ui_game_symbol_science"    display_name="T05 Veteran"   />
+      <crafting_category name="aecHeadT06Brutal"    icon="ui_game_symbol_science"    display_name="T06 Brutal"    />
+      <crafting_category name="aecHeadT07Savage"    icon="ui_game_symbol_science"    display_name="T07 Savage"    />
+      <crafting_category name="aecHeadT08Ravager"   icon="ui_game_symbol_science"    display_name="T08 Ravager"   />
+      <crafting_category name="aecHeadT09Dread"     icon="ui_game_symbol_science"    display_name="T09 Dread"     />
+      <crafting_category name="aecHeadT10Nightmare" icon="ui_game_symbol_science"  display_name="T10 Nightmare" />
+      <crafting_category name="aecHeadT11Apex"      icon="ui_game_symbol_science"  display_name="T11 Apex"      />
+      <crafting_category name="aecHeadT12Overlord"  icon="ui_game_symbol_science"  display_name="T12 Overlord"  />
+      <crafting_category name="aecHeadT13Titan"     icon="ui_game_symbol_science"  display_name="T13 Titan"     />
+      <crafting_category name="aecHeadT14Cataclysm" icon="ui_game_symbol_science"  display_name="T14 Cataclysm" />
+      <crafting_category name="aecHeadT15Mythic"    icon="ui_game_symbol_science"  display_name="T15 Mythic"    />
+    </crafting_category_list>
+  </append>
+
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="aecNecroforgeWorkbench">
+      <crafting_category name="aecNecroforgeAmmo9mm" icon="ui_game_symbol_knife" display_name="9mm" />
+      <crafting_category name="aecNecroforgeAmmo44" icon="ui_game_symbol_knife" display_name=".44 Magnum" />
+      <crafting_category name="aecNecroforgeAmmo762" icon="ui_game_symbol_knife" display_name="7.62mm" />
+      <crafting_category name="aecNecroforgeAmmo12g" icon="ui_game_symbol_knife" display_name="12 Gauge" />
+    </crafting_category_list>
+  </append>
+</configs>

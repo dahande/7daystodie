@@ -1,0 +1,52 @@
+<configs>
+	<!-- === AEC-AIO BOSS === -->
+
+<append xpath="/recipes">
+
+    <!-- Relay 1★ : aecQuestRelay + 4 pieces T00 de 4 boss differents -->
+    <recipe name="aecQuestRelay1star" count="1" craft_time="60">
+      <ingredient name="aecQuestRelay" count="1"/>
+      <ingredient name="itemAECKamikazeArm" count="2"/>
+      <ingredient name="itemAECHammerGuardianHeart" count="1"/>
+      <ingredient name="itemAECMechanicianTorso" count="1"/>
+      <ingredient name="itemAECGhostLeg" count="2"/>
+    </recipe>
+
+    <!-- Relay 2★ : aecQuestRelay1star + 4 pieces 1star de 4 boss differents -->
+    <recipe name="aecQuestRelay2star" count="1" craft_time="90">
+      <ingredient name="aecQuestRelay1star" count="1"/>
+      <ingredient name="itemAECDruidArm1star" count="2"/>
+      <ingredient name="itemAECExecutionerHeart1star" count="1"/>
+      <ingredient name="itemAECRockbreakerCore1star" count="1"/>
+      <ingredient name="itemAECPartyBeachLeg1star" count="2"/>
+    </recipe>
+
+    <!-- Relay 3★ : aecQuestRelay2star + 4 pieces 2star de 4 boss differents -->
+    <recipe name="aecQuestRelay3star" count="1" craft_time="120">
+      <ingredient name="aecQuestRelay2star" count="1"/>
+      <ingredient name="itemAECMykirArm2star" count="2"/>
+      <ingredient name="itemAECHellskyliHeart2star" count="1"/>
+      <ingredient name="itemAECSingerieTorso2star" count="1"/>
+      <ingredient name="itemAECSirenHeadLeg2star" count="2"/>
+    </recipe>
+
+    <!-- Relay 4★ : aecQuestRelay3star + 4 pieces 3star de 4 boss differents -->
+    <recipe name="aecQuestRelay4star" count="1" craft_time="180">
+      <ingredient name="aecQuestRelay3star" count="1"/>
+      <ingredient name="itemAECElectricDemonCore3star" count="1"/>
+      <ingredient name="itemAECExplosiveEagleHeart3star" count="1"/>
+      <ingredient name="itemAECDoomlordGauntlet3star" count="1"/>
+      <ingredient name="itemAECWitchEye3star" count="1"/>
+    </recipe>
+
+    <!-- Relay 5★ : aecQuestRelay4star + 4 pieces 4star de 4 boss differents -->
+    <recipe name="aecQuestRelay5star" count="1" craft_time="240">
+      <ingredient name="aecQuestRelay4star" count="1"/>
+      <ingredient name="itemAECDumdumHead4star" count="1"/>
+      <ingredient name="itemAECMechanicianHeart4star" count="1"/>
+      <ingredient name="itemAECRockbreakerTorso4star" count="1"/>
+      <ingredient name="itemAECGhostArm4star" count="2"/>
+    </recipe>
+
+  </append>
+</configs>

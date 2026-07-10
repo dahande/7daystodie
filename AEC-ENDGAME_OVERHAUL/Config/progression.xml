@@ -1,0 +1,197 @@
+﻿<configs>
+	<set xpath="/progression/level/@max_level">5000</set>
+	<set xpath="/progression/level/@exp_to_level">7000</set>
+	<set xpath="/progression/level/@experience_multiplier">1.02</set>
+	<set xpath="/progression/level/@clamp_exp_cost_at_level">100</set>
+
+        <!-- Internal tracker: AEC dialog tier unlock level (1-11 = T05-T15) -->
+        <!-- Nouvelle catégorie AEC — onglet dédié dans l'arbre de compétences  -->
+        <append xpath="/progression/attributes">
+            <attribute name="attAecProgression" name_key="attAecProgressionName" desc_key="attAecProgressionDesc"
+                icon="ui_game_symbol_quest" min_level="0" max_level="0" base_skill_point_cost="0">
+                <effect_group>
+                    <effect_description level="0" desc_key="attAecProgressionDesc" long_desc_key="attAecProgressionDesc"/>
+                </effect_group>
+            </attribute>
+        </append>
+
+        <append xpath="/progression/skills">
+            <skill name="skillAecProgression" parent="attAecProgression" name_key="skillAecProgressionName" icon="ui_game_symbol_quest"><effect_group/></skill>
+        </append>
+
+        <append xpath="/progression/perks">
+            <perk name="aecTierUnlock" max_level="55" parent="skillAecProgression" base_skill_point_cost="0"
+                name_key="aecTierUnlockName" desc_key="aecTierUnlockDesc" long_desc_key="aecTierUnlockDesc"
+                icon="ui_game_symbol_quest">
+                <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="7"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="8"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="9"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="10"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="11"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="12"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="13"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="14"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="15"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="16"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="17"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="18"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="19"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="20"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="21"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="22"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="23"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="24"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="25"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="26"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="27"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="28"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="29"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="30"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="31"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="32"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="33"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="34"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="35"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="36"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="37"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="38"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="39"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="40"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="41"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="42"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="43"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="44"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="45"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="46"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="47"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="48"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="49"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="50"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="51"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="52"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="53"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="54"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="55"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <effect_group>
+                    <effect_description level="1" desc_key="aecTierUnlockLv1Desc" long_desc_key="aecTierUnlockLv1Desc"/>
+                    <effect_description level="2" desc_key="aecTierUnlockLv2Desc" long_desc_key="aecTierUnlockLv2Desc"/>
+                    <effect_description level="3" desc_key="aecTierUnlockLv3Desc" long_desc_key="aecTierUnlockLv3Desc"/>
+                    <effect_description level="4" desc_key="aecTierUnlockLv4Desc" long_desc_key="aecTierUnlockLv4Desc"/>
+                    <effect_description level="5" desc_key="aecTierUnlockLv5Desc" long_desc_key="aecTierUnlockLv5Desc"/>
+                    <effect_description level="6" desc_key="aecTierUnlockLv6Desc" long_desc_key="aecTierUnlockLv6Desc"/>
+                    <effect_description level="7" desc_key="aecTierUnlockLv7Desc" long_desc_key="aecTierUnlockLv7Desc"/>
+                    <effect_description level="8" desc_key="aecTierUnlockLv8Desc" long_desc_key="aecTierUnlockLv8Desc"/>
+                    <effect_description level="9" desc_key="aecTierUnlockLv9Desc" long_desc_key="aecTierUnlockLv9Desc"/>
+                    <effect_description level="10" desc_key="aecTierUnlockLv10Desc" long_desc_key="aecTierUnlockLv10Desc"/>
+                    <effect_description level="11" desc_key="aecTierUnlockLv11Desc" long_desc_key="aecTierUnlockLv11Desc"/>
+                    <effect_description level="12" desc_key="aecTierUnlockLv12Desc" long_desc_key="aecTierUnlockLv12Desc"/>
+                    <effect_description level="13" desc_key="aecTierUnlockLv13Desc" long_desc_key="aecTierUnlockLv13Desc"/>
+                    <effect_description level="14" desc_key="aecTierUnlockLv14Desc" long_desc_key="aecTierUnlockLv14Desc"/>
+                    <effect_description level="15" desc_key="aecTierUnlockLv15Desc" long_desc_key="aecTierUnlockLv15Desc"/>
+                    <effect_description level="16" desc_key="aecTierUnlockLv16Desc" long_desc_key="aecTierUnlockLv16Desc"/>
+                    <effect_description level="17" desc_key="aecTierUnlockLv17Desc" long_desc_key="aecTierUnlockLv17Desc"/>
+                    <effect_description level="18" desc_key="aecTierUnlockLv18Desc" long_desc_key="aecTierUnlockLv18Desc"/>
+                    <effect_description level="19" desc_key="aecTierUnlockLv19Desc" long_desc_key="aecTierUnlockLv19Desc"/>
+                    <effect_description level="20" desc_key="aecTierUnlockLv20Desc" long_desc_key="aecTierUnlockLv20Desc"/>
+                    <effect_description level="21" desc_key="aecTierUnlockLv21Desc" long_desc_key="aecTierUnlockLv21Desc"/>
+                    <effect_description level="22" desc_key="aecTierUnlockLv22Desc" long_desc_key="aecTierUnlockLv22Desc"/>
+                    <effect_description level="23" desc_key="aecTierUnlockLv23Desc" long_desc_key="aecTierUnlockLv23Desc"/>
+                    <effect_description level="24" desc_key="aecTierUnlockLv24Desc" long_desc_key="aecTierUnlockLv24Desc"/>
+                    <effect_description level="25" desc_key="aecTierUnlockLv25Desc" long_desc_key="aecTierUnlockLv25Desc"/>
+                    <effect_description level="26" desc_key="aecTierUnlockLv26Desc" long_desc_key="aecTierUnlockLv26Desc"/>
+                    <effect_description level="27" desc_key="aecTierUnlockLv27Desc" long_desc_key="aecTierUnlockLv27Desc"/>
+                    <effect_description level="28" desc_key="aecTierUnlockLv28Desc" long_desc_key="aecTierUnlockLv28Desc"/>
+                    <effect_description level="29" desc_key="aecTierUnlockLv29Desc" long_desc_key="aecTierUnlockLv29Desc"/>
+                    <effect_description level="30" desc_key="aecTierUnlockLv30Desc" long_desc_key="aecTierUnlockLv30Desc"/>
+                    <effect_description level="31" desc_key="aecTierUnlockLv31Desc" long_desc_key="aecTierUnlockLv31Desc"/>
+                    <effect_description level="32" desc_key="aecTierUnlockLv32Desc" long_desc_key="aecTierUnlockLv32Desc"/>
+                    <effect_description level="33" desc_key="aecTierUnlockLv33Desc" long_desc_key="aecTierUnlockLv33Desc"/>
+                    <effect_description level="34" desc_key="aecTierUnlockLv34Desc" long_desc_key="aecTierUnlockLv34Desc"/>
+                    <effect_description level="35" desc_key="aecTierUnlockLv35Desc" long_desc_key="aecTierUnlockLv35Desc"/>
+                    <effect_description level="36" desc_key="aecTierUnlockLv36Desc" long_desc_key="aecTierUnlockLv36Desc"/>
+                    <effect_description level="37" desc_key="aecTierUnlockLv37Desc" long_desc_key="aecTierUnlockLv37Desc"/>
+                    <effect_description level="38" desc_key="aecTierUnlockLv38Desc" long_desc_key="aecTierUnlockLv38Desc"/>
+                    <effect_description level="39" desc_key="aecTierUnlockLv39Desc" long_desc_key="aecTierUnlockLv39Desc"/>
+                    <effect_description level="40" desc_key="aecTierUnlockLv40Desc" long_desc_key="aecTierUnlockLv40Desc"/>
+                    <effect_description level="41" desc_key="aecTierUnlockLv41Desc" long_desc_key="aecTierUnlockLv41Desc"/>
+                    <effect_description level="42" desc_key="aecTierUnlockLv42Desc" long_desc_key="aecTierUnlockLv42Desc"/>
+                    <effect_description level="43" desc_key="aecTierUnlockLv43Desc" long_desc_key="aecTierUnlockLv43Desc"/>
+                    <effect_description level="44" desc_key="aecTierUnlockLv44Desc" long_desc_key="aecTierUnlockLv44Desc"/>
+                    <effect_description level="45" desc_key="aecTierUnlockLv45Desc" long_desc_key="aecTierUnlockLv45Desc"/>
+                    <effect_description level="46" desc_key="aecTierUnlockLv46Desc" long_desc_key="aecTierUnlockLv46Desc"/>
+                    <effect_description level="47" desc_key="aecTierUnlockLv47Desc" long_desc_key="aecTierUnlockLv47Desc"/>
+                    <effect_description level="48" desc_key="aecTierUnlockLv48Desc" long_desc_key="aecTierUnlockLv48Desc"/>
+                    <effect_description level="49" desc_key="aecTierUnlockLv49Desc" long_desc_key="aecTierUnlockLv49Desc"/>
+                    <effect_description level="50" desc_key="aecTierUnlockLv50Desc" long_desc_key="aecTierUnlockLv50Desc"/>
+                    <effect_description level="51" desc_key="aecTierUnlockLv51Desc" long_desc_key="aecTierUnlockLv51Desc"/>
+                    <effect_description level="52" desc_key="aecTierUnlockLv52Desc" long_desc_key="aecTierUnlockLv52Desc"/>
+                    <effect_description level="53" desc_key="aecTierUnlockLv53Desc" long_desc_key="aecTierUnlockLv53Desc"/>
+                    <effect_description level="54" desc_key="aecTierUnlockLv54Desc" long_desc_key="aecTierUnlockLv54Desc"/>
+                    <effect_description level="55" desc_key="aecTierUnlockLv55Desc" long_desc_key="aecTierUnlockLv55Desc"/>
+                </effect_group>
+            </perk>
+            <!-- Internal tracker LowGS: AEC dialog tier unlock level (1-25 = T00A1-T04A5) -->
+            <perk name="aecTierUnlockLowGS" max_level="25" parent="skillAecProgression" base_skill_point_cost="0"
+                name_key="aecTierUnlockLowGSName" desc_key="aecTierUnlockLowGSDesc" long_desc_key="aecTierUnlockDesc"
+                icon="ui_game_symbol_quest">
+                <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="7"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="8"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="9"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="10"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="11"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="12"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="13"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="14"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="15"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="16"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="17"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="18"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="19"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="20"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="21"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="22"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="23"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="24"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <level_requirements level="25"><requirement name="ProgressionLevel" progression_name="attAecProgression" operation="Equals" value="0" desc_key="aecTierUnlockDesc"/></level_requirements>
+                <effect_group>
+                    <effect_description level="1" desc_key="aecTierUnlockLowGSLv1Desc" long_desc_key="aecTierUnlockLowGSLv1Desc"/>
+                    <effect_description level="2" desc_key="aecTierUnlockLowGSLv2Desc" long_desc_key="aecTierUnlockLowGSLv2Desc"/>
+                    <effect_description level="3" desc_key="aecTierUnlockLowGSLv3Desc" long_desc_key="aecTierUnlockLowGSLv3Desc"/>
+                    <effect_description level="4" desc_key="aecTierUnlockLowGSLv4Desc" long_desc_key="aecTierUnlockLowGSLv4Desc"/>
+                    <effect_description level="5" desc_key="aecTierUnlockLowGSLv5Desc" long_desc_key="aecTierUnlockLowGSLv5Desc"/>
+                    <effect_description level="6" desc_key="aecTierUnlockLowGSLv6Desc" long_desc_key="aecTierUnlockLowGSLv6Desc"/>
+                    <effect_description level="7" desc_key="aecTierUnlockLowGSLv7Desc" long_desc_key="aecTierUnlockLowGSLv7Desc"/>
+                    <effect_description level="8" desc_key="aecTierUnlockLowGSLv8Desc" long_desc_key="aecTierUnlockLowGSLv8Desc"/>
+                    <effect_description level="9" desc_key="aecTierUnlockLowGSLv9Desc" long_desc_key="aecTierUnlockLowGSLv9Desc"/>
+                    <effect_description level="10" desc_key="aecTierUnlockLowGSLv10Desc" long_desc_key="aecTierUnlockLowGSLv10Desc"/>
+                    <effect_description level="11" desc_key="aecTierUnlockLowGSLv11Desc" long_desc_key="aecTierUnlockLowGSLv11Desc"/>
+                    <effect_description level="12" desc_key="aecTierUnlockLowGSLv12Desc" long_desc_key="aecTierUnlockLowGSLv12Desc"/>
+                    <effect_description level="13" desc_key="aecTierUnlockLowGSLv13Desc" long_desc_key="aecTierUnlockLowGSLv13Desc"/>
+                    <effect_description level="14" desc_key="aecTierUnlockLowGSLv14Desc" long_desc_key="aecTierUnlockLowGSLv14Desc"/>
+                    <effect_description level="15" desc_key="aecTierUnlockLowGSLv15Desc" long_desc_key="aecTierUnlockLowGSLv15Desc"/>
+                    <effect_description level="16" desc_key="aecTierUnlockLowGSLv16Desc" long_desc_key="aecTierUnlockLowGSLv16Desc"/>
+                    <effect_description level="17" desc_key="aecTierUnlockLowGSLv17Desc" long_desc_key="aecTierUnlockLowGSLv17Desc"/>
+                    <effect_description level="18" desc_key="aecTierUnlockLowGSLv18Desc" long_desc_key="aecTierUnlockLowGSLv18Desc"/>
+                    <effect_description level="19" desc_key="aecTierUnlockLowGSLv19Desc" long_desc_key="aecTierUnlockLowGSLv19Desc"/>
+                    <effect_description level="20" desc_key="aecTierUnlockLowGSLv20Desc" long_desc_key="aecTierUnlockLowGSLv20Desc"/>
+                    <effect_description level="21" desc_key="aecTierUnlockLowGSLv21Desc" long_desc_key="aecTierUnlockLowGSLv21Desc"/>
+                    <effect_description level="22" desc_key="aecTierUnlockLowGSLv22Desc" long_desc_key="aecTierUnlockLowGSLv22Desc"/>
+                    <effect_description level="23" desc_key="aecTierUnlockLowGSLv23Desc" long_desc_key="aecTierUnlockLowGSLv23Desc"/>
+                    <effect_description level="24" desc_key="aecTierUnlockLowGSLv24Desc" long_desc_key="aecTierUnlockLowGSLv24Desc"/>
+                    <effect_description level="25" desc_key="aecTierUnlockLowGSLv25Desc" long_desc_key="aecTierUnlockLowGSLv25Desc"/>
+                </effect_group>
+            </perk>
+        </append>
+</configs>

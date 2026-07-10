@@ -1,0 +1,112 @@
+<configs>
+  <append xpath="/blocks">
+
+
+  <block name="aecExtremeModCraftingTable">
+    <property name="Class"             value="Workstation"/>
+    <property class="Workstation">
+      <property name="Modules"             value="output"/>
+      <property name="CraftingAreaRecipes" value="aecExtremeModCraftingTable"/>
+    </property>
+    <property name="UnlockedBy"        value="craftingWorkstations"/>
+    <property name="CreativeMode"      value="Player"/>
+    <property name="DescriptionKey"    value="aecExtremeModCraftingTableDesc"/>
+    <property name="WorkstationIcon"   value="ui_game_symbol_forge"/>
+    <property name="CustomIcon"         value="workbench"/>
+    <property name="Stacknumber"       value="1"/>
+    <property name="Material"          value="Mmetal_medium"/>
+    <property name="Shape"             value="ModelEntity"/>
+    <property name="Model"             value="@:Entities/Crafting/woodWorkBenchPrefab.prefab"/>
+    <property name="MultiBlockDim"     value="2,2,1"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="WaterFlow"         value="permitted"/>
+    <property name="Place"             value="TowardsPlacerInverted"/>
+    <property name="OnlySimpleRotations" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="StabilitySupport"  value="false"/>
+    <property name="MaxDamage"         value="600"/>
+    <property name="TakeDelay"         value="15"/>
+    <property name="OpenSound"         value="open_workbench"/>
+    <property name="CloseSound"        value="close_workbench"/>
+			<property name="Group" value="Building,advBuilding"/>
+    <property name="Tags"              value="workstationSkill"/>
+    <property name="FilterTags"        value="MC_playerBlocks,SC_decor"/>
+    <property name="SoundPickup"       value="workbench_grab"/>
+    <property name="SoundPlace"        value="workbench_place"/>
+  </block>
+
+  <!-- ===== AEC Head Converter ===== -->
+  <block name="aecHeadConverter">
+    <property name="Extends"               value="chemistryStation"/>
+    <property name="Class"                 value="Campfire"/>
+    <property class="Workstation">
+      <property name="Modules"             value="output,input"/>
+      <property name="CraftingAreaRecipes" value="aecHeadConverter"/>
+    </property>
+    <property name="CreativeMode"          value="Player"/>
+    <property name="DescriptionKey"        value="aecHeadConverterDesc"/>
+    <property name="WorkstationIcon"       value="ui_game_symbol_science"/>
+    <property name="CraftIcon"             value="ui_game_symbol_science"/>
+    <property name="CustomIcon"            value="chemistryStation"/>
+    <property name="CustomIconTint"        value="FF2222"/>
+    <property name="CraftActionName"       value="lblContextActionMix"/>
+    <property name="OpenSound"             value="chem_station_open"/>
+    <property name="CloseSound"            value="chem_station_close"/>
+    <property name="CraftSound"            value="chem_station_mix_click"/>
+    <property name="CraftCompleteSound"    value="chem_station_complete_item"/>
+    <property name="Tags"                  value="workstationSkill"/>
+    <property name="FilterTags"            value="MC_playerBlocks,SC_decor"/>
+			<property name="Group" value="Building,advBuilding"/>
+  </block>
+
+  <block name="aecNecroforgeWorkbench">
+    <property name="Class"                 value="Workstation"/>
+    <property class="Workstation">
+      <property name="Modules"             value="output,input"/>
+      <property name="CraftingAreaRecipes" value="aecNecroforgeWorkbench"/>
+    </property>
+    <property name="WorkstationWindow"     value="workstation_workbench"/>
+    <property name="CreativeMode"          value="Player"/>
+    <property name="DescriptionKey"        value="aecNecroforgeWorkbenchDesc"/>
+    <property name="WorkstationIcon"       value="ui_game_symbol_workbench"/>
+    <property name="CustomIcon"            value="workbench"/>
+    <property name="Stacknumber"           value="1"/>
+    <property name="Material"              value="Mmetal_medium"/>
+    <property name="Shape"                 value="ModelEntity"/>
+    <property name="Model"                 value="@:Entities/Crafting/woodWorkBenchPrefab.prefab"/>
+    <property name="MultiBlockDim"         value="2,2,1"/>
+    <property name="ImposterDontBlock"     value="true"/>
+    <property name="WaterFlow"             value="permitted"/>
+    <property name="Place"                 value="TowardsPlacerInverted"/>
+    <property name="OnlySimpleRotations"   value="true"/>
+    <property name="IsTerrainDecoration"   value="true"/>
+    <property name="StabilitySupport"      value="false"/>
+    <property name="MaxDamage"             value="700"/>
+    <property name="TakeDelay"             value="15"/>
+    <property name="OpenSound"             value="open_workbench"/>
+    <property name="CloseSound"            value="close_workbench"/>
+            <property name="Group" value="AECworkbenchMain" />
+    <property name="Tags"                  value="workstationSkill"/>
+    <property name="FilterTags"            value="MC_playerBlocks,SC_decor"/>
+    <property name="SoundPickup"           value="workbench_grab"/>
+    <property name="SoundPlace"            value="workbench_place"/>
+  </block>
+
+  <block name="aec_heatmap_cooler">
+    <!-- Visually a campfire but without workstation behaviour -->
+    <property name="Extends"         value="campfire"/>
+    <property name="Class"           value="Block"/>
+    <property name="DescriptionKey"  value="aec_heatmap_cooler_desc"/>
+    <property name="CreativeMode"    value="Player"/>
+    <!-- Remove cooking-station interaction -->
+    <property name="CraftActionName" value=""/>
+    <property name="WorkstationIcon" value=""/>
+    <!-- Keep model/particle glow but no cooking sounds -->
+    <property name="OpenSound"           value=""/>
+    <property name="CloseSound"          value=""/>
+    <property name="CraftSound"          value=""/>
+    <property name="CraftCompleteSound"  value=""/>
+    <property name="CustomIcon"      value="campfire"/>
+  </block>
+  </append>
+</configs>

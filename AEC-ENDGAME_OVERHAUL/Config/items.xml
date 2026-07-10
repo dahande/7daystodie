@@ -1,0 +1,1928 @@
+﻿<configs>
+    <append xpath="/items">
+        <item name="AECMeleeHandZombieTier05">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="55" />
+                <property name="DamageBlock" value="300" />
+                <property name="Range" value="1.45" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier06">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="65" />
+                <property name="DamageBlock" value="380" />
+                <property name="Range" value="1.50" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier07">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="78" />
+                <property name="DamageBlock" value="480" />
+                <property name="Range" value="1.55" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier08">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="94" />
+                <property name="DamageBlock" value="600" />
+                <property name="Range" value="1.60" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier09">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="113" />
+                <property name="DamageBlock" value="760" />
+                <property name="Range" value="1.65" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier10">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="136" />
+                <property name="DamageBlock" value="950" />
+                <property name="Range" value="1.70" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier11">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="164" />
+                <property name="DamageBlock" value="1200" />
+                <property name="Range" value="1.75" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier12">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="197" />
+                <property name="DamageBlock" value="1500" />
+                <property name="Range" value="1.80" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier13">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="237" />
+                <property name="DamageBlock" value="1900" />
+                <property name="Range" value="1.90" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier14">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="285" />
+                <property name="DamageBlock" value="2400" />
+                <property name="Range" value="2.00" />
+            </property>
+        </item>
+        <item name="AECMeleeHandZombieTier15">
+            <property name="Extends" value="meleeHandZombieInfernal" />
+            <property name="CreativeMode" value="None" />
+            <property class="Action0">
+                <property name="DamageEntity" value="520" />
+                <property name="DamageBlock" value="7000" />
+                <property name="Range" value="2.35" />
+            </property>
+        </item>
+        <item name="aecZombieHeadModel">
+            <property name="Tags" value="aecZombieHead" />
+            <property name="CustomIcon" value="goreHumanSkull" />
+            <property name="ItemTypeIcon" value="skull_crusher" />
+            <property name="HoldType" value="3" />
+            <property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab" />
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+            <property name="Material" value="Morganic" />
+            <property name="Stacknumber" value="10000" />
+            <property name="EconomicValue" value="0" />
+            <property name="Group" value="Science,Medical,TCMedical" />
+            <property name="SoundPickup" value="bloodbag_grab" />
+            <property name="SoundPlace" value="bloodbag_place" />
+            <property name="SellableToTrader" value="false" />
+        </item>
+        <!-- T00-T04 Vanilla Zombie Heads -->
+        <item name="aecZombieHeadT00Basic">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT00BasicDesc" />
+            <property name="CustomIconTint" value="170,170,170" />
+            <property name="Group" value="aecHeadT00Basic" />
+        </item>
+        <item name="aecZombieHeadT01Feral">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT01FeralDesc" />
+            <property name="CustomIconTint" value="68,187,255" />
+            <property name="Group" value="aecHeadT01Feral" />
+        </item>
+        <item name="aecZombieHeadT02Radiated">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT02RadiatedDesc" />
+            <property name="CustomIconTint" value="68,255,170" />
+            <property name="Group" value="aecHeadT02Radiated" />
+        </item>
+        <item name="aecZombieHeadT03Charged">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT03ChargedDesc" />
+            <property name="CustomIconTint" value="255,204,0" />
+            <property name="Group" value="aecHeadT03Charged" />
+        </item>
+        <item name="aecZombieHeadT04Infernal">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT04InfernalDesc" />
+            <property name="CustomIconTint" value="255,136,0" />
+            <property name="Group" value="aecHeadT04Infernal" />
+        </item>
+        <item name="aecZombieHeadT05Veteran">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT05VeteranDesc" />
+            <property name="CustomIconTint" value="170,170,170" />
+            <property name="Group" value="aecHeadT05Veteran" />
+        </item>
+        <item name="aecZombieHeadT06Brutal">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT06BrutalDesc" />
+            <property name="CustomIconTint" value="136,204,136" />
+            <property name="Group" value="aecHeadT06Brutal" />
+        </item>
+        <item name="aecZombieHeadT07Savage">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT07SavageDesc" />
+            <property name="CustomIconTint" value="85,238,0" />
+            <property name="Group" value="aecHeadT07Savage" />
+        </item>
+        <item name="aecZombieHeadT08Ravager">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT08RavagerDesc" />
+            <property name="CustomIconTint" value="238,187,0" />
+            <property name="Group" value="aecHeadT08Ravager" />
+        </item>
+        <item name="aecZombieHeadT09Dread">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT09DreadDesc" />
+            <property name="CustomIconTint" value="255,153,0" />
+            <property name="Group" value="aecHeadT09Dread" />
+        </item>
+        <item name="aecZombieHeadT10Nightmare">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT10NightmareDesc" />
+            <property name="CustomIconTint" value="255,102,0" />
+            <property name="Group" value="aecHeadT10Nightmare" />
+        </item>
+        <item name="aecZombieHeadT11Apex">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT11ApexDesc" />
+            <property name="CustomIconTint" value="255,51,0" />
+            <property name="Group" value="aecHeadT11Apex" />
+        </item>
+        <item name="aecZombieHeadT12Overlord">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT12OverlordDesc" />
+            <property name="CustomIconTint" value="255,0,0" />
+            <property name="Group" value="aecHeadT12Overlord" />
+        </item>
+        <item name="aecZombieHeadT13Titan">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT13TitanDesc" />
+            <property name="CustomIconTint" value="255,0,136" />
+            <property name="Group" value="aecHeadT13Titan" />
+        </item>
+        <item name="aecZombieHeadT14Cataclysm">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT14CataclysmDesc" />
+            <property name="CustomIconTint" value="204,0,255" />
+            <property name="Group" value="aecHeadT14Cataclysm" />
+        </item>
+        <item name="aecZombieHeadT15Mythic">
+            <property name="Extends" value="aecZombieHeadModel" />
+            <property name="DescriptionKey" value="aecZombieHeadT15MythicDesc" />
+            <property name="CustomIconTint" value="255,68,255" />
+            <property name="Group" value="aecHeadT15Mythic" />
+        </item>
+        <!-- Quest Tokens T00-T04 (LowGS) -->
+        <item name="aecQuestTokenT00A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaaa" />
+        </item>
+        <item name="aecQuestTokenT00A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaaa" />
+        </item>
+        <item name="aecQuestTokenT00A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaaa" />
+        </item>
+        <item name="aecQuestTokenT00A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaaa" />
+        </item>
+        <item name="aecQuestTokenT00A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaaa" />
+        </item>
+        <item name="aecQuestTokenT01A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44bbff" />
+        </item>
+        <item name="aecQuestTokenT01A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44bbff" />
+        </item>
+        <item name="aecQuestTokenT01A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44bbff" />
+        </item>
+        <item name="aecQuestTokenT01A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44bbff" />
+        </item>
+        <item name="aecQuestTokenT01A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44bbff" />
+        </item>
+        <item name="aecQuestTokenT02A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44ffaa" />
+        </item>
+        <item name="aecQuestTokenT02A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44ffaa" />
+        </item>
+        <item name="aecQuestTokenT02A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44ffaa" />
+        </item>
+        <item name="aecQuestTokenT02A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44ffaa" />
+        </item>
+        <item name="aecQuestTokenT02A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="44ffaa" />
+        </item>
+        <item name="aecQuestTokenT03A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffcc00" />
+        </item>
+        <item name="aecQuestTokenT03A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffcc00" />
+        </item>
+        <item name="aecQuestTokenT03A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffcc00" />
+        </item>
+        <item name="aecQuestTokenT03A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffcc00" />
+        </item>
+        <item name="aecQuestTokenT03A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffcc00" />
+        </item>
+        <item name="aecQuestTokenT04A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8800" />
+        </item>
+        <item name="aecQuestTokenT04A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8800" />
+        </item>
+        <item name="aecQuestTokenT04A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8800" />
+        </item>
+        <item name="aecQuestTokenT04A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8800" />
+        </item>
+        <item name="aecQuestTokenT04A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8800" />
+        </item>
+        <item name="aecQuestTokenT05A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffffff" />
+        </item>
+        <item name="aecQuestTokenT05A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffffff" />
+        </item>
+        <item name="aecQuestTokenT05A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffffff" />
+        </item>
+        <item name="aecQuestTokenT05A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffffff" />
+        </item>
+        <item name="aecQuestTokenT05A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffffff" />
+        </item>
+        <item name="aecQuestTokenT06A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaffaa" />
+        </item>
+        <item name="aecQuestTokenT06A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaffaa" />
+        </item>
+        <item name="aecQuestTokenT06A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaffaa" />
+        </item>
+        <item name="aecQuestTokenT06A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaffaa" />
+        </item>
+        <item name="aecQuestTokenT06A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaffaa" />
+        </item>
+        <item name="aecQuestTokenT07A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaff" />
+        </item>
+        <item name="aecQuestTokenT07A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaff" />
+        </item>
+        <item name="aecQuestTokenT07A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaff" />
+        </item>
+        <item name="aecQuestTokenT07A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaff" />
+        </item>
+        <item name="aecQuestTokenT07A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="aaaaff" />
+        </item>
+        <item name="aecQuestTokenT08A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffaaaa" />
+        </item>
+        <item name="aecQuestTokenT08A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffaaaa" />
+        </item>
+        <item name="aecQuestTokenT08A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffaaaa" />
+        </item>
+        <item name="aecQuestTokenT08A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffaaaa" />
+        </item>
+        <item name="aecQuestTokenT08A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffaaaa" />
+        </item>
+        <item name="aecQuestTokenT09A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd88" />
+        </item>
+        <item name="aecQuestTokenT09A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd88" />
+        </item>
+        <item name="aecQuestTokenT09A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd88" />
+        </item>
+        <item name="aecQuestTokenT09A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd88" />
+        </item>
+        <item name="aecQuestTokenT09A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd88" />
+        </item>
+        <item name="aecQuestTokenT10A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="88ffff" />
+        </item>
+        <item name="aecQuestTokenT10A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="88ffff" />
+        </item>
+        <item name="aecQuestTokenT10A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="88ffff" />
+        </item>
+        <item name="aecQuestTokenT10A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="88ffff" />
+        </item>
+        <item name="aecQuestTokenT10A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="88ffff" />
+        </item>
+        <item name="aecQuestTokenT11A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff88ff" />
+        </item>
+        <item name="aecQuestTokenT11A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff88ff" />
+        </item>
+        <item name="aecQuestTokenT11A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff88ff" />
+        </item>
+        <item name="aecQuestTokenT11A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff88ff" />
+        </item>
+        <item name="aecQuestTokenT11A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff88ff" />
+        </item>
+        <item name="aecQuestTokenT12A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8855" />
+        </item>
+        <item name="aecQuestTokenT12A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8855" />
+        </item>
+        <item name="aecQuestTokenT12A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8855" />
+        </item>
+        <item name="aecQuestTokenT12A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8855" />
+        </item>
+        <item name="aecQuestTokenT12A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ff8855" />
+        </item>
+        <item name="aecQuestTokenT13A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="55ff88" />
+        </item>
+        <item name="aecQuestTokenT13A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="55ff88" />
+        </item>
+        <item name="aecQuestTokenT13A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="55ff88" />
+        </item>
+        <item name="aecQuestTokenT13A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="55ff88" />
+        </item>
+        <item name="aecQuestTokenT13A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="55ff88" />
+        </item>
+        <item name="aecQuestTokenT14A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="8855ff" />
+        </item>
+        <item name="aecQuestTokenT14A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="8855ff" />
+        </item>
+        <item name="aecQuestTokenT14A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="8855ff" />
+        </item>
+        <item name="aecQuestTokenT14A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="8855ff" />
+        </item>
+        <item name="aecQuestTokenT14A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="8855ff" />
+        </item>
+        <item name="aecQuestTokenT15A1">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd00" />
+        </item>
+        <item name="aecQuestTokenT15A2">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd00" />
+        </item>
+        <item name="aecQuestTokenT15A3">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd00" />
+        </item>
+        <item name="aecQuestTokenT15A4">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd00" />
+        </item>
+        <item name="aecQuestTokenT15A5">
+            <property name="CreativeMode" value="None" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="Material" value="Mpaper" />
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="500" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Candrop" value="false" />
+            <property name="CustomIcon" value="adminQuestTicketMaster" />
+            <property name="CustomIconTint" value="ffdd00" />
+        </item>
+
+        <item name="aecEndgameDiscordNote">
+            <property name="Extends" value="blankNoteMaster" />
+            <property name="CustomIcon" value="resourcePaper" />
+            <property name="DescriptionKey" value="aecEndgameDiscordNoteDesc" />
+            <property name="Stacknumber" value="1" />
+            <property name="EconomicValue" value="1" />
+            <property name="Weight" value="1" />
+            <property name="SellableToTrader" value="false" />
+            <property name="Group" value="AECworkbenchMain" />
+        </item>
+
+        <item name="aecEOTutorialBook01">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_01" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook01" />
+                <property name="PromptDescription" value="aecEOTutorialBook01Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook02">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_02" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook02" />
+                <property name="PromptDescription" value="aecEOTutorialBook02Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook03">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_03" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook03" />
+                <property name="PromptDescription" value="aecEOTutorialBook03Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook04">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_04" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook04" />
+                <property name="PromptDescription" value="aecEOTutorialBook04Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook05">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_05" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook05" />
+                <property name="PromptDescription" value="aecEOTutorialBook05Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook06">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_06" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook06" />
+                <property name="PromptDescription" value="aecEOTutorialBook06Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook07">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_07" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook07" />
+                <property name="PromptDescription" value="aecEOTutorialBook07Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook08">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_08" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook08" />
+                <property name="PromptDescription" value="aecEOTutorialBook08Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook09">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_09" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook09" />
+                <property name="PromptDescription" value="aecEOTutorialBook09Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook10">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_10" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook10" />
+                <property name="PromptDescription" value="aecEOTutorialBook10Desc" />
+            </property>
+        </item>
+        <item name="aecEOTutorialBook11">
+            <property name="Extends" value="questMaster" />
+            <property name="DescriptionKey" value="readTheNote" />
+            <property name="CustomIcon" value="challengeQuestMaster" />
+            <property name="Stacknumber" value="1" />
+            <property class="Action0">
+                <property name="Class" value="Quest" />
+                <property name="QuestGiven" value="aec_eo_tutorial_11" />
+                <property name="Delay" value="0.5" />
+                <property name="UseAnimation" value="false" />
+                <property name="PromptTitle" value="aecEOTutorialBook11" />
+                <property name="PromptDescription" value="aecEOTutorialBook11Desc" />
+            </property>
+        </item>
+        <!-- ===== AEC Necroforge: openable ammo bundles (UI visibility workaround) ===== -->
+        <item name="aecNecroforgeAmmoBundleMaster">
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="ItemTypeIcon" value="bundle" />
+            <property name="HoldType" value="45" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+            <property name="Material" value="Mmetal" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="aecNecroforgeAmmoBundleDesc" />
+            <property name="Stacknumber" value="50" />
+            <property name="Weight" value="0" />
+            <property name="EconomicValue" value="1" />
+            <property name="SoundPickup" value="ammobox_grab" />
+            <property name="SoundPlace" value="ammobox_place" />
+            <property class="Action0">
+                <property name="Class" value="OpenBundle" />
+                <property name="Delay" value="0" />
+                <property name="Sound_start" value="close_garbage" />
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="100" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT00">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="100" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT01">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="110" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT02">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="120" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT03">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="130" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT04">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="140" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT05">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="150" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT06">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="160" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT07">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="170" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT08">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="180" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT09">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="190" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT10">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="200" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT11">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="210" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT12">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="220" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT13">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="230" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT14">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="240" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo9mmT15">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo9mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo9mm" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletBall" />
+                <property name="Create_item_count" value="250" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T00">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="100" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T01">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="110" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T02">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="120" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T03">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="130" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T04">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="140" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T05">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="150" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T06">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="160" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T07">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="170" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T08">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="180" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T09">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="190" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T10">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="200" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T11">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="210" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T12">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="220" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T13">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="230" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T14">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="240" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo44T15">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo44MagnumBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo44" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletBall" />
+                <property name="Create_item_count" value="250" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T00">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="100" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T01">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="110" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T02">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="120" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T03">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="130" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T04">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="140" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T05">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="150" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T06">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="160" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T07">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="170" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T08">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="180" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T09">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="190" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T10">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="200" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T11">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="210" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T12">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="220" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T13">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="230" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T14">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="240" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo762T15">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammo762mmBulletBall" />
+            <property name="Group" value="aecNecroforgeAmmo762" />
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletBall" />
+                <property name="Create_item_count" value="250" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT00">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="100" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT01">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="110" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT02">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="120" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT03">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="130" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT04">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="140" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT05">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="150" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT06">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="160" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT07">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="170" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT08">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="180" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT09">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="190" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT10">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="200" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT11">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="210" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT12">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="220" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT13">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="230" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT14">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="240" />
+            </property>
+        </item>
+
+        <item name="aecNecroBundleAmmo12gT15">
+            <property name="Extends" value="aecNecroforgeAmmoBundleMaster" />
+            <property name="CustomIcon" value="ammoShotgunShell" />
+            <property name="Group" value="aecNecroforgeAmmo12g" />
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShell" />
+                <property name="Create_item_count" value="250" />
+            </property>
+        </item>
+
+    </append>
+</configs>
+
+

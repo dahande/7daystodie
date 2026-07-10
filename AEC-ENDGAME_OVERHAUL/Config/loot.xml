@@ -1,0 +1,48 @@
+﻿<configs>
+    <append xpath="/lootcontainers">
+        <!-- AEC zombie head bag T05 -->
+        <lootcontainer name="aecZpackT05" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT05Veteran" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T06 -->
+        <lootcontainer name="aecZpackT06" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT06Brutal" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T07 -->
+        <lootcontainer name="aecZpackT07" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT07Savage" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T08 -->
+        <lootcontainer name="aecZpackT08" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT08Ravager" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T09 -->
+        <lootcontainer name="aecZpackT09" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT09Dread" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T10 -->
+        <lootcontainer name="aecZpackT10" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT10Nightmare" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T11 -->
+        <lootcontainer name="aecZpackT11" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT11Apex" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T12 -->
+        <lootcontainer name="aecZpackT12" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT12Overlord" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T13 -->
+        <lootcontainer name="aecZpackT13" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT13Titan" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T14 -->
+        <lootcontainer name="aecZpackT14" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT14Cataclysm" count="1,1" prob="1"/>
+        </lootcontainer>
+        <!-- AEC zombie head bag T15 -->
+        <lootcontainer name="aecZpackT15" count="1,5" size="5,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true">
+            <item name="aecZombieHeadT15Mythic" count="1,1" prob="1"/>
+        </lootcontainer>
+    </append>
+</configs>
