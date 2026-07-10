@@ -964,7 +964,7 @@ questAECDoomlordArcherMinionAssault_description_T15,quests,,false,"Doomlord troo
 questAECDoomlordArcherMinionAssault_name_T15,quests,,false,"Joint Assault - Doomlord & Archer [5★]"
 questAECDoomlordArcherMinionAssault_offer_T15,quests,,false,"This is no patrol. Doomlord muscle and Archer raiders are coming together in force. Hold the line through every wave. [5★]"
 questAECDoomlordArcherMinionAssault_statement_T15,quests,,false,"Deploy the lure, hold through three heavy mixed waves, then kill 3 zombies from the final breach. [5★]"
-eventAECDruidHuntArrival_msg_T03,gameevents,,,DRUID HUNT: Survive the animal waves, then face The Druid herself!
+eventAECDruidHuntArrival_msg_T03,gameevents,,,"DRUID HUNT: Survive the animal waves,then face The Druid herself!"
 eventAECDruidHuntBossSpawn_msg_T03,gameevents,,,BOSS: The Druid steps into the fight!
 eventAECDruidT4Wave1_msg_T03,gameevents,,,WAVE 1: The first pack is charging in!
 eventAECDruidT4Wave2_msg_T03,gameevents,,,WAVE 2: Larger beasts are joining the hunt!
@@ -983,15 +983,15 @@ questAECDruidEndlessWildMenagerie_response_T03,quests,,false,"[FFA500]AEC 100 wa
 questAECDruidEndlessWildMenagerie_statement_T03,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [1★]"
 questAECDruidEndlessWildMenagerie_subtitle_T03,quests,,false,"AEC Super-Challenge Contract [1★]"
 questAECDruidHunt_completion_T03,quests,,,"The Druid is dead. Take your reward. [1★]"
-questAECDruidHunt_description_T03,quests,,,,"Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [1★]"
+questAECDruidHunt_description_T03,quests,,,",Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [1★]"
 questAECDruidHunt_name_T03,quests,,,"[2E8B57]Hunt: BOSS The Druid[-] [1★]"
 questAECDruidHunt_obj_kill_T03,quests,,,"Kill BOSS The Druid [1★]"
-questAECDruidHunt_offer_T03,quests,,,,"Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [1★]"
+questAECDruidHunt_offer_T03,quests,,,",Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [1★]"
 questAECDruidHunt_response_T03,quests,,,"AEC HORDE - [2E8B57]Hunt: BOSS The Druid[-] [1★]"
-questAECDruidHunt_statement_T03,quests,,,,"survive five mixed waves, then kill The Druid. [1★]"
+questAECDruidHunt_statement_T03,quests,,,",survive five mixed waves, then kill The Druid. [1★]"
 questAECDruidHunt_subtitle_T03,quests,,,T4 Boss Hunt
 questAECDruidMinionAssault_name_T03,quests,,false,"[CCAA44]Druid Minion Assault[-] [1★]"
-eventAECDruidHuntArrival_msg_T06,gameevents,,,DRUID HUNT: Survive the animal waves, then face The Druid herself!
+eventAECDruidHuntArrival_msg_T06,gameevents,,,"DRUID HUNT: Survive the animal waves,then face The Druid herself!"
 eventAECDruidHuntBossSpawn_msg_T06,gameevents,,,BOSS: The Druid steps into the fight!
 eventAECDruidT4Wave1_msg_T06,gameevents,,,WAVE 1: The first pack is charging in!
 eventAECDruidT4Wave2_msg_T06,gameevents,,,WAVE 2: Larger beasts are joining the hunt!
@@ -1010,15 +1010,15 @@ questAECDruidEndlessWildMenagerie_response_T06,quests,,false,"[FFA500]AEC 100 wa
 questAECDruidEndlessWildMenagerie_statement_T06,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [2★]"
 questAECDruidEndlessWildMenagerie_subtitle_T06,quests,,false,"AEC Super-Challenge Contract [2★]"
 questAECDruidHunt_completion_T06,quests,,,"The Druid is dead. Take your reward. [2★]"
-questAECDruidHunt_description_T06,quests,,,,"Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [2★]"
+questAECDruidHunt_description_T06,quests,,,",Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [2★]"
 questAECDruidHunt_name_T06,quests,,,"[2E8B57]Hunt: BOSS The Druid[-] [2★]"
 questAECDruidHunt_obj_kill_T06,quests,,,"Kill BOSS The Druid [2★]"
-questAECDruidHunt_offer_T06,quests,,,,"Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [2★]"
+questAECDruidHunt_offer_T06,quests,,,",Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [2★]"
 questAECDruidHunt_response_T06,quests,,,"AEC HORDE - [2E8B57]Hunt: BOSS The Druid[-] [2★]"
-questAECDruidHunt_statement_T06,quests,,,,"survive five mixed waves, then kill The Druid. [2★]"
+questAECDruidHunt_statement_T06,quests,,,",survive five mixed waves, then kill The Druid. [2★]"
 questAECDruidHunt_subtitle_T06,quests,,,T4 Boss Hunt
 questAECDruidMinionAssault_name_T06,quests,,false,"[CCAA44]Druid Minion Assault[-] [2★]"
-eventAECDruidHuntArrival_msg_T09,gameevents,,,DRUID HUNT: Survive the animal waves, then face The Druid herself!
+eventAECDruidHuntArrival_msg_T09,gameevents,,,"DRUID HUNT: Survive the animal waves,then face The Druid herself!"
 eventAECDruidHuntBossSpawn_msg_T09,gameevents,,,BOSS: The Druid steps into the fight!
 eventAECDruidT4Wave1_msg_T09,gameevents,,,WAVE 1: The first pack is charging in!
 eventAECDruidT4Wave2_msg_T09,gameevents,,,WAVE 2: Larger beasts are joining the hunt!
@@ -1037,15 +1037,15 @@ questAECDruidEndlessWildMenagerie_response_T09,quests,,false,"[FFA500]AEC 100 wa
 questAECDruidEndlessWildMenagerie_statement_T09,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [3★]"
 questAECDruidEndlessWildMenagerie_subtitle_T09,quests,,false,"AEC Super-Challenge Contract [3★]"
 questAECDruidHunt_completion_T09,quests,,,"The Druid is dead. Take your reward. [3★]"
-questAECDruidHunt_description_T09,quests,,,,"Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [3★]"
+questAECDruidHunt_description_T09,quests,,,",Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [3★]"
 questAECDruidHunt_name_T09,quests,,,"[2E8B57]Hunt: BOSS The Druid[-] [3★]"
 questAECDruidHunt_obj_kill_T09,quests,,,"Kill BOSS The Druid [3★]"
-questAECDruidHunt_offer_T09,quests,,,,"Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [3★]"
+questAECDruidHunt_offer_T09,quests,,,",Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [3★]"
 questAECDruidHunt_response_T09,quests,,,"AEC HORDE - [2E8B57]Hunt: BOSS The Druid[-] [3★]"
-questAECDruidHunt_statement_T09,quests,,,,"survive five mixed waves, then kill The Druid. [3★]"
+questAECDruidHunt_statement_T09,quests,,,",survive five mixed waves, then kill The Druid. [3★]"
 questAECDruidHunt_subtitle_T09,quests,,,T4 Boss Hunt
 questAECDruidMinionAssault_name_T09,quests,,false,"[CCAA44]Druid Minion Assault[-] [3★]"
-eventAECDruidHuntArrival_msg_T12,gameevents,,,DRUID HUNT: Survive the animal waves, then face The Druid herself!
+eventAECDruidHuntArrival_msg_T12,gameevents,,,"DRUID HUNT: Survive the animal waves,then face The Druid herself!"
 eventAECDruidHuntBossSpawn_msg_T12,gameevents,,,BOSS: The Druid steps into the fight!
 eventAECDruidT4Wave1_msg_T12,gameevents,,,WAVE 1: The first pack is charging in!
 eventAECDruidT4Wave2_msg_T12,gameevents,,,WAVE 2: Larger beasts are joining the hunt!
@@ -1064,15 +1064,15 @@ questAECDruidEndlessWildMenagerie_response_T12,quests,,false,"[FFA500]AEC 100 wa
 questAECDruidEndlessWildMenagerie_statement_T12,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [4★]"
 questAECDruidEndlessWildMenagerie_subtitle_T12,quests,,false,"AEC Super-Challenge Contract [4★]"
 questAECDruidHunt_completion_T12,quests,,,"The Druid is dead. Take your reward. [4★]"
-questAECDruidHunt_description_T12,quests,,,,"Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [4★]"
+questAECDruidHunt_description_T12,quests,,,",Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [4★]"
 questAECDruidHunt_name_T12,quests,,,"[2E8B57]Hunt: BOSS The Druid[-] [4★]"
 questAECDruidHunt_obj_kill_T12,quests,,,"Kill BOSS The Druid [4★]"
-questAECDruidHunt_offer_T12,quests,,,,"Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [4★]"
+questAECDruidHunt_offer_T12,quests,,,",Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [4★]"
 questAECDruidHunt_response_T12,quests,,,"AEC HORDE - [2E8B57]Hunt: BOSS The Druid[-] [4★]"
-questAECDruidHunt_statement_T12,quests,,,,"survive five mixed waves, then kill The Druid. [4★]"
+questAECDruidHunt_statement_T12,quests,,,",survive five mixed waves, then kill The Druid. [4★]"
 questAECDruidHunt_subtitle_T12,quests,,,T4 Boss Hunt
 questAECDruidMinionAssault_name_T12,quests,,false,"[CCAA44]Druid Minion Assault[-] [4★]"
-eventAECDruidHuntArrival_msg_T15,gameevents,,,DRUID HUNT: Survive the animal waves, then face The Druid herself!
+eventAECDruidHuntArrival_msg_T15,gameevents,,,"DRUID HUNT: Survive the animal waves,then face The Druid herself!"
 eventAECDruidHuntBossSpawn_msg_T15,gameevents,,,BOSS: The Druid steps into the fight!
 eventAECDruidT4Wave1_msg_T15,gameevents,,,WAVE 1: The first pack is charging in!
 eventAECDruidT4Wave2_msg_T15,gameevents,,,WAVE 2: Larger beasts are joining the hunt!
@@ -1091,15 +1091,15 @@ questAECDruidEndlessWildMenagerie_response_T15,quests,,false,"[FFA500]AEC 100 wa
 questAECDruidEndlessWildMenagerie_statement_T15,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [5★]"
 questAECDruidEndlessWildMenagerie_subtitle_T15,quests,,false,"AEC Super-Challenge Contract [5★]"
 questAECDruidHunt_completion_T15,quests,,,"The Druid is dead. Take your reward. [5★]"
-questAECDruidHunt_description_T15,quests,,,,"Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [5★]"
+questAECDruidHunt_description_T15,quests,,,",Activate the rally, place the lure, survive five enraged animal waves, then kill The Druid. [5★]"
 questAECDruidHunt_name_T15,quests,,,"[2E8B57]Hunt: BOSS The Druid[-] [5★]"
 questAECDruidHunt_obj_kill_T15,quests,,,"Kill BOSS The Druid [5★]"
-questAECDruidHunt_offer_T15,quests,,,,"Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [5★]"
+questAECDruidHunt_offer_T15,quests,,,",Big contract. The Druid is sending everything first. Trigger the rally, place the lure, survive five waves, and finish her. [5★]"
 questAECDruidHunt_response_T15,quests,,,"AEC HORDE - [2E8B57]Hunt: BOSS The Druid[-] [5★]"
-questAECDruidHunt_statement_T15,quests,,,,"survive five mixed waves, then kill The Druid. [5★]"
+questAECDruidHunt_statement_T15,quests,,,",survive five mixed waves, then kill The Druid. [5★]"
 questAECDruidHunt_subtitle_T15,quests,,,T4 Boss Hunt
 questAECDruidMinionAssault_name_T15,quests,,false,"[CCAA44]Druid Minion Assault[-] [5★]"
-eventAECDumdumHuntArrival_msg_T03,gameevents,,,ALERT: Dumdum's army is mobilizing. Survive five waves, then face the boss!
+eventAECDumdumHuntArrival_msg_T03,gameevents,,,"ALERT: Dumdum's army is mobilizing. Survive five waves,then face the boss!"
 eventAECDumdumHuntBossSpawn_msg_T03,gameevents,,,BOSS: Dumdum himself arrives. Finish this!
 eventAECDumdumMinionAssaultWave4_msg_T03,gameevents,,,Green contract final breaker wave incoming.
 eventAECDumdumT4Wave1_msg_T03,gameevents,,,WAVE 1: Dumdum's hunt opens with a full push!
@@ -1128,7 +1128,7 @@ questAECDumdumHunt_statement_T03,quests,,,"survive five timed waves of minions, 
 questAECDumdumHunt_subtitle_T03,quests,,,T4 Boss Hunt
 questAECDumdumMinionAssault_name_T03,quests,,false,"[CCAA44]Dumdum Minion Assault[-] [1★]"
 questAECDumdumMinionAssault_obj_wave4_T03,quests,,false,"Wave 4: Kill 3 Dumdum Minions [1★]"
-eventAECDumdumHuntArrival_msg_T06,gameevents,,,ALERT: Dumdum's army is mobilizing. Survive five waves, then face the boss!
+eventAECDumdumHuntArrival_msg_T06,gameevents,,,"ALERT: Dumdum's army is mobilizing. Survive five waves,then face the boss!"
 eventAECDumdumHuntBossSpawn_msg_T06,gameevents,,,BOSS: Dumdum himself arrives. Finish this!
 eventAECDumdumMinionAssaultWave4_msg_T06,gameevents,,,Green contract final breaker wave incoming.
 eventAECDumdumT4Wave1_msg_T06,gameevents,,,WAVE 1: Dumdum's hunt opens with a full push!
@@ -1157,7 +1157,7 @@ questAECDumdumHunt_statement_T06,quests,,,"survive five timed waves of minions, 
 questAECDumdumHunt_subtitle_T06,quests,,,T4 Boss Hunt
 questAECDumdumMinionAssault_name_T06,quests,,false,"[CCAA44]Dumdum Minion Assault[-] [2★]"
 questAECDumdumMinionAssault_obj_wave4_T06,quests,,false,"Wave 4: Kill 3 Dumdum Minions [2★]"
-eventAECDumdumHuntArrival_msg_T09,gameevents,,,ALERT: Dumdum's army is mobilizing. Survive five waves, then face the boss!
+eventAECDumdumHuntArrival_msg_T09,gameevents,,,"ALERT: Dumdum's army is mobilizing. Survive five waves,then face the boss!"
 eventAECDumdumHuntBossSpawn_msg_T09,gameevents,,,BOSS: Dumdum himself arrives. Finish this!
 eventAECDumdumMinionAssaultWave4_msg_T09,gameevents,,,Green contract final breaker wave incoming.
 eventAECDumdumT4Wave1_msg_T09,gameevents,,,WAVE 1: Dumdum's hunt opens with a full push!
@@ -1186,7 +1186,7 @@ questAECDumdumHunt_statement_T09,quests,,,"survive five timed waves of minions, 
 questAECDumdumHunt_subtitle_T09,quests,,,T4 Boss Hunt
 questAECDumdumMinionAssault_name_T09,quests,,false,"[CCAA44]Dumdum Minion Assault[-] [3★]"
 questAECDumdumMinionAssault_obj_wave4_T09,quests,,false,"Wave 4: Kill 3 Dumdum Minions [3★]"
-eventAECDumdumHuntArrival_msg_T12,gameevents,,,ALERT: Dumdum's army is mobilizing. Survive five waves, then face the boss!
+eventAECDumdumHuntArrival_msg_T12,gameevents,,,"ALERT: Dumdum's army is mobilizing. Survive five waves,then face the boss!"
 eventAECDumdumHuntBossSpawn_msg_T12,gameevents,,,BOSS: Dumdum himself arrives. Finish this!
 eventAECDumdumMinionAssaultWave4_msg_T12,gameevents,,,Green contract final breaker wave incoming.
 eventAECDumdumT4Wave1_msg_T12,gameevents,,,WAVE 1: Dumdum's hunt opens with a full push!
@@ -1215,7 +1215,7 @@ questAECDumdumHunt_statement_T12,quests,,,"survive five timed waves of minions, 
 questAECDumdumHunt_subtitle_T12,quests,,,T4 Boss Hunt
 questAECDumdumMinionAssault_name_T12,quests,,false,"[CCAA44]Dumdum Minion Assault[-] [4★]"
 questAECDumdumMinionAssault_obj_wave4_T12,quests,,false,"Wave 4: Kill 3 Dumdum Minions [4★]"
-eventAECDumdumHuntArrival_msg_T15,gameevents,,,ALERT: Dumdum's army is mobilizing. Survive five waves, then face the boss!
+eventAECDumdumHuntArrival_msg_T15,gameevents,,,"ALERT: Dumdum's army is mobilizing. Survive five waves,then face the boss!"
 eventAECDumdumHuntBossSpawn_msg_T15,gameevents,,,BOSS: Dumdum himself arrives. Finish this!
 eventAECDumdumMinionAssaultWave4_msg_T15,gameevents,,,Green contract final breaker wave incoming.
 eventAECDumdumT4Wave1_msg_T15,gameevents,,,WAVE 1: Dumdum's hunt opens with a full push!
@@ -1254,12 +1254,12 @@ eventAECElectricDemonWave5_msg_T03,gameevents,,,WAVE 5: Final surge. Burn throug
 itemAECElectricDemonHuntContract_T03,,,,"[FFD700]AEC |[-] [FFD700]Electric Demon Contract | Boss Hunt[-] [1★]"
 itemAECElectricDemonHuntContract_desc_T03,,,,"A bounty contract for the Electric Demon. Track it in the wilderness, survive five timed waves, and shut it down. [1★]"
 questAECElectricDemonHunt_completion_T03,quests,,,Power source terminated. Here is your payment.
-questAECElectricDemonHunt_description_T03,quests,,,Activate the rally, place the lure, survive five timed attack waves, and destroy the Electric Demon before it overloads the area.
+questAECElectricDemonHunt_description_T03,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and destroy the Electric Demon before it overloads the area."
 questAECElectricDemonHunt_name_T03,quests,,,"[00C8FF]Hunt: The Electric Demon[-] [1★]"
 questAECElectricDemonHunt_obj_kill_T03,quests,,,Kill the Electric Demon
-questAECElectricDemonHunt_offer_T03,quests,,,High voltage contract. Trigger the rally, set the lure, survive five timed waves of pressure, and put the Electric Demon down.
+questAECElectricDemonHunt_offer_T03,quests,,,"High voltage contract. Trigger the rally,set the lure,survive five timed waves of pressure,and put the Electric Demon down."
 questAECElectricDemonHunt_response_T03,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Electric Demon[-]
-questAECElectricDemonHunt_statement_T03,quests,,,Survive five timed waves, then kill the Electric Demon.
+questAECElectricDemonHunt_statement_T03,quests,,,"Survive five timed waves,then kill the Electric Demon."
 questAECElectricDemonHunt_subtitle_T03,quests,,,T4 Boss Hunt
 eventAECElectricDemonHuntArrival_msg_T06,gameevents,,,ALERT: The Electric Demon has been spotted in the area. Stay grounded.
 eventAECElectricDemonHuntBossSpawn_msg_T06,gameevents,,,BOSS: The Electric Demon is here. Expect shock damage and ranged pressure.
@@ -1271,12 +1271,12 @@ eventAECElectricDemonWave5_msg_T06,gameevents,,,WAVE 5: Final surge. Burn throug
 itemAECElectricDemonHuntContract_T06,,,,"[FFD700]AEC |[-] [FFD700]Electric Demon Contract | Boss Hunt[-] [2★]"
 itemAECElectricDemonHuntContract_desc_T06,,,,"A bounty contract for the Electric Demon. Track it in the wilderness, survive five timed waves, and shut it down. [2★]"
 questAECElectricDemonHunt_completion_T06,quests,,,Power source terminated. Here is your payment.
-questAECElectricDemonHunt_description_T06,quests,,,Activate the rally, place the lure, survive five timed attack waves, and destroy the Electric Demon before it overloads the area.
+questAECElectricDemonHunt_description_T06,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and destroy the Electric Demon before it overloads the area."
 questAECElectricDemonHunt_name_T06,quests,,,"[00C8FF]Hunt: The Electric Demon[-] [2★]"
 questAECElectricDemonHunt_obj_kill_T06,quests,,,Kill the Electric Demon
-questAECElectricDemonHunt_offer_T06,quests,,,High voltage contract. Trigger the rally, set the lure, survive five timed waves of pressure, and put the Electric Demon down.
+questAECElectricDemonHunt_offer_T06,quests,,,"High voltage contract. Trigger the rally,set the lure,survive five timed waves of pressure,and put the Electric Demon down."
 questAECElectricDemonHunt_response_T06,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Electric Demon[-]
-questAECElectricDemonHunt_statement_T06,quests,,,Survive five timed waves, then kill the Electric Demon.
+questAECElectricDemonHunt_statement_T06,quests,,,"Survive five timed waves,then kill the Electric Demon."
 questAECElectricDemonHunt_subtitle_T06,quests,,,T4 Boss Hunt
 eventAECElectricDemonHuntArrival_msg_T09,gameevents,,,ALERT: The Electric Demon has been spotted in the area. Stay grounded.
 eventAECElectricDemonHuntBossSpawn_msg_T09,gameevents,,,BOSS: The Electric Demon is here. Expect shock damage and ranged pressure.
@@ -1288,12 +1288,12 @@ eventAECElectricDemonWave5_msg_T09,gameevents,,,WAVE 5: Final surge. Burn throug
 itemAECElectricDemonHuntContract_T09,,,,"[FFD700]AEC |[-] [FFD700]Electric Demon Contract | Boss Hunt[-] [3★]"
 itemAECElectricDemonHuntContract_desc_T09,,,,"A bounty contract for the Electric Demon. Track it in the wilderness, survive five timed waves, and shut it down. [3★]"
 questAECElectricDemonHunt_completion_T09,quests,,,Power source terminated. Here is your payment.
-questAECElectricDemonHunt_description_T09,quests,,,Activate the rally, place the lure, survive five timed attack waves, and destroy the Electric Demon before it overloads the area.
+questAECElectricDemonHunt_description_T09,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and destroy the Electric Demon before it overloads the area."
 questAECElectricDemonHunt_name_T09,quests,,,"[00C8FF]Hunt: The Electric Demon[-] [3★]"
 questAECElectricDemonHunt_obj_kill_T09,quests,,,Kill the Electric Demon
-questAECElectricDemonHunt_offer_T09,quests,,,High voltage contract. Trigger the rally, set the lure, survive five timed waves of pressure, and put the Electric Demon down.
+questAECElectricDemonHunt_offer_T09,quests,,,"High voltage contract. Trigger the rally,set the lure,survive five timed waves of pressure,and put the Electric Demon down."
 questAECElectricDemonHunt_response_T09,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Electric Demon[-]
-questAECElectricDemonHunt_statement_T09,quests,,,Survive five timed waves, then kill the Electric Demon.
+questAECElectricDemonHunt_statement_T09,quests,,,"Survive five timed waves,then kill the Electric Demon."
 questAECElectricDemonHunt_subtitle_T09,quests,,,T4 Boss Hunt
 eventAECElectricDemonHuntArrival_msg_T12,gameevents,,,ALERT: The Electric Demon has been spotted in the area. Stay grounded.
 eventAECElectricDemonHuntBossSpawn_msg_T12,gameevents,,,BOSS: The Electric Demon is here. Expect shock damage and ranged pressure.
@@ -1305,12 +1305,12 @@ eventAECElectricDemonWave5_msg_T12,gameevents,,,WAVE 5: Final surge. Burn throug
 itemAECElectricDemonHuntContract_T12,,,,"[FFD700]AEC |[-] [FFD700]Electric Demon Contract | Boss Hunt[-] [4★]"
 itemAECElectricDemonHuntContract_desc_T12,,,,"A bounty contract for the Electric Demon. Track it in the wilderness, survive five timed waves, and shut it down. [4★]"
 questAECElectricDemonHunt_completion_T12,quests,,,Power source terminated. Here is your payment.
-questAECElectricDemonHunt_description_T12,quests,,,Activate the rally, place the lure, survive five timed attack waves, and destroy the Electric Demon before it overloads the area.
+questAECElectricDemonHunt_description_T12,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and destroy the Electric Demon before it overloads the area."
 questAECElectricDemonHunt_name_T12,quests,,,"[00C8FF]Hunt: The Electric Demon[-] [4★]"
 questAECElectricDemonHunt_obj_kill_T12,quests,,,Kill the Electric Demon
-questAECElectricDemonHunt_offer_T12,quests,,,High voltage contract. Trigger the rally, set the lure, survive five timed waves of pressure, and put the Electric Demon down.
+questAECElectricDemonHunt_offer_T12,quests,,,"High voltage contract. Trigger the rally,set the lure,survive five timed waves of pressure,and put the Electric Demon down."
 questAECElectricDemonHunt_response_T12,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Electric Demon[-]
-questAECElectricDemonHunt_statement_T12,quests,,,Survive five timed waves, then kill the Electric Demon.
+questAECElectricDemonHunt_statement_T12,quests,,,"Survive five timed waves,then kill the Electric Demon."
 questAECElectricDemonHunt_subtitle_T12,quests,,,T4 Boss Hunt
 eventAECElectricDemonHuntArrival_msg_T15,gameevents,,,ALERT: The Electric Demon has been spotted in the area. Stay grounded.
 eventAECElectricDemonHuntBossSpawn_msg_T15,gameevents,,,BOSS: The Electric Demon is here. Expect shock damage and ranged pressure.
@@ -1322,14 +1322,14 @@ eventAECElectricDemonWave5_msg_T15,gameevents,,,WAVE 5: Final surge. Burn throug
 itemAECElectricDemonHuntContract_T15,,,,"[FFD700]AEC |[-] [FFD700]Electric Demon Contract | Boss Hunt[-] [5★]"
 itemAECElectricDemonHuntContract_desc_T15,,,,"A bounty contract for the Electric Demon. Track it in the wilderness, survive five timed waves, and shut it down. [5★]"
 questAECElectricDemonHunt_completion_T15,quests,,,Power source terminated. Here is your payment.
-questAECElectricDemonHunt_description_T15,quests,,,Activate the rally, place the lure, survive five timed attack waves, and destroy the Electric Demon before it overloads the area.
+questAECElectricDemonHunt_description_T15,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and destroy the Electric Demon before it overloads the area."
 questAECElectricDemonHunt_name_T15,quests,,,"[00C8FF]Hunt: The Electric Demon[-] [5★]"
 questAECElectricDemonHunt_obj_kill_T15,quests,,,Kill the Electric Demon
-questAECElectricDemonHunt_offer_T15,quests,,,High voltage contract. Trigger the rally, set the lure, survive five timed waves of pressure, and put the Electric Demon down.
+questAECElectricDemonHunt_offer_T15,quests,,,"High voltage contract. Trigger the rally,set the lure,survive five timed waves of pressure,and put the Electric Demon down."
 questAECElectricDemonHunt_response_T15,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Electric Demon[-]
-questAECElectricDemonHunt_statement_T15,quests,,,Survive five timed waves, then kill the Electric Demon.
+questAECElectricDemonHunt_statement_T15,quests,,,"Survive five timed waves,then kill the Electric Demon."
 questAECElectricDemonHunt_subtitle_T15,quests,,,T4 Boss Hunt
-eventAECExecutionerHuntArrival_msg_T03,gameevents,,,EXECUTIONER HUNT: Survive six cultist waves, then execute The Executioner.
+eventAECExecutionerHuntArrival_msg_T03,gameevents,,,"EXECUTIONER HUNT: Survive six cultist waves,then execute The Executioner."
 eventAECExecutionerHuntBossSpawn_msg_T03,gameevents,,,BOSS: The Executioner has entered the fight!
 eventAECExecutionerT5Wave1_msg_T03,gameevents,,,WAVE 1: The first executioner cultists are rushing in!
 eventAECExecutionerT5Wave2_msg_T03,gameevents,,,WAVE 2: More burning servants answer the bell!
@@ -1338,7 +1338,7 @@ eventAECExecutionerT5Wave4_msg_T03,gameevents,,,WAVE 4: More burning zealots are
 eventAECExecutionerT5Wave5_msg_T03,gameevents,,,WAVE 5: The line keeps burning!
 eventAECExecutionerT5Wave6_msg_T03,gameevents,,,FINAL WAVE: Break the last cultist push before The Executioner arrives!
 itemAECExecutionerHuntContract_T03,,, ,"[FF0000]AEC |[-] [FFD700]Executioner Contract | Boss Hunt[-] [1★]"
-itemAECExecutionerHuntContract_desc_T03,,, ,Survive six timed waves of cultists, then kill The Executioner.
+itemAECExecutionerHuntContract_desc_T03,,,,"Survive six timed waves of cultists,then kill The Executioner."
 questAECExecutioner_obj_wave1_T03,quests,,,Wave 1: Survive the Executioner assault
 questAECExecutioner_obj_wave2_T03,quests,,,Wave 2: Survive the Executioner assault
 questAECExecutioner_obj_wave3_T03,quests,,,Wave 3: Survive the Executioner assault
@@ -1346,15 +1346,15 @@ questAECExecutioner_obj_wave4_T03,quests,,,Wave 4: Survive the Executioner assau
 questAECExecutioner_obj_wave5_T03,quests,,,Wave 5: Survive the Executioner assault
 questAECExecutioner_obj_wave6_T03,quests,,,Wave 6: Survive the Executioner assault
 questAECExecutionerHunt_completion_T03,quests,,,The Executioner is dead. Take your reward.
-questAECExecutionerHunt_description_T03,quests,,,Activate the rally, place the lure, survive six timed waves of burning cultists, then kill The Executioner.
+questAECExecutionerHunt_description_T03,quests,,,"Activate the rally,place the lure,survive six timed waves of burning cultists,then kill The Executioner."
 questAECExecutionerHunt_name_T03,quests,,,"[8B0000]Hunt: BOSS The Executioner[-] [1★]"
 questAECExecutionerHunt_obj_kill_T03,quests,,,Kill BOSS The Executioner
-questAECExecutionerHunt_offer_T03,quests,,,Big contract. Trigger the rally, drop the lure, survive six timed cultist waves, then finish The Executioner himself.
+questAECExecutionerHunt_offer_T03,quests,,,"Big contract. Trigger the rally,drop the lure,survive six timed cultist waves,then finish The Executioner himself."
 questAECExecutionerHunt_response_T03,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: BOSS The Executioner[-]
-questAECExecutionerHunt_statement_T03,quests,,,survive six timed cultist waves, then kill The Executioner.
+questAECExecutionerHunt_statement_T03,quests,,,"survive six timed cultist waves,then kill The Executioner."
 questAECExecutionerHunt_subtitle_T03,quests,,,T5 Boss Hunt
 questAECExecutionerMinionAssault_name_T03,quests,,false,"[CCAA44]Executioner Minion Assault[-] [1★]"
-eventAECExecutionerHuntArrival_msg_T06,gameevents,,,EXECUTIONER HUNT: Survive six cultist waves, then execute The Executioner.
+eventAECExecutionerHuntArrival_msg_T06,gameevents,,,"EXECUTIONER HUNT: Survive six cultist waves,then execute The Executioner."
 eventAECExecutionerHuntBossSpawn_msg_T06,gameevents,,,BOSS: The Executioner has entered the fight!
 eventAECExecutionerT5Wave1_msg_T06,gameevents,,,WAVE 1: The first executioner cultists are rushing in!
 eventAECExecutionerT5Wave2_msg_T06,gameevents,,,WAVE 2: More burning servants answer the bell!
@@ -1363,7 +1363,7 @@ eventAECExecutionerT5Wave4_msg_T06,gameevents,,,WAVE 4: More burning zealots are
 eventAECExecutionerT5Wave5_msg_T06,gameevents,,,WAVE 5: The line keeps burning!
 eventAECExecutionerT5Wave6_msg_T06,gameevents,,,FINAL WAVE: Break the last cultist push before The Executioner arrives!
 itemAECExecutionerHuntContract_T06,,, ,"[FF0000]AEC |[-] [FFD700]Executioner Contract | Boss Hunt[-] [2★]"
-itemAECExecutionerHuntContract_desc_T06,,, ,Survive six timed waves of cultists, then kill The Executioner.
+itemAECExecutionerHuntContract_desc_T06,,,,"Survive six timed waves of cultists,then kill The Executioner."
 questAECExecutioner_obj_wave1_T06,quests,,,Wave 1: Survive the Executioner assault
 questAECExecutioner_obj_wave2_T06,quests,,,Wave 2: Survive the Executioner assault
 questAECExecutioner_obj_wave3_T06,quests,,,Wave 3: Survive the Executioner assault
@@ -1371,15 +1371,15 @@ questAECExecutioner_obj_wave4_T06,quests,,,Wave 4: Survive the Executioner assau
 questAECExecutioner_obj_wave5_T06,quests,,,Wave 5: Survive the Executioner assault
 questAECExecutioner_obj_wave6_T06,quests,,,Wave 6: Survive the Executioner assault
 questAECExecutionerHunt_completion_T06,quests,,,The Executioner is dead. Take your reward.
-questAECExecutionerHunt_description_T06,quests,,,Activate the rally, place the lure, survive six timed waves of burning cultists, then kill The Executioner.
+questAECExecutionerHunt_description_T06,quests,,,"Activate the rally,place the lure,survive six timed waves of burning cultists,then kill The Executioner."
 questAECExecutionerHunt_name_T06,quests,,,"[8B0000]Hunt: BOSS The Executioner[-] [2★]"
 questAECExecutionerHunt_obj_kill_T06,quests,,,Kill BOSS The Executioner
-questAECExecutionerHunt_offer_T06,quests,,,Big contract. Trigger the rally, drop the lure, survive six timed cultist waves, then finish The Executioner himself.
+questAECExecutionerHunt_offer_T06,quests,,,"Big contract. Trigger the rally,drop the lure,survive six timed cultist waves,then finish The Executioner himself."
 questAECExecutionerHunt_response_T06,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: BOSS The Executioner[-]
-questAECExecutionerHunt_statement_T06,quests,,,survive six timed cultist waves, then kill The Executioner.
+questAECExecutionerHunt_statement_T06,quests,,,"survive six timed cultist waves,then kill The Executioner."
 questAECExecutionerHunt_subtitle_T06,quests,,,T5 Boss Hunt
 questAECExecutionerMinionAssault_name_T06,quests,,false,"[CCAA44]Executioner Minion Assault[-] [2★]"
-eventAECExecutionerHuntArrival_msg_T09,gameevents,,,EXECUTIONER HUNT: Survive six cultist waves, then execute The Executioner.
+eventAECExecutionerHuntArrival_msg_T09,gameevents,,,"EXECUTIONER HUNT: Survive six cultist waves,then execute The Executioner."
 eventAECExecutionerHuntBossSpawn_msg_T09,gameevents,,,BOSS: The Executioner has entered the fight!
 eventAECExecutionerT5Wave1_msg_T09,gameevents,,,WAVE 1: The first executioner cultists are rushing in!
 eventAECExecutionerT5Wave2_msg_T09,gameevents,,,WAVE 2: More burning servants answer the bell!
@@ -1388,7 +1388,7 @@ eventAECExecutionerT5Wave4_msg_T09,gameevents,,,WAVE 4: More burning zealots are
 eventAECExecutionerT5Wave5_msg_T09,gameevents,,,WAVE 5: The line keeps burning!
 eventAECExecutionerT5Wave6_msg_T09,gameevents,,,FINAL WAVE: Break the last cultist push before The Executioner arrives!
 itemAECExecutionerHuntContract_T09,,, ,"[FF0000]AEC |[-] [FFD700]Executioner Contract | Boss Hunt[-] [3★]"
-itemAECExecutionerHuntContract_desc_T09,,, ,Survive six timed waves of cultists, then kill The Executioner.
+itemAECExecutionerHuntContract_desc_T09,,,,"Survive six timed waves of cultists,then kill The Executioner."
 questAECExecutioner_obj_wave1_T09,quests,,,Wave 1: Survive the Executioner assault
 questAECExecutioner_obj_wave2_T09,quests,,,Wave 2: Survive the Executioner assault
 questAECExecutioner_obj_wave3_T09,quests,,,Wave 3: Survive the Executioner assault
@@ -1396,15 +1396,15 @@ questAECExecutioner_obj_wave4_T09,quests,,,Wave 4: Survive the Executioner assau
 questAECExecutioner_obj_wave5_T09,quests,,,Wave 5: Survive the Executioner assault
 questAECExecutioner_obj_wave6_T09,quests,,,Wave 6: Survive the Executioner assault
 questAECExecutionerHunt_completion_T09,quests,,,The Executioner is dead. Take your reward.
-questAECExecutionerHunt_description_T09,quests,,,Activate the rally, place the lure, survive six timed waves of burning cultists, then kill The Executioner.
+questAECExecutionerHunt_description_T09,quests,,,"Activate the rally,place the lure,survive six timed waves of burning cultists,then kill The Executioner."
 questAECExecutionerHunt_name_T09,quests,,,"[8B0000]Hunt: BOSS The Executioner[-] [3★]"
 questAECExecutionerHunt_obj_kill_T09,quests,,,Kill BOSS The Executioner
-questAECExecutionerHunt_offer_T09,quests,,,Big contract. Trigger the rally, drop the lure, survive six timed cultist waves, then finish The Executioner himself.
+questAECExecutionerHunt_offer_T09,quests,,,"Big contract. Trigger the rally,drop the lure,survive six timed cultist waves,then finish The Executioner himself."
 questAECExecutionerHunt_response_T09,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: BOSS The Executioner[-]
-questAECExecutionerHunt_statement_T09,quests,,,survive six timed cultist waves, then kill The Executioner.
+questAECExecutionerHunt_statement_T09,quests,,,"survive six timed cultist waves,then kill The Executioner."
 questAECExecutionerHunt_subtitle_T09,quests,,,T5 Boss Hunt
 questAECExecutionerMinionAssault_name_T09,quests,,false,"[CCAA44]Executioner Minion Assault[-] [3★]"
-eventAECExecutionerHuntArrival_msg_T12,gameevents,,,EXECUTIONER HUNT: Survive six cultist waves, then execute The Executioner.
+eventAECExecutionerHuntArrival_msg_T12,gameevents,,,"EXECUTIONER HUNT: Survive six cultist waves,then execute The Executioner."
 eventAECExecutionerHuntBossSpawn_msg_T12,gameevents,,,BOSS: The Executioner has entered the fight!
 eventAECExecutionerT5Wave1_msg_T12,gameevents,,,WAVE 1: The first executioner cultists are rushing in!
 eventAECExecutionerT5Wave2_msg_T12,gameevents,,,WAVE 2: More burning servants answer the bell!
@@ -1413,7 +1413,7 @@ eventAECExecutionerT5Wave4_msg_T12,gameevents,,,WAVE 4: More burning zealots are
 eventAECExecutionerT5Wave5_msg_T12,gameevents,,,WAVE 5: The line keeps burning!
 eventAECExecutionerT5Wave6_msg_T12,gameevents,,,FINAL WAVE: Break the last cultist push before The Executioner arrives!
 itemAECExecutionerHuntContract_T12,,, ,"[FF0000]AEC |[-] [FFD700]Executioner Contract | Boss Hunt[-] [4★]"
-itemAECExecutionerHuntContract_desc_T12,,, ,Survive six timed waves of cultists, then kill The Executioner.
+itemAECExecutionerHuntContract_desc_T12,,,,"Survive six timed waves of cultists,then kill The Executioner."
 questAECExecutioner_obj_wave1_T12,quests,,,Wave 1: Survive the Executioner assault
 questAECExecutioner_obj_wave2_T12,quests,,,Wave 2: Survive the Executioner assault
 questAECExecutioner_obj_wave3_T12,quests,,,Wave 3: Survive the Executioner assault
@@ -1421,15 +1421,15 @@ questAECExecutioner_obj_wave4_T12,quests,,,Wave 4: Survive the Executioner assau
 questAECExecutioner_obj_wave5_T12,quests,,,Wave 5: Survive the Executioner assault
 questAECExecutioner_obj_wave6_T12,quests,,,Wave 6: Survive the Executioner assault
 questAECExecutionerHunt_completion_T12,quests,,,The Executioner is dead. Take your reward.
-questAECExecutionerHunt_description_T12,quests,,,Activate the rally, place the lure, survive six timed waves of burning cultists, then kill The Executioner.
+questAECExecutionerHunt_description_T12,quests,,,"Activate the rally,place the lure,survive six timed waves of burning cultists,then kill The Executioner."
 questAECExecutionerHunt_name_T12,quests,,,"[8B0000]Hunt: BOSS The Executioner[-] [4★]"
 questAECExecutionerHunt_obj_kill_T12,quests,,,Kill BOSS The Executioner
-questAECExecutionerHunt_offer_T12,quests,,,Big contract. Trigger the rally, drop the lure, survive six timed cultist waves, then finish The Executioner himself.
+questAECExecutionerHunt_offer_T12,quests,,,"Big contract. Trigger the rally,drop the lure,survive six timed cultist waves,then finish The Executioner himself."
 questAECExecutionerHunt_response_T12,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: BOSS The Executioner[-]
-questAECExecutionerHunt_statement_T12,quests,,,survive six timed cultist waves, then kill The Executioner.
+questAECExecutionerHunt_statement_T12,quests,,,"survive six timed cultist waves,then kill The Executioner."
 questAECExecutionerHunt_subtitle_T12,quests,,,T5 Boss Hunt
 questAECExecutionerMinionAssault_name_T12,quests,,false,"[CCAA44]Executioner Minion Assault[-] [4★]"
-eventAECExecutionerHuntArrival_msg_T15,gameevents,,,EXECUTIONER HUNT: Survive six cultist waves, then execute The Executioner.
+eventAECExecutionerHuntArrival_msg_T15,gameevents,,,"EXECUTIONER HUNT: Survive six cultist waves,then execute The Executioner."
 eventAECExecutionerHuntBossSpawn_msg_T15,gameevents,,,BOSS: The Executioner has entered the fight!
 eventAECExecutionerT5Wave1_msg_T15,gameevents,,,WAVE 1: The first executioner cultists are rushing in!
 eventAECExecutionerT5Wave2_msg_T15,gameevents,,,WAVE 2: More burning servants answer the bell!
@@ -1438,7 +1438,7 @@ eventAECExecutionerT5Wave4_msg_T15,gameevents,,,WAVE 4: More burning zealots are
 eventAECExecutionerT5Wave5_msg_T15,gameevents,,,WAVE 5: The line keeps burning!
 eventAECExecutionerT5Wave6_msg_T15,gameevents,,,FINAL WAVE: Break the last cultist push before The Executioner arrives!
 itemAECExecutionerHuntContract_T15,,, ,"[FF0000]AEC |[-] [FFD700]Executioner Contract | Boss Hunt[-] [5★]"
-itemAECExecutionerHuntContract_desc_T15,,, ,Survive six timed waves of cultists, then kill The Executioner.
+itemAECExecutionerHuntContract_desc_T15,,,,"Survive six timed waves of cultists,then kill The Executioner."
 questAECExecutioner_obj_wave1_T15,quests,,,Wave 1: Survive the Executioner assault
 questAECExecutioner_obj_wave2_T15,quests,,,Wave 2: Survive the Executioner assault
 questAECExecutioner_obj_wave3_T15,quests,,,Wave 3: Survive the Executioner assault
@@ -1446,16 +1446,16 @@ questAECExecutioner_obj_wave4_T15,quests,,,Wave 4: Survive the Executioner assau
 questAECExecutioner_obj_wave5_T15,quests,,,Wave 5: Survive the Executioner assault
 questAECExecutioner_obj_wave6_T15,quests,,,Wave 6: Survive the Executioner assault
 questAECExecutionerHunt_completion_T15,quests,,,The Executioner is dead. Take your reward.
-questAECExecutionerHunt_description_T15,quests,,,Activate the rally, place the lure, survive six timed waves of burning cultists, then kill The Executioner.
+questAECExecutionerHunt_description_T15,quests,,,"Activate the rally,place the lure,survive six timed waves of burning cultists,then kill The Executioner."
 questAECExecutionerHunt_name_T15,quests,,,"[8B0000]Hunt: BOSS The Executioner[-] [5★]"
 questAECExecutionerHunt_obj_kill_T15,quests,,,Kill BOSS The Executioner
-questAECExecutionerHunt_offer_T15,quests,,,Big contract. Trigger the rally, drop the lure, survive six timed cultist waves, then finish The Executioner himself.
+questAECExecutionerHunt_offer_T15,quests,,,"Big contract. Trigger the rally,drop the lure,survive six timed cultist waves,then finish The Executioner himself."
 questAECExecutionerHunt_response_T15,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: BOSS The Executioner[-]
-questAECExecutionerHunt_statement_T15,quests,,,survive six timed cultist waves, then kill The Executioner.
+questAECExecutionerHunt_statement_T15,quests,,,"survive six timed cultist waves,then kill The Executioner."
 questAECExecutionerHunt_subtitle_T15,quests,,,T5 Boss Hunt
 questAECExecutionerMinionAssault_name_T15,quests,,false,"[CCAA44]Executioner Minion Assault[-] [5★]"
 eventAECExplosiveEagleHuntArrival_msg_T03,gameevents,,,ALERT: The Explosive Eagle has been spotted overhead. Expect fire and blast damage.
-eventAECExplosiveEagleHuntBossSpawn_msg_T03,gameevents,,,BOSS: The Explosive Eagle is in the air. Watch for fire, gas, and blast pressure.
+eventAECExplosiveEagleHuntBossSpawn_msg_T03,gameevents,,,"BOSS: The Explosive Eagle is in the air. Watch for fire,gas,and blast pressure."
 eventAECExplosiveEagleWave1_msg_T03,gameevents,,,WAVE 1: The first attackers are closing in under the Eagles shadow.
 eventAECExplosiveEagleWave2_msg_T03,gameevents,,,WAVE 2: Stronger infected incoming. Hold your ground.
 eventAECExplosiveEagleWave3_msg_T03,gameevents,,,WAVE 3: Charged and infernal infected are here. The pressure is rising.
@@ -1464,15 +1464,15 @@ eventAECExplosiveEagleWave5_msg_T03,gameevents,,,WAVE 5: Final dive. Break the f
 itemAECExplosiveEagleHuntContract_T03,,,,"[FFD700]AEC |[-] [FFD700]Explosive Eagle Contract | Boss Hunt[-] [1★]"
 itemAECExplosiveEagleHuntContract_desc_T03,,,,"A bounty contract for the Explosive Eagle. Track it down, survive five timed waves, and bring it out of the sky. [1★]"
 questAECExplosiveEagleHunt_completion_T03,quests,,,Target neutralized. The sky is clear for now.
-questAECExplosiveEagleHunt_description_T03,quests,,,Activate the rally, place the lure, survive five timed attack waves, and bring the Explosive Eagle down.
+questAECExplosiveEagleHunt_description_T03,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and bring the Explosive Eagle down."
 questAECExplosiveEagleHunt_name_T03,quests,,,"[FF6A00]Hunt: The Explosive Eagle[-] [1★]"
 questAECExplosiveEagleHunt_obj_kill_T03,quests,,,Kill the Explosive Eagle
-questAECExplosiveEagleHunt_offer_T03,quests,,,Danger close. Trigger the rally, drop the lure, survive five timed waves of pressure, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_offer_T03,quests,,,"Danger close. Trigger the rally,drop the lure,survive five timed waves of pressure,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_response_T03,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Explosive Eagle[-]
-questAECExplosiveEagleHunt_statement_T03,quests,,,survive five timed waves, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_statement_T03,quests,,,"survive five timed waves,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_subtitle_T03,quests,,,T4 Boss Hunt
 eventAECExplosiveEagleHuntArrival_msg_T06,gameevents,,,ALERT: The Explosive Eagle has been spotted overhead. Expect fire and blast damage.
-eventAECExplosiveEagleHuntBossSpawn_msg_T06,gameevents,,,BOSS: The Explosive Eagle is in the air. Watch for fire, gas, and blast pressure.
+eventAECExplosiveEagleHuntBossSpawn_msg_T06,gameevents,,,"BOSS: The Explosive Eagle is in the air. Watch for fire,gas,and blast pressure."
 eventAECExplosiveEagleWave1_msg_T06,gameevents,,,WAVE 1: The first attackers are closing in under the Eagles shadow.
 eventAECExplosiveEagleWave2_msg_T06,gameevents,,,WAVE 2: Stronger infected incoming. Hold your ground.
 eventAECExplosiveEagleWave3_msg_T06,gameevents,,,WAVE 3: Charged and infernal infected are here. The pressure is rising.
@@ -1481,15 +1481,15 @@ eventAECExplosiveEagleWave5_msg_T06,gameevents,,,WAVE 5: Final dive. Break the f
 itemAECExplosiveEagleHuntContract_T06,,,,"[FFD700]AEC |[-] [FFD700]Explosive Eagle Contract | Boss Hunt[-] [2★]"
 itemAECExplosiveEagleHuntContract_desc_T06,,,,"A bounty contract for the Explosive Eagle. Track it down, survive five timed waves, and bring it out of the sky. [2★]"
 questAECExplosiveEagleHunt_completion_T06,quests,,,Target neutralized. The sky is clear for now.
-questAECExplosiveEagleHunt_description_T06,quests,,,Activate the rally, place the lure, survive five timed attack waves, and bring the Explosive Eagle down.
+questAECExplosiveEagleHunt_description_T06,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and bring the Explosive Eagle down."
 questAECExplosiveEagleHunt_name_T06,quests,,,"[FF6A00]Hunt: The Explosive Eagle[-] [2★]"
 questAECExplosiveEagleHunt_obj_kill_T06,quests,,,Kill the Explosive Eagle
-questAECExplosiveEagleHunt_offer_T06,quests,,,Danger close. Trigger the rally, drop the lure, survive five timed waves of pressure, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_offer_T06,quests,,,"Danger close. Trigger the rally,drop the lure,survive five timed waves of pressure,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_response_T06,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Explosive Eagle[-]
-questAECExplosiveEagleHunt_statement_T06,quests,,,survive five timed waves, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_statement_T06,quests,,,"survive five timed waves,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_subtitle_T06,quests,,,T4 Boss Hunt
 eventAECExplosiveEagleHuntArrival_msg_T09,gameevents,,,ALERT: The Explosive Eagle has been spotted overhead. Expect fire and blast damage.
-eventAECExplosiveEagleHuntBossSpawn_msg_T09,gameevents,,,BOSS: The Explosive Eagle is in the air. Watch for fire, gas, and blast pressure.
+eventAECExplosiveEagleHuntBossSpawn_msg_T09,gameevents,,,"BOSS: The Explosive Eagle is in the air. Watch for fire,gas,and blast pressure."
 eventAECExplosiveEagleWave1_msg_T09,gameevents,,,WAVE 1: The first attackers are closing in under the Eagles shadow.
 eventAECExplosiveEagleWave2_msg_T09,gameevents,,,WAVE 2: Stronger infected incoming. Hold your ground.
 eventAECExplosiveEagleWave3_msg_T09,gameevents,,,WAVE 3: Charged and infernal infected are here. The pressure is rising.
@@ -1498,15 +1498,15 @@ eventAECExplosiveEagleWave5_msg_T09,gameevents,,,WAVE 5: Final dive. Break the f
 itemAECExplosiveEagleHuntContract_T09,,,,"[FFD700]AEC |[-] [FFD700]Explosive Eagle Contract | Boss Hunt[-] [3★]"
 itemAECExplosiveEagleHuntContract_desc_T09,,,,"A bounty contract for the Explosive Eagle. Track it down, survive five timed waves, and bring it out of the sky. [3★]"
 questAECExplosiveEagleHunt_completion_T09,quests,,,Target neutralized. The sky is clear for now.
-questAECExplosiveEagleHunt_description_T09,quests,,,Activate the rally, place the lure, survive five timed attack waves, and bring the Explosive Eagle down.
+questAECExplosiveEagleHunt_description_T09,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and bring the Explosive Eagle down."
 questAECExplosiveEagleHunt_name_T09,quests,,,"[FF6A00]Hunt: The Explosive Eagle[-] [3★]"
 questAECExplosiveEagleHunt_obj_kill_T09,quests,,,Kill the Explosive Eagle
-questAECExplosiveEagleHunt_offer_T09,quests,,,Danger close. Trigger the rally, drop the lure, survive five timed waves of pressure, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_offer_T09,quests,,,"Danger close. Trigger the rally,drop the lure,survive five timed waves of pressure,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_response_T09,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Explosive Eagle[-]
-questAECExplosiveEagleHunt_statement_T09,quests,,,survive five timed waves, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_statement_T09,quests,,,"survive five timed waves,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_subtitle_T09,quests,,,T4 Boss Hunt
 eventAECExplosiveEagleHuntArrival_msg_T12,gameevents,,,ALERT: The Explosive Eagle has been spotted overhead. Expect fire and blast damage.
-eventAECExplosiveEagleHuntBossSpawn_msg_T12,gameevents,,,BOSS: The Explosive Eagle is in the air. Watch for fire, gas, and blast pressure.
+eventAECExplosiveEagleHuntBossSpawn_msg_T12,gameevents,,,"BOSS: The Explosive Eagle is in the air. Watch for fire,gas,and blast pressure."
 eventAECExplosiveEagleWave1_msg_T12,gameevents,,,WAVE 1: The first attackers are closing in under the Eagles shadow.
 eventAECExplosiveEagleWave2_msg_T12,gameevents,,,WAVE 2: Stronger infected incoming. Hold your ground.
 eventAECExplosiveEagleWave3_msg_T12,gameevents,,,WAVE 3: Charged and infernal infected are here. The pressure is rising.
@@ -1515,15 +1515,15 @@ eventAECExplosiveEagleWave5_msg_T12,gameevents,,,WAVE 5: Final dive. Break the f
 itemAECExplosiveEagleHuntContract_T12,,,,"[FFD700]AEC |[-] [FFD700]Explosive Eagle Contract | Boss Hunt[-] [4★]"
 itemAECExplosiveEagleHuntContract_desc_T12,,,,"A bounty contract for the Explosive Eagle. Track it down, survive five timed waves, and bring it out of the sky. [4★]"
 questAECExplosiveEagleHunt_completion_T12,quests,,,Target neutralized. The sky is clear for now.
-questAECExplosiveEagleHunt_description_T12,quests,,,Activate the rally, place the lure, survive five timed attack waves, and bring the Explosive Eagle down.
+questAECExplosiveEagleHunt_description_T12,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and bring the Explosive Eagle down."
 questAECExplosiveEagleHunt_name_T12,quests,,,"[FF6A00]Hunt: The Explosive Eagle[-] [4★]"
 questAECExplosiveEagleHunt_obj_kill_T12,quests,,,Kill the Explosive Eagle
-questAECExplosiveEagleHunt_offer_T12,quests,,,Danger close. Trigger the rally, drop the lure, survive five timed waves of pressure, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_offer_T12,quests,,,"Danger close. Trigger the rally,drop the lure,survive five timed waves of pressure,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_response_T12,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Explosive Eagle[-]
-questAECExplosiveEagleHunt_statement_T12,quests,,,survive five timed waves, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_statement_T12,quests,,,"survive five timed waves,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_subtitle_T12,quests,,,T4 Boss Hunt
 eventAECExplosiveEagleHuntArrival_msg_T15,gameevents,,,ALERT: The Explosive Eagle has been spotted overhead. Expect fire and blast damage.
-eventAECExplosiveEagleHuntBossSpawn_msg_T15,gameevents,,,BOSS: The Explosive Eagle is in the air. Watch for fire, gas, and blast pressure.
+eventAECExplosiveEagleHuntBossSpawn_msg_T15,gameevents,,,"BOSS: The Explosive Eagle is in the air. Watch for fire,gas,and blast pressure."
 eventAECExplosiveEagleWave1_msg_T15,gameevents,,,WAVE 1: The first attackers are closing in under the Eagles shadow.
 eventAECExplosiveEagleWave2_msg_T15,gameevents,,,WAVE 2: Stronger infected incoming. Hold your ground.
 eventAECExplosiveEagleWave3_msg_T15,gameevents,,,WAVE 3: Charged and infernal infected are here. The pressure is rising.
@@ -1532,12 +1532,12 @@ eventAECExplosiveEagleWave5_msg_T15,gameevents,,,WAVE 5: Final dive. Break the f
 itemAECExplosiveEagleHuntContract_T15,,,,"[FFD700]AEC |[-] [FFD700]Explosive Eagle Contract | Boss Hunt[-] [5★]"
 itemAECExplosiveEagleHuntContract_desc_T15,,,,"A bounty contract for the Explosive Eagle. Track it down, survive five timed waves, and bring it out of the sky. [5★]"
 questAECExplosiveEagleHunt_completion_T15,quests,,,Target neutralized. The sky is clear for now.
-questAECExplosiveEagleHunt_description_T15,quests,,,Activate the rally, place the lure, survive five timed attack waves, and bring the Explosive Eagle down.
+questAECExplosiveEagleHunt_description_T15,quests,,,"Activate the rally,place the lure,survive five timed attack waves,and bring the Explosive Eagle down."
 questAECExplosiveEagleHunt_name_T15,quests,,,"[FF6A00]Hunt: The Explosive Eagle[-] [5★]"
 questAECExplosiveEagleHunt_obj_kill_T15,quests,,,Kill the Explosive Eagle
-questAECExplosiveEagleHunt_offer_T15,quests,,,Danger close. Trigger the rally, drop the lure, survive five timed waves of pressure, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_offer_T15,quests,,,"Danger close. Trigger the rally,drop the lure,survive five timed waves of pressure,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_response_T15,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Explosive Eagle[-]
-questAECExplosiveEagleHunt_statement_T15,quests,,,survive five timed waves, and kill the Explosive Eagle.
+questAECExplosiveEagleHunt_statement_T15,quests,,,"survive five timed waves,and kill the Explosive Eagle."
 questAECExplosiveEagleHunt_subtitle_T15,quests,,,T4 Boss Hunt
 eventAECGhostArrival_Hunt_msg_T03,gameevents,,,The hunt begins under cover of night. Push through the servants and kill The Ghost.
 eventAECGhostArrival_PhantomCourt_msg_T03,gameevents,,,The Phantom Court gathers. Survive the royal procession and slay its ruler.
@@ -1560,12 +1560,12 @@ questAECGhostEndlessPhantomMosaic_response_T03,quests,,false,"[FFA500]AEC 100 wa
 questAECGhostEndlessPhantomMosaic_statement_T03,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [1★]"
 questAECGhostEndlessPhantomMosaic_subtitle_T03,quests,,false,"AEC Super-Challenge Contract [1★]"
 questAECGhostHunt_completion_T03,quests,,,The Ghost is dead and the night is quieter.
-questAECGhostHunt_description_T03,quests,,,Activate the rally, place the lure, survive five elite night waves, then kill The Ghost.
+questAECGhostHunt_description_T03,quests,,,"Activate the rally,place the lure,survive five elite night waves,then kill The Ghost."
 questAECGhostHunt_name_T03,quests,,,[D6E6FF]HUNT: The Ghost[-]
 questAECGhostHunt_obj_kill_T03,quests,,,Kill The Ghost
-questAECGhostHunt_offer_T03,quests,,,This is the real hunt. Trigger the rally, place the lure, survive the escort, and finish The Ghost.
+questAECGhostHunt_offer_T03,quests,,,"This is the real hunt. Trigger the rally,place the lure,survive the escort,and finish The Ghost."
 questAECGhostHunt_response_T03,quests,,,AEC BOSS FIGHT - [FF0000]HUNT: The Ghost[-]
-questAECGhostHunt_statement_T03,quests,,,I will activate the rally, place the lure, and finish the hunt.
+questAECGhostHunt_statement_T03,quests,,,"I will activate the rally,place the lure,and finish the hunt."
 questAECGhostHunt_subtitle_T03,quests,,,Ghost T5 Boss Hunt
 questAECGhostMinionAssault_name_T03,quests,,false,"[CCAA44]Ghost Minion Assault[-] [1★]"
 eventAECGhostArrival_Hunt_msg_T06,gameevents,,,The hunt begins under cover of night. Push through the servants and kill The Ghost.
@@ -1589,12 +1589,12 @@ questAECGhostEndlessPhantomMosaic_response_T06,quests,,false,"[FFA500]AEC 100 wa
 questAECGhostEndlessPhantomMosaic_statement_T06,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [2★]"
 questAECGhostEndlessPhantomMosaic_subtitle_T06,quests,,false,"AEC Super-Challenge Contract [2★]"
 questAECGhostHunt_completion_T06,quests,,,The Ghost is dead and the night is quieter.
-questAECGhostHunt_description_T06,quests,,,Activate the rally, place the lure, survive five elite night waves, then kill The Ghost.
+questAECGhostHunt_description_T06,quests,,,"Activate the rally,place the lure,survive five elite night waves,then kill The Ghost."
 questAECGhostHunt_name_T06,quests,,,[D6E6FF]HUNT: The Ghost[-]
 questAECGhostHunt_obj_kill_T06,quests,,,Kill The Ghost
-questAECGhostHunt_offer_T06,quests,,,This is the real hunt. Trigger the rally, place the lure, survive the escort, and finish The Ghost.
+questAECGhostHunt_offer_T06,quests,,,"This is the real hunt. Trigger the rally,place the lure,survive the escort,and finish The Ghost."
 questAECGhostHunt_response_T06,quests,,,AEC BOSS FIGHT - [FF0000]HUNT: The Ghost[-]
-questAECGhostHunt_statement_T06,quests,,,I will activate the rally, place the lure, and finish the hunt.
+questAECGhostHunt_statement_T06,quests,,,"I will activate the rally,place the lure,and finish the hunt."
 questAECGhostHunt_subtitle_T06,quests,,,Ghost T5 Boss Hunt
 questAECGhostMinionAssault_name_T06,quests,,false,"[CCAA44]Ghost Minion Assault[-] [2★]"
 eventAECGhostArrival_Hunt_msg_T09,gameevents,,,The hunt begins under cover of night. Push through the servants and kill The Ghost.
@@ -1618,12 +1618,12 @@ questAECGhostEndlessPhantomMosaic_response_T09,quests,,false,"[FFA500]AEC 100 wa
 questAECGhostEndlessPhantomMosaic_statement_T09,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [3★]"
 questAECGhostEndlessPhantomMosaic_subtitle_T09,quests,,false,"AEC Super-Challenge Contract [3★]"
 questAECGhostHunt_completion_T09,quests,,,The Ghost is dead and the night is quieter.
-questAECGhostHunt_description_T09,quests,,,Activate the rally, place the lure, survive five elite night waves, then kill The Ghost.
+questAECGhostHunt_description_T09,quests,,,"Activate the rally,place the lure,survive five elite night waves,then kill The Ghost."
 questAECGhostHunt_name_T09,quests,,,[D6E6FF]HUNT: The Ghost[-]
 questAECGhostHunt_obj_kill_T09,quests,,,Kill The Ghost
-questAECGhostHunt_offer_T09,quests,,,This is the real hunt. Trigger the rally, place the lure, survive the escort, and finish The Ghost.
+questAECGhostHunt_offer_T09,quests,,,"This is the real hunt. Trigger the rally,place the lure,survive the escort,and finish The Ghost."
 questAECGhostHunt_response_T09,quests,,,AEC BOSS FIGHT - [FF0000]HUNT: The Ghost[-]
-questAECGhostHunt_statement_T09,quests,,,I will activate the rally, place the lure, and finish the hunt.
+questAECGhostHunt_statement_T09,quests,,,"I will activate the rally,place the lure,and finish the hunt."
 questAECGhostHunt_subtitle_T09,quests,,,Ghost T5 Boss Hunt
 questAECGhostMinionAssault_name_T09,quests,,false,"[CCAA44]Ghost Minion Assault[-] [3★]"
 eventAECGhostArrival_Hunt_msg_T12,gameevents,,,The hunt begins under cover of night. Push through the servants and kill The Ghost.
@@ -1647,12 +1647,12 @@ questAECGhostEndlessPhantomMosaic_response_T12,quests,,false,"[FFA500]AEC 100 wa
 questAECGhostEndlessPhantomMosaic_statement_T12,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [4★]"
 questAECGhostEndlessPhantomMosaic_subtitle_T12,quests,,false,"AEC Super-Challenge Contract [4★]"
 questAECGhostHunt_completion_T12,quests,,,The Ghost is dead and the night is quieter.
-questAECGhostHunt_description_T12,quests,,,Activate the rally, place the lure, survive five elite night waves, then kill The Ghost.
+questAECGhostHunt_description_T12,quests,,,"Activate the rally,place the lure,survive five elite night waves,then kill The Ghost."
 questAECGhostHunt_name_T12,quests,,,[D6E6FF]HUNT: The Ghost[-]
 questAECGhostHunt_obj_kill_T12,quests,,,Kill The Ghost
-questAECGhostHunt_offer_T12,quests,,,This is the real hunt. Trigger the rally, place the lure, survive the escort, and finish The Ghost.
+questAECGhostHunt_offer_T12,quests,,,"This is the real hunt. Trigger the rally,place the lure,survive the escort,and finish The Ghost."
 questAECGhostHunt_response_T12,quests,,,AEC BOSS FIGHT - [FF0000]HUNT: The Ghost[-]
-questAECGhostHunt_statement_T12,quests,,,I will activate the rally, place the lure, and finish the hunt.
+questAECGhostHunt_statement_T12,quests,,,"I will activate the rally,place the lure,and finish the hunt."
 questAECGhostHunt_subtitle_T12,quests,,,Ghost T5 Boss Hunt
 questAECGhostMinionAssault_name_T12,quests,,false,"[CCAA44]Ghost Minion Assault[-] [4★]"
 eventAECGhostArrival_Hunt_msg_T15,gameevents,,,The hunt begins under cover of night. Push through the servants and kill The Ghost.
@@ -1676,12 +1676,12 @@ questAECGhostEndlessPhantomMosaic_response_T15,quests,,false,"[FFA500]AEC 100 wa
 questAECGhostEndlessPhantomMosaic_statement_T15,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [5★]"
 questAECGhostEndlessPhantomMosaic_subtitle_T15,quests,,false,"AEC Super-Challenge Contract [5★]"
 questAECGhostHunt_completion_T15,quests,,,The Ghost is dead and the night is quieter.
-questAECGhostHunt_description_T15,quests,,,Activate the rally, place the lure, survive five elite night waves, then kill The Ghost.
+questAECGhostHunt_description_T15,quests,,,"Activate the rally,place the lure,survive five elite night waves,then kill The Ghost."
 questAECGhostHunt_name_T15,quests,,,[D6E6FF]HUNT: The Ghost[-]
 questAECGhostHunt_obj_kill_T15,quests,,,Kill The Ghost
-questAECGhostHunt_offer_T15,quests,,,This is the real hunt. Trigger the rally, place the lure, survive the escort, and finish The Ghost.
+questAECGhostHunt_offer_T15,quests,,,"This is the real hunt. Trigger the rally,place the lure,survive the escort,and finish The Ghost."
 questAECGhostHunt_response_T15,quests,,,AEC BOSS FIGHT - [FF0000]HUNT: The Ghost[-]
-questAECGhostHunt_statement_T15,quests,,,I will activate the rally, place the lure, and finish the hunt.
+questAECGhostHunt_statement_T15,quests,,,"I will activate the rally,place the lure,and finish the hunt."
 questAECGhostHunt_subtitle_T15,quests,,,Ghost T5 Boss Hunt
 questAECGhostMinionAssault_name_T15,quests,,false,"[CCAA44]Ghost Minion Assault[-] [5★]"
 eventAECHammerGuardianHuntArrival_msg_T03,gameevents,,,ALERT: The Hammer Guardian has been sighted in the area. Prepare for impact.
@@ -1695,12 +1695,12 @@ eventAECHammerGuardianT5Wave6_msg_T03,gameevents,,,HAMMER WAVE 6: Final impact. 
 itemAECHammerGuardianHuntContract_T03,,,,"[FF0000]AEC |[-] [FFD700]Hammer Guardian Contract | Boss Hunt[-] [1★]"
 itemAECHammerGuardianHuntContract_desc_T03,,,,"A bounty contract for the Hammer Guardian. Trigger the hunt, endure six assault waves, then bring it down. [1★]"
 questAECHammerGuardianHunt_completion_T03,quests,,,Target neutralized. The ground is quiet again.
-questAECHammerGuardianHunt_description_T03,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Hammer Guardian down.
+questAECHammerGuardianHunt_description_T03,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Hammer Guardian down."
 questAECHammerGuardianHunt_name_T03,quests,,,"[C58A3A]Hunt: The Hammer Guardian[-] [1★]"
 questAECHammerGuardianHunt_obj_kill_T03,quests,,,Kill the Hammer Guardian
-questAECHammerGuardianHunt_offer_T03,quests,,,Danger close. The Hammer Guardian is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECHammerGuardianHunt_offer_T03,quests,,,"Danger close. The Hammer Guardian is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECHammerGuardianHunt_response_T03,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Hammer Guardian[-]
-questAECHammerGuardianHunt_statement_T03,quests,,,survive six timed waves, and kill the Hammer Guardian.
+questAECHammerGuardianHunt_statement_T03,quests,,,"survive six timed waves,and kill the Hammer Guardian."
 questAECHammerGuardianHunt_subtitle_T03,quests,,,T5 Boss Hunt
 questAECHammerGuardianMinionAssault_name_T03,quests,,false,"[CCAA44]Hammer Guardian Minion Assault[-] [1★]"
 eventAECHammerGuardianHuntArrival_msg_T06,gameevents,,,ALERT: The Hammer Guardian has been sighted in the area. Prepare for impact.
@@ -1714,12 +1714,12 @@ eventAECHammerGuardianT5Wave6_msg_T06,gameevents,,,HAMMER WAVE 6: Final impact. 
 itemAECHammerGuardianHuntContract_T06,,,,"[FF0000]AEC |[-] [FFD700]Hammer Guardian Contract | Boss Hunt[-] [2★]"
 itemAECHammerGuardianHuntContract_desc_T06,,,,"A bounty contract for the Hammer Guardian. Trigger the hunt, endure six assault waves, then bring it down. [2★]"
 questAECHammerGuardianHunt_completion_T06,quests,,,Target neutralized. The ground is quiet again.
-questAECHammerGuardianHunt_description_T06,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Hammer Guardian down.
+questAECHammerGuardianHunt_description_T06,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Hammer Guardian down."
 questAECHammerGuardianHunt_name_T06,quests,,,"[C58A3A]Hunt: The Hammer Guardian[-] [2★]"
 questAECHammerGuardianHunt_obj_kill_T06,quests,,,Kill the Hammer Guardian
-questAECHammerGuardianHunt_offer_T06,quests,,,Danger close. The Hammer Guardian is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECHammerGuardianHunt_offer_T06,quests,,,"Danger close. The Hammer Guardian is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECHammerGuardianHunt_response_T06,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Hammer Guardian[-]
-questAECHammerGuardianHunt_statement_T06,quests,,,survive six timed waves, and kill the Hammer Guardian.
+questAECHammerGuardianHunt_statement_T06,quests,,,"survive six timed waves,and kill the Hammer Guardian."
 questAECHammerGuardianHunt_subtitle_T06,quests,,,T5 Boss Hunt
 questAECHammerGuardianMinionAssault_name_T06,quests,,false,"[CCAA44]Hammer Guardian Minion Assault[-] [2★]"
 eventAECHammerGuardianHuntArrival_msg_T09,gameevents,,,ALERT: The Hammer Guardian has been sighted in the area. Prepare for impact.
@@ -1733,12 +1733,12 @@ eventAECHammerGuardianT5Wave6_msg_T09,gameevents,,,HAMMER WAVE 6: Final impact. 
 itemAECHammerGuardianHuntContract_T09,,,,"[FF0000]AEC |[-] [FFD700]Hammer Guardian Contract | Boss Hunt[-] [3★]"
 itemAECHammerGuardianHuntContract_desc_T09,,,,"A bounty contract for the Hammer Guardian. Trigger the hunt, endure six assault waves, then bring it down. [3★]"
 questAECHammerGuardianHunt_completion_T09,quests,,,Target neutralized. The ground is quiet again.
-questAECHammerGuardianHunt_description_T09,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Hammer Guardian down.
+questAECHammerGuardianHunt_description_T09,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Hammer Guardian down."
 questAECHammerGuardianHunt_name_T09,quests,,,"[C58A3A]Hunt: The Hammer Guardian[-] [3★]"
 questAECHammerGuardianHunt_obj_kill_T09,quests,,,Kill the Hammer Guardian
-questAECHammerGuardianHunt_offer_T09,quests,,,Danger close. The Hammer Guardian is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECHammerGuardianHunt_offer_T09,quests,,,"Danger close. The Hammer Guardian is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECHammerGuardianHunt_response_T09,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Hammer Guardian[-]
-questAECHammerGuardianHunt_statement_T09,quests,,,survive six timed waves, and kill the Hammer Guardian.
+questAECHammerGuardianHunt_statement_T09,quests,,,"survive six timed waves,and kill the Hammer Guardian."
 questAECHammerGuardianHunt_subtitle_T09,quests,,,T5 Boss Hunt
 questAECHammerGuardianMinionAssault_name_T09,quests,,false,"[CCAA44]Hammer Guardian Minion Assault[-] [3★]"
 eventAECHammerGuardianHuntArrival_msg_T12,gameevents,,,ALERT: The Hammer Guardian has been sighted in the area. Prepare for impact.
@@ -1752,12 +1752,12 @@ eventAECHammerGuardianT5Wave6_msg_T12,gameevents,,,HAMMER WAVE 6: Final impact. 
 itemAECHammerGuardianHuntContract_T12,,,,"[FF0000]AEC |[-] [FFD700]Hammer Guardian Contract | Boss Hunt[-] [4★]"
 itemAECHammerGuardianHuntContract_desc_T12,,,,"A bounty contract for the Hammer Guardian. Trigger the hunt, endure six assault waves, then bring it down. [4★]"
 questAECHammerGuardianHunt_completion_T12,quests,,,Target neutralized. The ground is quiet again.
-questAECHammerGuardianHunt_description_T12,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Hammer Guardian down.
+questAECHammerGuardianHunt_description_T12,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Hammer Guardian down."
 questAECHammerGuardianHunt_name_T12,quests,,,"[C58A3A]Hunt: The Hammer Guardian[-] [4★]"
 questAECHammerGuardianHunt_obj_kill_T12,quests,,,Kill the Hammer Guardian
-questAECHammerGuardianHunt_offer_T12,quests,,,Danger close. The Hammer Guardian is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECHammerGuardianHunt_offer_T12,quests,,,"Danger close. The Hammer Guardian is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECHammerGuardianHunt_response_T12,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Hammer Guardian[-]
-questAECHammerGuardianHunt_statement_T12,quests,,,survive six timed waves, and kill the Hammer Guardian.
+questAECHammerGuardianHunt_statement_T12,quests,,,"survive six timed waves,and kill the Hammer Guardian."
 questAECHammerGuardianHunt_subtitle_T12,quests,,,T5 Boss Hunt
 questAECHammerGuardianMinionAssault_name_T12,quests,,false,"[CCAA44]Hammer Guardian Minion Assault[-] [4★]"
 eventAECHammerGuardianHuntArrival_msg_T15,gameevents,,,ALERT: The Hammer Guardian has been sighted in the area. Prepare for impact.
@@ -1771,12 +1771,12 @@ eventAECHammerGuardianT5Wave6_msg_T15,gameevents,,,HAMMER WAVE 6: Final impact. 
 itemAECHammerGuardianHuntContract_T15,,,,"[FF0000]AEC |[-] [FFD700]Hammer Guardian Contract | Boss Hunt[-] [5★]"
 itemAECHammerGuardianHuntContract_desc_T15,,,,"A bounty contract for the Hammer Guardian. Trigger the hunt, endure six assault waves, then bring it down. [5★]"
 questAECHammerGuardianHunt_completion_T15,quests,,,Target neutralized. The ground is quiet again.
-questAECHammerGuardianHunt_description_T15,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Hammer Guardian down.
+questAECHammerGuardianHunt_description_T15,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Hammer Guardian down."
 questAECHammerGuardianHunt_name_T15,quests,,,"[C58A3A]Hunt: The Hammer Guardian[-] [5★]"
 questAECHammerGuardianHunt_obj_kill_T15,quests,,,Kill the Hammer Guardian
-questAECHammerGuardianHunt_offer_T15,quests,,,Danger close. The Hammer Guardian is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECHammerGuardianHunt_offer_T15,quests,,,"Danger close. The Hammer Guardian is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECHammerGuardianHunt_response_T15,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Hammer Guardian[-]
-questAECHammerGuardianHunt_statement_T15,quests,,,survive six timed waves, and kill the Hammer Guardian.
+questAECHammerGuardianHunt_statement_T15,quests,,,"survive six timed waves,and kill the Hammer Guardian."
 questAECHammerGuardianHunt_subtitle_T15,quests,,,T5 Boss Hunt
 questAECHammerGuardianMinionAssault_name_T15,quests,,false,"[CCAA44]Hammer Guardian Minion Assault[-] [5★]"
 eventAECHeadlessArrival_Hunt_msg_T03,gameevents,,,The hunt begins. Survive the Headless escorts and drag the boss into the open.
@@ -1789,7 +1789,7 @@ itemAECHeadlessContract_100waveschallenge_gorylegion_desc_T03,,,false,"Survive 1
 itemAECHeadlessHuntContract_T03,,,,[FF0000]AEC |[-] [FFD700]Headless Contract | Hunt[-]
 itemAECHeadlessHuntContract_desc_T03,,,,Contract: Survive three elite Headless waves and kill The Headless.
 itemAECHeadlessMinionAssaultContract_T03,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Minion Assault[-]
-itemAECHeadlessMinionAssaultContract_desc_T03,,,,Starts a green wilderness contract. Travel to the marked site, activate the lure, and survive three timed Headless assault waves.
+itemAECHeadlessMinionAssaultContract_desc_T03,,,,"Starts a green wilderness contract. Travel to the marked site,activate the lure,and survive three timed Headless assault waves."
 questAECHeadlessEndlessGoryLegion_completion_T03,quests,,false,"Contract complete. All 100 waves cleared. [1★]"
 questAECHeadlessEndlessGoryLegion_description_T03,quests,,false,"Survive 100 non-linear Headless waves built from mono-rank marches, breach cells, toxic heavy corpses, full gory processions, and a final double-Headless legion break. [1★]"
 questAECHeadlessEndlessGoryLegion_name_T03,quests,,false,"[FFA500]AEC 100 waves super-challenge 0[FFD700]★[-] |[-] [FFD700]Headless Gory Legion[-] [1★]"
@@ -1798,14 +1798,14 @@ questAECHeadlessEndlessGoryLegion_response_T03,quests,,false,"[FFA500]AEC 100 wa
 questAECHeadlessEndlessGoryLegion_statement_T03,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [1★]"
 questAECHeadlessEndlessGoryLegion_subtitle_T03,quests,,false,"AEC Super-Challenge Contract [1★]"
 questAECHeadlessHunt_completion_T03,quests,,,The Headless hunt is complete.
-questAECHeadlessHunt_description_T03,quests,,,Activate the rally, place the lure, survive three elite Headless waves, then kill The Headless.
+questAECHeadlessHunt_description_T03,quests,,,"Activate the rally,place the lure,survive three elite Headless waves,then kill The Headless."
 questAECHeadlessHunt_name_T03,quests,,,[FF6B6B]The Headless Hunt[-]
 questAECHeadlessHunt_obj_wave1_T03,quests,,,Survive wave 1
 questAECHeadlessHunt_obj_wave2_T03,quests,,,Survive wave 2
 questAECHeadlessHunt_obj_wave3_T03,quests,,,Survive wave 3
-questAECHeadlessHunt_offer_T03,quests,,,The lure can drag The Headless into the open, but its escorts will reach you first. Survive the waves and finish the boss.
+questAECHeadlessHunt_offer_T03,quests,,,"The lure can drag The Headless into the open,but its escorts will reach you first. Survive the waves and finish the boss."
 questAECHeadlessHunt_response_T03,quests,,,AEC HUNT - [FF4500]The Headless[-]
-questAECHeadlessHunt_statement_T03,quests,,,I will place the lure, survive the escort waves, and kill The Headless.
+questAECHeadlessHunt_statement_T03,quests,,,"I will place the lure,survive the escort waves,and kill The Headless."
 questAECHeadlessHunt_subtitle_T03,quests,,,Headless T5 Hunt
 questAECHeadlessMinionAssault_name_T03,quests,,,[32CD32]Green Contract | Headless Minion Assault[-]
 eventAECHeadlessArrival_Hunt_msg_T06,gameevents,,,The hunt begins. Survive the Headless escorts and drag the boss into the open.
@@ -1818,7 +1818,7 @@ itemAECHeadlessContract_100waveschallenge_gorylegion_desc_T06,,,false,"Survive 1
 itemAECHeadlessHuntContract_T06,,,,[FF0000]AEC |[-] [FFD700]Headless Contract | Hunt[-]
 itemAECHeadlessHuntContract_desc_T06,,,,Contract: Survive three elite Headless waves and kill The Headless.
 itemAECHeadlessMinionAssaultContract_T06,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Minion Assault[-]
-itemAECHeadlessMinionAssaultContract_desc_T06,,,,Starts a green wilderness contract. Travel to the marked site, activate the lure, and survive three timed Headless assault waves.
+itemAECHeadlessMinionAssaultContract_desc_T06,,,,"Starts a green wilderness contract. Travel to the marked site,activate the lure,and survive three timed Headless assault waves."
 questAECHeadlessEndlessGoryLegion_completion_T06,quests,,false,"Contract complete. All 100 waves cleared. [2★]"
 questAECHeadlessEndlessGoryLegion_description_T06,quests,,false,"Survive 100 non-linear Headless waves built from mono-rank marches, breach cells, toxic heavy corpses, full gory processions, and a final double-Headless legion break. [2★]"
 questAECHeadlessEndlessGoryLegion_name_T06,quests,,false,"[FFA500]AEC 100 waves super-challenge 0[FFD700]★[-] |[-] [FFD700]Headless Gory Legion[-] [2★]"
@@ -1827,14 +1827,14 @@ questAECHeadlessEndlessGoryLegion_response_T06,quests,,false,"[FFA500]AEC 100 wa
 questAECHeadlessEndlessGoryLegion_statement_T06,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [2★]"
 questAECHeadlessEndlessGoryLegion_subtitle_T06,quests,,false,"AEC Super-Challenge Contract [2★]"
 questAECHeadlessHunt_completion_T06,quests,,,The Headless hunt is complete.
-questAECHeadlessHunt_description_T06,quests,,,Activate the rally, place the lure, survive three elite Headless waves, then kill The Headless.
+questAECHeadlessHunt_description_T06,quests,,,"Activate the rally,place the lure,survive three elite Headless waves,then kill The Headless."
 questAECHeadlessHunt_name_T06,quests,,,[FF6B6B]The Headless Hunt[-]
 questAECHeadlessHunt_obj_wave1_T06,quests,,,Survive wave 1
 questAECHeadlessHunt_obj_wave2_T06,quests,,,Survive wave 2
 questAECHeadlessHunt_obj_wave3_T06,quests,,,Survive wave 3
-questAECHeadlessHunt_offer_T06,quests,,,The lure can drag The Headless into the open, but its escorts will reach you first. Survive the waves and finish the boss.
+questAECHeadlessHunt_offer_T06,quests,,,"The lure can drag The Headless into the open,but its escorts will reach you first. Survive the waves and finish the boss."
 questAECHeadlessHunt_response_T06,quests,,,AEC HUNT - [FF4500]The Headless[-]
-questAECHeadlessHunt_statement_T06,quests,,,I will place the lure, survive the escort waves, and kill The Headless.
+questAECHeadlessHunt_statement_T06,quests,,,"I will place the lure,survive the escort waves,and kill The Headless."
 questAECHeadlessHunt_subtitle_T06,quests,,,Headless T5 Hunt
 questAECHeadlessMinionAssault_name_T06,quests,,,[32CD32]Green Contract | Headless Minion Assault[-]
 eventAECHeadlessArrival_Hunt_msg_T09,gameevents,,,The hunt begins. Survive the Headless escorts and drag the boss into the open.
@@ -1847,7 +1847,7 @@ itemAECHeadlessContract_100waveschallenge_gorylegion_desc_T09,,,false,"Survive 1
 itemAECHeadlessHuntContract_T09,,,,[FF0000]AEC |[-] [FFD700]Headless Contract | Hunt[-]
 itemAECHeadlessHuntContract_desc_T09,,,,Contract: Survive three elite Headless waves and kill The Headless.
 itemAECHeadlessMinionAssaultContract_T09,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Minion Assault[-]
-itemAECHeadlessMinionAssaultContract_desc_T09,,,,Starts a green wilderness contract. Travel to the marked site, activate the lure, and survive three timed Headless assault waves.
+itemAECHeadlessMinionAssaultContract_desc_T09,,,,"Starts a green wilderness contract. Travel to the marked site,activate the lure,and survive three timed Headless assault waves."
 questAECHeadlessEndlessGoryLegion_completion_T09,quests,,false,"Contract complete. All 100 waves cleared. [3★]"
 questAECHeadlessEndlessGoryLegion_description_T09,quests,,false,"Survive 100 non-linear Headless waves built from mono-rank marches, breach cells, toxic heavy corpses, full gory processions, and a final double-Headless legion break. [3★]"
 questAECHeadlessEndlessGoryLegion_name_T09,quests,,false,"[FFA500]AEC 100 waves super-challenge 0[FFD700]★[-] |[-] [FFD700]Headless Gory Legion[-] [3★]"
@@ -1856,14 +1856,14 @@ questAECHeadlessEndlessGoryLegion_response_T09,quests,,false,"[FFA500]AEC 100 wa
 questAECHeadlessEndlessGoryLegion_statement_T09,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [3★]"
 questAECHeadlessEndlessGoryLegion_subtitle_T09,quests,,false,"AEC Super-Challenge Contract [3★]"
 questAECHeadlessHunt_completion_T09,quests,,,The Headless hunt is complete.
-questAECHeadlessHunt_description_T09,quests,,,Activate the rally, place the lure, survive three elite Headless waves, then kill The Headless.
+questAECHeadlessHunt_description_T09,quests,,,"Activate the rally,place the lure,survive three elite Headless waves,then kill The Headless."
 questAECHeadlessHunt_name_T09,quests,,,[FF6B6B]The Headless Hunt[-]
 questAECHeadlessHunt_obj_wave1_T09,quests,,,Survive wave 1
 questAECHeadlessHunt_obj_wave2_T09,quests,,,Survive wave 2
 questAECHeadlessHunt_obj_wave3_T09,quests,,,Survive wave 3
-questAECHeadlessHunt_offer_T09,quests,,,The lure can drag The Headless into the open, but its escorts will reach you first. Survive the waves and finish the boss.
+questAECHeadlessHunt_offer_T09,quests,,,"The lure can drag The Headless into the open,but its escorts will reach you first. Survive the waves and finish the boss."
 questAECHeadlessHunt_response_T09,quests,,,AEC HUNT - [FF4500]The Headless[-]
-questAECHeadlessHunt_statement_T09,quests,,,I will place the lure, survive the escort waves, and kill The Headless.
+questAECHeadlessHunt_statement_T09,quests,,,"I will place the lure,survive the escort waves,and kill The Headless."
 questAECHeadlessHunt_subtitle_T09,quests,,,Headless T5 Hunt
 questAECHeadlessMinionAssault_name_T09,quests,,,[32CD32]Green Contract | Headless Minion Assault[-]
 eventAECHeadlessArrival_Hunt_msg_T12,gameevents,,,The hunt begins. Survive the Headless escorts and drag the boss into the open.
@@ -1876,7 +1876,7 @@ itemAECHeadlessContract_100waveschallenge_gorylegion_desc_T12,,,false,"Survive 1
 itemAECHeadlessHuntContract_T12,,,,[FF0000]AEC |[-] [FFD700]Headless Contract | Hunt[-]
 itemAECHeadlessHuntContract_desc_T12,,,,Contract: Survive three elite Headless waves and kill The Headless.
 itemAECHeadlessMinionAssaultContract_T12,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Minion Assault[-]
-itemAECHeadlessMinionAssaultContract_desc_T12,,,,Starts a green wilderness contract. Travel to the marked site, activate the lure, and survive three timed Headless assault waves.
+itemAECHeadlessMinionAssaultContract_desc_T12,,,,"Starts a green wilderness contract. Travel to the marked site,activate the lure,and survive three timed Headless assault waves."
 questAECHeadlessEndlessGoryLegion_completion_T12,quests,,false,"Contract complete. All 100 waves cleared. [4★]"
 questAECHeadlessEndlessGoryLegion_description_T12,quests,,false,"Survive 100 non-linear Headless waves built from mono-rank marches, breach cells, toxic heavy corpses, full gory processions, and a final double-Headless legion break. [4★]"
 questAECHeadlessEndlessGoryLegion_name_T12,quests,,false,"[FFA500]AEC 100 waves super-challenge 0[FFD700]★[-] |[-] [FFD700]Headless Gory Legion[-] [4★]"
@@ -1885,14 +1885,14 @@ questAECHeadlessEndlessGoryLegion_response_T12,quests,,false,"[FFA500]AEC 100 wa
 questAECHeadlessEndlessGoryLegion_statement_T12,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [4★]"
 questAECHeadlessEndlessGoryLegion_subtitle_T12,quests,,false,"AEC Super-Challenge Contract [4★]"
 questAECHeadlessHunt_completion_T12,quests,,,The Headless hunt is complete.
-questAECHeadlessHunt_description_T12,quests,,,Activate the rally, place the lure, survive three elite Headless waves, then kill The Headless.
+questAECHeadlessHunt_description_T12,quests,,,"Activate the rally,place the lure,survive three elite Headless waves,then kill The Headless."
 questAECHeadlessHunt_name_T12,quests,,,[FF6B6B]The Headless Hunt[-]
 questAECHeadlessHunt_obj_wave1_T12,quests,,,Survive wave 1
 questAECHeadlessHunt_obj_wave2_T12,quests,,,Survive wave 2
 questAECHeadlessHunt_obj_wave3_T12,quests,,,Survive wave 3
-questAECHeadlessHunt_offer_T12,quests,,,The lure can drag The Headless into the open, but its escorts will reach you first. Survive the waves and finish the boss.
+questAECHeadlessHunt_offer_T12,quests,,,"The lure can drag The Headless into the open,but its escorts will reach you first. Survive the waves and finish the boss."
 questAECHeadlessHunt_response_T12,quests,,,AEC HUNT - [FF4500]The Headless[-]
-questAECHeadlessHunt_statement_T12,quests,,,I will place the lure, survive the escort waves, and kill The Headless.
+questAECHeadlessHunt_statement_T12,quests,,,"I will place the lure,survive the escort waves,and kill The Headless."
 questAECHeadlessHunt_subtitle_T12,quests,,,Headless T5 Hunt
 questAECHeadlessMinionAssault_name_T12,quests,,,[32CD32]Green Contract | Headless Minion Assault[-]
 eventAECHeadlessArrival_Hunt_msg_T15,gameevents,,,The hunt begins. Survive the Headless escorts and drag the boss into the open.
@@ -1905,7 +1905,7 @@ itemAECHeadlessContract_100waveschallenge_gorylegion_desc_T15,,,false,"Survive 1
 itemAECHeadlessHuntContract_T15,,,,[FF0000]AEC |[-] [FFD700]Headless Contract | Hunt[-]
 itemAECHeadlessHuntContract_desc_T15,,,,Contract: Survive three elite Headless waves and kill The Headless.
 itemAECHeadlessMinionAssaultContract_T15,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Minion Assault[-]
-itemAECHeadlessMinionAssaultContract_desc_T15,,,,Starts a green wilderness contract. Travel to the marked site, activate the lure, and survive three timed Headless assault waves.
+itemAECHeadlessMinionAssaultContract_desc_T15,,,,"Starts a green wilderness contract. Travel to the marked site,activate the lure,and survive three timed Headless assault waves."
 questAECHeadlessEndlessGoryLegion_completion_T15,quests,,false,"Contract complete. All 100 waves cleared. [5★]"
 questAECHeadlessEndlessGoryLegion_description_T15,quests,,false,"Survive 100 non-linear Headless waves built from mono-rank marches, breach cells, toxic heavy corpses, full gory processions, and a final double-Headless legion break. [5★]"
 questAECHeadlessEndlessGoryLegion_name_T15,quests,,false,"[FFA500]AEC 100 waves super-challenge 0[FFD700]★[-] |[-] [FFD700]Headless Gory Legion[-] [5★]"
@@ -1914,53 +1914,53 @@ questAECHeadlessEndlessGoryLegion_response_T15,quests,,false,"[FFA500]AEC 100 wa
 questAECHeadlessEndlessGoryLegion_statement_T15,quests,,false,"I'll deploy the lure, survive all 100 waves, and finish the contract. [5★]"
 questAECHeadlessEndlessGoryLegion_subtitle_T15,quests,,false,"AEC Super-Challenge Contract [5★]"
 questAECHeadlessHunt_completion_T15,quests,,,The Headless hunt is complete.
-questAECHeadlessHunt_description_T15,quests,,,Activate the rally, place the lure, survive three elite Headless waves, then kill The Headless.
+questAECHeadlessHunt_description_T15,quests,,,"Activate the rally,place the lure,survive three elite Headless waves,then kill The Headless."
 questAECHeadlessHunt_name_T15,quests,,,[FF6B6B]The Headless Hunt[-]
 questAECHeadlessHunt_obj_wave1_T15,quests,,,Survive wave 1
 questAECHeadlessHunt_obj_wave2_T15,quests,,,Survive wave 2
 questAECHeadlessHunt_obj_wave3_T15,quests,,,Survive wave 3
-questAECHeadlessHunt_offer_T15,quests,,,The lure can drag The Headless into the open, but its escorts will reach you first. Survive the waves and finish the boss.
+questAECHeadlessHunt_offer_T15,quests,,,"The lure can drag The Headless into the open,but its escorts will reach you first. Survive the waves and finish the boss."
 questAECHeadlessHunt_response_T15,quests,,,AEC HUNT - [FF4500]The Headless[-]
-questAECHeadlessHunt_statement_T15,quests,,,I will place the lure, survive the escort waves, and kill The Headless.
+questAECHeadlessHunt_statement_T15,quests,,,"I will place the lure,survive the escort waves,and kill The Headless."
 questAECHeadlessHunt_subtitle_T15,quests,,,Headless T5 Hunt
 questAECHeadlessMinionAssault_name_T15,quests,,,[32CD32]Green Contract | Headless Minion Assault[-]
 itemAECHeadlessGhostMinionAssaultContract_T03,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Shrouded Assault[-]
 itemAECHeadlessGhostMinionAssaultContract_desc_T03,,,,Starts a green wilderness contract with three timed mixed Ghost and Headless assault waves.
 questAECHeadlessGhostMinionAssault_completion_T03,quests,,,The mixed assault has been broken.
-questAECHeadlessGhostMinionAssault_description_T03,quests,,,Activate the rally, place the lure, and survive three mixed Ghost and Headless assault waves.
+questAECHeadlessGhostMinionAssault_description_T03,quests,,,"Activate the rally,place the lure,and survive three mixed Ghost and Headless assault waves."
 questAECHeadlessGhostMinionAssault_name_T03,quests,,,[32CD32]Green Contract | Shrouded Assault[-]
-questAECHeadlessGhostMinionAssault_offer_T03,quests,,,The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally, place the lure, and hold through the assault.
+questAECHeadlessGhostMinionAssault_offer_T03,quests,,,"The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally,place the lure,and hold through the assault."
 questAECHeadlessGhostMinionAssault_statement_T03,quests,,,I will place the lure and survive the mixed assault.
 itemAECHeadlessGhostMinionAssaultContract_T06,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Shrouded Assault[-]
 itemAECHeadlessGhostMinionAssaultContract_desc_T06,,,,Starts a green wilderness contract with three timed mixed Ghost and Headless assault waves.
 questAECHeadlessGhostMinionAssault_completion_T06,quests,,,The mixed assault has been broken.
-questAECHeadlessGhostMinionAssault_description_T06,quests,,,Activate the rally, place the lure, and survive three mixed Ghost and Headless assault waves.
+questAECHeadlessGhostMinionAssault_description_T06,quests,,,"Activate the rally,place the lure,and survive three mixed Ghost and Headless assault waves."
 questAECHeadlessGhostMinionAssault_name_T06,quests,,,[32CD32]Green Contract | Shrouded Assault[-]
-questAECHeadlessGhostMinionAssault_offer_T06,quests,,,The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally, place the lure, and hold through the assault.
+questAECHeadlessGhostMinionAssault_offer_T06,quests,,,"The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally,place the lure,and hold through the assault."
 questAECHeadlessGhostMinionAssault_statement_T06,quests,,,I will place the lure and survive the mixed assault.
 itemAECHeadlessGhostMinionAssaultContract_T09,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Shrouded Assault[-]
 itemAECHeadlessGhostMinionAssaultContract_desc_T09,,,,Starts a green wilderness contract with three timed mixed Ghost and Headless assault waves.
 questAECHeadlessGhostMinionAssault_completion_T09,quests,,,The mixed assault has been broken.
-questAECHeadlessGhostMinionAssault_description_T09,quests,,,Activate the rally, place the lure, and survive three mixed Ghost and Headless assault waves.
+questAECHeadlessGhostMinionAssault_description_T09,quests,,,"Activate the rally,place the lure,and survive three mixed Ghost and Headless assault waves."
 questAECHeadlessGhostMinionAssault_name_T09,quests,,,[32CD32]Green Contract | Shrouded Assault[-]
-questAECHeadlessGhostMinionAssault_offer_T09,quests,,,The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally, place the lure, and hold through the assault.
+questAECHeadlessGhostMinionAssault_offer_T09,quests,,,"The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally,place the lure,and hold through the assault."
 questAECHeadlessGhostMinionAssault_statement_T09,quests,,,I will place the lure and survive the mixed assault.
 itemAECHeadlessGhostMinionAssaultContract_T12,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Shrouded Assault[-]
 itemAECHeadlessGhostMinionAssaultContract_desc_T12,,,,Starts a green wilderness contract with three timed mixed Ghost and Headless assault waves.
 questAECHeadlessGhostMinionAssault_completion_T12,quests,,,The mixed assault has been broken.
-questAECHeadlessGhostMinionAssault_description_T12,quests,,,Activate the rally, place the lure, and survive three mixed Ghost and Headless assault waves.
+questAECHeadlessGhostMinionAssault_description_T12,quests,,,"Activate the rally,place the lure,and survive three mixed Ghost and Headless assault waves."
 questAECHeadlessGhostMinionAssault_name_T12,quests,,,[32CD32]Green Contract | Shrouded Assault[-]
-questAECHeadlessGhostMinionAssault_offer_T12,quests,,,The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally, place the lure, and hold through the assault.
+questAECHeadlessGhostMinionAssault_offer_T12,quests,,,"The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally,place the lure,and hold through the assault."
 questAECHeadlessGhostMinionAssault_statement_T12,quests,,,I will place the lure and survive the mixed assault.
 itemAECHeadlessGhostMinionAssaultContract_T15,,,,[00E5FF]AEC |[-] [FFD700]Headless Contract | Shrouded Assault[-]
 itemAECHeadlessGhostMinionAssaultContract_desc_T15,,,,Starts a green wilderness contract with three timed mixed Ghost and Headless assault waves.
 questAECHeadlessGhostMinionAssault_completion_T15,quests,,,The mixed assault has been broken.
-questAECHeadlessGhostMinionAssault_description_T15,quests,,,Activate the rally, place the lure, and survive three mixed Ghost and Headless assault waves.
+questAECHeadlessGhostMinionAssault_description_T15,quests,,,"Activate the rally,place the lure,and survive three mixed Ghost and Headless assault waves."
 questAECHeadlessGhostMinionAssault_name_T15,quests,,,[32CD32]Green Contract | Shrouded Assault[-]
-questAECHeadlessGhostMinionAssault_offer_T15,quests,,,The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally, place the lure, and hold through the assault.
+questAECHeadlessGhostMinionAssault_offer_T15,quests,,,"The line is thicker tonight. Ghosts are screening a Headless push. Trigger the rally,place the lure,and hold through the assault."
 questAECHeadlessGhostMinionAssault_statement_T15,quests,,,I will place the lure and survive the mixed assault.
 eventAECHellskyliHuntArrival_msg_T03,gameevents,,,ALERT: Hellskyli has been sighted nearby. Survive the burnt wave before the demon dives in.
-eventAECHellskyliHuntBossSpawn_msg_T03,gameevents,,,BOSS: Hellskyli is here. Expect fireballs, dive pressure, and relentless burning damage.
+eventAECHellskyliHuntBossSpawn_msg_T03,gameevents,,,"BOSS: Hellskyli is here. Expect fireballs,dive pressure,and relentless burning damage."
 eventAECHellskyliWave1_msg_T03,gameevents,,,WAVE 1: Burnt scouts are closing in beneath Hellskyli's flight path.
 eventAECHellskyliWave2_msg_T03,gameevents,,,WAVE 2: Feral and radiated burnt are pushing through the flames.
 eventAECHellskyliWave3_msg_T03,gameevents,,,WAVE 3: Charged and infernal burnt are erupting through the fireline.
@@ -1976,15 +1976,15 @@ questAECHellskyli_obj_wave4_T03,quests,,,Survive wave 4
 questAECHellskyli_obj_wave5_T03,quests,,,Survive wave 5
 questAECHellskyli_obj_wave6_T03,quests,,,Survive wave 6
 questAECHellskyliHunt_completion_T03,quests,,,Hellskyli is down. Payment is ready.
-questAECHellskyliHunt_description_T03,quests,,,Activate the rally, place the lure, survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_description_T03,quests,,,"Activate the rally,place the lure,survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_name_T03,quests,,,[FF6A00]Hunt: Hellskyli the Burning Demon[-]
 questAECHellskyliHunt_obj_kill_T03,quests,,,Kill Hellskyli
-questAECHellskyliHunt_offer_T03,quests,,,Burning air contact. Hellskyli is circling nearby. Trigger the rally, place the lure, survive six timed escort waves, and bring the boss down.
+questAECHellskyliHunt_offer_T03,quests,,,"Burning air contact. Hellskyli is circling nearby. Trigger the rally,place the lure,survive six timed escort waves,and bring the boss down."
 questAECHellskyliHunt_response_T03,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Hellskyli the Burning Demon[-]
-questAECHellskyliHunt_statement_T03,quests,,,survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_statement_T03,quests,,,"survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_subtitle_T03,quests,,,T5 Boss Hunt
 eventAECHellskyliHuntArrival_msg_T06,gameevents,,,ALERT: Hellskyli has been sighted nearby. Survive the burnt wave before the demon dives in.
-eventAECHellskyliHuntBossSpawn_msg_T06,gameevents,,,BOSS: Hellskyli is here. Expect fireballs, dive pressure, and relentless burning damage.
+eventAECHellskyliHuntBossSpawn_msg_T06,gameevents,,,"BOSS: Hellskyli is here. Expect fireballs,dive pressure,and relentless burning damage."
 eventAECHellskyliWave1_msg_T06,gameevents,,,WAVE 1: Burnt scouts are closing in beneath Hellskyli's flight path.
 eventAECHellskyliWave2_msg_T06,gameevents,,,WAVE 2: Feral and radiated burnt are pushing through the flames.
 eventAECHellskyliWave3_msg_T06,gameevents,,,WAVE 3: Charged and infernal burnt are erupting through the fireline.
@@ -2000,15 +2000,15 @@ questAECHellskyli_obj_wave4_T06,quests,,,Survive wave 4
 questAECHellskyli_obj_wave5_T06,quests,,,Survive wave 5
 questAECHellskyli_obj_wave6_T06,quests,,,Survive wave 6
 questAECHellskyliHunt_completion_T06,quests,,,Hellskyli is down. Payment is ready.
-questAECHellskyliHunt_description_T06,quests,,,Activate the rally, place the lure, survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_description_T06,quests,,,"Activate the rally,place the lure,survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_name_T06,quests,,,[FF6A00]Hunt: Hellskyli the Burning Demon[-]
 questAECHellskyliHunt_obj_kill_T06,quests,,,Kill Hellskyli
-questAECHellskyliHunt_offer_T06,quests,,,Burning air contact. Hellskyli is circling nearby. Trigger the rally, place the lure, survive six timed escort waves, and bring the boss down.
+questAECHellskyliHunt_offer_T06,quests,,,"Burning air contact. Hellskyli is circling nearby. Trigger the rally,place the lure,survive six timed escort waves,and bring the boss down."
 questAECHellskyliHunt_response_T06,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Hellskyli the Burning Demon[-]
-questAECHellskyliHunt_statement_T06,quests,,,survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_statement_T06,quests,,,"survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_subtitle_T06,quests,,,T5 Boss Hunt
 eventAECHellskyliHuntArrival_msg_T09,gameevents,,,ALERT: Hellskyli has been sighted nearby. Survive the burnt wave before the demon dives in.
-eventAECHellskyliHuntBossSpawn_msg_T09,gameevents,,,BOSS: Hellskyli is here. Expect fireballs, dive pressure, and relentless burning damage.
+eventAECHellskyliHuntBossSpawn_msg_T09,gameevents,,,"BOSS: Hellskyli is here. Expect fireballs,dive pressure,and relentless burning damage."
 eventAECHellskyliWave1_msg_T09,gameevents,,,WAVE 1: Burnt scouts are closing in beneath Hellskyli's flight path.
 eventAECHellskyliWave2_msg_T09,gameevents,,,WAVE 2: Feral and radiated burnt are pushing through the flames.
 eventAECHellskyliWave3_msg_T09,gameevents,,,WAVE 3: Charged and infernal burnt are erupting through the fireline.
@@ -2024,15 +2024,15 @@ questAECHellskyli_obj_wave4_T09,quests,,,Survive wave 4
 questAECHellskyli_obj_wave5_T09,quests,,,Survive wave 5
 questAECHellskyli_obj_wave6_T09,quests,,,Survive wave 6
 questAECHellskyliHunt_completion_T09,quests,,,Hellskyli is down. Payment is ready.
-questAECHellskyliHunt_description_T09,quests,,,Activate the rally, place the lure, survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_description_T09,quests,,,"Activate the rally,place the lure,survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_name_T09,quests,,,[FF6A00]Hunt: Hellskyli the Burning Demon[-]
 questAECHellskyliHunt_obj_kill_T09,quests,,,Kill Hellskyli
-questAECHellskyliHunt_offer_T09,quests,,,Burning air contact. Hellskyli is circling nearby. Trigger the rally, place the lure, survive six timed escort waves, and bring the boss down.
+questAECHellskyliHunt_offer_T09,quests,,,"Burning air contact. Hellskyli is circling nearby. Trigger the rally,place the lure,survive six timed escort waves,and bring the boss down."
 questAECHellskyliHunt_response_T09,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Hellskyli the Burning Demon[-]
-questAECHellskyliHunt_statement_T09,quests,,,survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_statement_T09,quests,,,"survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_subtitle_T09,quests,,,T5 Boss Hunt
 eventAECHellskyliHuntArrival_msg_T12,gameevents,,,ALERT: Hellskyli has been sighted nearby. Survive the burnt wave before the demon dives in.
-eventAECHellskyliHuntBossSpawn_msg_T12,gameevents,,,BOSS: Hellskyli is here. Expect fireballs, dive pressure, and relentless burning damage.
+eventAECHellskyliHuntBossSpawn_msg_T12,gameevents,,,"BOSS: Hellskyli is here. Expect fireballs,dive pressure,and relentless burning damage."
 eventAECHellskyliWave1_msg_T12,gameevents,,,WAVE 1: Burnt scouts are closing in beneath Hellskyli's flight path.
 eventAECHellskyliWave2_msg_T12,gameevents,,,WAVE 2: Feral and radiated burnt are pushing through the flames.
 eventAECHellskyliWave3_msg_T12,gameevents,,,WAVE 3: Charged and infernal burnt are erupting through the fireline.
@@ -2048,15 +2048,15 @@ questAECHellskyli_obj_wave4_T12,quests,,,Survive wave 4
 questAECHellskyli_obj_wave5_T12,quests,,,Survive wave 5
 questAECHellskyli_obj_wave6_T12,quests,,,Survive wave 6
 questAECHellskyliHunt_completion_T12,quests,,,Hellskyli is down. Payment is ready.
-questAECHellskyliHunt_description_T12,quests,,,Activate the rally, place the lure, survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_description_T12,quests,,,"Activate the rally,place the lure,survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_name_T12,quests,,,[FF6A00]Hunt: Hellskyli the Burning Demon[-]
 questAECHellskyliHunt_obj_kill_T12,quests,,,Kill Hellskyli
-questAECHellskyliHunt_offer_T12,quests,,,Burning air contact. Hellskyli is circling nearby. Trigger the rally, place the lure, survive six timed escort waves, and bring the boss down.
+questAECHellskyliHunt_offer_T12,quests,,,"Burning air contact. Hellskyli is circling nearby. Trigger the rally,place the lure,survive six timed escort waves,and bring the boss down."
 questAECHellskyliHunt_response_T12,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Hellskyli the Burning Demon[-]
-questAECHellskyliHunt_statement_T12,quests,,,survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_statement_T12,quests,,,"survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_subtitle_T12,quests,,,T5 Boss Hunt
 eventAECHellskyliHuntArrival_msg_T15,gameevents,,,ALERT: Hellskyli has been sighted nearby. Survive the burnt wave before the demon dives in.
-eventAECHellskyliHuntBossSpawn_msg_T15,gameevents,,,BOSS: Hellskyli is here. Expect fireballs, dive pressure, and relentless burning damage.
+eventAECHellskyliHuntBossSpawn_msg_T15,gameevents,,,"BOSS: Hellskyli is here. Expect fireballs,dive pressure,and relentless burning damage."
 eventAECHellskyliWave1_msg_T15,gameevents,,,WAVE 1: Burnt scouts are closing in beneath Hellskyli's flight path.
 eventAECHellskyliWave2_msg_T15,gameevents,,,WAVE 2: Feral and radiated burnt are pushing through the flames.
 eventAECHellskyliWave3_msg_T15,gameevents,,,WAVE 3: Charged and infernal burnt are erupting through the fireline.
@@ -2072,12 +2072,12 @@ questAECHellskyli_obj_wave4_T15,quests,,,Survive wave 4
 questAECHellskyli_obj_wave5_T15,quests,,,Survive wave 5
 questAECHellskyli_obj_wave6_T15,quests,,,Survive wave 6
 questAECHellskyliHunt_completion_T15,quests,,,Hellskyli is down. Payment is ready.
-questAECHellskyliHunt_description_T15,quests,,,Activate the rally, place the lure, survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_description_T15,quests,,,"Activate the rally,place the lure,survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_name_T15,quests,,,[FF6A00]Hunt: Hellskyli the Burning Demon[-]
 questAECHellskyliHunt_obj_kill_T15,quests,,,Kill Hellskyli
-questAECHellskyliHunt_offer_T15,quests,,,Burning air contact. Hellskyli is circling nearby. Trigger the rally, place the lure, survive six timed escort waves, and bring the boss down.
+questAECHellskyliHunt_offer_T15,quests,,,"Burning air contact. Hellskyli is circling nearby. Trigger the rally,place the lure,survive six timed escort waves,and bring the boss down."
 questAECHellskyliHunt_response_T15,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Hellskyli the Burning Demon[-]
-questAECHellskyliHunt_statement_T15,quests,,,survive six timed burnt waves, then kill Hellskyli.
+questAECHellskyliHunt_statement_T15,quests,,,"survive six timed burnt waves,then kill Hellskyli."
 questAECHellskyliHunt_subtitle_T15,quests,,,T5 Boss Hunt
 eventAECKamikazeHuntArrival_msg_T03,gameevents,,,ALERT: The Running Kamikaze has been spotted in the area. Survive five waves and stay sharp!
 eventAECKamikazeHuntBossSpawn_msg_T03,gameevents,,,BOSS: The Running Kamikaze is here. He runs. He explodes. Don't miss.
@@ -2164,7 +2164,7 @@ questAECKamikazeHunt_offer_T15,quests,,,"Fast contract. The Running Kamikaze is 
 questAECKamikazeHunt_response_T15,quests,,,"AEC HORDE - [FFAA00]Hunt: The Running Kamikaze[-] [5★]"
 questAECKamikazeHunt_statement_T15,quests,,,"Survive five timed waves, then kill the Running Kamikaze. [5★]"
 questAECKamikazeHunt_subtitle_T15,quests,,,T4 Boss Hunt
-eventAECMechanicianHuntArrival_msg_T03,gameevents,,,ALERT: The Mechanician is moving with his full escort. Survive the waves, then kill the boss!
+eventAECMechanicianHuntArrival_msg_T03,gameevents,,,"ALERT: The Mechanician is moving with his full escort. Survive the waves,then kill the boss!"
 eventAECMechanicianHuntBossSpawn_msg_T03,gameevents,,,BOSS: The Mechanician has entered the fight. Finish this now!
 eventAECMechanicianT4Wave1_msg_T03,gameevents,,,WAVE 1: The Mechanician's knife crew is closing in.
 eventAECMechanicianT4Wave2_msg_T03,gameevents,,,WAVE 2: More Mechanician minions are pushing forward with fire and blades.
@@ -2174,15 +2174,15 @@ eventAECMechanicianT4Wave5_msg_T03,gameevents,,,WAVE 5: Final rush. Break this c
 itemAECMechanicianHuntContract_T03,,,,"[FFD700]AEC |[-] [FFD700]Mechanician Contract | Boss Hunt[-] [1★]"
 itemAECMechanicianHuntContract_desc_T03,,,,"A lethal bounty contract targeting The Mechanician. Survive five timed waves of minions, then kill the boss himself. [1★]"
 questAECMechanicianHunt_completion_T03,quests,,,"The Mechanician is dead. Collect your reward. [1★]"
-questAECMechanicianHunt_description_T03,quests,,,,"Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [1★]"
+questAECMechanicianHunt_description_T03,quests,,,",Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [1★]"
 questAECMechanicianHunt_name_T03,quests,,,"[FF4500]Hunt: BOSS The Mechanician[-] [1★]"
 questAECMechanicianHunt_obj_kill_T03,quests,,,"Kill BOSS The Mechanician [1★]"
-questAECMechanicianHunt_offer_T03,quests,,,,"Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [1★]"
+questAECMechanicianHunt_offer_T03,quests,,,",Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [1★]"
 questAECMechanicianHunt_response_T03,quests,,,"AEC HORDE - [FF4500]Hunt: BOSS The Mechanician[-] [1★]"
-questAECMechanicianHunt_statement_T03,quests,,,,"survive five waves of minions, then kill The Mechanician. [1★]"
+questAECMechanicianHunt_statement_T03,quests,,,",survive five waves of minions, then kill The Mechanician. [1★]"
 questAECMechanicianHunt_subtitle_T03,quests,,,T4 Boss Hunt
 questAECMechanicianMinionAssault_name_T03,quests,,false,"[CCAA44]Mechanician Minion Assault[-] [1★]"
-eventAECMechanicianHuntArrival_msg_T06,gameevents,,,ALERT: The Mechanician is moving with his full escort. Survive the waves, then kill the boss!
+eventAECMechanicianHuntArrival_msg_T06,gameevents,,,"ALERT: The Mechanician is moving with his full escort. Survive the waves,then kill the boss!"
 eventAECMechanicianHuntBossSpawn_msg_T06,gameevents,,,BOSS: The Mechanician has entered the fight. Finish this now!
 eventAECMechanicianT4Wave1_msg_T06,gameevents,,,WAVE 1: The Mechanician's knife crew is closing in.
 eventAECMechanicianT4Wave2_msg_T06,gameevents,,,WAVE 2: More Mechanician minions are pushing forward with fire and blades.
@@ -2192,15 +2192,15 @@ eventAECMechanicianT4Wave5_msg_T06,gameevents,,,WAVE 5: Final rush. Break this c
 itemAECMechanicianHuntContract_T06,,,,"[FFD700]AEC |[-] [FFD700]Mechanician Contract | Boss Hunt[-] [2★]"
 itemAECMechanicianHuntContract_desc_T06,,,,"A lethal bounty contract targeting The Mechanician. Survive five timed waves of minions, then kill the boss himself. [2★]"
 questAECMechanicianHunt_completion_T06,quests,,,"The Mechanician is dead. Collect your reward. [2★]"
-questAECMechanicianHunt_description_T06,quests,,,,"Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [2★]"
+questAECMechanicianHunt_description_T06,quests,,,",Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [2★]"
 questAECMechanicianHunt_name_T06,quests,,,"[FF4500]Hunt: BOSS The Mechanician[-] [2★]"
 questAECMechanicianHunt_obj_kill_T06,quests,,,"Kill BOSS The Mechanician [2★]"
-questAECMechanicianHunt_offer_T06,quests,,,,"Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [2★]"
+questAECMechanicianHunt_offer_T06,quests,,,",Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [2★]"
 questAECMechanicianHunt_response_T06,quests,,,"AEC HORDE - [FF4500]Hunt: BOSS The Mechanician[-] [2★]"
-questAECMechanicianHunt_statement_T06,quests,,,,"survive five waves of minions, then kill The Mechanician. [2★]"
+questAECMechanicianHunt_statement_T06,quests,,,",survive five waves of minions, then kill The Mechanician. [2★]"
 questAECMechanicianHunt_subtitle_T06,quests,,,T4 Boss Hunt
 questAECMechanicianMinionAssault_name_T06,quests,,false,"[CCAA44]Mechanician Minion Assault[-] [2★]"
-eventAECMechanicianHuntArrival_msg_T09,gameevents,,,ALERT: The Mechanician is moving with his full escort. Survive the waves, then kill the boss!
+eventAECMechanicianHuntArrival_msg_T09,gameevents,,,"ALERT: The Mechanician is moving with his full escort. Survive the waves,then kill the boss!"
 eventAECMechanicianHuntBossSpawn_msg_T09,gameevents,,,BOSS: The Mechanician has entered the fight. Finish this now!
 eventAECMechanicianT4Wave1_msg_T09,gameevents,,,WAVE 1: The Mechanician's knife crew is closing in.
 eventAECMechanicianT4Wave2_msg_T09,gameevents,,,WAVE 2: More Mechanician minions are pushing forward with fire and blades.
@@ -2210,15 +2210,15 @@ eventAECMechanicianT4Wave5_msg_T09,gameevents,,,WAVE 5: Final rush. Break this c
 itemAECMechanicianHuntContract_T09,,,,"[FFD700]AEC |[-] [FFD700]Mechanician Contract | Boss Hunt[-] [3★]"
 itemAECMechanicianHuntContract_desc_T09,,,,"A lethal bounty contract targeting The Mechanician. Survive five timed waves of minions, then kill the boss himself. [3★]"
 questAECMechanicianHunt_completion_T09,quests,,,"The Mechanician is dead. Collect your reward. [3★]"
-questAECMechanicianHunt_description_T09,quests,,,,"Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [3★]"
+questAECMechanicianHunt_description_T09,quests,,,",Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [3★]"
 questAECMechanicianHunt_name_T09,quests,,,"[FF4500]Hunt: BOSS The Mechanician[-] [3★]"
 questAECMechanicianHunt_obj_kill_T09,quests,,,"Kill BOSS The Mechanician [3★]"
-questAECMechanicianHunt_offer_T09,quests,,,,"Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [3★]"
+questAECMechanicianHunt_offer_T09,quests,,,",Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [3★]"
 questAECMechanicianHunt_response_T09,quests,,,"AEC HORDE - [FF4500]Hunt: BOSS The Mechanician[-] [3★]"
-questAECMechanicianHunt_statement_T09,quests,,,,"survive five waves of minions, then kill The Mechanician. [3★]"
+questAECMechanicianHunt_statement_T09,quests,,,",survive five waves of minions, then kill The Mechanician. [3★]"
 questAECMechanicianHunt_subtitle_T09,quests,,,T4 Boss Hunt
 questAECMechanicianMinionAssault_name_T09,quests,,false,"[CCAA44]Mechanician Minion Assault[-] [3★]"
-eventAECMechanicianHuntArrival_msg_T12,gameevents,,,ALERT: The Mechanician is moving with his full escort. Survive the waves, then kill the boss!
+eventAECMechanicianHuntArrival_msg_T12,gameevents,,,"ALERT: The Mechanician is moving with his full escort. Survive the waves,then kill the boss!"
 eventAECMechanicianHuntBossSpawn_msg_T12,gameevents,,,BOSS: The Mechanician has entered the fight. Finish this now!
 eventAECMechanicianT4Wave1_msg_T12,gameevents,,,WAVE 1: The Mechanician's knife crew is closing in.
 eventAECMechanicianT4Wave2_msg_T12,gameevents,,,WAVE 2: More Mechanician minions are pushing forward with fire and blades.
@@ -2228,15 +2228,15 @@ eventAECMechanicianT4Wave5_msg_T12,gameevents,,,WAVE 5: Final rush. Break this c
 itemAECMechanicianHuntContract_T12,,,,"[FFD700]AEC |[-] [FFD700]Mechanician Contract | Boss Hunt[-] [4★]"
 itemAECMechanicianHuntContract_desc_T12,,,,"A lethal bounty contract targeting The Mechanician. Survive five timed waves of minions, then kill the boss himself. [4★]"
 questAECMechanicianHunt_completion_T12,quests,,,"The Mechanician is dead. Collect your reward. [4★]"
-questAECMechanicianHunt_description_T12,quests,,,,"Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [4★]"
+questAECMechanicianHunt_description_T12,quests,,,",Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [4★]"
 questAECMechanicianHunt_name_T12,quests,,,"[FF4500]Hunt: BOSS The Mechanician[-] [4★]"
 questAECMechanicianHunt_obj_kill_T12,quests,,,"Kill BOSS The Mechanician [4★]"
-questAECMechanicianHunt_offer_T12,quests,,,,"Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [4★]"
+questAECMechanicianHunt_offer_T12,quests,,,",Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [4★]"
 questAECMechanicianHunt_response_T12,quests,,,"AEC HORDE - [FF4500]Hunt: BOSS The Mechanician[-] [4★]"
-questAECMechanicianHunt_statement_T12,quests,,,,"survive five waves of minions, then kill The Mechanician. [4★]"
+questAECMechanicianHunt_statement_T12,quests,,,",survive five waves of minions, then kill The Mechanician. [4★]"
 questAECMechanicianHunt_subtitle_T12,quests,,,T4 Boss Hunt
 questAECMechanicianMinionAssault_name_T12,quests,,false,"[CCAA44]Mechanician Minion Assault[-] [4★]"
-eventAECMechanicianHuntArrival_msg_T15,gameevents,,,ALERT: The Mechanician is moving with his full escort. Survive the waves, then kill the boss!
+eventAECMechanicianHuntArrival_msg_T15,gameevents,,,"ALERT: The Mechanician is moving with his full escort. Survive the waves,then kill the boss!"
 eventAECMechanicianHuntBossSpawn_msg_T15,gameevents,,,BOSS: The Mechanician has entered the fight. Finish this now!
 eventAECMechanicianT4Wave1_msg_T15,gameevents,,,WAVE 1: The Mechanician's knife crew is closing in.
 eventAECMechanicianT4Wave2_msg_T15,gameevents,,,WAVE 2: More Mechanician minions are pushing forward with fire and blades.
@@ -2246,12 +2246,12 @@ eventAECMechanicianT4Wave5_msg_T15,gameevents,,,WAVE 5: Final rush. Break this c
 itemAECMechanicianHuntContract_T15,,,,"[FFD700]AEC |[-] [FFD700]Mechanician Contract | Boss Hunt[-] [5★]"
 itemAECMechanicianHuntContract_desc_T15,,,,"A lethal bounty contract targeting The Mechanician. Survive five timed waves of minions, then kill the boss himself. [5★]"
 questAECMechanicianHunt_completion_T15,quests,,,"The Mechanician is dead. Collect your reward. [5★]"
-questAECMechanicianHunt_description_T15,quests,,,,"Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [5★]"
+questAECMechanicianHunt_description_T15,quests,,,",Activate the rally, place the lure, survive five organized waves, then kill The Mechanician. [5★]"
 questAECMechanicianHunt_name_T15,quests,,,"[FF4500]Hunt: BOSS The Mechanician[-] [5★]"
 questAECMechanicianHunt_obj_kill_T15,quests,,,"Kill BOSS The Mechanician [5★]"
-questAECMechanicianHunt_offer_T15,quests,,,,"Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [5★]"
+questAECMechanicianHunt_offer_T15,quests,,,",Big contract. The Mechanician is marching with his whole crew. Trigger the rally, place the lure, survive five waves, then finish the boss. [5★]"
 questAECMechanicianHunt_response_T15,quests,,,"AEC HORDE - [FF4500]Hunt: BOSS The Mechanician[-] [5★]"
-questAECMechanicianHunt_statement_T15,quests,,,,"survive five waves of minions, then kill The Mechanician. [5★]"
+questAECMechanicianHunt_statement_T15,quests,,,",survive five waves of minions, then kill The Mechanician. [5★]"
 questAECMechanicianHunt_subtitle_T15,quests,,,T4 Boss Hunt
 questAECMechanicianMinionAssault_name_T15,quests,,false,"[CCAA44]Mechanician Minion Assault[-] [5★]"
 itemAECMinionsArmyContract_100wavesextremechallenge_T03,,,false,"[FF4DFF]AEC 100 waves extreme-challenge 0[FFD700]★[-] |[-] [FFD700]The minions army[-] [1★]"
@@ -2495,7 +2495,7 @@ questAECMushroomMinionAssault_response_T15,,,false,"I'll hold the line. [5★]"
 questAECMushroomMinionAssault_statement_T15,,,false,"Deploy the lure, survive the first wave, then hold through the second. Don't break position. [5★]"
 questAECMushroomMinionAssault_subtitle_T15,,,false,"Repel Two Waves of Spore-Walkers [5★]"
 eventAECMykirHuntArrival_msg_T03,gameevents,,,ALERT: Mykir is nearby. Clear the spider brood before the boss descends on you.
-eventAECMykirHuntBossSpawn_msg_T03,gameevents,,,BOSS: Mykir has entered the hunt. Expect burst speed, fire pressure, and relentless jumps.
+eventAECMykirHuntBossSpawn_msg_T03,gameevents,,,"BOSS: Mykir has entered the hunt. Expect burst speed,fire pressure,and relentless jumps."
 eventAECMykirWave1_msg_T03,gameevents,,,WAVE 1: The first brood of spiders is rushing your position.
 eventAECMykirWave2_msg_T03,gameevents,,,WAVE 2: Feral and radiated spiders are closing in fast.
 eventAECMykirWave3_msg_T03,gameevents,,,WAVE 3: Charged and infernal spiders are swarming ahead of the brood.
@@ -2513,15 +2513,15 @@ questAECMykir_obj_wave5_T03,quests,,,Survive wave 5
 questAECMykir_obj_wave6_T03,quests,,,Survive wave 6
 questAECMykir_obj_wave7_T03,quests,,,Survive wave 7
 questAECMykirHunt_completion_T03,quests,,,Mykir is dead. That payout is earned.
-questAECMykirHunt_description_T03,quests,,,Activate the rally, place the lure, survive seven timed brood waves, then kill Mykir before the brood overruns the area.
+questAECMykirHunt_description_T03,quests,,,"Activate the rally,place the lure,survive seven timed brood waves,then kill Mykir before the brood overruns the area."
 questAECMykirHunt_name_T03,quests,,,"[4CFF4C]Hunt: Mykir the Spider Demon[-] [1★]"
 questAECMykirHunt_obj_kill_T03,quests,,,Kill BOSS Mykir
-questAECMykirHunt_offer_T03,quests,,,This is not a routine contract. Mykir is active nearby. Trigger the rally, place the lure, survive seven timed brood waves, then kill the boss.
+questAECMykirHunt_offer_T03,quests,,,"This is not a routine contract. Mykir is active nearby. Trigger the rally,place the lure,survive seven timed brood waves,then kill the boss."
 questAECMykirHunt_response_T03,quests,,,AEC LEGENDARY CONTRACT - [FF0000]Hunt: Mykir the Spider Demon[-]
-questAECMykirHunt_statement_T03,quests,,,survive seven timed brood waves, and kill Mykir.
+questAECMykirHunt_statement_T03,quests,,,"survive seven timed brood waves,and kill Mykir."
 questAECMykirHunt_subtitle_T03,quests,,,T6 Boss Hunt
 eventAECMykirHuntArrival_msg_T06,gameevents,,,ALERT: Mykir is nearby. Clear the spider brood before the boss descends on you.
-eventAECMykirHuntBossSpawn_msg_T06,gameevents,,,BOSS: Mykir has entered the hunt. Expect burst speed, fire pressure, and relentless jumps.
+eventAECMykirHuntBossSpawn_msg_T06,gameevents,,,"BOSS: Mykir has entered the hunt. Expect burst speed,fire pressure,and relentless jumps."
 eventAECMykirWave1_msg_T06,gameevents,,,WAVE 1: The first brood of spiders is rushing your position.
 eventAECMykirWave2_msg_T06,gameevents,,,WAVE 2: Feral and radiated spiders are closing in fast.
 eventAECMykirWave3_msg_T06,gameevents,,,WAVE 3: Charged and infernal spiders are swarming ahead of the brood.
@@ -2539,15 +2539,15 @@ questAECMykir_obj_wave5_T06,quests,,,Survive wave 5
 questAECMykir_obj_wave6_T06,quests,,,Survive wave 6
 questAECMykir_obj_wave7_T06,quests,,,Survive wave 7
 questAECMykirHunt_completion_T06,quests,,,Mykir is dead. That payout is earned.
-questAECMykirHunt_description_T06,quests,,,Activate the rally, place the lure, survive seven timed brood waves, then kill Mykir before the brood overruns the area.
+questAECMykirHunt_description_T06,quests,,,"Activate the rally,place the lure,survive seven timed brood waves,then kill Mykir before the brood overruns the area."
 questAECMykirHunt_name_T06,quests,,,"[4CFF4C]Hunt: Mykir the Spider Demon[-] [2★]"
 questAECMykirHunt_obj_kill_T06,quests,,,Kill BOSS Mykir
-questAECMykirHunt_offer_T06,quests,,,This is not a routine contract. Mykir is active nearby. Trigger the rally, place the lure, survive seven timed brood waves, then kill the boss.
+questAECMykirHunt_offer_T06,quests,,,"This is not a routine contract. Mykir is active nearby. Trigger the rally,place the lure,survive seven timed brood waves,then kill the boss."
 questAECMykirHunt_response_T06,quests,,,AEC LEGENDARY CONTRACT - [FF0000]Hunt: Mykir the Spider Demon[-]
-questAECMykirHunt_statement_T06,quests,,,survive seven timed brood waves, and kill Mykir.
+questAECMykirHunt_statement_T06,quests,,,"survive seven timed brood waves,and kill Mykir."
 questAECMykirHunt_subtitle_T06,quests,,,T6 Boss Hunt
 eventAECMykirHuntArrival_msg_T09,gameevents,,,ALERT: Mykir is nearby. Clear the spider brood before the boss descends on you.
-eventAECMykirHuntBossSpawn_msg_T09,gameevents,,,BOSS: Mykir has entered the hunt. Expect burst speed, fire pressure, and relentless jumps.
+eventAECMykirHuntBossSpawn_msg_T09,gameevents,,,"BOSS: Mykir has entered the hunt. Expect burst speed,fire pressure,and relentless jumps."
 eventAECMykirWave1_msg_T09,gameevents,,,WAVE 1: The first brood of spiders is rushing your position.
 eventAECMykirWave2_msg_T09,gameevents,,,WAVE 2: Feral and radiated spiders are closing in fast.
 eventAECMykirWave3_msg_T09,gameevents,,,WAVE 3: Charged and infernal spiders are swarming ahead of the brood.
@@ -2565,15 +2565,15 @@ questAECMykir_obj_wave5_T09,quests,,,Survive wave 5
 questAECMykir_obj_wave6_T09,quests,,,Survive wave 6
 questAECMykir_obj_wave7_T09,quests,,,Survive wave 7
 questAECMykirHunt_completion_T09,quests,,,Mykir is dead. That payout is earned.
-questAECMykirHunt_description_T09,quests,,,Activate the rally, place the lure, survive seven timed brood waves, then kill Mykir before the brood overruns the area.
+questAECMykirHunt_description_T09,quests,,,"Activate the rally,place the lure,survive seven timed brood waves,then kill Mykir before the brood overruns the area."
 questAECMykirHunt_name_T09,quests,,,"[4CFF4C]Hunt: Mykir the Spider Demon[-] [3★]"
 questAECMykirHunt_obj_kill_T09,quests,,,Kill BOSS Mykir
-questAECMykirHunt_offer_T09,quests,,,This is not a routine contract. Mykir is active nearby. Trigger the rally, place the lure, survive seven timed brood waves, then kill the boss.
+questAECMykirHunt_offer_T09,quests,,,"This is not a routine contract. Mykir is active nearby. Trigger the rally,place the lure,survive seven timed brood waves,then kill the boss."
 questAECMykirHunt_response_T09,quests,,,AEC LEGENDARY CONTRACT - [FF0000]Hunt: Mykir the Spider Demon[-]
-questAECMykirHunt_statement_T09,quests,,,survive seven timed brood waves, and kill Mykir.
+questAECMykirHunt_statement_T09,quests,,,"survive seven timed brood waves,and kill Mykir."
 questAECMykirHunt_subtitle_T09,quests,,,T6 Boss Hunt
 eventAECMykirHuntArrival_msg_T12,gameevents,,,ALERT: Mykir is nearby. Clear the spider brood before the boss descends on you.
-eventAECMykirHuntBossSpawn_msg_T12,gameevents,,,BOSS: Mykir has entered the hunt. Expect burst speed, fire pressure, and relentless jumps.
+eventAECMykirHuntBossSpawn_msg_T12,gameevents,,,"BOSS: Mykir has entered the hunt. Expect burst speed,fire pressure,and relentless jumps."
 eventAECMykirWave1_msg_T12,gameevents,,,WAVE 1: The first brood of spiders is rushing your position.
 eventAECMykirWave2_msg_T12,gameevents,,,WAVE 2: Feral and radiated spiders are closing in fast.
 eventAECMykirWave3_msg_T12,gameevents,,,WAVE 3: Charged and infernal spiders are swarming ahead of the brood.
@@ -2591,15 +2591,15 @@ questAECMykir_obj_wave5_T12,quests,,,Survive wave 5
 questAECMykir_obj_wave6_T12,quests,,,Survive wave 6
 questAECMykir_obj_wave7_T12,quests,,,Survive wave 7
 questAECMykirHunt_completion_T12,quests,,,Mykir is dead. That payout is earned.
-questAECMykirHunt_description_T12,quests,,,Activate the rally, place the lure, survive seven timed brood waves, then kill Mykir before the brood overruns the area.
+questAECMykirHunt_description_T12,quests,,,"Activate the rally,place the lure,survive seven timed brood waves,then kill Mykir before the brood overruns the area."
 questAECMykirHunt_name_T12,quests,,,"[4CFF4C]Hunt: Mykir the Spider Demon[-] [4★]"
 questAECMykirHunt_obj_kill_T12,quests,,,Kill BOSS Mykir
-questAECMykirHunt_offer_T12,quests,,,This is not a routine contract. Mykir is active nearby. Trigger the rally, place the lure, survive seven timed brood waves, then kill the boss.
+questAECMykirHunt_offer_T12,quests,,,"This is not a routine contract. Mykir is active nearby. Trigger the rally,place the lure,survive seven timed brood waves,then kill the boss."
 questAECMykirHunt_response_T12,quests,,,AEC LEGENDARY CONTRACT - [FF0000]Hunt: Mykir the Spider Demon[-]
-questAECMykirHunt_statement_T12,quests,,,survive seven timed brood waves, and kill Mykir.
+questAECMykirHunt_statement_T12,quests,,,"survive seven timed brood waves,and kill Mykir."
 questAECMykirHunt_subtitle_T12,quests,,,T6 Boss Hunt
 eventAECMykirHuntArrival_msg_T15,gameevents,,,ALERT: Mykir is nearby. Clear the spider brood before the boss descends on you.
-eventAECMykirHuntBossSpawn_msg_T15,gameevents,,,BOSS: Mykir has entered the hunt. Expect burst speed, fire pressure, and relentless jumps.
+eventAECMykirHuntBossSpawn_msg_T15,gameevents,,,"BOSS: Mykir has entered the hunt. Expect burst speed,fire pressure,and relentless jumps."
 eventAECMykirWave1_msg_T15,gameevents,,,WAVE 1: The first brood of spiders is rushing your position.
 eventAECMykirWave2_msg_T15,gameevents,,,WAVE 2: Feral and radiated spiders are closing in fast.
 eventAECMykirWave3_msg_T15,gameevents,,,WAVE 3: Charged and infernal spiders are swarming ahead of the brood.
@@ -2617,15 +2617,15 @@ questAECMykir_obj_wave5_T15,quests,,,Survive wave 5
 questAECMykir_obj_wave6_T15,quests,,,Survive wave 6
 questAECMykir_obj_wave7_T15,quests,,,Survive wave 7
 questAECMykirHunt_completion_T15,quests,,,Mykir is dead. That payout is earned.
-questAECMykirHunt_description_T15,quests,,,Activate the rally, place the lure, survive seven timed brood waves, then kill Mykir before the brood overruns the area.
+questAECMykirHunt_description_T15,quests,,,"Activate the rally,place the lure,survive seven timed brood waves,then kill Mykir before the brood overruns the area."
 questAECMykirHunt_name_T15,quests,,,"[4CFF4C]Hunt: Mykir the Spider Demon[-] [5★]"
 questAECMykirHunt_obj_kill_T15,quests,,,Kill BOSS Mykir
-questAECMykirHunt_offer_T15,quests,,,This is not a routine contract. Mykir is active nearby. Trigger the rally, place the lure, survive seven timed brood waves, then kill the boss.
+questAECMykirHunt_offer_T15,quests,,,"This is not a routine contract. Mykir is active nearby. Trigger the rally,place the lure,survive seven timed brood waves,then kill the boss."
 questAECMykirHunt_response_T15,quests,,,AEC LEGENDARY CONTRACT - [FF0000]Hunt: Mykir the Spider Demon[-]
-questAECMykirHunt_statement_T15,quests,,,survive seven timed brood waves, and kill Mykir.
+questAECMykirHunt_statement_T15,quests,,,"survive seven timed brood waves,and kill Mykir."
 questAECMykirHunt_subtitle_T15,quests,,,T6 Boss Hunt
 eventAECPartyBeachHuntArrival_msg_T03,gameevents,,,ALERT: Party Beach has been spotted in the area. Survive the suit rush before the boss appears.
-eventAECPartyBeachHuntBossSpawn_msg_T03,gameevents,,,BOSS: Party Beach is here. Expect purse throws, leap pressure, and close-range chaos.
+eventAECPartyBeachHuntBossSpawn_msg_T03,gameevents,,,"BOSS: Party Beach is here. Expect purse throws,leap pressure,and close-range chaos."
 eventAECPartyBeachWave1_msg_T03,gameevents,,,WAVE 1: Party Beach is sending in the first wave of businessmen!
 eventAECPartyBeachWave2_msg_T03,gameevents,,,WAVE 2: Feral businessmen are sprinting into the party zone!
 eventAECPartyBeachWave3_msg_T03,gameevents,,,WAVE 3: Radiated and charged businessmen are crashing the party zone!
@@ -2639,15 +2639,15 @@ questAECPartyBeach_obj_wave3_T03,quests,,,Survive wave 3
 questAECPartyBeach_obj_wave4_T03,quests,,,Survive wave 4
 questAECPartyBeach_obj_wave5_T03,quests,,,Survive wave 5
 questAECPartyBeachHunt_completion_T03,quests,,,Party Beach is dead. Here's your reward.
-questAECPartyBeachHunt_description_T03,quests,,,Activate the rally, place the lure, survive five timed waves of businessmen, and kill Party Beach.
+questAECPartyBeachHunt_description_T03,quests,,,"Activate the rally,place the lure,survive five timed waves of businessmen,and kill Party Beach."
 questAECPartyBeachHunt_name_T03,quests,,,"[FF69B4]Hunt: Party Beach[-] [1★]"
 questAECPartyBeachHunt_obj_kill_T03,quests,,,Kill BOSS Party Beach
-questAECPartyBeachHunt_offer_T03,quests,,,Party Beach is active nearby. Get there, trigger the rally, place the lure, survive five timed suit waves, and finish the boss.
+questAECPartyBeachHunt_offer_T03,quests,,,"Party Beach is active nearby. Get there,trigger the rally,place the lure,survive five timed suit waves,and finish the boss."
 questAECPartyBeachHunt_response_T03,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Party Beach[-]
-questAECPartyBeachHunt_statement_T03,quests,,,survive five timed waves, and kill Party Beach.
+questAECPartyBeachHunt_statement_T03,quests,,,"survive five timed waves,and kill Party Beach."
 questAECPartyBeachHunt_subtitle_T03,quests,,,T4 Boss Hunt
 eventAECPartyBeachHuntArrival_msg_T06,gameevents,,,ALERT: Party Beach has been spotted in the area. Survive the suit rush before the boss appears.
-eventAECPartyBeachHuntBossSpawn_msg_T06,gameevents,,,BOSS: Party Beach is here. Expect purse throws, leap pressure, and close-range chaos.
+eventAECPartyBeachHuntBossSpawn_msg_T06,gameevents,,,"BOSS: Party Beach is here. Expect purse throws,leap pressure,and close-range chaos."
 eventAECPartyBeachWave1_msg_T06,gameevents,,,WAVE 1: Party Beach is sending in the first wave of businessmen!
 eventAECPartyBeachWave2_msg_T06,gameevents,,,WAVE 2: Feral businessmen are sprinting into the party zone!
 eventAECPartyBeachWave3_msg_T06,gameevents,,,WAVE 3: Radiated and charged businessmen are crashing the party zone!
@@ -2661,15 +2661,15 @@ questAECPartyBeach_obj_wave3_T06,quests,,,Survive wave 3
 questAECPartyBeach_obj_wave4_T06,quests,,,Survive wave 4
 questAECPartyBeach_obj_wave5_T06,quests,,,Survive wave 5
 questAECPartyBeachHunt_completion_T06,quests,,,Party Beach is dead. Here's your reward.
-questAECPartyBeachHunt_description_T06,quests,,,Activate the rally, place the lure, survive five timed waves of businessmen, and kill Party Beach.
+questAECPartyBeachHunt_description_T06,quests,,,"Activate the rally,place the lure,survive five timed waves of businessmen,and kill Party Beach."
 questAECPartyBeachHunt_name_T06,quests,,,"[FF69B4]Hunt: Party Beach[-] [2★]"
 questAECPartyBeachHunt_obj_kill_T06,quests,,,Kill BOSS Party Beach
-questAECPartyBeachHunt_offer_T06,quests,,,Party Beach is active nearby. Get there, trigger the rally, place the lure, survive five timed suit waves, and finish the boss.
+questAECPartyBeachHunt_offer_T06,quests,,,"Party Beach is active nearby. Get there,trigger the rally,place the lure,survive five timed suit waves,and finish the boss."
 questAECPartyBeachHunt_response_T06,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Party Beach[-]
-questAECPartyBeachHunt_statement_T06,quests,,,survive five timed waves, and kill Party Beach.
+questAECPartyBeachHunt_statement_T06,quests,,,"survive five timed waves,and kill Party Beach."
 questAECPartyBeachHunt_subtitle_T06,quests,,,T4 Boss Hunt
 eventAECPartyBeachHuntArrival_msg_T09,gameevents,,,ALERT: Party Beach has been spotted in the area. Survive the suit rush before the boss appears.
-eventAECPartyBeachHuntBossSpawn_msg_T09,gameevents,,,BOSS: Party Beach is here. Expect purse throws, leap pressure, and close-range chaos.
+eventAECPartyBeachHuntBossSpawn_msg_T09,gameevents,,,"BOSS: Party Beach is here. Expect purse throws,leap pressure,and close-range chaos."
 eventAECPartyBeachWave1_msg_T09,gameevents,,,WAVE 1: Party Beach is sending in the first wave of businessmen!
 eventAECPartyBeachWave2_msg_T09,gameevents,,,WAVE 2: Feral businessmen are sprinting into the party zone!
 eventAECPartyBeachWave3_msg_T09,gameevents,,,WAVE 3: Radiated and charged businessmen are crashing the party zone!
@@ -2683,15 +2683,15 @@ questAECPartyBeach_obj_wave3_T09,quests,,,Survive wave 3
 questAECPartyBeach_obj_wave4_T09,quests,,,Survive wave 4
 questAECPartyBeach_obj_wave5_T09,quests,,,Survive wave 5
 questAECPartyBeachHunt_completion_T09,quests,,,Party Beach is dead. Here's your reward.
-questAECPartyBeachHunt_description_T09,quests,,,Activate the rally, place the lure, survive five timed waves of businessmen, and kill Party Beach.
+questAECPartyBeachHunt_description_T09,quests,,,"Activate the rally,place the lure,survive five timed waves of businessmen,and kill Party Beach."
 questAECPartyBeachHunt_name_T09,quests,,,"[FF69B4]Hunt: Party Beach[-] [3★]"
 questAECPartyBeachHunt_obj_kill_T09,quests,,,Kill BOSS Party Beach
-questAECPartyBeachHunt_offer_T09,quests,,,Party Beach is active nearby. Get there, trigger the rally, place the lure, survive five timed suit waves, and finish the boss.
+questAECPartyBeachHunt_offer_T09,quests,,,"Party Beach is active nearby. Get there,trigger the rally,place the lure,survive five timed suit waves,and finish the boss."
 questAECPartyBeachHunt_response_T09,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Party Beach[-]
-questAECPartyBeachHunt_statement_T09,quests,,,survive five timed waves, and kill Party Beach.
+questAECPartyBeachHunt_statement_T09,quests,,,"survive five timed waves,and kill Party Beach."
 questAECPartyBeachHunt_subtitle_T09,quests,,,T4 Boss Hunt
 eventAECPartyBeachHuntArrival_msg_T12,gameevents,,,ALERT: Party Beach has been spotted in the area. Survive the suit rush before the boss appears.
-eventAECPartyBeachHuntBossSpawn_msg_T12,gameevents,,,BOSS: Party Beach is here. Expect purse throws, leap pressure, and close-range chaos.
+eventAECPartyBeachHuntBossSpawn_msg_T12,gameevents,,,"BOSS: Party Beach is here. Expect purse throws,leap pressure,and close-range chaos."
 eventAECPartyBeachWave1_msg_T12,gameevents,,,WAVE 1: Party Beach is sending in the first wave of businessmen!
 eventAECPartyBeachWave2_msg_T12,gameevents,,,WAVE 2: Feral businessmen are sprinting into the party zone!
 eventAECPartyBeachWave3_msg_T12,gameevents,,,WAVE 3: Radiated and charged businessmen are crashing the party zone!
@@ -2705,15 +2705,15 @@ questAECPartyBeach_obj_wave3_T12,quests,,,Survive wave 3
 questAECPartyBeach_obj_wave4_T12,quests,,,Survive wave 4
 questAECPartyBeach_obj_wave5_T12,quests,,,Survive wave 5
 questAECPartyBeachHunt_completion_T12,quests,,,Party Beach is dead. Here's your reward.
-questAECPartyBeachHunt_description_T12,quests,,,Activate the rally, place the lure, survive five timed waves of businessmen, and kill Party Beach.
+questAECPartyBeachHunt_description_T12,quests,,,"Activate the rally,place the lure,survive five timed waves of businessmen,and kill Party Beach."
 questAECPartyBeachHunt_name_T12,quests,,,"[FF69B4]Hunt: Party Beach[-] [4★]"
 questAECPartyBeachHunt_obj_kill_T12,quests,,,Kill BOSS Party Beach
-questAECPartyBeachHunt_offer_T12,quests,,,Party Beach is active nearby. Get there, trigger the rally, place the lure, survive five timed suit waves, and finish the boss.
+questAECPartyBeachHunt_offer_T12,quests,,,"Party Beach is active nearby. Get there,trigger the rally,place the lure,survive five timed suit waves,and finish the boss."
 questAECPartyBeachHunt_response_T12,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Party Beach[-]
-questAECPartyBeachHunt_statement_T12,quests,,,survive five timed waves, and kill Party Beach.
+questAECPartyBeachHunt_statement_T12,quests,,,"survive five timed waves,and kill Party Beach."
 questAECPartyBeachHunt_subtitle_T12,quests,,,T4 Boss Hunt
 eventAECPartyBeachHuntArrival_msg_T15,gameevents,,,ALERT: Party Beach has been spotted in the area. Survive the suit rush before the boss appears.
-eventAECPartyBeachHuntBossSpawn_msg_T15,gameevents,,,BOSS: Party Beach is here. Expect purse throws, leap pressure, and close-range chaos.
+eventAECPartyBeachHuntBossSpawn_msg_T15,gameevents,,,"BOSS: Party Beach is here. Expect purse throws,leap pressure,and close-range chaos."
 eventAECPartyBeachWave1_msg_T15,gameevents,,,WAVE 1: Party Beach is sending in the first wave of businessmen!
 eventAECPartyBeachWave2_msg_T15,gameevents,,,WAVE 2: Feral businessmen are sprinting into the party zone!
 eventAECPartyBeachWave3_msg_T15,gameevents,,,WAVE 3: Radiated and charged businessmen are crashing the party zone!
@@ -2727,12 +2727,12 @@ questAECPartyBeach_obj_wave3_T15,quests,,,Survive wave 3
 questAECPartyBeach_obj_wave4_T15,quests,,,Survive wave 4
 questAECPartyBeach_obj_wave5_T15,quests,,,Survive wave 5
 questAECPartyBeachHunt_completion_T15,quests,,,Party Beach is dead. Here's your reward.
-questAECPartyBeachHunt_description_T15,quests,,,Activate the rally, place the lure, survive five timed waves of businessmen, and kill Party Beach.
+questAECPartyBeachHunt_description_T15,quests,,,"Activate the rally,place the lure,survive five timed waves of businessmen,and kill Party Beach."
 questAECPartyBeachHunt_name_T15,quests,,,"[FF69B4]Hunt: Party Beach[-] [5★]"
 questAECPartyBeachHunt_obj_kill_T15,quests,,,Kill BOSS Party Beach
-questAECPartyBeachHunt_offer_T15,quests,,,Party Beach is active nearby. Get there, trigger the rally, place the lure, survive five timed suit waves, and finish the boss.
+questAECPartyBeachHunt_offer_T15,quests,,,"Party Beach is active nearby. Get there,trigger the rally,place the lure,survive five timed suit waves,and finish the boss."
 questAECPartyBeachHunt_response_T15,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Party Beach[-]
-questAECPartyBeachHunt_statement_T15,quests,,,survive five timed waves, and kill Party Beach.
+questAECPartyBeachHunt_statement_T15,quests,,,"survive five timed waves,and kill Party Beach."
 questAECPartyBeachHunt_subtitle_T15,quests,,,T4 Boss Hunt
 eventAECRockbreakerHuntArrival_msg_T03,gameevents,,,ALERT: Rockbreaker has surfaced nearby. Expect heavy impact damage.
 eventAECRockbreakerHuntBossSpawn_msg_T03,gameevents,,,BOSS: Rockbreaker is here. Keep moving and avoid the boulder volleys.
@@ -2742,19 +2742,19 @@ eventAECRockbreakerWave3_msg_T03,gameevents,,,WAVE 3: Radiated workers are pushi
 eventAECRockbreakerWave4_msg_T03,gameevents,,,WAVE 4: Charged workers are entering the pit. Pressure is rising.
 eventAECRockbreakerWave5_msg_T03,gameevents,,,FINAL WAVE: Infernal workers are breaking through. The quarry is about to open.
 itemAECRockbreakerHuntContract_T03,,,"","[FFD700]AEC |[-] [FFD700]Rockbreaker Contract | Boss Hunt[-] [1★]"
-itemAECRockbreakerHuntContract_desc_T03,,,,A bounty contract for Rockbreaker. Trigger the lure, survive five timed worker waves, then bring the quarry down.
+itemAECRockbreakerHuntContract_desc_T03,,,,"A bounty contract for Rockbreaker. Trigger the lure,survive five timed worker waves,then bring the quarry down."
 questAECRockbreaker_obj_wave1_T03,quests,,,Survive the incoming workers
 questAECRockbreaker_obj_wave2_T03,quests,,,Survive the stronger workers
 questAECRockbreaker_obj_wave3_T03,quests,,,Survive the radiated push
 questAECRockbreaker_obj_wave4_T03,quests,,,Survive the charged assault
 questAECRockbreaker_obj_wave5_T03,quests,,,Survive the infernal wave
 questAECRockbreakerHunt_completion_T03,quests,,,Rockbreaker is down. Here is your payment.
-questAECRockbreakerHunt_description_T03,quests,,,Activate the rally, place the lure, survive five timed worker waves, and destroy Rockbreaker.
+questAECRockbreakerHunt_description_T03,quests,,,"Activate the rally,place the lure,survive five timed worker waves,and destroy Rockbreaker."
 questAECRockbreakerHunt_name_T03,quests,,,"[A0A0A0]Hunt: Rockbreaker[-] [1★]"
 questAECRockbreakerHunt_obj_kill_T03,quests,,,Kill Rockbreaker
-questAECRockbreakerHunt_offer_T03,quests,,,Quarry contract. Rockbreaker is moving through the wild. Find it, trigger the rally, place the lure, survive five timed worker waves, and bring it down.
+questAECRockbreakerHunt_offer_T03,quests,,,"Quarry contract. Rockbreaker is moving through the wild. Find it,trigger the rally,place the lure,survive five timed worker waves,and bring it down."
 questAECRockbreakerHunt_response_T03,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Rockbreaker[-]
-questAECRockbreakerHunt_statement_T03,quests,,,I will activate the rally, place the lure, survive the timed waves, and kill Rockbreaker.
+questAECRockbreakerHunt_statement_T03,quests,,,"I will activate the rally,place the lure,survive the timed waves,and kill Rockbreaker."
 questAECRockbreakerHunt_subtitle_T03,quests,,,T4 Boss Hunt
 eventAECRockbreakerHuntArrival_msg_T06,gameevents,,,ALERT: Rockbreaker has surfaced nearby. Expect heavy impact damage.
 eventAECRockbreakerHuntBossSpawn_msg_T06,gameevents,,,BOSS: Rockbreaker is here. Keep moving and avoid the boulder volleys.
@@ -2764,19 +2764,19 @@ eventAECRockbreakerWave3_msg_T06,gameevents,,,WAVE 3: Radiated workers are pushi
 eventAECRockbreakerWave4_msg_T06,gameevents,,,WAVE 4: Charged workers are entering the pit. Pressure is rising.
 eventAECRockbreakerWave5_msg_T06,gameevents,,,FINAL WAVE: Infernal workers are breaking through. The quarry is about to open.
 itemAECRockbreakerHuntContract_T06,,,"","[FFD700]AEC |[-] [FFD700]Rockbreaker Contract | Boss Hunt[-] [2★]"
-itemAECRockbreakerHuntContract_desc_T06,,,,A bounty contract for Rockbreaker. Trigger the lure, survive five timed worker waves, then bring the quarry down.
+itemAECRockbreakerHuntContract_desc_T06,,,,"A bounty contract for Rockbreaker. Trigger the lure,survive five timed worker waves,then bring the quarry down."
 questAECRockbreaker_obj_wave1_T06,quests,,,Survive the incoming workers
 questAECRockbreaker_obj_wave2_T06,quests,,,Survive the stronger workers
 questAECRockbreaker_obj_wave3_T06,quests,,,Survive the radiated push
 questAECRockbreaker_obj_wave4_T06,quests,,,Survive the charged assault
 questAECRockbreaker_obj_wave5_T06,quests,,,Survive the infernal wave
 questAECRockbreakerHunt_completion_T06,quests,,,Rockbreaker is down. Here is your payment.
-questAECRockbreakerHunt_description_T06,quests,,,Activate the rally, place the lure, survive five timed worker waves, and destroy Rockbreaker.
+questAECRockbreakerHunt_description_T06,quests,,,"Activate the rally,place the lure,survive five timed worker waves,and destroy Rockbreaker."
 questAECRockbreakerHunt_name_T06,quests,,,"[A0A0A0]Hunt: Rockbreaker[-] [2★]"
 questAECRockbreakerHunt_obj_kill_T06,quests,,,Kill Rockbreaker
-questAECRockbreakerHunt_offer_T06,quests,,,Quarry contract. Rockbreaker is moving through the wild. Find it, trigger the rally, place the lure, survive five timed worker waves, and bring it down.
+questAECRockbreakerHunt_offer_T06,quests,,,"Quarry contract. Rockbreaker is moving through the wild. Find it,trigger the rally,place the lure,survive five timed worker waves,and bring it down."
 questAECRockbreakerHunt_response_T06,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Rockbreaker[-]
-questAECRockbreakerHunt_statement_T06,quests,,,I will activate the rally, place the lure, survive the timed waves, and kill Rockbreaker.
+questAECRockbreakerHunt_statement_T06,quests,,,"I will activate the rally,place the lure,survive the timed waves,and kill Rockbreaker."
 questAECRockbreakerHunt_subtitle_T06,quests,,,T4 Boss Hunt
 eventAECRockbreakerHuntArrival_msg_T09,gameevents,,,ALERT: Rockbreaker has surfaced nearby. Expect heavy impact damage.
 eventAECRockbreakerHuntBossSpawn_msg_T09,gameevents,,,BOSS: Rockbreaker is here. Keep moving and avoid the boulder volleys.
@@ -2786,19 +2786,19 @@ eventAECRockbreakerWave3_msg_T09,gameevents,,,WAVE 3: Radiated workers are pushi
 eventAECRockbreakerWave4_msg_T09,gameevents,,,WAVE 4: Charged workers are entering the pit. Pressure is rising.
 eventAECRockbreakerWave5_msg_T09,gameevents,,,FINAL WAVE: Infernal workers are breaking through. The quarry is about to open.
 itemAECRockbreakerHuntContract_T09,,,"","[FFD700]AEC |[-] [FFD700]Rockbreaker Contract | Boss Hunt[-] [3★]"
-itemAECRockbreakerHuntContract_desc_T09,,,,A bounty contract for Rockbreaker. Trigger the lure, survive five timed worker waves, then bring the quarry down.
+itemAECRockbreakerHuntContract_desc_T09,,,,"A bounty contract for Rockbreaker. Trigger the lure,survive five timed worker waves,then bring the quarry down."
 questAECRockbreaker_obj_wave1_T09,quests,,,Survive the incoming workers
 questAECRockbreaker_obj_wave2_T09,quests,,,Survive the stronger workers
 questAECRockbreaker_obj_wave3_T09,quests,,,Survive the radiated push
 questAECRockbreaker_obj_wave4_T09,quests,,,Survive the charged assault
 questAECRockbreaker_obj_wave5_T09,quests,,,Survive the infernal wave
 questAECRockbreakerHunt_completion_T09,quests,,,Rockbreaker is down. Here is your payment.
-questAECRockbreakerHunt_description_T09,quests,,,Activate the rally, place the lure, survive five timed worker waves, and destroy Rockbreaker.
+questAECRockbreakerHunt_description_T09,quests,,,"Activate the rally,place the lure,survive five timed worker waves,and destroy Rockbreaker."
 questAECRockbreakerHunt_name_T09,quests,,,"[A0A0A0]Hunt: Rockbreaker[-] [3★]"
 questAECRockbreakerHunt_obj_kill_T09,quests,,,Kill Rockbreaker
-questAECRockbreakerHunt_offer_T09,quests,,,Quarry contract. Rockbreaker is moving through the wild. Find it, trigger the rally, place the lure, survive five timed worker waves, and bring it down.
+questAECRockbreakerHunt_offer_T09,quests,,,"Quarry contract. Rockbreaker is moving through the wild. Find it,trigger the rally,place the lure,survive five timed worker waves,and bring it down."
 questAECRockbreakerHunt_response_T09,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Rockbreaker[-]
-questAECRockbreakerHunt_statement_T09,quests,,,I will activate the rally, place the lure, survive the timed waves, and kill Rockbreaker.
+questAECRockbreakerHunt_statement_T09,quests,,,"I will activate the rally,place the lure,survive the timed waves,and kill Rockbreaker."
 questAECRockbreakerHunt_subtitle_T09,quests,,,T4 Boss Hunt
 eventAECRockbreakerHuntArrival_msg_T12,gameevents,,,ALERT: Rockbreaker has surfaced nearby. Expect heavy impact damage.
 eventAECRockbreakerHuntBossSpawn_msg_T12,gameevents,,,BOSS: Rockbreaker is here. Keep moving and avoid the boulder volleys.
@@ -2808,19 +2808,19 @@ eventAECRockbreakerWave3_msg_T12,gameevents,,,WAVE 3: Radiated workers are pushi
 eventAECRockbreakerWave4_msg_T12,gameevents,,,WAVE 4: Charged workers are entering the pit. Pressure is rising.
 eventAECRockbreakerWave5_msg_T12,gameevents,,,FINAL WAVE: Infernal workers are breaking through. The quarry is about to open.
 itemAECRockbreakerHuntContract_T12,,,"","[FFD700]AEC |[-] [FFD700]Rockbreaker Contract | Boss Hunt[-] [4★]"
-itemAECRockbreakerHuntContract_desc_T12,,,,A bounty contract for Rockbreaker. Trigger the lure, survive five timed worker waves, then bring the quarry down.
+itemAECRockbreakerHuntContract_desc_T12,,,,"A bounty contract for Rockbreaker. Trigger the lure,survive five timed worker waves,then bring the quarry down."
 questAECRockbreaker_obj_wave1_T12,quests,,,Survive the incoming workers
 questAECRockbreaker_obj_wave2_T12,quests,,,Survive the stronger workers
 questAECRockbreaker_obj_wave3_T12,quests,,,Survive the radiated push
 questAECRockbreaker_obj_wave4_T12,quests,,,Survive the charged assault
 questAECRockbreaker_obj_wave5_T12,quests,,,Survive the infernal wave
 questAECRockbreakerHunt_completion_T12,quests,,,Rockbreaker is down. Here is your payment.
-questAECRockbreakerHunt_description_T12,quests,,,Activate the rally, place the lure, survive five timed worker waves, and destroy Rockbreaker.
+questAECRockbreakerHunt_description_T12,quests,,,"Activate the rally,place the lure,survive five timed worker waves,and destroy Rockbreaker."
 questAECRockbreakerHunt_name_T12,quests,,,"[A0A0A0]Hunt: Rockbreaker[-] [4★]"
 questAECRockbreakerHunt_obj_kill_T12,quests,,,Kill Rockbreaker
-questAECRockbreakerHunt_offer_T12,quests,,,Quarry contract. Rockbreaker is moving through the wild. Find it, trigger the rally, place the lure, survive five timed worker waves, and bring it down.
+questAECRockbreakerHunt_offer_T12,quests,,,"Quarry contract. Rockbreaker is moving through the wild. Find it,trigger the rally,place the lure,survive five timed worker waves,and bring it down."
 questAECRockbreakerHunt_response_T12,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Rockbreaker[-]
-questAECRockbreakerHunt_statement_T12,quests,,,I will activate the rally, place the lure, survive the timed waves, and kill Rockbreaker.
+questAECRockbreakerHunt_statement_T12,quests,,,"I will activate the rally,place the lure,survive the timed waves,and kill Rockbreaker."
 questAECRockbreakerHunt_subtitle_T12,quests,,,T4 Boss Hunt
 eventAECRockbreakerHuntArrival_msg_T15,gameevents,,,ALERT: Rockbreaker has surfaced nearby. Expect heavy impact damage.
 eventAECRockbreakerHuntBossSpawn_msg_T15,gameevents,,,BOSS: Rockbreaker is here. Keep moving and avoid the boulder volleys.
@@ -2830,19 +2830,19 @@ eventAECRockbreakerWave3_msg_T15,gameevents,,,WAVE 3: Radiated workers are pushi
 eventAECRockbreakerWave4_msg_T15,gameevents,,,WAVE 4: Charged workers are entering the pit. Pressure is rising.
 eventAECRockbreakerWave5_msg_T15,gameevents,,,FINAL WAVE: Infernal workers are breaking through. The quarry is about to open.
 itemAECRockbreakerHuntContract_T15,,,"","[FFD700]AEC |[-] [FFD700]Rockbreaker Contract | Boss Hunt[-] [5★]"
-itemAECRockbreakerHuntContract_desc_T15,,,,A bounty contract for Rockbreaker. Trigger the lure, survive five timed worker waves, then bring the quarry down.
+itemAECRockbreakerHuntContract_desc_T15,,,,"A bounty contract for Rockbreaker. Trigger the lure,survive five timed worker waves,then bring the quarry down."
 questAECRockbreaker_obj_wave1_T15,quests,,,Survive the incoming workers
 questAECRockbreaker_obj_wave2_T15,quests,,,Survive the stronger workers
 questAECRockbreaker_obj_wave3_T15,quests,,,Survive the radiated push
 questAECRockbreaker_obj_wave4_T15,quests,,,Survive the charged assault
 questAECRockbreaker_obj_wave5_T15,quests,,,Survive the infernal wave
 questAECRockbreakerHunt_completion_T15,quests,,,Rockbreaker is down. Here is your payment.
-questAECRockbreakerHunt_description_T15,quests,,,Activate the rally, place the lure, survive five timed worker waves, and destroy Rockbreaker.
+questAECRockbreakerHunt_description_T15,quests,,,"Activate the rally,place the lure,survive five timed worker waves,and destroy Rockbreaker."
 questAECRockbreakerHunt_name_T15,quests,,,"[A0A0A0]Hunt: Rockbreaker[-] [5★]"
 questAECRockbreakerHunt_obj_kill_T15,quests,,,Kill Rockbreaker
-questAECRockbreakerHunt_offer_T15,quests,,,Quarry contract. Rockbreaker is moving through the wild. Find it, trigger the rally, place the lure, survive five timed worker waves, and bring it down.
+questAECRockbreakerHunt_offer_T15,quests,,,"Quarry contract. Rockbreaker is moving through the wild. Find it,trigger the rally,place the lure,survive five timed worker waves,and bring it down."
 questAECRockbreakerHunt_response_T15,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: Rockbreaker[-]
-questAECRockbreakerHunt_statement_T15,quests,,,I will activate the rally, place the lure, survive the timed waves, and kill Rockbreaker.
+questAECRockbreakerHunt_statement_T15,quests,,,"I will activate the rally,place the lure,survive the timed waves,and kill Rockbreaker."
 questAECRockbreakerHunt_subtitle_T15,quests,,,T4 Boss Hunt
 eventAECSheriffHuntArrival_msg_T03,gameevents,,,ALERT: The Sheriff has been sighted in the area. Prepare for impact.
 eventAECSheriffHuntBossSpawn_msg_T03,gameevents,,,BOSS: The Sheriff is here. Expect burning shots and relentless pressure.
@@ -2863,19 +2863,19 @@ itemAECSheriffMinionHordeContract_T03,,,"","[00E5FF]AEC |[-] [FFD700]Sheriff Con
 itemAECSheriffMinionHordeContract_desc_T03,,,,"A wave contract. Hold through four timed Sheriff minion waves, then break the last push in the wilderness. [1★]"
 questAECSheriff_obj_wave5_T03,quests,,,Wave 5: Kill 4 Sheriff Minions
 questAECSheriffHunt_completion_T03,quests,,,Target neutralized. The Sheriff is down.
-questAECSheriffHunt_description_T03,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Sheriff down.
+questAECSheriffHunt_description_T03,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Sheriff down."
 questAECSheriffHunt_name_T03,quests,,,"[C58A3A]Hunt: The Sheriff[-] [1★]"
 questAECSheriffHunt_obj_kill_T03,quests,,,Kill the Sheriff
-questAECSheriffHunt_offer_T03,quests,,,Danger close. The Sheriff is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECSheriffHunt_offer_T03,quests,,,"Danger close. The Sheriff is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECSheriffHunt_response_T03,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Sheriff[-]
-questAECSheriffHunt_statement_T03,quests,,,survive six timed waves, and kill the Sheriff.
+questAECSheriffHunt_statement_T03,quests,,,"survive six timed waves,and kill the Sheriff."
 questAECSheriffHunt_subtitle_T03,quests,,,T5 Boss Hunt
 questAECSheriffMinionHorde_completion_T03,quests,,,The last Sheriff wave has broken. Good work.
-questAECSheriffMinionHorde_description_T03,quests,,,Activate the rally, place the lure, endure four timed Sheriff minion waves, then break the last push.
+questAECSheriffMinionHorde_description_T03,quests,,,"Activate the rally,place the lure,endure four timed Sheriff minion waves,then break the last push."
 questAECSheriffMinionHorde_name_T03,quests,,,"[C58A3A]Horde: Sheriff Minions[-] [1★]"
-questAECSheriffMinionHorde_offer_T03,quests,,,Minion horde contract. Sheriff servants are gathering nearby. Get there, trigger the rally, place the lure, hold four timed waves, then break the last push.
+questAECSheriffMinionHorde_offer_T03,quests,,,"Minion horde contract. Sheriff servants are gathering nearby. Get there,trigger the rally,place the lure,hold four timed waves,then break the last push."
 questAECSheriffMinionHorde_response_T03,quests,,,AEC HORDE - [FF4500]Horde: Sheriff Minions[-]
-questAECSheriffMinionHorde_statement_T03,quests,,,survive four timed minion waves, then break the last push.
+questAECSheriffMinionHorde_statement_T03,quests,,,"survive four timed minion waves,then break the last push."
 questAECSheriffMinionHorde_subtitle_T03,quests,,,T3 Minion Waves
 eventAECSheriffHuntArrival_msg_T06,gameevents,,,ALERT: The Sheriff has been sighted in the area. Prepare for impact.
 eventAECSheriffHuntBossSpawn_msg_T06,gameevents,,,BOSS: The Sheriff is here. Expect burning shots and relentless pressure.
@@ -2896,19 +2896,19 @@ itemAECSheriffMinionHordeContract_T06,,,"","[00E5FF]AEC |[-] [FFD700]Sheriff Con
 itemAECSheriffMinionHordeContract_desc_T06,,,,"A wave contract. Hold through four timed Sheriff minion waves, then break the last push in the wilderness. [2★]"
 questAECSheriff_obj_wave5_T06,quests,,,Wave 5: Kill 4 Sheriff Minions
 questAECSheriffHunt_completion_T06,quests,,,Target neutralized. The Sheriff is down.
-questAECSheriffHunt_description_T06,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Sheriff down.
+questAECSheriffHunt_description_T06,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Sheriff down."
 questAECSheriffHunt_name_T06,quests,,,"[C58A3A]Hunt: The Sheriff[-] [2★]"
 questAECSheriffHunt_obj_kill_T06,quests,,,Kill the Sheriff
-questAECSheriffHunt_offer_T06,quests,,,Danger close. The Sheriff is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECSheriffHunt_offer_T06,quests,,,"Danger close. The Sheriff is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECSheriffHunt_response_T06,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Sheriff[-]
-questAECSheriffHunt_statement_T06,quests,,,survive six timed waves, and kill the Sheriff.
+questAECSheriffHunt_statement_T06,quests,,,"survive six timed waves,and kill the Sheriff."
 questAECSheriffHunt_subtitle_T06,quests,,,T5 Boss Hunt
 questAECSheriffMinionHorde_completion_T06,quests,,,The last Sheriff wave has broken. Good work.
-questAECSheriffMinionHorde_description_T06,quests,,,Activate the rally, place the lure, endure four timed Sheriff minion waves, then break the last push.
+questAECSheriffMinionHorde_description_T06,quests,,,"Activate the rally,place the lure,endure four timed Sheriff minion waves,then break the last push."
 questAECSheriffMinionHorde_name_T06,quests,,,"[C58A3A]Horde: Sheriff Minions[-] [2★]"
-questAECSheriffMinionHorde_offer_T06,quests,,,Minion horde contract. Sheriff servants are gathering nearby. Get there, trigger the rally, place the lure, hold four timed waves, then break the last push.
+questAECSheriffMinionHorde_offer_T06,quests,,,"Minion horde contract. Sheriff servants are gathering nearby. Get there,trigger the rally,place the lure,hold four timed waves,then break the last push."
 questAECSheriffMinionHorde_response_T06,quests,,,AEC HORDE - [FF4500]Horde: Sheriff Minions[-]
-questAECSheriffMinionHorde_statement_T06,quests,,,survive four timed minion waves, then break the last push.
+questAECSheriffMinionHorde_statement_T06,quests,,,"survive four timed minion waves,then break the last push."
 questAECSheriffMinionHorde_subtitle_T06,quests,,,T3 Minion Waves
 eventAECSheriffHuntArrival_msg_T09,gameevents,,,ALERT: The Sheriff has been sighted in the area. Prepare for impact.
 eventAECSheriffHuntBossSpawn_msg_T09,gameevents,,,BOSS: The Sheriff is here. Expect burning shots and relentless pressure.
@@ -2929,19 +2929,19 @@ itemAECSheriffMinionHordeContract_T09,,,"","[00E5FF]AEC |[-] [FFD700]Sheriff Con
 itemAECSheriffMinionHordeContract_desc_T09,,,,"A wave contract. Hold through four timed Sheriff minion waves, then break the last push in the wilderness. [3★]"
 questAECSheriff_obj_wave5_T09,quests,,,Wave 5: Kill 4 Sheriff Minions
 questAECSheriffHunt_completion_T09,quests,,,Target neutralized. The Sheriff is down.
-questAECSheriffHunt_description_T09,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Sheriff down.
+questAECSheriffHunt_description_T09,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Sheriff down."
 questAECSheriffHunt_name_T09,quests,,,"[C58A3A]Hunt: The Sheriff[-] [3★]"
 questAECSheriffHunt_obj_kill_T09,quests,,,Kill the Sheriff
-questAECSheriffHunt_offer_T09,quests,,,Danger close. The Sheriff is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECSheriffHunt_offer_T09,quests,,,"Danger close. The Sheriff is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECSheriffHunt_response_T09,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Sheriff[-]
-questAECSheriffHunt_statement_T09,quests,,,survive six timed waves, and kill the Sheriff.
+questAECSheriffHunt_statement_T09,quests,,,"survive six timed waves,and kill the Sheriff."
 questAECSheriffHunt_subtitle_T09,quests,,,T5 Boss Hunt
 questAECSheriffMinionHorde_completion_T09,quests,,,The last Sheriff wave has broken. Good work.
-questAECSheriffMinionHorde_description_T09,quests,,,Activate the rally, place the lure, endure four timed Sheriff minion waves, then break the last push.
+questAECSheriffMinionHorde_description_T09,quests,,,"Activate the rally,place the lure,endure four timed Sheriff minion waves,then break the last push."
 questAECSheriffMinionHorde_name_T09,quests,,,"[C58A3A]Horde: Sheriff Minions[-] [3★]"
-questAECSheriffMinionHorde_offer_T09,quests,,,Minion horde contract. Sheriff servants are gathering nearby. Get there, trigger the rally, place the lure, hold four timed waves, then break the last push.
+questAECSheriffMinionHorde_offer_T09,quests,,,"Minion horde contract. Sheriff servants are gathering nearby. Get there,trigger the rally,place the lure,hold four timed waves,then break the last push."
 questAECSheriffMinionHorde_response_T09,quests,,,AEC HORDE - [FF4500]Horde: Sheriff Minions[-]
-questAECSheriffMinionHorde_statement_T09,quests,,,survive four timed minion waves, then break the last push.
+questAECSheriffMinionHorde_statement_T09,quests,,,"survive four timed minion waves,then break the last push."
 questAECSheriffMinionHorde_subtitle_T09,quests,,,T3 Minion Waves
 eventAECSheriffHuntArrival_msg_T12,gameevents,,,ALERT: The Sheriff has been sighted in the area. Prepare for impact.
 eventAECSheriffHuntBossSpawn_msg_T12,gameevents,,,BOSS: The Sheriff is here. Expect burning shots and relentless pressure.
@@ -2962,19 +2962,19 @@ itemAECSheriffMinionHordeContract_T12,,,"","[00E5FF]AEC |[-] [FFD700]Sheriff Con
 itemAECSheriffMinionHordeContract_desc_T12,,,,"A wave contract. Hold through four timed Sheriff minion waves, then break the last push in the wilderness. [4★]"
 questAECSheriff_obj_wave5_T12,quests,,,Wave 5: Kill 4 Sheriff Minions
 questAECSheriffHunt_completion_T12,quests,,,Target neutralized. The Sheriff is down.
-questAECSheriffHunt_description_T12,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Sheriff down.
+questAECSheriffHunt_description_T12,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Sheriff down."
 questAECSheriffHunt_name_T12,quests,,,"[C58A3A]Hunt: The Sheriff[-] [4★]"
 questAECSheriffHunt_obj_kill_T12,quests,,,Kill the Sheriff
-questAECSheriffHunt_offer_T12,quests,,,Danger close. The Sheriff is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECSheriffHunt_offer_T12,quests,,,"Danger close. The Sheriff is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECSheriffHunt_response_T12,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Sheriff[-]
-questAECSheriffHunt_statement_T12,quests,,,survive six timed waves, and kill the Sheriff.
+questAECSheriffHunt_statement_T12,quests,,,"survive six timed waves,and kill the Sheriff."
 questAECSheriffHunt_subtitle_T12,quests,,,T5 Boss Hunt
 questAECSheriffMinionHorde_completion_T12,quests,,,The last Sheriff wave has broken. Good work.
-questAECSheriffMinionHorde_description_T12,quests,,,Activate the rally, place the lure, endure four timed Sheriff minion waves, then break the last push.
+questAECSheriffMinionHorde_description_T12,quests,,,"Activate the rally,place the lure,endure four timed Sheriff minion waves,then break the last push."
 questAECSheriffMinionHorde_name_T12,quests,,,"[C58A3A]Horde: Sheriff Minions[-] [4★]"
-questAECSheriffMinionHorde_offer_T12,quests,,,Minion horde contract. Sheriff servants are gathering nearby. Get there, trigger the rally, place the lure, hold four timed waves, then break the last push.
+questAECSheriffMinionHorde_offer_T12,quests,,,"Minion horde contract. Sheriff servants are gathering nearby. Get there,trigger the rally,place the lure,hold four timed waves,then break the last push."
 questAECSheriffMinionHorde_response_T12,quests,,,AEC HORDE - [FF4500]Horde: Sheriff Minions[-]
-questAECSheriffMinionHorde_statement_T12,quests,,,survive four timed minion waves, then break the last push.
+questAECSheriffMinionHorde_statement_T12,quests,,,"survive four timed minion waves,then break the last push."
 questAECSheriffMinionHorde_subtitle_T12,quests,,,T3 Minion Waves
 eventAECSheriffHuntArrival_msg_T15,gameevents,,,ALERT: The Sheriff has been sighted in the area. Prepare for impact.
 eventAECSheriffHuntBossSpawn_msg_T15,gameevents,,,BOSS: The Sheriff is here. Expect burning shots and relentless pressure.
@@ -2995,19 +2995,19 @@ itemAECSheriffMinionHordeContract_T15,,,"","[00E5FF]AEC |[-] [FFD700]Sheriff Con
 itemAECSheriffMinionHordeContract_desc_T15,,,,"A wave contract. Hold through four timed Sheriff minion waves, then break the last push in the wilderness. [5★]"
 questAECSheriff_obj_wave5_T15,quests,,,Wave 5: Kill 4 Sheriff Minions
 questAECSheriffHunt_completion_T15,quests,,,Target neutralized. The Sheriff is down.
-questAECSheriffHunt_description_T15,quests,,,Activate the rally, place the lure, endure six timed assault waves, and bring the Sheriff down.
+questAECSheriffHunt_description_T15,quests,,,"Activate the rally,place the lure,endure six timed assault waves,and bring the Sheriff down."
 questAECSheriffHunt_name_T15,quests,,,"[C58A3A]Hunt: The Sheriff[-] [5★]"
 questAECSheriffHunt_obj_kill_T15,quests,,,Kill the Sheriff
-questAECSheriffHunt_offer_T15,quests,,,Danger close. The Sheriff is active nearby. Get there, trigger the rally, place the lure, survive six timed waves, and kill it.
+questAECSheriffHunt_offer_T15,quests,,,"Danger close. The Sheriff is active nearby. Get there,trigger the rally,place the lure,survive six timed waves,and kill it."
 questAECSheriffHunt_response_T15,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: The Sheriff[-]
-questAECSheriffHunt_statement_T15,quests,,,survive six timed waves, and kill the Sheriff.
+questAECSheriffHunt_statement_T15,quests,,,"survive six timed waves,and kill the Sheriff."
 questAECSheriffHunt_subtitle_T15,quests,,,T5 Boss Hunt
 questAECSheriffMinionHorde_completion_T15,quests,,,The last Sheriff wave has broken. Good work.
-questAECSheriffMinionHorde_description_T15,quests,,,Activate the rally, place the lure, endure four timed Sheriff minion waves, then break the last push.
+questAECSheriffMinionHorde_description_T15,quests,,,"Activate the rally,place the lure,endure four timed Sheriff minion waves,then break the last push."
 questAECSheriffMinionHorde_name_T15,quests,,,"[C58A3A]Horde: Sheriff Minions[-] [5★]"
-questAECSheriffMinionHorde_offer_T15,quests,,,Minion horde contract. Sheriff servants are gathering nearby. Get there, trigger the rally, place the lure, hold four timed waves, then break the last push.
+questAECSheriffMinionHorde_offer_T15,quests,,,"Minion horde contract. Sheriff servants are gathering nearby. Get there,trigger the rally,place the lure,hold four timed waves,then break the last push."
 questAECSheriffMinionHorde_response_T15,quests,,,AEC HORDE - [FF4500]Horde: Sheriff Minions[-]
-questAECSheriffMinionHorde_statement_T15,quests,,,survive four timed minion waves, then break the last push.
+questAECSheriffMinionHorde_statement_T15,quests,,,"survive four timed minion waves,then break the last push."
 questAECSheriffMinionHorde_subtitle_T15,quests,,,T3 Minion Waves
 eventAECSingerieArrival_TheBrothers_msg_T03,gameevents,,,ULTIMATE: Two Singerie alphas are approaching together. Survive the full siege before the brothers arrive.
 itemAECSingerieContract_100waveschallenge_primalstampede_T03,,,false,"[FFA500]AEC 100 waves super-challenge 0[FFD700]★[-] |[-] [FFD700]Singerie Primal Stampede[-] [1★]"
@@ -3072,12 +3072,12 @@ questAECSingerie_obj_wave3_T03,quests,,,Survive the next wave
 questAECSingerie_obj_wave4_T03,quests,,,Survive the renewed assault
 questAECSingerie_obj_wave5_T03,quests,,,Survive the final siege wave
 questAECSingerieAlphaHunt_completion_T03,quests,,,Alpha target neutralized. Payment approved.
-questAECSingerieAlphaHunt_description_T03,quests,,,Activate the rally, place the lure, survive five alpha waves, then kill the Singerie.
+questAECSingerieAlphaHunt_description_T03,quests,,,"Activate the rally,place the lure,survive five alpha waves,then kill the Singerie."
 questAECSingerieAlphaHunt_name_T03,quests,,,[FF0000]Alpha Hunt[-]
 questAECSingerieAlphaHunt_obj_kill_T03,quests,,,Kill the Singerie alpha
-questAECSingerieAlphaHunt_offer_T03,quests,,,Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally, place the lure, survive the alpha waves, and kill the alpha.
+questAECSingerieAlphaHunt_offer_T03,quests,,,"Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally,place the lure,survive the alpha waves,and kill the alpha."
 questAECSingerieAlphaHunt_response_T03,quests,,,AEC BOSS FIGHT - [FF0000]Alpha Hunt[-]
-questAECSingerieAlphaHunt_statement_T03,quests,,,I will activate the rally, place the lure, survive the alpha waves, and kill the Singerie.
+questAECSingerieAlphaHunt_statement_T03,quests,,,"I will activate the rally,place the lure,survive the alpha waves,and kill the Singerie."
 questAECSingerieAlphaHunt_subtitle_T03,quests,,,T5 Elite Boss Hunt
 itemAECSingerieAlphaHuntContract_T06,,,,"[FF0000]AEC |[-] [FFD700]Singerie Contract | Alpha Hunt[-] [2★]"
 itemAECSingerieAlphaHuntContract_desc_T06,,,,"An elite Singerie contract. Endure five escalating alpha waves and kill the alpha in open ground. [2★]"
@@ -3087,12 +3087,12 @@ questAECSingerie_obj_wave3_T06,quests,,,Survive the next wave
 questAECSingerie_obj_wave4_T06,quests,,,Survive the renewed assault
 questAECSingerie_obj_wave5_T06,quests,,,Survive the final siege wave
 questAECSingerieAlphaHunt_completion_T06,quests,,,Alpha target neutralized. Payment approved.
-questAECSingerieAlphaHunt_description_T06,quests,,,Activate the rally, place the lure, survive five alpha waves, then kill the Singerie.
+questAECSingerieAlphaHunt_description_T06,quests,,,"Activate the rally,place the lure,survive five alpha waves,then kill the Singerie."
 questAECSingerieAlphaHunt_name_T06,quests,,,[FF0000]Alpha Hunt[-]
 questAECSingerieAlphaHunt_obj_kill_T06,quests,,,Kill the Singerie alpha
-questAECSingerieAlphaHunt_offer_T06,quests,,,Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally, place the lure, survive the alpha waves, and kill the alpha.
+questAECSingerieAlphaHunt_offer_T06,quests,,,"Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally,place the lure,survive the alpha waves,and kill the alpha."
 questAECSingerieAlphaHunt_response_T06,quests,,,AEC BOSS FIGHT - [FF0000]Alpha Hunt[-]
-questAECSingerieAlphaHunt_statement_T06,quests,,,I will activate the rally, place the lure, survive the alpha waves, and kill the Singerie.
+questAECSingerieAlphaHunt_statement_T06,quests,,,"I will activate the rally,place the lure,survive the alpha waves,and kill the Singerie."
 questAECSingerieAlphaHunt_subtitle_T06,quests,,,T5 Elite Boss Hunt
 itemAECSingerieAlphaHuntContract_T09,,,,"[FF0000]AEC |[-] [FFD700]Singerie Contract | Alpha Hunt[-] [3★]"
 itemAECSingerieAlphaHuntContract_desc_T09,,,,"An elite Singerie contract. Endure five escalating alpha waves and kill the alpha in open ground. [3★]"
@@ -3102,12 +3102,12 @@ questAECSingerie_obj_wave3_T09,quests,,,Survive the next wave
 questAECSingerie_obj_wave4_T09,quests,,,Survive the renewed assault
 questAECSingerie_obj_wave5_T09,quests,,,Survive the final siege wave
 questAECSingerieAlphaHunt_completion_T09,quests,,,Alpha target neutralized. Payment approved.
-questAECSingerieAlphaHunt_description_T09,quests,,,Activate the rally, place the lure, survive five alpha waves, then kill the Singerie.
+questAECSingerieAlphaHunt_description_T09,quests,,,"Activate the rally,place the lure,survive five alpha waves,then kill the Singerie."
 questAECSingerieAlphaHunt_name_T09,quests,,,[FF0000]Alpha Hunt[-]
 questAECSingerieAlphaHunt_obj_kill_T09,quests,,,Kill the Singerie alpha
-questAECSingerieAlphaHunt_offer_T09,quests,,,Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally, place the lure, survive the alpha waves, and kill the alpha.
+questAECSingerieAlphaHunt_offer_T09,quests,,,"Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally,place the lure,survive the alpha waves,and kill the alpha."
 questAECSingerieAlphaHunt_response_T09,quests,,,AEC BOSS FIGHT - [FF0000]Alpha Hunt[-]
-questAECSingerieAlphaHunt_statement_T09,quests,,,I will activate the rally, place the lure, survive the alpha waves, and kill the Singerie.
+questAECSingerieAlphaHunt_statement_T09,quests,,,"I will activate the rally,place the lure,survive the alpha waves,and kill the Singerie."
 questAECSingerieAlphaHunt_subtitle_T09,quests,,,T5 Elite Boss Hunt
 itemAECSingerieAlphaHuntContract_T12,,,,"[FF0000]AEC |[-] [FFD700]Singerie Contract | Alpha Hunt[-] [4★]"
 itemAECSingerieAlphaHuntContract_desc_T12,,,,"An elite Singerie contract. Endure five escalating alpha waves and kill the alpha in open ground. [4★]"
@@ -3117,12 +3117,12 @@ questAECSingerie_obj_wave3_T12,quests,,,Survive the next wave
 questAECSingerie_obj_wave4_T12,quests,,,Survive the renewed assault
 questAECSingerie_obj_wave5_T12,quests,,,Survive the final siege wave
 questAECSingerieAlphaHunt_completion_T12,quests,,,Alpha target neutralized. Payment approved.
-questAECSingerieAlphaHunt_description_T12,quests,,,Activate the rally, place the lure, survive five alpha waves, then kill the Singerie.
+questAECSingerieAlphaHunt_description_T12,quests,,,"Activate the rally,place the lure,survive five alpha waves,then kill the Singerie."
 questAECSingerieAlphaHunt_name_T12,quests,,,[FF0000]Alpha Hunt[-]
 questAECSingerieAlphaHunt_obj_kill_T12,quests,,,Kill the Singerie alpha
-questAECSingerieAlphaHunt_offer_T12,quests,,,Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally, place the lure, survive the alpha waves, and kill the alpha.
+questAECSingerieAlphaHunt_offer_T12,quests,,,"Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally,place the lure,survive the alpha waves,and kill the alpha."
 questAECSingerieAlphaHunt_response_T12,quests,,,AEC BOSS FIGHT - [FF0000]Alpha Hunt[-]
-questAECSingerieAlphaHunt_statement_T12,quests,,,I will activate the rally, place the lure, survive the alpha waves, and kill the Singerie.
+questAECSingerieAlphaHunt_statement_T12,quests,,,"I will activate the rally,place the lure,survive the alpha waves,and kill the Singerie."
 questAECSingerieAlphaHunt_subtitle_T12,quests,,,T5 Elite Boss Hunt
 itemAECSingerieAlphaHuntContract_T15,,,,"[FF0000]AEC |[-] [FFD700]Singerie Contract | Alpha Hunt[-] [5★]"
 itemAECSingerieAlphaHuntContract_desc_T15,,,,"An elite Singerie contract. Endure five escalating alpha waves and kill the alpha in open ground. [5★]"
@@ -3132,62 +3132,62 @@ questAECSingerie_obj_wave3_T15,quests,,,Survive the next wave
 questAECSingerie_obj_wave4_T15,quests,,,Survive the renewed assault
 questAECSingerie_obj_wave5_T15,quests,,,Survive the final siege wave
 questAECSingerieAlphaHunt_completion_T15,quests,,,Alpha target neutralized. Payment approved.
-questAECSingerieAlphaHunt_description_T15,quests,,,Activate the rally, place the lure, survive five alpha waves, then kill the Singerie.
+questAECSingerieAlphaHunt_description_T15,quests,,,"Activate the rally,place the lure,survive five alpha waves,then kill the Singerie."
 questAECSingerieAlphaHunt_name_T15,quests,,,[FF0000]Alpha Hunt[-]
 questAECSingerieAlphaHunt_obj_kill_T15,quests,,,Kill the Singerie alpha
-questAECSingerieAlphaHunt_offer_T15,quests,,,Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally, place the lure, survive the alpha waves, and kill the alpha.
+questAECSingerieAlphaHunt_offer_T15,quests,,,"Elite contract. A stronger Singerie pack is roaming nearby. Trigger the rally,place the lure,survive the alpha waves,and kill the alpha."
 questAECSingerieAlphaHunt_response_T15,quests,,,AEC BOSS FIGHT - [FF0000]Alpha Hunt[-]
-questAECSingerieAlphaHunt_statement_T15,quests,,,I will activate the rally, place the lure, survive the alpha waves, and kill the Singerie.
+questAECSingerieAlphaHunt_statement_T15,quests,,,"I will activate the rally,place the lure,survive the alpha waves,and kill the Singerie."
 questAECSingerieAlphaHunt_subtitle_T15,quests,,,T5 Elite Boss Hunt
 itemAECSingerieJungleHuntContract_T03,,,,"[FFD700]AEC |[-] [FFD700]Singerie Contract | Boss Hunt[-] [1★]"
 itemAECSingerieJungleHuntContract_desc_T03,,,,"Track the Singerie in the wild, survive five escalating pack waves, and kill the boss when it emerges. [1★]"
 questAECSingerieJungleHunt_completion_T03,quests,,,The Singerie is dead. Collect your pay.
-questAECSingerieJungleHunt_description_T03,quests,,,Activate the rally, place the lure, survive five escort waves, then kill the Singerie.
+questAECSingerieJungleHunt_description_T03,quests,,,"Activate the rally,place the lure,survive five escort waves,then kill the Singerie."
 questAECSingerieJungleHunt_name_T03,quests,,,[3CB371]Hunt: The Singerie[-]
 questAECSingerieJungleHunt_obj_kill_T03,quests,,,Kill the Singerie
-questAECSingerieJungleHunt_offer_T03,quests,,,The Singerie is on the move with a full pack behind it. Survive the escort waves, then kill it.
+questAECSingerieJungleHunt_offer_T03,quests,,,"The Singerie is on the move with a full pack behind it. Survive the escort waves,then kill it."
 questAECSingerieJungleHunt_response_T03,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Singerie[-]
-questAECSingerieJungleHunt_statement_T03,quests,,,Hold the zone, activate the rally, place the lure, and kill the Singerie.
+questAECSingerieJungleHunt_statement_T03,quests,,,"Hold the zone,activate the rally,place the lure,and kill the Singerie."
 questAECSingerieJungleHunt_subtitle_T03,quests,,,T4 Boss Hunt
 itemAECSingerieJungleHuntContract_T06,,,,"[FFD700]AEC |[-] [FFD700]Singerie Contract | Boss Hunt[-] [2★]"
 itemAECSingerieJungleHuntContract_desc_T06,,,,"Track the Singerie in the wild, survive five escalating pack waves, and kill the boss when it emerges. [2★]"
 questAECSingerieJungleHunt_completion_T06,quests,,,The Singerie is dead. Collect your pay.
-questAECSingerieJungleHunt_description_T06,quests,,,Activate the rally, place the lure, survive five escort waves, then kill the Singerie.
+questAECSingerieJungleHunt_description_T06,quests,,,"Activate the rally,place the lure,survive five escort waves,then kill the Singerie."
 questAECSingerieJungleHunt_name_T06,quests,,,[3CB371]Hunt: The Singerie[-]
 questAECSingerieJungleHunt_obj_kill_T06,quests,,,Kill the Singerie
-questAECSingerieJungleHunt_offer_T06,quests,,,The Singerie is on the move with a full pack behind it. Survive the escort waves, then kill it.
+questAECSingerieJungleHunt_offer_T06,quests,,,"The Singerie is on the move with a full pack behind it. Survive the escort waves,then kill it."
 questAECSingerieJungleHunt_response_T06,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Singerie[-]
-questAECSingerieJungleHunt_statement_T06,quests,,,Hold the zone, activate the rally, place the lure, and kill the Singerie.
+questAECSingerieJungleHunt_statement_T06,quests,,,"Hold the zone,activate the rally,place the lure,and kill the Singerie."
 questAECSingerieJungleHunt_subtitle_T06,quests,,,T4 Boss Hunt
 itemAECSingerieJungleHuntContract_T09,,,,"[FFD700]AEC |[-] [FFD700]Singerie Contract | Boss Hunt[-] [3★]"
 itemAECSingerieJungleHuntContract_desc_T09,,,,"Track the Singerie in the wild, survive five escalating pack waves, and kill the boss when it emerges. [3★]"
 questAECSingerieJungleHunt_completion_T09,quests,,,The Singerie is dead. Collect your pay.
-questAECSingerieJungleHunt_description_T09,quests,,,Activate the rally, place the lure, survive five escort waves, then kill the Singerie.
+questAECSingerieJungleHunt_description_T09,quests,,,"Activate the rally,place the lure,survive five escort waves,then kill the Singerie."
 questAECSingerieJungleHunt_name_T09,quests,,,[3CB371]Hunt: The Singerie[-]
 questAECSingerieJungleHunt_obj_kill_T09,quests,,,Kill the Singerie
-questAECSingerieJungleHunt_offer_T09,quests,,,The Singerie is on the move with a full pack behind it. Survive the escort waves, then kill it.
+questAECSingerieJungleHunt_offer_T09,quests,,,"The Singerie is on the move with a full pack behind it. Survive the escort waves,then kill it."
 questAECSingerieJungleHunt_response_T09,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Singerie[-]
-questAECSingerieJungleHunt_statement_T09,quests,,,Hold the zone, activate the rally, place the lure, and kill the Singerie.
+questAECSingerieJungleHunt_statement_T09,quests,,,"Hold the zone,activate the rally,place the lure,and kill the Singerie."
 questAECSingerieJungleHunt_subtitle_T09,quests,,,T4 Boss Hunt
 itemAECSingerieJungleHuntContract_T12,,,,"[FFD700]AEC |[-] [FFD700]Singerie Contract | Boss Hunt[-] [4★]"
 itemAECSingerieJungleHuntContract_desc_T12,,,,"Track the Singerie in the wild, survive five escalating pack waves, and kill the boss when it emerges. [4★]"
 questAECSingerieJungleHunt_completion_T12,quests,,,The Singerie is dead. Collect your pay.
-questAECSingerieJungleHunt_description_T12,quests,,,Activate the rally, place the lure, survive five escort waves, then kill the Singerie.
+questAECSingerieJungleHunt_description_T12,quests,,,"Activate the rally,place the lure,survive five escort waves,then kill the Singerie."
 questAECSingerieJungleHunt_name_T12,quests,,,[3CB371]Hunt: The Singerie[-]
 questAECSingerieJungleHunt_obj_kill_T12,quests,,,Kill the Singerie
-questAECSingerieJungleHunt_offer_T12,quests,,,The Singerie is on the move with a full pack behind it. Survive the escort waves, then kill it.
+questAECSingerieJungleHunt_offer_T12,quests,,,"The Singerie is on the move with a full pack behind it. Survive the escort waves,then kill it."
 questAECSingerieJungleHunt_response_T12,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Singerie[-]
-questAECSingerieJungleHunt_statement_T12,quests,,,Hold the zone, activate the rally, place the lure, and kill the Singerie.
+questAECSingerieJungleHunt_statement_T12,quests,,,"Hold the zone,activate the rally,place the lure,and kill the Singerie."
 questAECSingerieJungleHunt_subtitle_T12,quests,,,T4 Boss Hunt
 itemAECSingerieJungleHuntContract_T15,,,,"[FFD700]AEC |[-] [FFD700]Singerie Contract | Boss Hunt[-] [5★]"
 itemAECSingerieJungleHuntContract_desc_T15,,,,"Track the Singerie in the wild, survive five escalating pack waves, and kill the boss when it emerges. [5★]"
 questAECSingerieJungleHunt_completion_T15,quests,,,The Singerie is dead. Collect your pay.
-questAECSingerieJungleHunt_description_T15,quests,,,Activate the rally, place the lure, survive five escort waves, then kill the Singerie.
+questAECSingerieJungleHunt_description_T15,quests,,,"Activate the rally,place the lure,survive five escort waves,then kill the Singerie."
 questAECSingerieJungleHunt_name_T15,quests,,,[3CB371]Hunt: The Singerie[-]
 questAECSingerieJungleHunt_obj_kill_T15,quests,,,Kill the Singerie
-questAECSingerieJungleHunt_offer_T15,quests,,,The Singerie is on the move with a full pack behind it. Survive the escort waves, then kill it.
+questAECSingerieJungleHunt_offer_T15,quests,,,"The Singerie is on the move with a full pack behind it. Survive the escort waves,then kill it."
 questAECSingerieJungleHunt_response_T15,quests,,,AEC BOSS FIGHT - [FFAA00]Hunt: The Singerie[-]
-questAECSingerieJungleHunt_statement_T15,quests,,,Hold the zone, activate the rally, place the lure, and kill the Singerie.
+questAECSingerieJungleHunt_statement_T15,quests,,,"Hold the zone,activate the rally,place the lure,and kill the Singerie."
 questAECSingerieJungleHunt_subtitle_T15,quests,,,T4 Boss Hunt
 eventAECSirenHeadHuntArrival_msg_T03,gameevents,,,ALERT: Siren Head has been heard in the area. The hunt begins only at night.
 eventAECSirenHeadHuntBossSpawn_msg_T03,gameevents,,,BOSS: Siren Head is entering the hunt zone. Expect long reach and relentless pressure.
@@ -3200,12 +3200,12 @@ questAECSirenHead_obj_wave1_T03,quests,,,Survive wave 1
 questAECSirenHead_obj_wave2_T03,quests,,,Survive wave 2
 questAECSirenHead_obj_wave3_T03,quests,,,Survive wave 3
 questAECSirenHeadHunt_completion_T03,quests,,,Signal terminated. Siren Head is down.
-questAECSirenHeadHunt_description_T03,quests,,,Activate the rally, place the lure, survive three night waves, then kill Siren Head.
+questAECSirenHeadHunt_description_T03,quests,,,"Activate the rally,place the lure,survive three night waves,then kill Siren Head."
 questAECSirenHeadHunt_name_T03,quests,,,[B85C38]Hunt: Siren Head[-]
 questAECSirenHeadHunt_obj_kill_T03,quests,,,Kill Siren Head
-questAECSirenHeadHunt_offer_T03,quests,,,Night contract. Siren Head is roaming in the wild. Get there after dark, trigger the rally, place the lure, survive three timed waves, and put it down.
+questAECSirenHeadHunt_offer_T03,quests,,,"Night contract. Siren Head is roaming in the wild. Get there after dark,trigger the rally,place the lure,survive three timed waves,and put it down."
 questAECSirenHeadHunt_response_T03,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Siren Head[-]
-questAECSirenHeadHunt_statement_T03,quests,,,Activate the rally at night, place the lure, survive the Siren Head waves, and kill Siren Head.
+questAECSirenHeadHunt_statement_T03,quests,,,"Activate the rally at night,place the lure,survive the Siren Head waves,and kill Siren Head."
 questAECSirenHeadHunt_subtitle_T03,quests,,,T5 Boss Hunt
 eventAECSirenHeadHuntArrival_msg_T06,gameevents,,,ALERT: Siren Head has been heard in the area. The hunt begins only at night.
 eventAECSirenHeadHuntBossSpawn_msg_T06,gameevents,,,BOSS: Siren Head is entering the hunt zone. Expect long reach and relentless pressure.
@@ -3218,12 +3218,12 @@ questAECSirenHead_obj_wave1_T06,quests,,,Survive wave 1
 questAECSirenHead_obj_wave2_T06,quests,,,Survive wave 2
 questAECSirenHead_obj_wave3_T06,quests,,,Survive wave 3
 questAECSirenHeadHunt_completion_T06,quests,,,Signal terminated. Siren Head is down.
-questAECSirenHeadHunt_description_T06,quests,,,Activate the rally, place the lure, survive three night waves, then kill Siren Head.
+questAECSirenHeadHunt_description_T06,quests,,,"Activate the rally,place the lure,survive three night waves,then kill Siren Head."
 questAECSirenHeadHunt_name_T06,quests,,,[B85C38]Hunt: Siren Head[-]
 questAECSirenHeadHunt_obj_kill_T06,quests,,,Kill Siren Head
-questAECSirenHeadHunt_offer_T06,quests,,,Night contract. Siren Head is roaming in the wild. Get there after dark, trigger the rally, place the lure, survive three timed waves, and put it down.
+questAECSirenHeadHunt_offer_T06,quests,,,"Night contract. Siren Head is roaming in the wild. Get there after dark,trigger the rally,place the lure,survive three timed waves,and put it down."
 questAECSirenHeadHunt_response_T06,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Siren Head[-]
-questAECSirenHeadHunt_statement_T06,quests,,,Activate the rally at night, place the lure, survive the Siren Head waves, and kill Siren Head.
+questAECSirenHeadHunt_statement_T06,quests,,,"Activate the rally at night,place the lure,survive the Siren Head waves,and kill Siren Head."
 questAECSirenHeadHunt_subtitle_T06,quests,,,T5 Boss Hunt
 eventAECSirenHeadHuntArrival_msg_T09,gameevents,,,ALERT: Siren Head has been heard in the area. The hunt begins only at night.
 eventAECSirenHeadHuntBossSpawn_msg_T09,gameevents,,,BOSS: Siren Head is entering the hunt zone. Expect long reach and relentless pressure.
@@ -3236,12 +3236,12 @@ questAECSirenHead_obj_wave1_T09,quests,,,Survive wave 1
 questAECSirenHead_obj_wave2_T09,quests,,,Survive wave 2
 questAECSirenHead_obj_wave3_T09,quests,,,Survive wave 3
 questAECSirenHeadHunt_completion_T09,quests,,,Signal terminated. Siren Head is down.
-questAECSirenHeadHunt_description_T09,quests,,,Activate the rally, place the lure, survive three night waves, then kill Siren Head.
+questAECSirenHeadHunt_description_T09,quests,,,"Activate the rally,place the lure,survive three night waves,then kill Siren Head."
 questAECSirenHeadHunt_name_T09,quests,,,[B85C38]Hunt: Siren Head[-]
 questAECSirenHeadHunt_obj_kill_T09,quests,,,Kill Siren Head
-questAECSirenHeadHunt_offer_T09,quests,,,Night contract. Siren Head is roaming in the wild. Get there after dark, trigger the rally, place the lure, survive three timed waves, and put it down.
+questAECSirenHeadHunt_offer_T09,quests,,,"Night contract. Siren Head is roaming in the wild. Get there after dark,trigger the rally,place the lure,survive three timed waves,and put it down."
 questAECSirenHeadHunt_response_T09,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Siren Head[-]
-questAECSirenHeadHunt_statement_T09,quests,,,Activate the rally at night, place the lure, survive the Siren Head waves, and kill Siren Head.
+questAECSirenHeadHunt_statement_T09,quests,,,"Activate the rally at night,place the lure,survive the Siren Head waves,and kill Siren Head."
 questAECSirenHeadHunt_subtitle_T09,quests,,,T5 Boss Hunt
 eventAECSirenHeadHuntArrival_msg_T12,gameevents,,,ALERT: Siren Head has been heard in the area. The hunt begins only at night.
 eventAECSirenHeadHuntBossSpawn_msg_T12,gameevents,,,BOSS: Siren Head is entering the hunt zone. Expect long reach and relentless pressure.
@@ -3254,12 +3254,12 @@ questAECSirenHead_obj_wave1_T12,quests,,,Survive wave 1
 questAECSirenHead_obj_wave2_T12,quests,,,Survive wave 2
 questAECSirenHead_obj_wave3_T12,quests,,,Survive wave 3
 questAECSirenHeadHunt_completion_T12,quests,,,Signal terminated. Siren Head is down.
-questAECSirenHeadHunt_description_T12,quests,,,Activate the rally, place the lure, survive three night waves, then kill Siren Head.
+questAECSirenHeadHunt_description_T12,quests,,,"Activate the rally,place the lure,survive three night waves,then kill Siren Head."
 questAECSirenHeadHunt_name_T12,quests,,,[B85C38]Hunt: Siren Head[-]
 questAECSirenHeadHunt_obj_kill_T12,quests,,,Kill Siren Head
-questAECSirenHeadHunt_offer_T12,quests,,,Night contract. Siren Head is roaming in the wild. Get there after dark, trigger the rally, place the lure, survive three timed waves, and put it down.
+questAECSirenHeadHunt_offer_T12,quests,,,"Night contract. Siren Head is roaming in the wild. Get there after dark,trigger the rally,place the lure,survive three timed waves,and put it down."
 questAECSirenHeadHunt_response_T12,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Siren Head[-]
-questAECSirenHeadHunt_statement_T12,quests,,,Activate the rally at night, place the lure, survive the Siren Head waves, and kill Siren Head.
+questAECSirenHeadHunt_statement_T12,quests,,,"Activate the rally at night,place the lure,survive the Siren Head waves,and kill Siren Head."
 questAECSirenHeadHunt_subtitle_T12,quests,,,T5 Boss Hunt
 eventAECSirenHeadHuntArrival_msg_T15,gameevents,,,ALERT: Siren Head has been heard in the area. The hunt begins only at night.
 eventAECSirenHeadHuntBossSpawn_msg_T15,gameevents,,,BOSS: Siren Head is entering the hunt zone. Expect long reach and relentless pressure.
@@ -3272,12 +3272,12 @@ questAECSirenHead_obj_wave1_T15,quests,,,Survive wave 1
 questAECSirenHead_obj_wave2_T15,quests,,,Survive wave 2
 questAECSirenHead_obj_wave3_T15,quests,,,Survive wave 3
 questAECSirenHeadHunt_completion_T15,quests,,,Signal terminated. Siren Head is down.
-questAECSirenHeadHunt_description_T15,quests,,,Activate the rally, place the lure, survive three night waves, then kill Siren Head.
+questAECSirenHeadHunt_description_T15,quests,,,"Activate the rally,place the lure,survive three night waves,then kill Siren Head."
 questAECSirenHeadHunt_name_T15,quests,,,[B85C38]Hunt: Siren Head[-]
 questAECSirenHeadHunt_obj_kill_T15,quests,,,Kill Siren Head
-questAECSirenHeadHunt_offer_T15,quests,,,Night contract. Siren Head is roaming in the wild. Get there after dark, trigger the rally, place the lure, survive three timed waves, and put it down.
+questAECSirenHeadHunt_offer_T15,quests,,,"Night contract. Siren Head is roaming in the wild. Get there after dark,trigger the rally,place the lure,survive three timed waves,and put it down."
 questAECSirenHeadHunt_response_T15,quests,,,AEC BOSS FIGHT - [FF0000]Hunt: Siren Head[-]
-questAECSirenHeadHunt_statement_T15,quests,,,Activate the rally at night, place the lure, survive the Siren Head waves, and kill Siren Head.
+questAECSirenHeadHunt_statement_T15,quests,,,"Activate the rally at night,place the lure,survive the Siren Head waves,and kill Siren Head."
 questAECSirenHeadHunt_subtitle_T15,quests,,,T5 Boss Hunt
 questAECWitchEndlessInfernalSwarm_completion_T03,quests,,false,"Contract complete. All 100 waves cleared. [1★]"
 questAECWitchEndlessInfernalSwarm_description_T03,quests,,false,"Contract: survive 100 escalating Witch assault waves mixing spider minions, cop minions, burnt zombies, feral burnt variants, and vultures before the final infernal push. [1★]"
