@@ -1,4 +1,4 @@
-﻿Key,Source,Context,Changes,English
+Key,Source,Context,Changes,English
 buffAECNewbieProtection,buffs,Buff,,"[50DC50]Newbie protection[-]"
 buffAECNewbieProtectionDesc,buffs,Buff,,"You are below Game Stage 100. AEC events will not directly target you or alter nearby spawns for you. Heatmap will still affect your surrounding spawns."
 buffAECSafeZone,buffs,Buff,,"[00FF66]Stable Zone[-]"
@@ -146,305 +146,305 @@ aecQuestOrderT15,items,Item Name,,"[AEC] Clear Order - Tier 15"
 aecQuestOrderT15Desc,items,Item Desc,,"Use to start a Tier 15 AEC zombie clear mission. Return to any trader to claim rewards."
 
 #  AEC Tier-Quest Names & Offers 
-aec_quest_T05_name,quests,Quest,,"[AEC] Tier 05 Clear"
-aec_quest_T05_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 05 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T06_name,quests,Quest,,"[AEC] Tier 06 Clear"
-aec_quest_T06_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 06 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T07_name,quests,Quest,,"[AEC] Tier 07 Clear"
-aec_quest_T07_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 07 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T08_name,quests,Quest,,"[AEC] Tier 08 Clear"
-aec_quest_T08_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 08 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T09_name,quests,Quest,,"[AEC] Tier 09 Clear"
-aec_quest_T09_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 09 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T10_name,quests,Quest,,"[AEC] Tier 10 Clear"
-aec_quest_T10_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 10 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T11_name,quests,Quest,,"[AEC] Tier 11 Clear"
-aec_quest_T11_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 11 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T12_name,quests,Quest,,"[AEC] Tier 12 Clear"
-aec_quest_T12_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 12 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T13_name,quests,Quest,,"[AEC] Tier 13 Clear"
-aec_quest_T13_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 13 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T14_name,quests,Quest,,"[AEC] Tier 14 Clear"
-aec_quest_T14_offer,quests,Quest,,"Purge the infestation. Our intelligence has identified a zone swarming with Tier 14 AEC hostiles. Clear the location and return for your reward."
-aec_quest_T15_name,quests,Quest,,"[AEC] Tier 15 Clear"
-aec_quest_T15_offer,quests,Quest,,"FINAL PURGE. Maximum AEC hostiles confirmed. Tier 15 threat. Clear the location and return for your reward."
+aec_quest_T05_name,quests,Quest,,[AEC]  ティア 05一掃
+aec_quest_T05_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 05のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T06_name,quests,Quest,,[AEC]  ティア 06一掃
+aec_quest_T06_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 06のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T07_name,quests,Quest,,[AEC]  ティア 07一掃
+aec_quest_T07_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 07のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T08_name,quests,Quest,,[AEC]  ティア 08一掃
+aec_quest_T08_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 08のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T09_name,quests,Quest,,[AEC]  ティア 09一掃
+aec_quest_T09_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 09のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T10_name,quests,Quest,,[AEC]  ティア 10一掃
+aec_quest_T10_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 10のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T11_name,quests,Quest,,[AEC]  ティア 11一掃
+aec_quest_T11_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 11のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T12_name,quests,Quest,,[AEC]  ティア 12一掃
+aec_quest_T12_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 12のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T13_name,quests,Quest,,[AEC]  ティア 13一掃
+aec_quest_T13_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 13のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T14_name,quests,Quest,,[AEC]  ティア 14一掃
+aec_quest_T14_offer,quests,Quest,,敵の巣窟を一掃せよ。情報機関は、 ティア 14のAEC敵が大量に生息する地域を特定した。その場所を制圧し、報酬を受け取りに戻れ。
+aec_quest_T15_name,quests,Quest,,[AEC]  ティア 15一掃
+aec_quest_T15_offer,quests,Quest,,最終掃討作戦。AECの敵対勢力が最大数確認されました。脅威レベルは ティア 15です。この場所を制圧し、報酬を受け取りに戻ってください。
 
 #  AEC Tier-Quest Shared Description 
-aec_quest_clear_desc,quests,Quest,,"An AEC Zombie Clear Order: all POI sleepers will be replaced by AEC-tier hostiles matching this order. Reach the POI, eliminate all zombies, and return to any trader for your reward."
+aec_quest_clear_desc,quests,Quest,,AECゾンビ掃討命令：すべてのPOI（重要地点）のスリーパーは、この命令に合致するAEC級の敵に置き換えられます。POIに到達し、すべてのゾンビを排除して、いずれかのトレーダーのところに戻って報酬を受け取ってください。
 
 # ── AEC Tier×Size Quest Items (TX_AY) ───────────────────────────────────────
-aec_base_name,quests,Quest,,"[AEC] Base Quest"
-aec_base_offer,quests,Quest,,"AEC mission pending."
-aec_quest_T00_A1_name,quests,Quest,,"[AEC] T00 Basic Clear | Small"
-aec_quest_T00_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Basic AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T00_A2_name,quests,Quest,,"[AEC] T00 Basic Clear | Medium"
-aec_quest_T00_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Basic AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T00_A3_name,quests,Quest,,"[AEC] T00 Basic Clear | Large"
-aec_quest_T00_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Basic AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T00_A4_name,quests,Quest,,"[AEC] T00 Basic Clear | Huge"
-aec_quest_T00_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Basic AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T00_A5_name,quests,Quest,,"[AEC] T00 Basic Clear | Massive"
-aec_quest_T00_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Basic AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T01_A1_name,quests,Quest,,"[AEC] T01 Feral Clear | Small"
-aec_quest_T01_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Feral AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T01_A2_name,quests,Quest,,"[AEC] T01 Feral Clear | Medium"
-aec_quest_T01_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Feral AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T01_A3_name,quests,Quest,,"[AEC] T01 Feral Clear | Large"
-aec_quest_T01_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Feral AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T01_A4_name,quests,Quest,,"[AEC] T01 Feral Clear | Huge"
-aec_quest_T01_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Feral AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T01_A5_name,quests,Quest,,"[AEC] T01 Feral Clear | Massive"
-aec_quest_T01_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Feral AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T02_A1_name,quests,Quest,,"[AEC] T02 Radiated Clear | Small"
-aec_quest_T02_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Radiated AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T02_A2_name,quests,Quest,,"[AEC] T02 Radiated Clear | Medium"
-aec_quest_T02_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Radiated AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T02_A3_name,quests,Quest,,"[AEC] T02 Radiated Clear | Large"
-aec_quest_T02_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Radiated AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T02_A4_name,quests,Quest,,"[AEC] T02 Radiated Clear | Huge"
-aec_quest_T02_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Radiated AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T02_A5_name,quests,Quest,,"[AEC] T02 Radiated Clear | Massive"
-aec_quest_T02_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Radiated AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T03_A1_name,quests,Quest,,"[AEC] T03 Charged Clear | Small"
-aec_quest_T03_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Charged AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T03_A2_name,quests,Quest,,"[AEC] T03 Charged Clear | Medium"
-aec_quest_T03_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Charged AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T03_A3_name,quests,Quest,,"[AEC] T03 Charged Clear | Large"
-aec_quest_T03_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Charged AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T03_A4_name,quests,Quest,,"[AEC] T03 Charged Clear | Huge"
-aec_quest_T03_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Charged AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T03_A5_name,quests,Quest,,"[AEC] T03 Charged Clear | Massive"
-aec_quest_T03_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Charged AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T04_A1_name,quests,Quest,,"[AEC] T04 Infernal Clear | Small"
-aec_quest_T04_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Infernal AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T04_A2_name,quests,Quest,,"[AEC] T04 Infernal Clear | Medium"
-aec_quest_T04_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Infernal AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T04_A3_name,quests,Quest,,"[AEC] T04 Infernal Clear | Large"
-aec_quest_T04_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Infernal AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T04_A4_name,quests,Quest,,"[AEC] T04 Infernal Clear | Huge"
-aec_quest_T04_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Infernal AEC hostiles. Clear it and return to any trader for your reward."
-aec_quest_T04_A5_name,quests,Quest,,"[AEC] T04 Infernal Clear | Massive"
-aec_quest_T04_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Infernal AEC hostiles. Clear it and return to any trader for your reward."
+aec_base_name,quests,Quest,,[AEC] 基地クエスト
+aec_base_offer,quests,Quest,,AECの任務は保留中です。
+aec_quest_T00_A1_name,quests,Quest,,[AEC] T00 基本掃討 | 小
+aec_quest_T00_A1_offer,quests,Quest,,汚染を一掃せよ。小の場所が次の敵に指定された: ベーシック AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T00_A2_name,quests,Quest,,[AEC] T00 基本掃討 | 中
+aec_quest_T00_A2_offer,quests,Quest,,汚染を一掃せよ。中の場所が次の敵に指定された: ベーシック AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T00_A3_name,quests,Quest,,[AEC] T00 基本掃討 | 大
+aec_quest_T00_A3_offer,quests,Quest,,汚染を一掃せよ。大の場所が次の敵に指定された: ベーシック AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T00_A4_name,quests,Quest,,[AEC] T00 基本掃討 | 巨大
+aec_quest_T00_A4_offer,quests,Quest,,汚染を一掃せよ。巨大の場所が次の敵に指定された: ベーシック AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T00_A5_name,quests,Quest,,[AEC] T00 基本掃討 | 超巨大
+aec_quest_T00_A5_offer,quests,Quest,,汚染を一掃せよ。超巨大の場所が次の敵に指定された: ベーシック AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T01_A1_name,quests,Quest,,[AEC] T01 フェラル掃討 | 小
+aec_quest_T01_A1_offer,quests,Quest,,汚染を一掃せよ。小の場所が次の敵に指定された: フェラル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T01_A2_name,quests,Quest,,[AEC] T01 フェラル掃討 | 中
+aec_quest_T01_A2_offer,quests,Quest,,汚染を一掃せよ。中の場所が次の敵に指定された: フェラル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T01_A3_name,quests,Quest,,[AEC] T01 フェラル掃討 | 大
+aec_quest_T01_A3_offer,quests,Quest,,汚染を一掃せよ。大の場所が次の敵に指定された: フェラル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T01_A4_name,quests,Quest,,[AEC] T01 フェラル掃討 | 巨大
+aec_quest_T01_A4_offer,quests,Quest,,汚染を一掃せよ。巨大の場所が次の敵に指定された: フェラル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T01_A5_name,quests,Quest,,[AEC] T01 フェラル掃討 | 超巨大
+aec_quest_T01_A5_offer,quests,Quest,,汚染を一掃せよ。超巨大の場所が次の敵に指定された: フェラル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T02_A1_name,quests,Quest,,[AEC] T02 レディエイテッド掃討 | 小
+aec_quest_T02_A1_offer,quests,Quest,,汚染を一掃せよ。小の場所が次の敵に指定された: レディエイテッド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T02_A2_name,quests,Quest,,[AEC] T02 レディエイテッド掃討 | 中
+aec_quest_T02_A2_offer,quests,Quest,,汚染を一掃せよ。中の場所が次の敵に指定された: レディエイテッド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T02_A3_name,quests,Quest,,[AEC] T02 レディエイテッド掃討 | 大
+aec_quest_T02_A3_offer,quests,Quest,,汚染を一掃せよ。大の場所が次の敵に指定された: レディエイテッド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T02_A4_name,quests,Quest,,[AEC] T02 レディエイテッド掃討 | 巨大
+aec_quest_T02_A4_offer,quests,Quest,,汚染を一掃せよ。巨大の場所が次の敵に指定された: レディエイテッド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T02_A5_name,quests,Quest,,[AEC] T02 レディエイテッド掃討 | 超巨大
+aec_quest_T02_A5_offer,quests,Quest,,汚染を一掃せよ。超巨大の場所が次の敵に指定された: レディエイテッド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T03_A1_name,quests,Quest,,[AEC] T03 チャージド掃討 | 小
+aec_quest_T03_A1_offer,quests,Quest,,汚染を一掃せよ。小の場所が次の敵に指定された: チャージド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T03_A2_name,quests,Quest,,[AEC] T03 チャージド掃討 | 中
+aec_quest_T03_A2_offer,quests,Quest,,汚染を一掃せよ。中の場所が次の敵に指定された: チャージド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T03_A3_name,quests,Quest,,[AEC] T03 チャージド掃討 | 大
+aec_quest_T03_A3_offer,quests,Quest,,汚染を一掃せよ。大の場所が次の敵に指定された: チャージド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T03_A4_name,quests,Quest,,[AEC] T03 チャージド掃討 | 巨大
+aec_quest_T03_A4_offer,quests,Quest,,汚染を一掃せよ。巨大の場所が次の敵に指定された: チャージド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T03_A5_name,quests,Quest,,[AEC] T03 チャージド掃討 | 超巨大
+aec_quest_T03_A5_offer,quests,Quest,,汚染を一掃せよ。超巨大の場所が次の敵に指定された: チャージド AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T04_A1_name,quests,Quest,,[AEC] T04 インフェルナル掃討 | 小
+aec_quest_T04_A1_offer,quests,Quest,,汚染を一掃せよ。小の場所が次の敵に指定された: インフェルナル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T04_A2_name,quests,Quest,,[AEC] T04 インフェルナル掃討 | 中
+aec_quest_T04_A2_offer,quests,Quest,,汚染を一掃せよ。中の場所が次の敵に指定された: インフェルナル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T04_A3_name,quests,Quest,,[AEC] T04 インフェルナル掃討 | 大
+aec_quest_T04_A3_offer,quests,Quest,,汚染を一掃せよ。大の場所が次の敵に指定された: インフェルナル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T04_A4_name,quests,Quest,,[AEC] T04 インフェルナル掃討 | 巨大
+aec_quest_T04_A4_offer,quests,Quest,,汚染を一掃せよ。巨大の場所が次の敵に指定された: インフェルナル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
+aec_quest_T04_A5_name,quests,Quest,,[AEC] T04 インフェルナル掃討 | 超巨大
+aec_quest_T04_A5_offer,quests,Quest,,汚染を一掃せよ。超巨大の場所が次の敵に指定された: インフェルナル AEC 敵性体。制圧し、いずれかの商人に戻って報酬を受け取れ。
 aecQuestOrderT05A1,items,Item Name,,[FFD700]AEC[-] [AAAAAA]Clear Order T05 A1 (Small)[-]
 aecQuestOrderT05A1Desc,items,Item Desc,,"Use to start a Tier 05 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T05_A1_name,quests,Quest,,"[AEC] T05 Clear | Small"
-aec_quest_T05_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 05 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T05_A1_name,quests,Quest,,[AEC] T05 一掃 | 小型
+aec_quest_T05_A1_offer,quests,Quest,,敵対勢力を一掃せよ。小規模な拠点に ティア 05のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT05A2,items,Item Name,,[FFD700]AEC[-] [AAAAAA]Clear Order T05 A2 (Medium)[-]
 aecQuestOrderT05A2Desc,items,Item Desc,,"Use to start a Tier 05 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T05_A2_name,quests,Quest,,"[AEC] T05 Clear | Medium"
-aec_quest_T05_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 05 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T05_A2_name,quests,Quest,,[AEC] T05 一掃 | 中
+aec_quest_T05_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 05のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT05A3,items,Item Name,,[FFD700]AEC[-] [AAAAAA]Clear Order T05 A3 (Large)[-]
 aecQuestOrderT05A3Desc,items,Item Desc,,"Use to start a Tier 05 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T05_A3_name,quests,Quest,,"[AEC] T05 Clear | Large"
-aec_quest_T05_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 05 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T05_A3_name,quests,Quest,,[AEC] T05 一掃 | ラージ
+aec_quest_T05_A3_offer,quests,Quest,,敵対勢力を一掃せよ。大規模な拠点に ティア 05のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT05A4,items,Item Name,,[FFD700]AEC[-] [AAAAAA]Clear Order T05 A4 (Huge)[-]
 aecQuestOrderT05A4Desc,items,Item Desc,,"Use to start a Tier 05 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T05_A4_name,quests,Quest,,"[AEC] T05 Clear | Huge"
-aec_quest_T05_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 05 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T05_A4_name,quests,Quest,,[AEC] T05 一掃 | 巨大
+aec_quest_T05_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 05のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT05A5,items,Item Name,,[FFD700]AEC[-] [AAAAAA]Clear Order T05 A5 (Massive)[-]
 aecQuestOrderT05A5Desc,items,Item Desc,,"Use to start a Tier 05 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T05_A5_name,quests,Quest,,"[AEC] T05 Clear | Massive"
-aec_quest_T05_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 05 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T05_A5_name,quests,Quest,,[AEC] T05 一掃 | マッシブ
+aec_quest_T05_A5_offer,quests,Quest,,敵対勢力を一掃せよ。大規模な拠点が ティア 05のAEC敵対勢力で占拠されている。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT06A1,items,Item Name,,[FFD700]AEC[-] [88CC88]Clear Order T06 A1 (Small)[-]
 aecQuestOrderT06A1Desc,items,Item Desc,,"Use to start a Tier 06 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T06_A1_name,quests,Quest,,"[AEC] T06 Clear | Small"
-aec_quest_T06_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 06 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T06_A1_name,quests,Quest,,[AEC] T06 一掃 | 小型
+aec_quest_T06_A1_offer,quests,Quest,,敵の侵入を阻止せよ。小規模な地点に ティア 06のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT06A2,items,Item Name,,[FFD700]AEC[-] [88CC88]Clear Order T06 A2 (Medium)[-]
 aecQuestOrderT06A2Desc,items,Item Desc,,"Use to start a Tier 06 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T06_A2_name,quests,Quest,,"[AEC] T06 Clear | Medium"
-aec_quest_T06_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 06 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T06_A2_name,quests,Quest,,[AEC] T06 一掃 | 中
+aec_quest_T06_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 06のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT06A3,items,Item Name,,[FFD700]AEC[-] [88CC88]Clear Order T06 A3 (Large)[-]
 aecQuestOrderT06A3Desc,items,Item Desc,,"Use to start a Tier 06 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T06_A3_name,quests,Quest,,"[AEC] T06 Clear | Large"
-aec_quest_T06_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 06 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T06_A3_name,quests,Quest,,[AEC] T06 一掃 | ラージ
+aec_quest_T06_A3_offer,quests,Quest,,敵対勢力を一掃せよ。大規模な拠点に ティア 06のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT06A4,items,Item Name,,[FFD700]AEC[-] [88CC88]Clear Order T06 A4 (Huge)[-]
 aecQuestOrderT06A4Desc,items,Item Desc,,"Use to start a Tier 06 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T06_A4_name,quests,Quest,,"[AEC] T06 Clear | Huge"
-aec_quest_T06_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 06 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T06_A4_name,quests,Quest,,[AEC] T06 一掃 | 巨大
+aec_quest_T06_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 06のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT06A5,items,Item Name,,[FFD700]AEC[-] [88CC88]Clear Order T06 A5 (Massive)[-]
 aecQuestOrderT06A5Desc,items,Item Desc,,"Use to start a Tier 06 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T06_A5_name,quests,Quest,,"[AEC] T06 Clear | Massive"
-aec_quest_T06_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 06 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T06_A5_name,quests,Quest,,[AEC] T06 一掃 | マッシブ
+aec_quest_T06_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。大規模な場所に ティア 06のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT07A1,items,Item Name,,[FFD700]AEC[-] [55EE00]Clear Order T07 A1 (Small)[-]
 aecQuestOrderT07A1Desc,items,Item Desc,,"Use to start a Tier 07 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T07_A1_name,quests,Quest,,"[AEC] T07 Clear | Small"
-aec_quest_T07_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 07 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T07_A1_name,quests,Quest,,[AEC] T07 一掃 | 小型
+aec_quest_T07_A1_offer,quests,Quest,,敵対勢力を一掃せよ。小規模な拠点に ティア 07のAEC敵対勢力が出現した。拠点を制圧し、いずれかの商人のもとへ戻れば報酬がもらえる。
 aecQuestOrderT07A2,items,Item Name,,[FFD700]AEC[-] [55EE00]Clear Order T07 A2 (Medium)[-]
 aecQuestOrderT07A2Desc,items,Item Desc,,"Use to start a Tier 07 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T07_A2_name,quests,Quest,,"[AEC] T07 Clear | Medium"
-aec_quest_T07_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 07 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T07_A2_name,quests,Quest,,[AEC] T07 一掃 | 中
+aec_quest_T07_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 07のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT07A3,items,Item Name,,[FFD700]AEC[-] [55EE00]Clear Order T07 A3 (Large)[-]
 aecQuestOrderT07A3Desc,items,Item Desc,,"Use to start a Tier 07 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T07_A3_name,quests,Quest,,"[AEC] T07 Clear | Large"
-aec_quest_T07_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 07 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T07_A3_name,quests,Quest,,[AEC] T07 一掃 | ラージ
+aec_quest_T07_A3_offer,quests,Quest,,敵対勢力を一掃せよ。大規模な拠点に ティア 07のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT07A4,items,Item Name,,[FFD700]AEC[-] [55EE00]Clear Order T07 A4 (Huge)[-]
 aecQuestOrderT07A4Desc,items,Item Desc,,"Use to start a Tier 07 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T07_A4_name,quests,Quest,,"[AEC] T07 Clear | Huge"
-aec_quest_T07_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 07 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T07_A4_name,quests,Quest,,[AEC] T07 一掃 | 巨大
+aec_quest_T07_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 07のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT07A5,items,Item Name,,[FFD700]AEC[-] [55EE00]Clear Order T07 A5 (Massive)[-]
 aecQuestOrderT07A5Desc,items,Item Desc,,"Use to start a Tier 07 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T07_A5_name,quests,Quest,,"[AEC] T07 Clear | Massive"
-aec_quest_T07_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 07 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T07_A5_name,quests,Quest,,[AEC] T07 一掃 | マッシブ
+aec_quest_T07_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。大規模な場所に ティア 07のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT08A1,items,Item Name,,[FFD700]AEC[-] [EEBB00]Clear Order T08 A1 (Small)[-]
 aecQuestOrderT08A1Desc,items,Item Desc,,"Use to start a Tier 08 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T08_A1_name,quests,Quest,,"[AEC] T08 Clear | Small"
-aec_quest_T08_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 08 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T08_A1_name,quests,Quest,,[AEC] T08 一掃 | 小型
+aec_quest_T08_A1_offer,quests,Quest,,敵の侵入を阻止せよ。小規模な地点に ティア 08のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT08A2,items,Item Name,,[FFD700]AEC[-] [EEBB00]Clear Order T08 A2 (Medium)[-]
 aecQuestOrderT08A2Desc,items,Item Desc,,"Use to start a Tier 08 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T08_A2_name,quests,Quest,,"[AEC] T08 Clear | Medium"
-aec_quest_T08_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 08 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T08_A2_name,quests,Quest,,[AEC] T08 一掃 | 中
+aec_quest_T08_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 08のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT08A3,items,Item Name,,[FFD700]AEC[-] [EEBB00]Clear Order T08 A3 (Large)[-]
 aecQuestOrderT08A3Desc,items,Item Desc,,"Use to start a Tier 08 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T08_A3_name,quests,Quest,,"[AEC] T08 Clear | Large"
-aec_quest_T08_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 08 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T08_A3_name,quests,Quest,,[AEC] T08 一掃 | ラージ
+aec_quest_T08_A3_offer,quests,Quest,,敵の侵入を阻止せよ。大規模な拠点に ティア 08のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT08A4,items,Item Name,,[FFD700]AEC[-] [EEBB00]Clear Order T08 A4 (Huge)[-]
 aecQuestOrderT08A4Desc,items,Item Desc,,"Use to start a Tier 08 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T08_A4_name,quests,Quest,,"[AEC] T08 Clear | Huge"
-aec_quest_T08_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 08 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T08_A4_name,quests,Quest,,[AEC] T08 一掃 | 巨大
+aec_quest_T08_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大な場所に ティア 08のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT08A5,items,Item Name,,[FFD700]AEC[-] [EEBB00]Clear Order T08 A5 (Massive)[-]
 aecQuestOrderT08A5Desc,items,Item Desc,,"Use to start a Tier 08 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T08_A5_name,quests,Quest,,"[AEC] T08 Clear | Massive"
-aec_quest_T08_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 08 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T08_A5_name,quests,Quest,,[AEC] T08 一掃 | マッシブ
+aec_quest_T08_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。大規模な場所に ティア 08のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT09A1,items,Item Name,,[FFD700]AEC[-] [FF9900]Clear Order T09 A1 (Small)[-]
 aecQuestOrderT09A1Desc,items,Item Desc,,"Use to start a Tier 09 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T09_A1_name,quests,Quest,,"[AEC] T09 Clear | Small"
-aec_quest_T09_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 09 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T09_A1_name,quests,Quest,,[AEC] T09 一掃 | 小型
+aec_quest_T09_A1_offer,quests,Quest,,敵対勢力を一掃せよ。小規模な拠点に ティア 09のAEC敵対勢力が出現した。拠点を制圧し、いずれかの商人のもとへ戻れば報酬がもらえる。
 aecQuestOrderT09A2,items,Item Name,,[FFD700]AEC[-] [FF9900]Clear Order T09 A2 (Medium)[-]
 aecQuestOrderT09A2Desc,items,Item Desc,,"Use to start a Tier 09 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T09_A2_name,quests,Quest,,"[AEC] T09 Clear | Medium"
-aec_quest_T09_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 09 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T09_A2_name,quests,Quest,,[AEC] T09 一掃 | 中
+aec_quest_T09_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 09のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT09A3,items,Item Name,,[FFD700]AEC[-] [FF9900]Clear Order T09 A3 (Large)[-]
 aecQuestOrderT09A3Desc,items,Item Desc,,"Use to start a Tier 09 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T09_A3_name,quests,Quest,,"[AEC] T09 Clear | Large"
-aec_quest_T09_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 09 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T09_A3_name,quests,Quest,,[AEC] T09 一掃 | ラージ
+aec_quest_T09_A3_offer,quests,Quest,,敵対勢力を一掃せよ。大規模な拠点に ティア 09のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT09A4,items,Item Name,,[FFD700]AEC[-] [FF9900]Clear Order T09 A4 (Huge)[-]
 aecQuestOrderT09A4Desc,items,Item Desc,,"Use to start a Tier 09 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T09_A4_name,quests,Quest,,"[AEC] T09 Clear | Huge"
-aec_quest_T09_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 09 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T09_A4_name,quests,Quest,,[AEC] T09 一掃 | 巨大
+aec_quest_T09_A4_offer,quests,Quest,,敵対勢力を一掃せよ。巨大な地点に ティア 09のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT09A5,items,Item Name,,[FFD700]AEC[-] [FF9900]Clear Order T09 A5 (Massive)[-]
 aecQuestOrderT09A5Desc,items,Item Desc,,"Use to start a Tier 09 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T09_A5_name,quests,Quest,,"[AEC] T09 Clear | Massive"
-aec_quest_T09_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 09 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T09_A5_name,quests,Quest,,[AEC] T09 一掃 | マッシブ
+aec_quest_T09_A5_offer,quests,Quest,,敵対勢力を一掃せよ。大規模な拠点に ティア 09のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT10A1,items,Item Name,,[FFD700]AEC[-] [FF6600]Clear Order T10 A1 (Small)[-]
 aecQuestOrderT10A1Desc,items,Item Desc,,"Use to start a Tier 10 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T10_A1_name,quests,Quest,,"[AEC] T10 Clear | Small"
-aec_quest_T10_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 10 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T10_A1_name,quests,Quest,,[AEC] T10 一掃 | 小型
+aec_quest_T10_A1_offer,quests,Quest,,敵の侵入を阻止せよ。小規模な場所に ティア 10のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT10A2,items,Item Name,,[FFD700]AEC[-] [FF6600]Clear Order T10 A2 (Medium)[-]
 aecQuestOrderT10A2Desc,items,Item Desc,,"Use to start a Tier 10 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T10_A2_name,quests,Quest,,"[AEC] T10 Clear | Medium"
-aec_quest_T10_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 10 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T10_A2_name,quests,Quest,,[AEC] T10 一掃 | 中
+aec_quest_T10_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 10のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT10A3,items,Item Name,,[FFD700]AEC[-] [FF6600]Clear Order T10 A3 (Large)[-]
 aecQuestOrderT10A3Desc,items,Item Desc,,"Use to start a Tier 10 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T10_A3_name,quests,Quest,,"[AEC] T10 Clear | Large"
-aec_quest_T10_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 10 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T10_A3_name,quests,Quest,,[AEC] T10 一掃 | 大型
+aec_quest_T10_A3_offer,quests,Quest,,敵の巣窟を掃討せよ。大規模な場所に ティア 10のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT10A4,items,Item Name,,[FFD700]AEC[-] [FF6600]Clear Order T10 A4 (Huge)[-]
 aecQuestOrderT10A4Desc,items,Item Desc,,"Use to start a Tier 10 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T10_A4_name,quests,Quest,,"[AEC] T10 Clear | Huge"
-aec_quest_T10_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 10 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T10_A4_name,quests,Quest,,[AEC] T10一掃 | 巨大
+aec_quest_T10_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 10のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT10A5,items,Item Name,,[FFD700]AEC[-] [FF6600]Clear Order T10 A5 (Massive)[-]
 aecQuestOrderT10A5Desc,items,Item Desc,,"Use to start a Tier 10 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T10_A5_name,quests,Quest,,"[AEC] T10 Clear | Massive"
-aec_quest_T10_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 10 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T10_A5_name,quests,Quest,,[AEC] T10一掃 | マッシブ
+aec_quest_T10_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。大規模な場所に ティア 10のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT11A1,items,Item Name,,[FFD700]AEC[-] [FF3300]Clear Order T11 A1 (Small)[-]
 aecQuestOrderT11A1Desc,items,Item Desc,,"Use to start a Tier 11 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T11_A1_name,quests,Quest,,"[AEC] T11 Clear | Small"
-aec_quest_T11_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 11 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T11_A1_name,quests,Quest,,[AEC] T11 一掃 | 小型
+aec_quest_T11_A1_offer,quests,Quest,,敵の侵入を阻止せよ。小規模な場所に ティア 11のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT11A2,items,Item Name,,[FFD700]AEC[-] [FF3300]Clear Order T11 A2 (Medium)[-]
 aecQuestOrderT11A2Desc,items,Item Desc,,"Use to start a Tier 11 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T11_A2_name,quests,Quest,,"[AEC] T11 Clear | Medium"
-aec_quest_T11_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 11 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T11_A2_name,quests,Quest,,[AEC] T11 一掃 | 中
+aec_quest_T11_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 11のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT11A3,items,Item Name,,[FFD700]AEC[-] [FF3300]Clear Order T11 A3 (Large)[-]
 aecQuestOrderT11A3Desc,items,Item Desc,,"Use to start a Tier 11 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T11_A3_name,quests,Quest,,"[AEC] T11 Clear | Large"
-aec_quest_T11_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 11 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T11_A3_name,quests,Quest,,[AEC] T11 一掃 | ラージ
+aec_quest_T11_A3_offer,quests,Quest,,敵の巣窟を掃討せよ。大規模な場所に ティア 11のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT11A4,items,Item Name,,[FFD700]AEC[-] [FF3300]Clear Order T11 A4 (Huge)[-]
 aecQuestOrderT11A4Desc,items,Item Desc,,"Use to start a Tier 11 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T11_A4_name,quests,Quest,,"[AEC] T11 Clear | Huge"
-aec_quest_T11_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 11 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T11_A4_name,quests,Quest,,[AEC] T11一掃 | 巨大
+aec_quest_T11_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 11のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT11A5,items,Item Name,,[FFD700]AEC[-] [FF3300]Clear Order T11 A5 (Massive)[-]
 aecQuestOrderT11A5Desc,items,Item Desc,,"Use to start a Tier 11 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T11_A5_name,quests,Quest,,"[AEC] T11 Clear | Massive"
-aec_quest_T11_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 11 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T11_A5_name,quests,Quest,,[AEC] T11一掃 | マッシブ
+aec_quest_T11_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。大規模な場所に ティア 11のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT12A1,items,Item Name,,[FFD700]AEC[-] [FF0000]Clear Order T12 A1 (Small)[-]
 aecQuestOrderT12A1Desc,items,Item Desc,,"Use to start a Tier 12 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T12_A1_name,quests,Quest,,"[AEC] T12 Clear | Small"
-aec_quest_T12_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 12 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T12_A1_name,quests,Quest,,[AEC] T12 透明 | 小型
+aec_quest_T12_A1_offer,quests,Quest,,敵の侵入を阻止せよ。小規模な場所に ティア 12のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT12A2,items,Item Name,,[FFD700]AEC[-] [FF0000]Clear Order T12 A2 (Medium)[-]
 aecQuestOrderT12A2Desc,items,Item Desc,,"Use to start a Tier 12 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T12_A2_name,quests,Quest,,"[AEC] T12 Clear | Medium"
-aec_quest_T12_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 12 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T12_A2_name,quests,Quest,,[AEC] T12 一掃 | 中
+aec_quest_T12_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 12のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT12A3,items,Item Name,,[FFD700]AEC[-] [FF0000]Clear Order T12 A3 (Large)[-]
 aecQuestOrderT12A3Desc,items,Item Desc,,"Use to start a Tier 12 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T12_A3_name,quests,Quest,,"[AEC] T12 Clear | Large"
-aec_quest_T12_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 12 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T12_A3_name,quests,Quest,,[AEC] T12 一掃 | 大型
+aec_quest_T12_A3_offer,quests,Quest,,敵の巣窟を掃討せよ。大規模な場所に ティア 12のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT12A4,items,Item Name,,[FFD700]AEC[-] [FF0000]Clear Order T12 A4 (Huge)[-]
 aecQuestOrderT12A4Desc,items,Item Desc,,"Use to start a Tier 12 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T12_A4_name,quests,Quest,,"[AEC] T12 Clear | Huge"
-aec_quest_T12_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 12 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T12_A4_name,quests,Quest,,[AEC] T12 一掃 | 巨大
+aec_quest_T12_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 12のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT12A5,items,Item Name,,[FFD700]AEC[-] [FF0000]Clear Order T12 A5 (Massive)[-]
 aecQuestOrderT12A5Desc,items,Item Desc,,"Use to start a Tier 12 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T12_A5_name,quests,Quest,,"[AEC] T12 Clear | Massive"
-aec_quest_T12_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 12 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T12_A5_name,quests,Quest,,[AEC] T12 一掃 | マッシブ
+aec_quest_T12_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大な拠点が ティア 12のAEC敵対勢力で占拠されている。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT13A1,items,Item Name,,[FFD700]AEC[-] [FF0088]Clear Order T13 A1 (Small)[-]
 aecQuestOrderT13A1Desc,items,Item Desc,,"Use to start a Tier 13 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T13_A1_name,quests,Quest,,"[AEC] T13 Clear | Small"
-aec_quest_T13_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 13 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T13_A1_name,quests,Quest,,[AEC] T13 一掃 | 小型
+aec_quest_T13_A1_offer,quests,Quest,,敵の侵入を阻止せよ。小規模な拠点に ティア 13のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT13A2,items,Item Name,,[FFD700]AEC[-] [FF0088]Clear Order T13 A2 (Medium)[-]
 aecQuestOrderT13A2Desc,items,Item Desc,,"Use to start a Tier 13 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T13_A2_name,quests,Quest,,"[AEC] T13 Clear | Medium"
-aec_quest_T13_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 13 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T13_A2_name,quests,Quest,,[AEC] T13 一掃 | 中
+aec_quest_T13_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 13のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT13A3,items,Item Name,,[FFD700]AEC[-] [FF0088]Clear Order T13 A3 (Large)[-]
 aecQuestOrderT13A3Desc,items,Item Desc,,"Use to start a Tier 13 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T13_A3_name,quests,Quest,,"[AEC] T13 Clear | Large"
-aec_quest_T13_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 13 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T13_A3_name,quests,Quest,,[AEC] T13 一掃 | ラージ
+aec_quest_T13_A3_offer,quests,Quest,,敵の侵入を阻止せよ。大規模な拠点に ティア 13のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT13A4,items,Item Name,,[FFD700]AEC[-] [FF0088]Clear Order T13 A4 (Huge)[-]
 aecQuestOrderT13A4Desc,items,Item Desc,,"Use to start a Tier 13 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T13_A4_name,quests,Quest,,"[AEC] T13 Clear | Huge"
-aec_quest_T13_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 13 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T13_A4_name,quests,Quest,,[AEC] T13 一掃 | 巨大
+aec_quest_T13_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 13のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT13A5,items,Item Name,,[FFD700]AEC[-] [FF0088]Clear Order T13 A5 (Massive)[-]
 aecQuestOrderT13A5Desc,items,Item Desc,,"Use to start a Tier 13 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T13_A5_name,quests,Quest,,"[AEC] T13 Clear | Massive"
-aec_quest_T13_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 13 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T13_A5_name,quests,Quest,,[AEC] T13一掃 | マッシブ
+aec_quest_T13_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。大規模な場所に ティア 13のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT14A1,items,Item Name,,[FFD700]AEC[-] [CC00FF]Clear Order T14 A1 (Small)[-]
 aecQuestOrderT14A1Desc,items,Item Desc,,"Use to start a Tier 14 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T14_A1_name,quests,Quest,,"[AEC] T14 Clear | Small"
-aec_quest_T14_A1_offer,quests,Quest,,"Purge the infestation. A Small location has been flagged with Tier 14 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T14_A1_name,quests,Quest,,[AEC] T14 透明 | 小型
+aec_quest_T14_A1_offer,quests,Quest,,敵の侵入を阻止せよ。小規模な場所に ティア 14のAEC敵が出現している。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT14A2,items,Item Name,,[FFD700]AEC[-] [CC00FF]Clear Order T14 A2 (Medium)[-]
 aecQuestOrderT14A2Desc,items,Item Desc,,"Use to start a Tier 14 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T14_A2_name,quests,Quest,,"[AEC] T14 Clear | Medium"
-aec_quest_T14_A2_offer,quests,Quest,,"Purge the infestation. A Medium location has been flagged with Tier 14 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T14_A2_name,quests,Quest,,[AEC] T14 一掃 | 中
+aec_quest_T14_A2_offer,quests,Quest,,敵の侵入を阻止せよ。中規模地点に ティア 14のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT14A3,items,Item Name,,[FFD700]AEC[-] [CC00FF]Clear Order T14 A3 (Large)[-]
 aecQuestOrderT14A3Desc,items,Item Desc,,"Use to start a Tier 14 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T14_A3_name,quests,Quest,,"[AEC] T14 Clear | Large"
-aec_quest_T14_A3_offer,quests,Quest,,"Purge the infestation. A Large location has been flagged with Tier 14 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T14_A3_name,quests,Quest,,[AEC] T14 一掃 | ラージ
+aec_quest_T14_A3_offer,quests,Quest,,敵対勢力を一掃せよ。大規模な拠点に ティア 14のAEC敵対勢力が出現した。拠点を制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT14A4,items,Item Name,,[FFD700]AEC[-] [CC00FF]Clear Order T14 A4 (Huge)[-]
 aecQuestOrderT14A4Desc,items,Item Desc,,"Use to start a Tier 14 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T14_A4_name,quests,Quest,,"[AEC] T14 Clear | Huge"
-aec_quest_T14_A4_offer,quests,Quest,,"Purge the infestation. A Huge location has been flagged with Tier 14 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T14_A4_name,quests,Quest,,[AEC] T14 一掃 | 巨大
+aec_quest_T14_A4_offer,quests,Quest,,敵の巣窟を一掃せよ。巨大なエリアに ティア 14のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT14A5,items,Item Name,,[FFD700]AEC[-] [CC00FF]Clear Order T14 A5 (Massive)[-]
 aecQuestOrderT14A5Desc,items,Item Desc,,"Use to start a Tier 14 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T14_A5_name,quests,Quest,,"[AEC] T14 Clear | Massive"
-aec_quest_T14_A5_offer,quests,Quest,,"Purge the infestation. A Massive location has been flagged with Tier 14 AEC hostiles. Clear it and return to any trader for your reward."
+aec_quest_T14_A5_name,quests,Quest,,[AEC] T14一掃 | マッシブ
+aec_quest_T14_A5_offer,quests,Quest,,敵の巣窟を一掃せよ。大規模な場所に ティア 14のAEC敵対勢力が出現した。そこを制圧し、いずれかのトレーダーのところへ戻って報酬を受け取れ。
 aecQuestOrderT15A1,items,Item Name,,[FFD700]AEC[-] [FF44FF]Clear Order T15 A1 (Small)[-]
 aecQuestOrderT15A1Desc,items,Item Desc,,"Use to start a Tier 15 AEC clear in a Small building. Return to any trader to claim rewards."
-aec_quest_T15_A1_name,quests,Quest,,"[AEC] T15 Clear | Small"
-aec_quest_T15_A1_offer,quests,Quest,,"FINAL PURGE. Tier 15 AEC maximum hostiles in a Small structure. Eliminate all and return for your reward."
+aec_quest_T15_A1_name,quests,Quest,,[AEC] T15 透明 | 小型
+aec_quest_T15_A1_offer,quests,Quest,,最終掃討作戦。小型建造物内に ティア 15のAEC（陸軍工兵隊）が最大数出現。全滅させて報酬を受け取れ。
 aecQuestOrderT15A2,items,Item Name,,[FFD700]AEC[-] [FF44FF]Clear Order T15 A2 (Medium)[-]
 aecQuestOrderT15A2Desc,items,Item Desc,,"Use to start a Tier 15 AEC clear in a Medium building. Return to any trader to claim rewards."
-aec_quest_T15_A2_name,quests,Quest,,"[AEC] T15 Clear | Medium"
-aec_quest_T15_A2_offer,quests,Quest,,"FINAL PURGE. Tier 15 AEC maximum hostiles in a Medium structure. Eliminate all and return for your reward."
+aec_quest_T15_A2_name,quests,Quest,,[AEC] T15 一掃 | 中
+aec_quest_T15_A2_offer,quests,Quest,,最終掃討作戦。中型建造物内に ティア 15 AECの敵対勢力が最大数出現。全て排除して報酬を受け取れ。
 aecQuestOrderT15A3,items,Item Name,,[FFD700]AEC[-] [FF44FF]Clear Order T15 A3 (Large)[-]
 aecQuestOrderT15A3Desc,items,Item Desc,,"Use to start a Tier 15 AEC clear in a Large building. Return to any trader to claim rewards."
-aec_quest_T15_A3_name,quests,Quest,,"[AEC] T15 Clear | Large"
-aec_quest_T15_A3_offer,quests,Quest,,"FINAL PURGE. Tier 15 AEC maximum hostiles in a Large structure. Eliminate all and return for your reward."
+aec_quest_T15_A3_name,quests,Quest,,[AEC] T15 一掃 | 大型
+aec_quest_T15_A3_offer,quests,Quest,,最終掃討作戦。大型建造物内に ティア 15のAEC（陸軍工兵隊）が最大数出現。全滅させて報酬を受け取れ。
 aecQuestOrderT15A4,items,Item Name,,[FFD700]AEC[-] [FF44FF]Clear Order T15 A4 (Huge)[-]
 aecQuestOrderT15A4Desc,items,Item Desc,,"Use to start a Tier 15 AEC clear in a Huge building. Return to any trader to claim rewards."
-aec_quest_T15_A4_name,quests,Quest,,"[AEC] T15 Clear | Huge"
-aec_quest_T15_A4_offer,quests,Quest,,"FINAL PURGE. Tier 15 AEC maximum hostiles in a Huge structure. Eliminate all and return for your reward."
+aec_quest_T15_A4_name,quests,Quest,,[AEC] T15 一掃 | 巨大
+aec_quest_T15_A4_offer,quests,Quest,,最終掃討作戦。巨大な建造物内に、 ティア 15のAEC（陸軍工兵隊）による最大数の敵が出現。全て排除して報酬を受け取ろう。
 aecQuestOrderT15A5,items,Item Name,,[FFD700]AEC[-] [FF44FF]Clear Order T15 A5 (Massive)[-]
 aecQuestOrderT15A5Desc,items,Item Desc,,"Use to start a Tier 15 AEC clear in a Massive building. Return to any trader to claim rewards."
-aec_quest_T15_A5_name,quests,Quest,,"[AEC] T15 Clear | Massive"
-aec_quest_T15_A5_offer,quests,Quest,,"FINAL PURGE. Tier 15 AEC maximum hostiles in a Massive structure. Eliminate all and return for your reward."
+aec_quest_T15_A5_name,quests,Quest,,[AEC] T15一掃 | マッシブ
+aec_quest_T15_A5_offer,quests,Quest,,最終掃討作戦。巨大建造物内に最大レベルのAEC（陸軍工兵隊）敵が潜伏。全滅させて報酬を受け取れ。
 aecExtremeWorkstation,blocks,Block,,"[FFD700]AEC[-] Extreme Workstation"
 aecExtremeWorkstationDesc,blocks,Block Desc,,"A salvaged radio converted into a black market crafting station. Use it to craft exclusive AEC items."
 aecHeadConverter,blocks,Block,,"[FFD700]AEC[-] Head Converter Workstation"
@@ -6616,203 +6616,203 @@ aecQuestTokenT15A5,,Item,,[FFD700]AEC[-] [FF44FF]Mythic[-] Token [V]
 aecQuestTokenT15A5Desc,,Item,,Token earned from Mythic tier A5 quests. Use it to craft endgame stuffs in the aec extreme workstation.
 aecSchematicT15A5,,Item,,[FFD700]AEC[-] [FFFFFF]Tier 15[-] [FF44FF]Mythic[-] Schematic [V]
 aecSchematicT15A5Desc,,Item,,Read to unlock the crafting recipe for Tier 15 Phase V Quest Order.
-aec_dialog_trader_response_aecjobs,dialogs,Dialog,,"[8800CC]>[8F06CF]>[950BD2]>[A217D7] [A91CDA]A[B022DD]E[B628E0]C[C433E6] [CA39E8]E[D13EEB]n[DE4AF1]d[E54FF4]g[EB55F7]a[F860FC]m[FF66FF]e[F860FC] [F25BF9]C[E54FF4]o[DE4AF1]n[D744EE]t[D13EEB]r[C433E6]a[BD2DE3]c[B628E0]t[A91CDA]s[A217D7] [9C11D5]<[8F06CF]<[8800CC]<[-]"
-aec_info_response_text,dialogs,Dialog,,"[0055AA]>[0A60B5]>[1469BF]> [1E74CA]A[2880D5]E[328BE0]C[3C96EB] [46A0F5]E[50ABFF]n[5AB5FF]d[64BFFF]g[6ECAFF]a[78D4FF]m[7DDBFF]e[82E0FF] [78D4FF]T[6ECAFF]u[64BFFF]t[5AB5FF]o[50ABFF]r[46A0F5]i[3C96EB]a[3290E5]l[2880D5] [1E74CA]<[1469BF]<[0A60B5]<[-]"
-aec_info_stmt_text,dialogs,Dialog,,"[FF4500]AEC Endgame Contracts — Access Locked[-]"
-aec_intro_stmt_text,dialogs,Dialog,,"[FF4500]AEC Endgame Contracts | Active[-]"
-aec_tip1_text,dialogs,Dialog,,"[FFCC33]1.[FF9900] Get vanilla tier 1 to see the first aec quests T00[-]"
-aec_ltip_unlock_text,dialogs,Dialog,,"[FFD700]── HOW TO UNLOCK ──[-]"
-aec_tip2b_text,dialogs,Dialog,,"[FFCC33]2.[FF9900] Higher gamestage unlocks T01-T15 progressively[-]"
-aec_tip2d_text,dialogs,Dialog,,"[FFCC33]   Vanilla T1=T00 | Vanilla T2=T07 | Vanilla T3=T08 | Vanilla T4=T09 | Vanilla T5=T10[-]"
-aec_tip2c_text,dialogs,Dialog,,"[FFCC33]   Vanilla T6=T05 | GS 1200=T06 | GS 2000=T07 | GS 3200=T08 | GS 5000=T09 | GS 7500=T10[-]"
+aec_dialog_trader_response_aecjobs,dialogs,Dialog,,[FF3333][AEC] 高位契約リスト (T05-T15)[-]
+aec_info_response_text,dialogs,Dialog,,[5599FF][AEC] 高位契約チュートリアル[-]
+aec_info_stmt_text,dialogs,Dialog,,[FF4500]AEC エンドゲーム契約 — アクセスロック中[-]
+aec_intro_stmt_text,dialogs,Dialog,,[FF4500]AEC エンドゲーム契約 | 有効[-]
+aec_tip1_text,dialogs,Dialog,,[FFCC33]1.[FF9900] バニラのティア1に到達すると最初のAECクエスト T00 が出現[-]
+aec_ltip_unlock_text,dialogs,Dialog,,[FFD700]── アンロック方法 ──[-]
+aec_tip2b_text,dialogs,Dialog,,[FFCC33]2.[FF9900] ゲームステージが上がると T01〜T15 が順次アンロック[-]
+aec_tip2d_text,dialogs,Dialog,,[FFCC33]   バニラ T1=T00 | バニラ T2=T07 | バニラ T3=T08 | バニラ T4=T09 | バニラ T5=T10[-]
+aec_tip2c_text,dialogs,Dialog,,[FFCC33]   バニラ T6=T05 | GS 1200=T06 | GS 2000=T07 | GS 3200=T08 | GS 5000=T09 | GS 7500=T10[-]
 aec_tip3_text,dialogs,Dialog,,"[FFCC33]   GS 10500=T11 | GS 14000=T12 | GS 18000=T13 | GS 22000=T14 | GS 25000=T15[-]"
-aec_tip4_text,dialogs,Dialog,,"[FFCC33]3.[FF9900]Gamestage is updated automatically — check the skill tree tab[-]"
-aec_tip_go_text,dialogs,Dialog,,"[8800CC]>[8F06CF]>[950BD2]>[9C11D5] [A217D7]B[A91CDA]r[B022DD]o[B628E0]w[BD2DE3]s[C433E6]e[CA39E8] [D13EEB]a[D744EE]v[DE4AF1]a[E54FF4]i[EB55F7]l[F25BF9]a[F860FC]b[FF66FF]l[FF66FF]e[F860FC] [F25BF9]A[EB55F7]E[E54FF4]C[DE4AF1] [D744EE]c[D13EEB]o[CA39E8]n[C433E6]t[BD2DE3]r[B628E0]a[B022DD]c[A91CDA]t[A217D7]s[9C11D5] [950BD2]<[8F06CF]<[8800CC]<[-]"
-aec_go_tutorial_text,dialogs,Dialog,,"[5599FF][?] How do AEC contracts work? (Tutorial)[-]"
-aec_tuto_p2_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 2/10 | Token Ladder[-]"
-aec_tuto_p3_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 3/10 | POI Sizes[-]"
-aec_tuto_p4_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 4/10 | Zombie Grades[-]"
-aec_tuto_p5_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 5/10 | Hazard System[-]"
-aec_tuto_p6_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 6/10 | Contract Rewards[-]"
-aec_tuto_p7_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 7/10 | AEC Gear & Drops[-]"
-aec_tp2_l1_text,dialogs,Dialog,,"[FFD700]── TOKEN LADDER ──[-]"
-aec_tp2_l2_text,dialogs,Dialog,,"Each completed AEC contract earns exclusive [FFCC33]AEC Tokens[-]"
-aec_tp2_l3_text,dialogs,Dialog,,"Tokens unlock higher-tier recipes"
-aec_tp3_l1_text,dialogs,Dialog,,"[FFD700]── POI SIZES ──[-]"
-aec_tp3_l2_text,dialogs,Dialog,,"[AAAAAA]A1[-] Small | [AAAAAA]A2[-] Medium | [AAAAAA]A3[-] Large | [AAAAAA]A4[-] Huge | [AAAAAA]A5[-] Massive"
-aec_tp3_l3_text,dialogs,Dialog,,"Larger POIs give more XP, more loot slots and higher token rewards"
-aec_tp3_l4_text,dialogs,Dialog,,"[00FF66]Each tier starts with small POIs, then finish to massive POIs[-]"
-aec_tp4_l1_text,dialogs,Dialog,,"[FFD700]── ZOMBIE GRADES ──[-]"
-aec_tp4_l2_text,dialogs,Dialog,,"11 grades: [00FF66]T05 Veteran[-] → [FFCC33]T10 Nightmare[-] → [FF3333]T15 Mythic[-]"
-aec_tp4_l3_text,dialogs,Dialog,,"[FF3333]T15 Mythic hits ~10x harder than T05. Scale your gear accordingly[-]"
-aec_tp5_l1_text,dialogs,Dialog,,"[FFD700]── HAZARD SYSTEM ──[-]"
-aec_tp5_l2_text,dialogs,Dialog,,"Killing in biomes raises your Hazard level (1 to 5)"
-aec_tp5_l3_text,dialogs,Dialog,,"Higher Hazard = denser packs and higher zombie grades"
-aec_tp5_l4_text,dialogs,Dialog,,"[FF3333]Hazard 5: mass convergence — evacuate or fortify immediately[-]"
-aec_tp6_l1_text,dialogs,Dialog,,"[FFD700]── CONTRACT REWARDS ──[-]"
-aec_tp6_l2_text,dialogs,Dialog,,"Casino coins: [00FF66]500 (T05)[-] up to [FF4500]7,500 (T15)[-]"
-aec_tp6_l3_text,dialogs,Dialog,,"XP: up to [FFCC33]750,000 XP[-] (T15 A5) | 3 loot slots per contract"
-aec_tp7_l1_text,dialogs,Dialog,,"[FFD700]── AEC GEAR & DROPS ──[-]"
-aec_tp7_l2_text,dialogs,Dialog,,"AEC gear works as [FFCC33]weapon/tool/armor mutators[-]"
-aec_tp7_l3_text,dialogs,Dialog,,"Materials sources: boss and high-tier zombie kills | quests | misc loot"
-aec_tuto_p8_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 8/10 | Head Converter[-]"
-aec_tuto_p9_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 9/10 | Nemesis System[-]"
-aec_tuto_p10_text,dialogs,Dialog,,"[5599FF]AEC Tutorial — 10/10 | Nemesis — Wars & Migration[-]"
-aec_th_p8_text,dialogs,Dialog,,"[FFD700]── HEAD CONVERTER WORKSTATION ──[-]"
-aec_tp8_l1_text,dialogs,Dialog,,"Use the [FFCC33]Head Converter Workstation[-] to convert [FF3333]minion and boss heads[-] into normal heads"
-aec_tp8_l2_text,dialogs,Dialog,,"Minion and boss heads are dropped by [FF8800]AEC boss/minions[-]"
-aec_tp8_l3_text,dialogs,Dialog,,"Converted heads can be used in [FFCC33]recipes, contracts, and trade[-]"
-aec_tp8_l4_text,dialogs,Dialog,,"[00FF66]The workstation can be made directly, without basic workstation[-]"
-aec_th_p9_text,dialogs,Dialog,,"[FFD700]── NEMESIS SYSTEM ──[-]"
-aec_tp9_l1_text,dialogs,Dialog,,"A pool of [FF3333]named nemesis[-] bosses lives in your world simultaneously"
-aec_tp9_l2_text,dialogs,Dialog,,"6 ranks: [AAAAAA]Lesser[-] | [44BBFF]Greater[-] | [44FF88]Elite[-] | [FFCC33]Champion[-] | [FF8800]Legendary[-] | [FF3333]World[-]"
-aec_tp9_l3_text,dialogs,Dialog,,"Each nemesis has a [FF8800]territory[-], a [FF3333]name[-] and a [FFCC33]title[-] (e.g. GRIMTOOTH the Butcher)"
-aec_tp9_l4_text,dialogs,Dialog,,"Kill a nemesis enough times to permanently destroy it — then its slot refills with a new one"
-aec_th_p10_text,dialogs,Dialog,,"[FFD700]── NEMESIS — GRUDGE & WARS ──[-]"
-aec_tp10_l1_text,dialogs,Dialog,,"Kill a nemesis → it holds a [FF3333]grudge[-]: it may hunt you down personally"
-aec_tp10_l2_text,dialogs,Dialog,,"Kill an AEC boss → a related nemesis may swear [FF8800]revenge[-] against you"
-aec_tp10_l3_text,dialogs,Dialog,,"Periodically: nemesis [FFCC33]hierarchy wars[-] — the loser loses rank, the winner promotes"
-aec_tp10_l4_text,dialogs,Dialog,,"Nemesis [44BBFF]migrate territories[-] over time — they may show up near your base"
+aec_tip4_text,dialogs,Dialog,,[FFCC33]3.[FF9900]ゲームステージは自動更新される — スキルツリータブを確認[-]
+aec_tip_go_text,dialogs,Dialog,,[00CC44][i] 利用可能なAEC契約を閲覧するには、ここをクリックしてください[-]
+aec_go_tutorial_text,dialogs,Dialog,,[5599FF][?] AEC契約の仕組みは？（チュートリアル）[-]
+aec_tuto_p2_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 2/10 | トークンラダー[-]
+aec_tuto_p3_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 3/10 | POIのサイズ[-]
+aec_tuto_p4_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 4/10 | ゾンビグレード[-]
+aec_tuto_p5_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 5/10 | ハザードシステム[-]
+aec_tuto_p6_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 6/10 | 契約報酬[-]
+aec_tuto_p7_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 7/10 | AEC装備とドロップ[-]
+aec_tp2_l1_text,dialogs,Dialog,,[FFD700]── トークンラダー ──[-]
+aec_tp2_l2_text,dialogs,Dialog,,AEC契約を完了するごとに専用の [FFCC33]AECトークン[-] を獲得
+aec_tp2_l3_text,dialogs,Dialog,,トークンでより上位のティアのレシピをアンロック
+aec_tp3_l1_text,dialogs,Dialog,,[FFD700]── POIのサイズ ──[-]
+aec_tp3_l2_text,dialogs,Dialog,,[AAAAAA]A1[-] 小 | [AAAAAA]A2[-] 中 | [AAAAAA]A3[-] 大 | [AAAAAA]A4[-] 特大 | [AAAAAA]A5[-] 超特大
+aec_tp3_l3_text,dialogs,Dialog,,大きなPOIほど、より多くの経験値・戦利品スロット・トークン報酬が得られる
+aec_tp3_l4_text,dialogs,Dialog,,[00FF66]各ティアは小さなPOIから始まり、超特大POIで終わる[-]
+aec_tp4_l1_text,dialogs,Dialog,,[FFD700]── ゾンビグレード ──[-]
+aec_tp4_l2_text,dialogs,Dialog,,11段階: [00FF66]T05 ベテラン[-] → [FFCC33]T10 ナイトメア[-] → [FF3333]T15 ミシック[-]
+aec_tp4_l3_text,dialogs,Dialog,,[FF3333]T15 ミシックは T05 の約10倍のダメージ。装備をそれに合わせて強化せよ[-]
+aec_tp5_l1_text,dialogs,Dialog,,[FFD700]── ハザードシステム ──[-]
+aec_tp5_l2_text,dialogs,Dialog,,バイオームでの撃破によりハザードレベルが上昇（1〜5）
+aec_tp5_l3_text,dialogs,Dialog,,ハザードが高い = より密集した群れとより高いゾンビグレード
+aec_tp5_l4_text,dialogs,Dialog,,[FF3333]ハザード5: 大規模集結 — 直ちに退避するか防御を固めよ[-]
+aec_tp6_l1_text,dialogs,Dialog,,[FFD700]── 契約報酬 ──[-]
+aec_tp6_l2_text,dialogs,Dialog,,"カジノコイン: [00FF66]500 (T05)[-] 〜 [FF4500]7,500 (T15)[-]"
+aec_tp6_l3_text,dialogs,Dialog,,"経験値: 最大 [FFCC33]750,000 XP[-] (T15 A5) | 契約ごとに戦利品スロット3つ"
+aec_tp7_l1_text,dialogs,Dialog,,[FFD700]── AEC装備とドロップ ──[-]
+aec_tp7_l2_text,dialogs,Dialog,,AEC装備は [FFCC33]武器/ツール/防具のミューテーター[-] として機能する
+aec_tp7_l3_text,dialogs,Dialog,,素材の入手先: ボスや高ティアゾンビの撃破 | クエスト | 各種戦利品
+aec_tuto_p8_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 8/10 | ヘッド変換器[-]
+aec_tuto_p9_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 9/10 | ネメシスシステム[-]
+aec_tuto_p10_text,dialogs,Dialog,,[5599FF]AEC チュートリアル — 10/10 | ネメシス — 抗争と移動[-]
+aec_th_p8_text,dialogs,Dialog,,[FFD700]── ヘッド変換作業台 ──[-]
+aec_tp8_l1_text,dialogs,Dialog,,[FFCC33]ヘッド変換作業台[-] を使って [FF3333]ミニオンやボスの頭[-] を通常の頭に変換
+aec_tp8_l2_text,dialogs,Dialog,,ミニオンやボスの頭は [FF8800]AECのボス/ミニオン[-] がドロップする
+aec_tp8_l3_text,dialogs,Dialog,,変換した頭は [FFCC33]レシピ・契約・取引[-] に使える
+aec_tp8_l4_text,dialogs,Dialog,,[00FF66]この作業台は基本作業台なしで直接製作できる[-]
+aec_th_p9_text,dialogs,Dialog,,[FFD700]── ネメシスシステム ──[-]
+aec_tp9_l1_text,dialogs,Dialog,,[FF3333]名前付きネメシス[-] ボスの一団が世界に同時に存在する
+aec_tp9_l2_text,dialogs,Dialog,,6ランク: [AAAAAA]Lesser[-] | [44BBFF]Greater[-] | [44FF88]Elite[-] | [FFCC33]Champion[-] | [FF8800]Legendary[-] | [FF3333]World[-]
+aec_tp9_l3_text,dialogs,Dialog,,各ネメシスは [FF8800]縄張り[-]・[FF3333]名前[-]・[FFCC33]称号[-] を持つ（例: 屠殺者グリムトゥース）
+aec_tp9_l4_text,dialogs,Dialog,,ネメシスを規定回数倒すと完全に消滅する — その枠には新たな個体が補充される
+aec_th_p10_text,dialogs,Dialog,,[FFD700]── ネメシス — 遺恨と抗争 ──[-]
+aec_tp10_l1_text,dialogs,Dialog,,ネメシスを倒す → [FF3333]遺恨[-] を抱く: 個人的にあなたを狙ってくることがある
+aec_tp10_l2_text,dialogs,Dialog,,AECボスを倒す → 関連するネメシスがあなたへの [FF8800]復讐[-] を誓うことがある
+aec_tp10_l3_text,dialogs,Dialog,,定期的に: ネメシスの [FFCC33]階層抗争[-] — 敗者はランクを失い、勝者は昇格する
+aec_tp10_l4_text,dialogs,Dialog,,ネメシスは時間とともに [44BBFF]縄張りを移動[-] する — 拠点の近くに現れることもある
 aec_tph_text,dialogs,Dialog,,"....................."
-dialog_trader_response_aec_resetquests,dialogs,Dialog,,"[AA88CC]~ Reset quest display / fix bugged quest list ~[-]"
-aec_dialog_header,dialogs,Dialog,,"AEC High-Tier Contracts | T05-T15 | All POI Sizes"
-aec_dialog_trader_response_aecjobs_a1,dialogs,Dialog,,"[AEC] Contracts by POI Size: A1 Small"
-aec_dialog_trader_response_aecjobs_a2,dialogs,Dialog,,"[AEC] Contracts by POI Size: A2 Medium"
-aec_dialog_trader_response_aecjobs_a3,dialogs,Dialog,,"[AEC] Contracts by POI Size: A3 Large"
-aec_dialog_trader_response_aecjobs_a4,dialogs,Dialog,,"[AEC] Contracts by POI Size: A4 Huge"
-aec_dialog_trader_response_aecjobs_a5,dialogs,Dialog,,"[AEC] Contracts by POI Size: A5 Massive"
+dialog_trader_response_aec_resetquests,dialogs,Dialog,,[AA88CC]~ クエスト表示をリセット / 不具合のあるクエスト一覧を修正 ~[-]
+aec_dialog_header,dialogs,Dialog,,AECハイ ティア 契約 | T05～T15 | 全てのPOIサイズ
+aec_dialog_trader_response_aecjobs_a1,dialogs,Dialog,,[AEC] POIサイズ別契約：A1サイズ（小）
+aec_dialog_trader_response_aecjobs_a2,dialogs,Dialog,,[AEC] POIサイズ別契約件数：A2サイズ（中）
+aec_dialog_trader_response_aecjobs_a3,dialogs,Dialog,,[AEC] POI別契約書 サイズ：A3大
+aec_dialog_trader_response_aecjobs_a4,dialogs,Dialog,,[AEC] POI別契約書 サイズ：A4特大
+aec_dialog_trader_response_aecjobs_a5,dialogs,Dialog,,[AEC] POIサイズ別契約：A5判大型
 
-aec_base_statement,quests,Quest,,"[AEC] Contract"
+aec_base_statement,quests,Quest,,[AEC] 契約
 
-aec_quest_T05_statement,quests,Quest,,"[AEC T05] Zombie Elimination"
+aec_quest_T05_statement,quests,Quest,,[AEC T05] ゾンビ排除
 
-aec_quest_T06_statement,quests,Quest,,"[AEC T06] Zombie Elimination"
+aec_quest_T06_statement,quests,Quest,,[AEC T06] ゾンビ排除
 
-aec_quest_T07_statement,quests,Quest,,"[AEC T07] Zombie Elimination"
+aec_quest_T07_statement,quests,Quest,,[AEC T07] ゾンビ排除
 
-aec_quest_T08_statement,quests,Quest,,"[AEC T08] Zombie Elimination"
+aec_quest_T08_statement,quests,Quest,,[AEC T08] ゾンビ排除
 
-aec_quest_T09_statement,quests,Quest,,"[AEC T09] Zombie Elimination"
+aec_quest_T09_statement,quests,Quest,,[AEC T09] ゾンビ排除
 
-aec_quest_T10_statement,quests,Quest,,"[AEC T10] Zombie Elimination"
+aec_quest_T10_statement,quests,Quest,,[AEC T10] ゾンビ排除
 
-aec_quest_T11_statement,quests,Quest,,"[AEC T11] Zombie Elimination"
+aec_quest_T11_statement,quests,Quest,,[AEC T11] ゾンビ排除
 
-aec_quest_T12_statement,quests,Quest,,"[AEC T12] Zombie Elimination"
+aec_quest_T12_statement,quests,Quest,,[AEC T12] ゾンビ排除
 
-aec_quest_T13_statement,quests,Quest,,"[AEC T13] Zombie Elimination"
+aec_quest_T13_statement,quests,Quest,,[AEC T13] ゾンビ排除
 
-aec_quest_T14_statement,quests,Quest,,"[AEC T14] Zombie Elimination"
+aec_quest_T14_statement,quests,Quest,,[AEC T14] ゾンビ排除
 
-aec_quest_T15_statement,quests,Quest,,"[AEC T15] Zombie Elimination"
-
-# AEC Trader Page Headers (EN)
+aec_quest_T15_statement,quests,Quest,,[AEC T15] ゾンビ排除
 
 # AEC Trader Page Headers (EN)
-aec_dialog_a1_t00_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a2_t00_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a3_t00_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a4_t00_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a5_t00_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a1_t01_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a2_t01_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a3_t01_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a4_t01_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a5_t01_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a1_t02_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a2_t02_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a3_t02_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a4_t02_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a5_t02_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a1_t03_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a2_t03_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a3_t03_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a4_t03_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a5_t03_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a1_t04_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a2_t04_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a3_t04_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a4_t04_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a5_t04_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a1_t05_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [55FF55]T05[-] | 6 missions"
-aec_dialog_a1_t06_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [2AFF2A]T06[-] | 6 missions"
-aec_dialog_a1_t07_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [24FF24]T07[-] | 6 missions"
-aec_dialog_a1_t08_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [15FFFF]T08[-] | 6 missions"
-aec_dialog_a1_t09_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [3B77FF]T09[-] | 6 missions"
-aec_dialog_a1_t10_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [1746FF]T10[-] | 6 missions"
-aec_dialog_a1_t11_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [FF7711]T11[-] | 6 missions"
-aec_dialog_a1_t12_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [FF3333]T12[-] | 6 missions"
-aec_dialog_a1_t13_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [FF1C1C]T13[-] | 6 missions"
-aec_dialog_a1_t14_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [FF44BB]T14[-] | 6 missions"
-aec_dialog_a1_t15_header,dialogs,Dialog,,"AEC Contracts | [6699FF]Small[-] POI | AEC Tier [6E2AFF]T15[-] | 6 missions"
-aec_dialog_a2_t00_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a2_t01_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a2_t02_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a2_t03_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a2_t04_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a2_t05_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [55FF55]T05[-] | 6 missions"
-aec_dialog_a2_t06_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [2AFF2A]T06[-] | 6 missions"
-aec_dialog_a2_t07_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [24FF24]T07[-] | 6 missions"
-aec_dialog_a2_t08_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [15FFFF]T08[-] | 6 missions"
-aec_dialog_a2_t09_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [3B77FF]T09[-] | 6 missions"
-aec_dialog_a2_t10_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [1746FF]T10[-] | 6 missions"
-aec_dialog_a2_t11_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FF7711]T11[-] | 6 missions"
-aec_dialog_a2_t12_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FF3333]T12[-] | 6 missions"
-aec_dialog_a2_t13_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FF1C1C]T13[-] | 6 missions"
-aec_dialog_a2_t14_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [FF44BB]T14[-] | 6 missions"
-aec_dialog_a2_t15_header,dialogs,Dialog,,"AEC Contracts | [44BB44]Medium[-] POI | AEC Tier [6E2AFF]T15[-] | 6 missions"
-aec_dialog_a3_t00_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a3_t01_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a3_t02_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a3_t03_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a3_t04_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a3_t05_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [55FF55]T05[-] | 6 missions"
-aec_dialog_a3_t06_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [2AFF2A]T06[-] | 6 missions"
-aec_dialog_a3_t07_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [24FF24]T07[-] | 6 missions"
-aec_dialog_a3_t08_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [15FFFF]T08[-] | 6 missions"
-aec_dialog_a3_t09_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [3B77FF]T09[-] | 6 missions"
-aec_dialog_a3_t10_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [1746FF]T10[-] | 6 missions"
-aec_dialog_a3_t11_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FF7711]T11[-] | 6 missions"
-aec_dialog_a3_t12_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FF3333]T12[-] | 6 missions"
-aec_dialog_a3_t13_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FF1C1C]T13[-] | 6 missions"
-aec_dialog_a3_t14_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [FF44BB]T14[-] | 6 missions"
-aec_dialog_a3_t15_header,dialogs,Dialog,,"AEC Contracts | [FFCC00]Large[-] POI | AEC Tier [6E2AFF]T15[-] | 6 missions"
-aec_dialog_a4_t00_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a4_t01_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a4_t02_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a4_t03_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a4_t04_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a4_t05_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [55FF55]T05[-] | 6 missions"
-aec_dialog_a4_t06_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [2AFF2A]T06[-] | 6 missions"
-aec_dialog_a4_t07_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [24FF24]T07[-] | 6 missions"
-aec_dialog_a4_t08_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [15FFFF]T08[-] | 6 missions"
-aec_dialog_a4_t09_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [3B77FF]T09[-] | 6 missions"
-aec_dialog_a4_t10_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [1746FF]T10[-] | 6 missions"
-aec_dialog_a4_t11_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FF7711]T11[-] | 6 missions"
-aec_dialog_a4_t12_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FF3333]T12[-] | 6 missions"
-aec_dialog_a4_t13_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FF1C1C]T13[-] | 6 missions"
-aec_dialog_a4_t14_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [FF44BB]T14[-] | 6 missions"
-aec_dialog_a4_t15_header,dialogs,Dialog,,"AEC Contracts | [FF5522]Huge[-] POI | AEC Tier [6E2AFF]T15[-] | 6 missions"
-aec_dialog_a5_t00_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [AAAAAA]T00[-] | 6 missions"
-aec_dialog_a5_t01_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [44BBFF]T01[-] | 6 missions"
-aec_dialog_a5_t02_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [44FFAA]T02[-] | 6 missions"
-aec_dialog_a5_t03_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FFCC00]T03[-] | 6 missions"
-aec_dialog_a5_t04_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FF8800]T04[-] | 6 missions"
-aec_dialog_a5_t05_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [55FF55]T05[-] | 6 missions"
-aec_dialog_a5_t06_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [2AFF2A]T06[-] | 6 missions"
-aec_dialog_a5_t07_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [24FF24]T07[-] | 6 missions"
-aec_dialog_a5_t08_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [15FFFF]T08[-] | 6 missions"
-aec_dialog_a5_t09_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [3B77FF]T09[-] | 6 missions"
-aec_dialog_a5_t10_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [1746FF]T10[-] | 6 missions"
-aec_dialog_a5_t11_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FF7711]T11[-] | 6 missions"
-aec_dialog_a5_t12_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FF3333]T12[-] | 6 missions"
-aec_dialog_a5_t13_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FF1C1C]T13[-] | 6 missions"
-aec_dialog_a5_t14_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [FF44BB]T14[-] | 6 missions"
-aec_dialog_a5_t15_header,dialogs,Dialog,,"AEC Contracts | [BB44FF]Massive[-] POI | AEC Tier [6E2AFF]T15[-] | 6 missions"
-aec_dialog_next_tier,dialogs,Dialog,,"Next difficulty tier"
-aec_dialog_prev_tier,dialogs,Dialog,,"Previous difficulty tier"
-aec_dialog_tuto_next,dialogs,Dialog,,"Next tutorial page"
-aec_dialog_tuto_prev,dialogs,Dialog,,"Previous tutorial page"
+
+# AEC Trader Page Headers (EN)
+aec_dialog_a1_t00_header,dialogs,Dialog,,AEC 契約 | [6699FF]小[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a2_t00_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a3_t00_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a4_t00_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a5_t00_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a1_t01_header,dialogs,Dialog,,AEC 契約 | [6699FF]小[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a2_t01_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a3_t01_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a4_t01_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a5_t01_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a1_t02_header,dialogs,Dialog,,AEC 契約 | [6699FF]小[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a2_t02_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a3_t02_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a4_t02_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a5_t02_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a1_t03_header,dialogs,Dialog,,AEC 契約 | [6699FF]小[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a2_t03_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a3_t03_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a4_t03_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a5_t03_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a1_t04_header,dialogs,Dialog,,AEC 契約 | [6699FF]小[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a2_t04_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a3_t04_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a4_t04_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a5_t04_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a1_t05_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T05 | 6ミッション
+aec_dialog_a1_t06_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T06 | 6ミッション
+aec_dialog_a1_t07_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T07 | 6ミッション
+aec_dialog_a1_t08_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T08 | 6ミッション
+aec_dialog_a1_t09_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T09 | 6ミッション
+aec_dialog_a1_t10_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T10 | 6ミッション
+aec_dialog_a1_t11_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T11 | 6ミッション
+aec_dialog_a1_t12_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T12 | 6ミッション
+aec_dialog_a1_t13_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T13 | 6ミッション
+aec_dialog_a1_t14_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T14 | 6ミッション
+aec_dialog_a1_t15_header,dialogs,Dialog,,AEC契約 | 小規模POI | AEC ティア T15 | 6ミッション
+aec_dialog_a2_t00_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a2_t01_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a2_t02_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a2_t03_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a2_t04_header,dialogs,Dialog,,AEC 契約 | [44BB44]中[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a2_t05_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T05 | 6ミッション
+aec_dialog_a2_t06_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T06 | 6ミッション
+aec_dialog_a2_t07_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T07 | 6ミッション
+aec_dialog_a2_t08_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T08 | 6ミッション
+aec_dialog_a2_t09_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T09 | 6ミッション
+aec_dialog_a2_t10_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T10 | 6ミッション
+aec_dialog_a2_t11_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T11 | 6ミッション
+aec_dialog_a2_t12_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T12 | 6ミッション
+aec_dialog_a2_t13_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T13 | 6ミッション
+aec_dialog_a2_t14_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T14 | 6ミッション
+aec_dialog_a2_t15_header,dialogs,Dialog,,AEC契約 | 中規模POI | AEC ティア T15 | 6ミッション
+aec_dialog_a3_t00_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a3_t01_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a3_t02_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a3_t03_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a3_t04_header,dialogs,Dialog,,AEC 契約 | [FFCC00]大[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a3_t05_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T05 | 6ミッション
+aec_dialog_a3_t06_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T06 | 6ミッション
+aec_dialog_a3_t07_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T07 | 6ミッション
+aec_dialog_a3_t08_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T08 | 6ミッション
+aec_dialog_a3_t09_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T09 | 6ミッション
+aec_dialog_a3_t10_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T10 | 6ミッション
+aec_dialog_a3_t11_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T11 | 6ミッション
+aec_dialog_a3_t12_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T12 | 6ミッション
+aec_dialog_a3_t13_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T13 | 6ミッション
+aec_dialog_a3_t14_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T14 | 6ミッション
+aec_dialog_a3_t15_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T15 | 6ミッション
+aec_dialog_a4_t00_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a4_t01_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a4_t02_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a4_t03_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a4_t04_header,dialogs,Dialog,,AEC 契約 | [FF5522]巨大[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a4_t05_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T05 | 6ミッション
+aec_dialog_a4_t06_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T06 | 6ミッション
+aec_dialog_a4_t07_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T07 | 6ミッション
+aec_dialog_a4_t08_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T08 | 6ミッション
+aec_dialog_a4_t09_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T09 | 6ミッション
+aec_dialog_a4_t10_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T10 | 6ミッション
+aec_dialog_a4_t11_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T11 | 6ミッション
+aec_dialog_a4_t12_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T12 | 6ミッション
+aec_dialog_a4_t13_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T13 | 6ミッション
+aec_dialog_a4_t14_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T14 | 6ミッション
+aec_dialog_a4_t15_header,dialogs,Dialog,,AEC契約 | 巨大なPOI | AEC ティア T15 | 6ミッション
+aec_dialog_a5_t00_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [AAAAAA]T00[-] | 6 ミッション
+aec_dialog_a5_t01_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [44BBFF]T01[-] | 6 ミッション
+aec_dialog_a5_t02_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [44FFAA]T02[-] | 6 ミッション
+aec_dialog_a5_t03_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [FFCC00]T03[-] | 6 ミッション
+aec_dialog_a5_t04_header,dialogs,Dialog,,AEC 契約 | [BB44FF]超巨大[-] POI | AEC ティア [FF8800]T04[-] | 6 ミッション
+aec_dialog_a5_t05_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T05 | 6ミッション
+aec_dialog_a5_t06_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T06 | 6ミッション
+aec_dialog_a5_t07_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T07 | 6ミッション
+aec_dialog_a5_t08_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T08 | 6ミッション
+aec_dialog_a5_t09_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T09 | 6ミッション
+aec_dialog_a5_t10_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T10 | 6ミッション
+aec_dialog_a5_t11_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T11 | 6ミッション
+aec_dialog_a5_t12_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T12 | 6ミッション
+aec_dialog_a5_t13_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T13 | 6ミッション
+aec_dialog_a5_t14_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T14 | 6ミッション
+aec_dialog_a5_t15_header,dialogs,Dialog,,AEC契約 | 大規模POI | AEC ティア T15 | 6ミッション
+aec_dialog_next_tier,dialogs,Dialog,,次の難易度ティア
+aec_dialog_prev_tier,dialogs,Dialog,,前の難易度ティア
+aec_dialog_tuto_next,dialogs,Dialog,,次のチュートリアルページ
+aec_dialog_tuto_prev,dialogs,Dialog,,前のチュートリアルページ
 
 # === AEC PROGRESSION CATEGORY ===
 attAecProgression,progression,Attribute,,"[FFD700]AEC | Endgame[-]"
@@ -7676,50 +7676,50 @@ aecEOTutorialBook10,items,Item Name,,"[66B3FF]AEC EO TUTORIAL | 10th note[-]"
 aecEOTutorialBook10Desc,items,Item Desc,,"Open to start Chapter 10 of the AEC EO tutorial chain."
 aecEOTutorialBook11,items,Item Name,,"[66B3FF]AEC EO TUTORIAL | 11th note[-]"
 aecEOTutorialBook11Desc,items,Item Desc,,"Open to start Chapter 11 of the AEC EO tutorial chain."
-aec_eo_tutorial_01_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 1st note[-]"
-aec_eo_tutorial_01_offer,quests,Quest,,"Collect 1 AEC Basic Token (T00 A1) to validate your first AEC objective. You need to talk to the traders, complete the first job to have access to the first AEC contracts. The AEC contracts will give you tokens by finishing the quests."
-aec_eo_tutorial_01_desc,quests,Quest,,"Chapter 1: recover your first AEC token to initialize the tutorial chain. Collect 1 AEC Basic Token (T00 A1) to validate your first AEC objective. You need to talk to the traders, complete the first job to have access to the first AEC contracts. The AEC contracts will give you tokens by finishing the quests. Be sure to have disable EAC when booting 7d2d"
-aec_eo_tutorial_02_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 2nd note[-]"
-aec_eo_tutorial_02_offer,quests,Quest,,"Collect 1 AEC Tier 05 Token (A1). You need to complete the 5 vanilla tiers to have access to the T05 AEC contracts. Check the requirements in the skill tab"
-aec_eo_tutorial_02_desc,quests,Quest,,"Chapter 2: secure a Tier 05 token and prepare for combat chapters. Collect 1 AEC Tier 05 Token (A1). You need to complete the 5 vanilla tiers to have access to the T05 AEC contracts. Check the requirements in the skill tab."
-aec_eo_tutorial_03_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 3rd note[-]"
-aec_eo_tutorial_03_offer,quests,Quest,,"Eliminate Dumdum minions and boss, veteran zombies, and executioner minions."
-aec_eo_tutorial_03_desc,quests,Quest,,"Chapter 3: complete the mixed combat trial against AEC special targets. Eliminate Dumdum minions and boss, veteran zombies, and executioner minions."
-aec_eo_tutorial_04_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 4th note[-]"
-aec_eo_tutorial_04_offer,quests,Quest,,"Craft 1 AEC Extreme Mod Crafting Table."
-aec_eo_tutorial_04_desc,quests,Quest,,"Chapter 4: build your AEC extreme workstation. Craft 1 AEC Extreme Mod Crafting Table."
-aec_eo_tutorial_05_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 5th note[-]"
-aec_eo_tutorial_05_offer,quests,Quest,,"Craft 1 AEC Empty Mutator."
-aec_eo_tutorial_05_desc,quests,Quest,,"Chapter 5: craft an empty mutator to unlock the other mutators. Craft 1 AEC Empty Mutator."
-aec_eo_tutorial_06_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 6th note[-]"
-aec_eo_tutorial_06_offer,quests,Quest,,"Kill 10 headless minions."
-aec_eo_tutorial_06_desc,quests,Quest,,"Chapter 6: survive and clear a headless minion wave. Kill 10 headless minions."
-aec_eo_tutorial_07_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 7th note[-]"
-aec_eo_tutorial_07_offer,quests,Quest,,"Craft 1 AEC Mutator Power 01."
-aec_eo_tutorial_07_desc,quests,Quest,,"Chapter 7: craft your first power mutator. Craft 1 AEC Mutator Power 01."
-aec_eo_tutorial_08_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 8th note[-]"
-aec_eo_tutorial_08_offer,quests,Quest,,"Kill Tier05 zombies and executioner minions (star 2)."
-aec_eo_tutorial_08_desc,quests,Quest,,"Chapter 8: complete the second combat checkpoint. Kill T05 zombies and executioner minions (star 2)."
-aec_eo_tutorial_09_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 9th note[-]"
-aec_eo_tutorial_09_offer,quests,Quest,,"Craft 1 AEC Mutator Power 02."
-aec_eo_tutorial_09_desc,quests,Quest,,"Chapter 9: upgrade your mutator progression to power 02. Craft 1 AEC Mutator Power 02."
-aec_eo_tutorial_10_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 10th note[-]"
-aec_eo_tutorial_10_offer,quests,Quest,,"Kill headless/doomlord/witch minions (star 2) and veteran zombies."
-aec_eo_tutorial_10_desc,quests,Quest,,"Chapter 10: clear the elite mixed-minion trial. Kill headless/doomlord/witch minions (star 2) and veteran zombies."
-aec_eo_tutorial_11_name,quests,Quest,,"[66B3FF]AEC EO TUTORIAL | 11th note[-]"
-aec_eo_tutorial_11_offer,quests,Quest,,"Craft 1 AEC Head Converter."
-aec_eo_tutorial_11_desc,quests,Quest,,"Chapter 11: craft the Head Converter to complete the AEC EO tutorial line. Craft 1 AEC Head Converter."
-aec_eo_tutorial_03_obj_dumdum_minions,quests,Quest,,"Dumdum Minions"
-aec_eo_tutorial_03_obj_dumdum_boss,quests,Quest,,"Dumdum Boss"
-aec_eo_tutorial_03_obj_tier05,quests,Quest,,"Tier 05 AEC Zombies"
-aec_eo_tutorial_03_obj_executioner_minions,quests,Quest,,"Executioner Minions"
-aec_eo_tutorial_06_obj_headless_minions,quests,Quest,,"Headless Minions"
-aec_eo_tutorial_08_obj_tier05,quests,Quest,,"Tier 05 AEC Zombies"
-aec_eo_tutorial_08_obj_executioner_t06,quests,Quest,,"Executioner Minions (Tier 06+)"
-aec_eo_tutorial_10_obj_headless_t06,quests,Quest,,"Headless Minions (Tier 06+)"
-aec_eo_tutorial_10_obj_doomlord_t06,quests,Quest,,"Doomlord Minions (Tier 06+)"
-aec_eo_tutorial_10_obj_witch_t06,quests,Quest,,"Witch Minions (Tier 06+)"
-aec_eo_tutorial_10_obj_tier05,quests,Quest,,"Tier 05 AEC Zombies"
+aec_eo_tutorial_01_name,quests,Quest,,AEC エンドゲーム・チュートリアル 01
+aec_eo_tutorial_01_offer,quests,Quest,,"Collect 1 AEC ベーシック トークン (T00 A1)（最初のAEC目標を達成するため）. You need to talk to traders, 完了 最初の job to have access to 最初の AEC contracts. AEC contracts will give you tokens by finishing クエスト."
+aec_eo_tutorial_01_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 01の案内です。
+aec_eo_tutorial_02_name,quests,Quest,,AEC エンドゲーム・チュートリアル 02
+aec_eo_tutorial_02_offer,quests,Quest,,Collect 1 AEC ティア 05 トークン (A1). You need to 完了 5 バニラ tiers to have access to T05 AEC contracts. Check requirements in skill tab
+aec_eo_tutorial_02_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 02の案内です。
+aec_eo_tutorial_03_name,quests,Quest,,AEC エンドゲーム・チュートリアル 03
+aec_eo_tutorial_03_offer,quests,Quest,,"排除せよ: ダムダム ミニオン と ボス, ベテラン 体のゾンビ, と executioner ミニオン."
+aec_eo_tutorial_03_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 03の案内です。
+aec_eo_tutorial_04_name,quests,Quest,,AEC エンドゲーム・チュートリアル 04
+aec_eo_tutorial_04_offer,quests,Quest,,製作せよ: 1 AEC エクストリームMod製作台.
+aec_eo_tutorial_04_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 04の案内です。
+aec_eo_tutorial_05_name,quests,Quest,,AEC エンドゲーム・チュートリアル 05
+aec_eo_tutorial_05_offer,quests,Quest,,製作せよ: 1 AEC Empty Mutator.
+aec_eo_tutorial_05_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 05の案内です。
+aec_eo_tutorial_06_name,quests,Quest,,AEC エンドゲーム・チュートリアル 06
+aec_eo_tutorial_06_offer,quests,Quest,,撃破せよ: 10 headless ミニオン.
+aec_eo_tutorial_06_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 06の案内です。
+aec_eo_tutorial_07_name,quests,Quest,,AEC エンドゲーム・チュートリアル 07
+aec_eo_tutorial_07_offer,quests,Quest,,製作せよ: 1 AEC Mutator Power 01.
+aec_eo_tutorial_07_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 07の案内です。
+aec_eo_tutorial_08_name,quests,Quest,,AEC エンドゲーム・チュートリアル 08
+aec_eo_tutorial_08_offer,quests,Quest,,撃破せよ: Tier05 体のゾンビ と executioner ミニオン (star 2).
+aec_eo_tutorial_08_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 08の案内です。
+aec_eo_tutorial_09_name,quests,Quest,,AEC エンドゲーム・チュートリアル 09
+aec_eo_tutorial_09_offer,quests,Quest,,製作せよ: 1 AEC Mutator Power 02.
+aec_eo_tutorial_09_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 09の案内です。
+aec_eo_tutorial_10_name,quests,Quest,,AEC エンドゲーム・チュートリアル 10
+aec_eo_tutorial_10_offer,quests,Quest,,撃破せよ: headless/doomlord/witch ミニオン (star 2) と ベテラン 体のゾンビ.
+aec_eo_tutorial_10_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 10の案内です。
+aec_eo_tutorial_11_name,quests,Quest,,AEC エンドゲーム・チュートリアル 11
+aec_eo_tutorial_11_offer,quests,Quest,,製作せよ: 1 AECの頭 Converter.
+aec_eo_tutorial_11_desc,quests,Quest,,AEC エンドゲーム・チュートリアル 11の案内です。
+aec_eo_tutorial_03_obj_dumdum_minions,quests,Quest,,ダムダム ミニオン
+aec_eo_tutorial_03_obj_dumdum_boss,quests,Quest,,ダムダム ボス
+aec_eo_tutorial_03_obj_tier05,quests,Quest,,ティア 05 AEC ゾンビ
+aec_eo_tutorial_03_obj_executioner_minions,quests,Quest,,処刑人 ミニオン
+aec_eo_tutorial_06_obj_headless_minions,quests,Quest,,ヘッドレス ミニオン
+aec_eo_tutorial_08_obj_tier05,quests,Quest,,ティア 05 AEC ゾンビ
+aec_eo_tutorial_08_obj_executioner_t06,quests,Quest,,処刑人 ミニオン （ティア 06+)
+aec_eo_tutorial_10_obj_headless_t06,quests,Quest,,ヘッドレス ミニオン （ティア 06+)
+aec_eo_tutorial_10_obj_doomlord_t06,quests,Quest,,ドゥームロード ミニオン （ティア 06+)
+aec_eo_tutorial_10_obj_witch_t06,quests,Quest,,魔女 ミニオン （ティア 06+)
+aec_eo_tutorial_10_obj_tier05,quests,Quest,,ティア 05 AEC ゾンビ
 
 aecNecroforgeAmmoBundleDesc,items,Item Desc,,Open to receive amplified ammo from the Necroforge.
 aecNecroBundleAmmo9mmT00,items,Item,,Necroforge 9mm Bundle T00
