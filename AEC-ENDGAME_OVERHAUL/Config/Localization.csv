@@ -1,4 +1,4 @@
-Key,Source,Context,Changes,English
+﻿Key,Source,Context,Changes,English
 buffAECNewbieProtection,buffs,Buff,,"[50DC50]Newbie protection[-]"
 buffAECNewbieProtectionDesc,buffs,Buff,,"You are below Game Stage 100. AEC events will not directly target you or alter nearby spawns for you. Heatmap will still affect your surrounding spawns."
 buffAECSafeZone,buffs,Buff,,"[00FF66]Stable Zone[-]"
