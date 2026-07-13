@@ -1,4 +1,4 @@
-﻿{
+{
   "_comment_pool": "=== POOL SIZE === Total number of active nemesis in the world",
   "poolMaxSize": 40,
   "_comment_poolMaxSize": "Maximum number of nemesis records in the pool (hard cap)",

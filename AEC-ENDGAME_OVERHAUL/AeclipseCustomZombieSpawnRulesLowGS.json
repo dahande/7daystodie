@@ -1,4 +1,4 @@
-﻿{
+{
     "_comment":  "Vanilla zombie spawn rules. Tiers: 00=Normal 01=Feral 02=Radiated 03=Charged 04=Infernal.",
     "fallbackGroup":  "ZombiesAll",
     "activationGameStage":  0,

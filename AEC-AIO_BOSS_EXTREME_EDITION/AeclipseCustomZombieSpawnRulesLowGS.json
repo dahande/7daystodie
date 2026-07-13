@@ -1,4 +1,4 @@
-﻿{
+{
     "_comment":  "AEC-AIO Boss Extreme Edition spawn rules. Tiers 00-01: 0star only. Tiers 02-03: 0star+1star mixed. Tier 04: 1star only. Ghost=night-only. Animals=noPoi. SheriffMinion=desert-only. Bosses: isBoss=true, weight=1.",
     "fallbackGroup":  "ZombiesAll",
     "activationGameStage":  0,
