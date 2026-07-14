@@ -1,20 +1,30 @@
 <configs>
-<!-- Backpack size and style tweaks -->
-  <setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='header']" name="width">822</setattribute>
+<!-- Backpack size and style tweaks: 12 cols x 8 rows = 96 slots.
+     Narrower than the old 16-col layout so the right columns no longer slide
+     under the forge/loot/workstation right-side panels (fixes overlap and the
+     un-clickable right-edge slots). Width values are the old 16-col numbers
+     scaled by 0.75 (12/16) to keep the same visual proportions; height values
+     grow for 8 rows.
+     NOTE: if the taller 8-row grid overlaps the toolbelt at the bottom in-game,
+     shift the whole window up by uncommenting/adjusting the windowBackpack @pos
+     set at the bottom of this file, or make content @pos less negative. -->
+  <setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='header']" name="width">616</setattribute>
   <setattribute xpath="/windows/window[@name='windowBackpack']/rect[@name='header']" name="pos">0,0</setattribute>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect[@controller='ContainerStandardControls']/button[@name='btnClearInventory']/@pos">250, -22</set>
-  <set xpath="/windows/window[@name='windowBackpack']/@width">826</set>
-  <set xpath="/windows/window[@name='windowBackpack']/@height">460</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect[@controller='ContainerStandardControls']/@pos">280,0</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect[@controller='ContainerStandardControls']/button[@name='btnClearInventory']/@pos">188, -22</set>
+  <set xpath="/windows/window[@name='windowBackpack']/@width">620</set>
+  <set xpath="/windows/window[@name='windowBackpack']/@height">580</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect[@controller='ContainerStandardControls']/@pos">210,0</set>
   <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect/rect/button[@name='btnMoveFillAndSmart']/@sprite">ui_game_symbol_store_similar_up</set>
   <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/rect/rect/button[@name='btnMoveAll']/@sprite">ui_game_symbol_store_all_up</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/label[2]/@pos">690,-8</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/sprite[@name='costIcon']/@pos">781,-10</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/label[2]/@pos">518,-8</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/sprite[@name='costIcon']/@pos">586,-10</set>
   <set xpath="/windows/window[@name='windowBackpack']/rect[@name='header']/sprite[@name='costIcon']/@color">[golden]</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@height">360</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@height">480</set>
   <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/@pos">0,-56</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']/@rows">6</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']/@cols">16</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@width">820</set>
-  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@height">460</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']/@rows">8</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']/@cols">12</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@width">615</set>
+  <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@height">580</set>
+  <!-- If the grid overlaps the toolbelt, uncomment and tune (X keeps vanilla, raise Y):
+  <set xpath="/windows/window[@name='windowBackpack']/@pos">0,0</set> -->
 </configs>
