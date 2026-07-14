@@ -25,6 +25,9 @@
   <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/grid[@name='inventory']/@cols">12</set>
   <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@width">615</set>
   <set xpath="/windows/window[@name='windowBackpack']/rect[@name='content']/sprite[@name='backgroundMain']/@height">580</set>
-  <!-- If the grid overlaps the toolbelt, uncomment and tune (X keeps vanilla, raise Y):
-  <set xpath="/windows/window[@name='windowBackpack']/@pos">0,0</set> -->
+  <!-- Move the whole window up so the taller 8-row grid clears the bottom toolbelt.
+       Coordinate convention here: positive Y = up (header is 0,0, content is 0,-56 = down).
+       Starting value assumes vanilla base pos ~ 0,0. If the backpack shifts sideways,
+       vanilla X was not 0 -> set X back to the correct value. Tune Y for how far up. -->
+  <set xpath="/windows/window[@name='windowBackpack']/@pos">0,70</set>
 </configs>
