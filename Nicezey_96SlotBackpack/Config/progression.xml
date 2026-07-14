@@ -1,0 +1,24 @@
+<configs>
+<!-- Extend the Pack Mule (ラバ) Strength perk from 5 to 10 ranks so the extra
+     ranks can be bought with skill points, giving more encumbrance-free
+     (CarryCapacity) slots to match the 96-slot backpack.
+     CarryCapacity totals continue the vanilla / JP-description pattern
+     (3,6,10,14,18) with +4 per new rank (22,26,30,34,38).
+     Ranks 6-10 are within the Strength attribute cap (level 10), so they are
+     purchasable with points once Strength is high enough. -->
+  <set xpath="/progression/perks/perk[@name='perkPackMule']/@max_level">10</set>
+  <set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity']/@level">1,2,3,4,5,6,7,8,9,10</set>
+  <set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity']/@value">3,6,10,14,18,22,26,30,34,38</set>
+
+<!-- Fallback: if ranks 6-10 appear locked / not purchasable in-game, uncomment
+     these per-rank requirements (gated on the Strength attribute level, which
+     is already maxed at 10):
+  <append xpath="/progression/perks/perk[@name='perkPackMule']">
+    <level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="6"/></level_requirements>
+    <level_requirements level="7"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7"/></level_requirements>
+    <level_requirements level="8"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="8"/></level_requirements>
+    <level_requirements level="9"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="9"/></level_requirements>
+    <level_requirements level="10"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10"/></level_requirements>
+  </append>
+-->
+</configs>
