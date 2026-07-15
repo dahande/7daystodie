@@ -1167,7 +1167,7 @@
 
 	<append xpath="/windows">
 
-		<window name="windowSkillPerkInfo" width="647" height="730" panel="Right" controller="SkillPerkInfoWindow" cursor_area="true" hidden_entries_with_paging="1" >
+		<window name="windowSkillPerkInfo" width="647" height="730" panel="Right" controller="SkillPerkInfoWindow" cursor_area="true" >
 			<rect name="header" height="43" depth="1">
 				<headerbg />
 				<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
