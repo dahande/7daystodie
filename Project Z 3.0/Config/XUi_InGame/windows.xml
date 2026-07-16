@@ -1233,7 +1233,11 @@
 
 	<!-- Z_Perfection | XUi_InGame\windows.xml -->
 
-	<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@width='410']/grid/@cols">12</set>
+	<!-- cols must cover every IsAttribute progression class across all mods (vanilla 5 + ProjectZ 4 + AEC additions).
+	     XUiC_CategoryList.SetupCategoriesByWorkstation("skills") indexes CategoryButtons without bounds checking,
+	     so fewer grid cells than attributes throws ArgumentOutOfRangeException on first skill-screen open
+	     and leaves the category click handlers unwired. -->
+	<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@width='410']/grid/@cols">15</set>
 	<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@width='200']/@pos">240,46</set>
 	<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@width='200']/textfield/@width">144</set>
 	<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@width='104']/@pos">536,0</set>
