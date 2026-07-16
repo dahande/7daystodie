@@ -1,42 +1,42 @@
 {
   "_comment_prefixes": "First half of a nemesis name (e.g. 'Rot', 'Bone'). Combined with a suffix to form names like 'Rotfang' or 'Bonecrusher' - YOU CAN MODIFY THIS LIST",
   "prefixes": [
-    "Rot","Bone","Grave","Dead","Ash","Blood","Rust","Black","Dark","Dread",
-    "Plague","Blight","Flesh","Skull","Corpse","Crypt","Night","Doom","Carrion","Decay",
-    "Hollow","Gore","Scab","Ruin","Tomb","Venom","Pest","Iron","Rage","Fear",
-    "Void","Wretch","Ghoul","Maggot","Terror","Mire","Shadow","Crow","Bile","Cinder",
-    "Howl","Storm","Death","Rotten","Sorrow","Warp","Murk","Bleak","Grim","Vile"
+    "腐","骨","墓","死","灰","血","錆","黒","闇","慄",
+    "疫","枯","肉","髑","屍","棺","夜","滅","骸","朽",
+    "虚","惨","瘡","廃","塚","毒","蟲","鉄","怒","恐",
+    "冥","卑","鬼","蛆","怖","泥","影","鴉","胆","燼",
+    "咆","嵐","葬","爛","哀","歪","昏","荒","凶","穢"
   ],
   "_comment_suffixes": "Second half of a nemesis name (e.g. 'fang', 'jaw'). Combined with a prefix to form names like 'Rotfang' or 'Bonecrusher' - YOU CAN MODIFY THIS LIST",
   "suffixes": [
-    "fang","jaw","maw","tooth","eye","walker","stalker","hunter","reaper","crusher",
-    "render","eater","gnaw","lurker","howler","bringer","caller","spawn","fiend","beast",
-    "lord","king","tyrant","breaker","slayer","butcher","devourer","ravager","terror","bane",
-    "heart","claw","snout","crawler","watcher","seeker","harvester","destroyer","defiler","tormentor",
-    "revenant","abomination","nightmare","doom","wrath","plague","hunger","shadow","requiem","maim"
+    "牙","顎","大口","歯","眼","彷徨","忍び","狩り","刈り","砕き",
+    "裂き","喰らい","齧り","潜み","吼え","運び","呼び","落とし仔","鬼","獣",
+    "卿","王","暴君","破り","殺し","屠り","貪り","蹂躙","怖れ","禍",
+    "心臓","爪","鼻面","這い","見張り","探り","刈入れ","壊し","汚し","苛み",
+    "亡霊","忌み","悪夢","滅び","憤怒","疫病","飢え","影","鎮魂","挫き"
   ],
   "_comment_titles": "Flavor titles assigned at creation or rank change, by rank tier (rank0=Lesser to rank5=World Boss) - DO NOT MODIFY!!!",
   "titles": {
     "_comment": "One title is picked randomly from the matching rank list each time a nemesis is created or changes rank",
-    "rank0": ["the Lost","the Weak","the Wanderer","the Forgotten","the Scarred","the Feral","the Drifter","the Shambling","the Crawling","the Hollow"],
-    "rank1": ["the Stalker","the Hunter","the Ruthless","the Bloodied","the Savage","the Relentless","the Fearsome","the Vicious","the Merciless","the Hated"],
-    "rank2": ["the Executioner","the Butcher","the Ravager","the Destroyer","the Defiler","the Reaper","the Tormentor","the Bonebreaker","the Fleshrender","the Skullcrusher"],
-    "rank3": ["the Unbroken","the Undying","the Invincible","the Conqueror","the Warmaster","the Dominator","the Warlord","the Harvester","the Devastator","the Overwhelming"],
-    "rank4": ["the Cursed","the Forsaken","the Eternal","the Corrupted","the Harbinger","the Cataclysm","the Doombringer","the Worldeater","the Plagueborn","the Deathless"],
-    "rank5": ["the Apocalypse","the Endbringer","the Last Hunger","the Extinction","the Nightmare King","the Voidborn","the Dark Ascendant","the Immortal Tyrant","the Herald of Ruin","the Lord of Decay"]
+    "rank0": ["迷える者","脆弱なる者","放浪者","忘れられし者","傷持つ者","野生に還りし者","流浪者","よろめく者","這いずる者","虚ろなる者"],
+    "rank1": ["つけ狙う者","狩人","冷酷なる者","血塗られし者","獰猛なる者","容赦なき者","怖れられし者","残忍なる者","無慈悲なる者","憎まれし者"],
+    "rank2": ["処刑人","屠殺者","蹂躙者","破壊者","冒涜者","死神","責め苛む者","骨砕き","肉裂き","頭蓋砕き"],
+    "rank3": ["不屈なる者","不死なる者","無敵なる者","征服者","戦の主","支配者","軍団長","刈り取る者","壊滅者","圧倒せし者"],
+    "rank4": ["呪われし者","見捨てられし者","永遠なる者","堕落せし者","凶兆の先触れ","大変動","破滅を運ぶ者","世界を喰らう者","疫病より生まれし者","死を知らぬ者"],
+    "rank5": ["黙示録","終焉を齎す者","最後の飢え","絶滅","悪夢の王","虚無より生まれし者","昇りし闇","不滅の暴君","滅びの使者","腐敗の主"]
   },
   "_comment_gloryTitles": "Titles assigned after a VICTORY — when a nemesis wins a power struggle or kills a player. Replaces the current title  - DO NOT MODIFY!!!",
   "gloryTitles": [
-    "the Victorious","the Triumphant","the Unstoppable","the Blooded",
-    "the Ascendant","the Slayer","the Dreaded","the Unbeaten",
-    "the Dominant","the Relentless","the Terror","the Unkillable",
-    "the Dread-Crowned","the Rampant","the Exalted","the Apex"
+    "勝利者","凱旋者","止められぬ者","血に濡れし者",
+    "昇りし者","討ち取りし者","恐怖の的","無敗なる者",
+    "君臨する者","容赦なき者","恐怖そのもの","殺し得ぬ者",
+    "戦慄の冠を戴く者","猛り狂う者","誉れ高き者","頂点に立つ者"
   ],
   "_comment_shameTitles": "Titles assigned after a DEFEAT — when a nemesis loses a power struggle or is killed by a player. Replaces the current title - DO NOT MODIFY!!!",
   "shameTitles": [
-    "the Broken","the Humiliated","the Wounded","the Fleeing",
-    "the Defeated","the Disgraced","the Diminished","the Craven",
-    "the Shamed","the Pitiful","the Hollow","the Stumbling",
-    "the Scarred","the Crawling","the Forsaken","the Wretched"
+    "破れし者","辱められし者","手負いの者","逃げ惑う者",
+    "敗北者","面汚し","衰えし者","臆病者",
+    "恥辱にまみれし者","哀れなる者","虚ろなる者","躓きし者",
+    "傷持つ者","這いずる者","見捨てられし者","惨めなる者"
   ]
 }
