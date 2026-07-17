@@ -1,5 +1,4 @@
 ﻿Key,Source,Context,Changes,English,Russian
-,,,,,
 statPlayerExpGainKill,ui_display,Item stat,,XP Gain: Kills,Опыт за убийства
 statPlayerExpGainKillMelee,ui_display,Item stat,,XP Gain: Melee Kills,Опыт за убийства: Ближний бой
 statAttacksPerMinuteEnhanced,ui_display,Item stat,,Attack Speed: Boosted,Скорость атаки: Усиление
