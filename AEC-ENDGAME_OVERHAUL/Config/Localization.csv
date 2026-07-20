@@ -6827,7 +6827,7 @@ aecTierUnlockLowGSDesc,progression,Perk,,ゲームステージに応じて自動
 
 
 aecZombieHeadT00Basic,,Item,,[FFD700]AEC[-] [AAAAAA]ベーシック[-] ゾンビの頭
-aecZombieHeadT00BasicDesc,,Item,,ベーシックティアのバニラゾンビの頭ティアのバニラゾンビの頭。死体から解体した。
+aecZombieHeadT00BasicDesc,,Item,,ベーシックティアのバニラゾンビの頭。死体から解体した。
 aecZombieHeadT01Feral,,Item,,[FFD700]AEC[-] [44BBFF]フェラル[-] ゾンビの頭
 aecZombieHeadT01FeralDesc,,Item,,フェラルティアのバニラゾンビの頭。死体から解体した。
 aecZombieHeadT02Radiated,,Item,,[FFD700]AEC[-] [44FFAA]レディエイテッド[-] ゾンビの頭

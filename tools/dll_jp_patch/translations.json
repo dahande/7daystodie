@@ -1,0 +1,111 @@
+{
+  "_comment": "In-place #US heap translations for AEC-ENDGAME_OVERHAUL DLLs. Each entry: offset into #US heap (from the matching .en.bak), UTF-16 code-unit budget (= original string length), and parts joined with a fill that expands to exactly the budget. '<FILL>' marks where padding goes; default fill char is a space. {NAME}/{TITLE}/{X}/{Z}/{OX}/{OZ} are runtime replace-tokens and must be preserved verbatim.",
+  "AeclipseCustomZombieAIMaster.dll": [
+    {"off": 2855, "budget": 33, "parts": ["イベントは終了した。脅威は去った……今はまだな。", "<FILL>"]},
+    {"off": 3073, "budget": 28, "parts": ["蹂躙を終えた軍勢が", "<FILL>", " [FF7A00]"]},
+    {"off": 3131, "budget": 30, "parts": ["[-] を発ち、次に狙うは", "<FILL>", " [FF7A00]"]}
+  ],
+  "AeclipseCustomZombieAI05.dll": [
+    {"off": 596, "budget": 14, "parts": ["ボス軍団、襲来！", "<FILL>"]},
+    {"off": 626, "budget": 10, "parts": [" 発生源", "<FILL>", " ("]},
+    {"off": 648, "budget": 37, "parts": [")。ボスは30分以内に出現する。", "<FILL>"]},
+    {"off": 1521, "budget": 21, "parts": ["危険警報！ 出現ボスの等級", "<FILL>"]},
+    {"off": 1565, "budget": 13, "parts": ["★。出現地点", "<FILL>", " ("]}
+  ],
+  "AeclipseCustomZombieAI03.dll": [
+    {"off": 348, "budget": 16, "parts": ["キル置換イベント", "<FILL>"]},
+    {"off": 382, "budget": 53, "parts": ["[FF7A00]ゾンビの大軍が迫り来る。伏せて息を殺せ。猶予は残り", "<FILL>"]},
+    {"off": 490, "budget": 60, "parts": [" 分。[FF4444]殺せば殺すほど、更なる群れが呼び寄せられるぞ！[-]", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAI06.dll": [
+    {"off": 550, "budget": 13, "parts": ["ゴースト連鎖", "<FILL>"]},
+    {"off": 578, "budget": 71, "parts": ["全てのキルに亡霊の影が付き纏う。倒した死者は二度目の目覚めを迎えるだろう。警戒を怠るな。効果時間は残り", "<FILL>"]},
+    {"off": 723, "budget": 5, "parts": [" 分。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAIArcher.dll": [
+    {"off": 680, "budget": 19, "parts": ["アーチャー急襲", "<FILL>"]},
+    {"off": 720, "budget": 67, "parts": ["荒野に矢羽の音が響き渡る。射手のミニオンどもが狩りを始めた。気を付けろ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAIDoomlord.dll": [
+    {"off": 648, "budget": 21, "parts": ["ドゥームロード急襲", "<FILL>"]},
+    {"off": 692, "budget": 46, "parts": ["ミニオンの軍勢が荒野に解き放たれた。狩りを生き延びよ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAIDruid.dll": [
+    {"off": 612, "budget": 18, "parts": ["ドルイド急襲", "<FILL>"]},
+    {"off": 650, "budget": 46, "parts": ["ミニオンの軍勢が荒野に解き放たれた。狩りを生き延びよ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAIGhost.dll": [
+    {"off": 664, "budget": 18, "parts": ["ゴースト急襲", "<FILL>"]},
+    {"off": 702, "budget": 47, "parts": ["亡霊どもが荒野に湧き出した。光の中に留まれ。", "<FILL>"]},
+    {"off": 1563, "budget": 46, "parts": ["。亡霊の出現は22時から翌4時の間のみ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAIHeadless.dll": [
+    {"off": 712, "budget": 21, "parts": ["ヘッドレス急襲", "<FILL>"]},
+    {"off": 756, "budget": 71, "parts": ["頭なき狩人が獲物を求めている。首なしの怪物どもが荒野を徘徊しているぞ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAIMushroom.dll": [
+    {"off": 712, "budget": 21, "parts": ["マッシュルーム急襲", "<FILL>"]},
+    {"off": 756, "budget": 80, "parts": ["胞子の雲が荒野を漂っている。菌に冒されたミニオンどもが狩りを始めた。感染に気を付けろ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieAISingerie.dll": [
+    {"off": 712, "budget": 21, "parts": ["シンジェリー急襲", "<FILL>"]},
+    {"off": 756, "budget": 46, "parts": ["ミニオンの軍勢が荒野に解き放たれた。狩りを生き延びよ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieNemesis.dll": [
+    {"off": 2625, "budget": 37, "parts": [")の縄張り戦争は中止された。乱入者: ", "<FILL>", "["]},
+    {"off": 2709, "budget": 13, "parts": [" [FFFFFF]と", "<FILL>"]},
+    {"off": 3095, "budget": 22, "parts": [" [FFFFFF]の新たな位階:", "<FILL>"]},
+    {"off": 3141, "budget": 24, "parts": [" [FFFFFF]— 新たな名は", "<FILL>"]},
+    {"off": 3197, "budget": 18, "parts": [" [FFFFFF]は位階を落とし", "<FILL>"]},
+    {"off": 3327, "budget": 30, "parts": [" [FFFFFF]— 位階は変わらず", "<FILL>"]},
+    {"off": 3395, "budget": 25, "parts": [" [FFFFFF]の現在の名は", "<FILL>"]},
+    {"off": 4292, "budget": 30, "parts": [" [FFFFFF]— 見つけ出した獲物は", "<FILL>", " ["]},
+    {"off": 4354, "budget": 35, "parts": ["]。[FFFFFF]奴は決して忘れてはいない。[-]", "<FILL>"]},
+    {"off": 4888, "budget": 48, "parts": [" [FFFFFF]は手傷を負い退いた……再び現れる時の名は", "<FILL>"]},
+    {"off": 4986, "budget": 24, "parts": [" [FFFFFF]— 新たな名は", "<FILL>"]},
+    {"off": 5218, "budget": 74, "parts": [" [FFFFFF]が血の匂いに誘われ、影の中から姿を現した。標的: ", "<FILL>", "[FFFFFF]["]},
+    {"off": 5796, "budget": 49, "parts": [" [FFFFFF]が倒れし者の玉座を奪った。新たな位階は", "<FILL>"]},
+    {"off": 5966, "budget": 21, "parts": [" [FFFFFF]が仕留めた: ", "<FILL>", "["]},
+    {"off": 6118, "budget": 50, "parts": [" [FFFFFF]は流血の果てに力を増した。新たな位階は", "<FILL>"]},
+    {"off": 8993, "budget": 86, "parts": ["[FFFFFF]({X},{Z}) から腐臭の跡が続いている……{NAME} [FFFFFF]は既に去った後だ。", "<FILL>"]},
+    {"off": 9168, "budget": 87, "parts": ["[FFFFFF]何かが {NAME} [FFFFFF]の眠りを妨げた。今は ({X},{Z}) 付近に潜んでいる。", "<FILL>"]},
+    {"off": 9345, "budget": 91, "parts": ["[FFFFFF]{NAME} [FFFFFF]が覚束ない足取りで移動した。新たな縄張りは ({X},{Z}) 付近だ。", "<FILL>"]},
+    {"off": 9530, "budget": 86, "parts": ["{NAME} [FFFFFF]は ({OX},{OZ}) の狩場を捨て、({X},{Z}) へと忍び寄る。", "<FILL>"]},
+    {"off": 9705, "budget": 87, "parts": ["[FFFFFF]足跡と体液が {NAME} [FFFFFF]の通り道を示している。今は ({X},{Z}) 付近を徘徊中。", "<FILL>"]},
+    {"off": 9882, "budget": 77, "parts": ["[FFFFFF]狩人 {NAME} [FFFFFF]が ({X},{Z}) 一帯を新たな縄張りに収めた。", "<FILL>"]},
+    {"off": 10039, "budget": 82, "parts": ["{NAME} {TITLE} [FFFFFF]は ({OX},{OZ}) を見限り、より昏き地 ({X},{Z}) へ移った。", "<FILL>"]},
+    {"off": 10206, "budget": 92, "parts": ["[FFFFFF]殺戮の場が移ろう — {NAME} [FFFFFF]が ({X},{Z}) 一帯に君臨する。", "<FILL>"]},
+    {"off": 10393, "budget": 92, "parts": ["[FFFFFF]骨と静寂が {NAME} [FFFFFF]の古巣に残されていた。今は ({X},{Z}) 付近に潜伏している。", "<FILL>"]},
+    {"off": 10580, "budget": 82, "parts": ["[FFFFFF]軍団長 {NAME} {TITLE} [FFFFFF]が進軍する。新たな本拠地: ({X},{Z})。", "<FILL>"]},
+    {"off": 10747, "budget": 81, "parts": ["[FFFFFF]血と影 — {NAME} [FFFFFF]が ({X},{Z}) を新たな支配地に定めた。", "<FILL>"]},
+    {"off": 10912, "budget": 90, "parts": ["[FFFFFF]覇者 {NAME} [FFFFFF]が ({X},{Z}) へ軍勢を進めていると目撃者は語る。", "<FILL>"]},
+    {"off": 11095, "budget": 116, "parts": ["[FFFFFF]見捨てられし者 — {NAME} {TITLE} [FFFFFF]— が ({OX},{OZ}) の廃墟より蘇り、({X},{Z}) に襲い掛かる。", "<FILL>"]},
+    {"off": 11330, "budget": 93, "parts": ["[FFFFFF]大地そのものが震える。{NAME} [FFFFFF]が魔王の座を ({X},{Z}) へ移した。", "<FILL>"]},
+    {"off": 11519, "budget": 72, "parts": ["[FFFFFF]({X},{Z}) に暗い凶兆が垂れ込める — {NAME} [FFFFFF]の到来だ。", "<FILL>"]},
+    {"off": 11666, "budget": 118, "parts": ["[FFFFFF]黙示録が歩む。{NAME} {TITLE} [FFFFFF]は ({OX},{OZ}) を捨てた — ({X},{Z}) の地平が今、燃えている。", "<FILL>"]},
+    {"off": 11905, "budget": 86, "parts": ["[FFFFFF]死者すら逃げ出す — {NAME} [FFFFFF]が ({X},{Z}) を新たな破滅の玉座とした。", "<FILL>"]},
+    {"off": 12080, "budget": 89, "parts": ["[FFFFFF]世界が震撼する。{NAME} {TITLE} [FFFFFF]が ({X},{Z}) を新たな王座に選んだ。", "<FILL>"]}
+  ],
+  "AeclipseCustomZombieSpawner.dll": [
+    {"off": 32982, "budget": 14, "parts": ["[-] イベント @", "<FILL>", "["]},
+    {"off": 33094, "budget": 30, "parts": ["聞け、役立たずの木偶ども。至急の報せだ。", "<FILL>"]},
+    {"off": 33160, "budget": 31, "parts": [" ……以上だ。無様にくたばるんじゃないぞ。", "<FILL>"]},
+    {"off": 33224, "budget": 21, "parts": ["おい、手短に伝える。よく聞け。", "<FILL>"]},
+    {"off": 33268, "budget": 38, "parts": [" ……以上だ。焦らず、安全第一で行動しろよ。", "<FILL>"]},
+    {"off": 33346, "budget": 18, "parts": ["報告を確認した。伝達する。", "<FILL>"]},
+    {"off": 33384, "budget": 37, "parts": [" ……装備を確認し、準備ができ次第動いてくれ。", "<FILL>"]},
+    {"off": 33460, "budget": 11, "parts": ["ヒューだ。聞け。", "<FILL>"]},
+    {"off": 33484, "budget": 45, "parts": [" ……静かにしろ。誰も助けになど来ないと思え。", "<FILL>"]},
+    {"off": 33576, "budget": 19, "parts": ["よお、相棒。耳を貸しな。", "<FILL>"]},
+    {"off": 33616, "budget": 50, "parts": [" ……気を引き締めて、足元をしっかり固めておきな。", "<FILL>"]},
+    {"off": 33718, "budget": 14, "parts": ["全体放送だ。", "<FILL>"]},
+    {"off": 33748, "budget": 38, "parts": [" ……全トレーダーがこの警告を中継している。", "<FILL>"]},
+    {"off": 33826, "budget": 16, "parts": ["危険警報 // ", "<FILL>"]},
+    {"off": 33860, "budget": 17, "parts": ["危険情報更新 // ", "<FILL>"]},
+    {"off": 33896, "budget": 15, "parts": ["信号を捕捉", "<FILL>", " @"]},
+    {"off": 33928, "budget": 23, "parts": ["投下信号を捕捉。落下予測地点:", "<FILL>"]},
+    {"off": 33976, "budget": 23, "parts": ["出現を確認。座標:", "<FILL>"]},
+    {"off": 34024, "budget": 24, "parts": ["目撃情報あり。付近の座標:", "<FILL>"]},
+    {"off": 34092, "budget": 20, "parts": ["ボス信号起動。座標:", "<FILL>"]}
+  ]
+}
